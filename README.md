@@ -1,2 +1,2 @@
-# Obsidian-
+# Obsidian
 My notes in obsidian 
