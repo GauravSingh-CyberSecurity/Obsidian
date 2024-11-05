@@ -1,0 +1,1 @@
+https://www.businessinsider.in/careers/news/i-got-a-40k-raise-using-this-30-second-strategy-it-made-me-realize-loud-work-not-hard-work-always-wins-/amp_articleshow/108825113.cms
