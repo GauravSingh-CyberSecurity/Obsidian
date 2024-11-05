@@ -408,3 +408,5 @@ I don't believe in equality for it is a very vague term, what is equality. Does 
 
 This world deserves justice not equality, for what is justice how does someone gets justice, it's the laws and virtues by which mankind decides
 To govern themselves, and when these laws are followed or broken the person who does so must face the consequences of there actions good or bad.
+
+Let's take for example modern utoy feminists who 
