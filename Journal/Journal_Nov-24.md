@@ -423,3 +423,6 @@ What we should strive for instead is justice for everyone, all groups, communiti
 
 Justice promotes humans to strive to be better and good.
 For justice means glory to the sacrifice of a martyr and also death to the monsters and enemies of beings.
+
+
+The strength of a man is not measured by how much pain he can inflict on others, but by how much he can endure.
