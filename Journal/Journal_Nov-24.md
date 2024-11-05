@@ -407,4 +407,4 @@ Ancestors I honour you and will try to live with the dignity you have taught me.
 I don't believe in equality for it is a very vague term, what is equality. Does it mean deeming a murderer and a martyr equal or does it mean to men of different religion are equal or a young ignorant adolescent and the prime minister equal. Or do they mean men and women both of th genders are equal or does it mean equality of outcome for everyone if so then a lazy entitled idiot and a hard working billionaire should both have equal amount of money, knowledge, power if that would have been the case then we all know that we wouldn't even have this mobile phone on which I am journaling.
 
 This world deserves justice not equality, for what is justice how does someone gets justice, it's the laws and virtues by which mankind decides
-To govern themselves, and when these laws are followed or broken the person who does so face 
+To govern themselves, and when these laws are followed or broken the person who does so must face the consequences of there actions good or bad.
