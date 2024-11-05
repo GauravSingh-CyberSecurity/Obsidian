@@ -388,3 +388,5 @@ Ask yourself everyday, What could I do that I would do to make life a little bit
 # 5-Nov-2024
 
 Old age and treachery will always overpower youth and skill.
+
+What we do in life echoes in eternity.
