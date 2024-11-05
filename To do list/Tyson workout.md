@@ -1,0 +1,30 @@
+
+Mike Tyson workout :
+50 pull ups [500]
+250 Sit-ups / crunches [500 daily]
+50 Push-ups [500 daily]
+50 Bench Dips [500 daily]
+50 Neck Curls [500 daily]
+50 Barbell Shrugs with ~ 25kg [500 daily]
+
+Sets of 50 x 10
+https://www.setforset.com/blogs/news/mike-tyson-workout
+
+
+Dumbbells overhead shoulder press 
+Lateral raises(single dumbbell)llll
+Overhead Triceps extension
+All 30*6
+
+Push ups 50*10 
+Sit ups / crunches 60*10
+
+
+
+
+
+
+
+
+
+
