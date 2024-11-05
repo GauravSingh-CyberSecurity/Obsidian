@@ -401,10 +401,10 @@ Ancestors I honour you and will try to live with the dignity you have taught me.
 # 6-Nov-2024
 
 Four chief virtues according to stoicism:
-1) wisdom : The ability to discern(recognise) what is truly good, bad, and indifferent(neither), guiding rational decision-making and understanding of life's values
-2) justice 
-3) fortitued : courage and resilience in face of adversity 
-4) temperance : moderation and balance in life (eg: balance of chaos and order the ☯️ yin Yang)
+1) ***==wisdom==*** : The ability to discern(recognise) what is truly good, bad, and indifferent(neither), guiding rational decision-making and understanding of life's values
+2) ***==justice==*** : Acting with fairness and integrity towards others, emphasizing moral responsibility in all interactions. This is most crucial virtue of all.
+3) ***==fortitued==*** : courage and resilience in face of adversity 
+4) ***==temperance==*** : moderation and balance in life (eg: balance of chaos and order the ☯️ yin Yang)
 
 I don't believe in equality for it is a very vague term, what is equality. Does it mean deeming a murderer and a martyr equal or does it mean to men of different religion are equal or a young ignorant adolescent and the prime minister equal. Or do they mean men and women both of th genders are equal or does it mean equality of outcome for everyone if so then a lazy entitled idiot and a hard working billionaire should both have equal amount of money, knowledge, power if that would have been the case then we all know that we wouldn't even have this mobile phone on which I am journaling.
 
