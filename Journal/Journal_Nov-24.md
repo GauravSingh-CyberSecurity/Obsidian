@@ -425,4 +425,6 @@ Justice promotes humans to strive to be better and good.
 For justice means glory to the sacrifice of a martyr and also death to the monsters and enemies of beings.
 
 
-The strength of a man is not measured by how much pain he can inflict on others, but by how much he can endure.
+The strength of a man is not measured by how much pain he can inflict on others, but by how much he can endure and still able to stand up for righteousness.
+
+I wish I could bel
