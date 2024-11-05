@@ -403,3 +403,5 @@ Ancestors I honour you and will try to live with the dignity you have taught me.
 2) justice 
 3) fortitued 
 4) temperance 
+
+
