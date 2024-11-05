@@ -392,4 +392,5 @@ Old age and treachery will always overpower youth and skill.
 What we do in life echoes in eternity.
 
 
-When a man sees his end he wants to know there was some purpose to his life, how will the world see me
+When a man sees his end he wants to know there was some purpose to his life, how will the world speak my name in years to come.
+Will I be known as the philosopher, technologist, tyrant
