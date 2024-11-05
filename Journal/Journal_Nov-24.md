@@ -404,4 +404,4 @@ Ancestors I honour you and will try to live with the dignity you have taught me.
 3) fortitued 
 4) temperance 
 
-I don't believe in equality for it is a very vague term, what is equality. Does it mean deeming a murderer and a martyr equal or does it mean to men of different religion are equal or a young ignorant adolescent and the prime minister equal. Or do they mean men and women both of th genders are equal or does it mean equality of outcome for everyone if so then a lazy entitled idiot and a hard working billionaire should both have equal amount of money, 
+I don't believe in equality for it is a very vague term, what is equality. Does it mean deeming a murderer and a martyr equal or does it mean to men of different religion are equal or a young ignorant adolescent and the prime minister equal. Or do they mean men and women both of th genders are equal or does it mean equality of outcome for everyone if so then a lazy entitled idiot and a hard working billionaire should both have equal amount of money, knowledge, power if that would have been the case then we all know that we wouldn't even have this mobile phone on which I am journaling 
