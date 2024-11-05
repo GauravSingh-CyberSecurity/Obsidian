@@ -398,4 +398,6 @@ Will I be known as the philosopher, technologist, tyrant
 Ancestors I honour you and will try to live with the dignity you have taught me.
 
 
-4
+4 chief virtues:
+1) wisdom 
+2) 
