@@ -398,6 +398,8 @@ Will I be known as the philosopher, technologist, tyrant
 Ancestors I honour you and will try to live with the dignity you have taught me.
 
 
+# 6-Nov-2024
+
 4 chief virtues:
 1) wisdom 
 2) justice 
@@ -411,3 +413,13 @@ To govern themselves, and when these laws are followed or broken the person who 
 
 Let's take for example modern utoy feminists who say the they want equality , they want to be equal as men . Well in this world where in reality even men are not equal to each other how could this statement be possible let alone correct.
 
+If we agree to this narrative what does it mean , will you put **Madam Marie Curie** and some out of her mind , yelling on the street so called feminist women at an equal level of intelligence, recognition, accomplishments, wealth, wisdom, glory. Does the sacrifice of a greatest scientist and a bottom dwelling nighilist protester equal.
+
+Did Einstein got equality when he was chased out of his own country for being a Jew, did Nicola Tesla got equality of wealth in accordance to his genius or did Alan turing was treated equally for being gay.
+No , but the world gave them justice, justice to their name , their legacy, their sacrifice.
+
+No human can ever really be equal irrespective of genders, for if it was True then there would be no space left for individuality.
+What we should strive for instead is justice for everyone, all groups, communities, societies of all types.
+
+Justice promotes humans to strive to be better and good.
+For justice means glory to the sacrifice of a martyr and also death to the monsters and enemies of beings.
