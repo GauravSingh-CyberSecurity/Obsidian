@@ -404,4 +404,4 @@ Ancestors I honour you and will try to live with the dignity you have taught me.
 3) fortitued 
 4) temperance 
 
-
+I don't believe in equality for it is a very vague term, what is equality 
