@@ -427,4 +427,5 @@ For justice means glory to the sacrifice of a martyr and also death to the monst
 
 The strength of a man is not measured by how much pain he can inflict on others, but by how much he can endure and still able to stand up for righteousness.
 
-I wish I could bel
+I wish I could believe that when we die it's not over, that maybe we go somewhere, someplace else, someplace beautiful.
+I wish..
