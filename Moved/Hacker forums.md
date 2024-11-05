@@ -1,0 +1,11 @@
+CryptBB
+Dread
+Nulled
+FreeHacks
+XSS.is
+raidforums.com
+hackforums.net
+exploit.in
+2chan
+4chan
+8chan
