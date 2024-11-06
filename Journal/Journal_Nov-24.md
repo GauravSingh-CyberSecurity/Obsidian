@@ -429,3 +429,6 @@ The strength of a man is not measured by how much pain he can inflict on others,
 
 I wish I could believe that when we die it's not over, that maybe we go somewhere, someplace else, someplace beautiful.
 I wish..
+
+
+Death smiles at us all, all you can do is smile back. Ni
