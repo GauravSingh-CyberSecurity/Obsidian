@@ -12,6 +12,7 @@
 - [ ] Start bug hunting 
 - [ ] make a list stating where , where I have cyber security learning material.
 - [x] favicon , equity dividend %, release management, usermanual, admin manual
+- [ ] sonarcube, code review/optimization, vapt report 
 
 
 
