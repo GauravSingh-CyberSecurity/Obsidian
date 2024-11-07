@@ -436,3 +436,8 @@ Death smiles at us all, all you can do is smile back.
 
 # 7-11-2024
 
+The first and best victory is to conquer self” ~ Plato
+
+Ernest Hemingway once wrote, the world is a fine place, and worth fighting for.
+I agree with the second part.
+
