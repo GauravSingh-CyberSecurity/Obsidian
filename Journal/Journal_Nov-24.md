@@ -431,4 +431,8 @@ I wish I could believe that when we die it's not over, that maybe we go somewher
 I wish..
 
 
-Death smiles at us all, all you can do is smile back. Ni
+Death smiles at us all, all you can do is smile back. 
+
+
+# 7-11-2024
+
