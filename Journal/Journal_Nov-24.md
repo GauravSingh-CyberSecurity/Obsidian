@@ -441,3 +441,7 @@ The first and best victory is to conquer self” ~ Plato
 Ernest Hemingway once wrote, the world is a fine place, and worth fighting for.
 I agree with the second part.
 
+
+# 8-11-2024
+
+Gods and religions are nothing but idols of virtues that our society must aspire to achieve to become better than it is today.
