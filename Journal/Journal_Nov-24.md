@@ -445,3 +445,6 @@ I agree with the second part.
 # 8-11-2024
 
 Gods and religions are nothing but idols of virtues that our society must aspire to achieve to become better than it is today.
+
+No man is less valuable because he picks up trash to care for his own.
+-Rustin
