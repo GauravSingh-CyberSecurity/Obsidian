@@ -13,6 +13,10 @@
 - [ ] make a list stating where , where I have cyber security learning material.
 - [x] favicon , equity dividend %, release management, usermanual, admin manual
 - [ ] sonarcube, code review/optimization, vapt report 
+- [ ] python for penitration testers On try hack me.
+- [ ] BML production testing 
+- [ ] setup RDP hosting server , using credentials they shared with me
+- [ ] Digi company, VAPT on staging 
 
 
 

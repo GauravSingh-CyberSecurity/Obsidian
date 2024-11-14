@@ -1,3 +1,5 @@
+By carrer coach Vikram Anand 
+
 Follow this strategy: 
 1) WIIFM
 2) The Blue Ocean strategy 
