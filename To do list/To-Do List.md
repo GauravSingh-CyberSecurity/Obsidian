@@ -17,7 +17,7 @@
 - [ ] BML production testing 
 - [ ] setup RDP hosting server , using credentials they shared with me
 - [ ] Digi company, VAPT on staging 
-- [ ] fill that BML task form shared by pawan (vapt)
+- [ ] fill that BML task form shared by pawan (vapt retesting, post go live bug fixes testing )
 
 
 
