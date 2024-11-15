@@ -593,5 +593,12 @@ It is not death that a man should fear, but he should fear never beginning to li
 -Marcus Aurelius 
 
 
+# 15-11-2024
+
+I became evil by my own ignorance, I lied to others and myself that I fight someone, and beat someone because I am defending my own.
+I am fighting for my loved ones , but that's a lie , if I wanted to make things better for my people. I would keep violence as the last resort for their oppressors, I would first try and negotiate or give a warning to them to stay in order.
+No but what I did is I chose violence,and I did that to assert my dominance. I did that to feel that power of being able to control others fate. And I lied to the world and even convinced myself that  I am fighting for my loved ones, so this act of violence is actually virtuous and courageous and far from evil.
+
+
 
 
