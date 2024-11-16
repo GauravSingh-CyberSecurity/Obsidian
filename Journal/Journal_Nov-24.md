@@ -643,12 +643,12 @@ Today I realise he is not the one to be by my side, so I won't be by his either.
 
 I will not pick at least 30 of his call, and I will not pick his call till he has called me more than 10 times in a single day.
 
-When I man is weak and too lazy to do anything about it, he blames people around him for his failure and weakness. Like I did above to the best friend of my life, and probably like he's doing to me as well by the way he is behaving.
-But how can I change him when I am the same weak man right now, indiscipline, slave to my emotions, lying to myself. Even though my conscience is a little bit more mature and devloped and my inner voice knows exactly what to do and what is right for me to grow even more.
-My indiscipline self will never move forward with the work my inner voice tell it to do unless I start having a little discipline.
+When a man is weak and too lazy to do anything about it, he blames people around him for his failure and weakness. Like I did above to the best friend of my life, and probably like he's doing to me as well by the way he is behaving.
+But how can I change him when I am the same weak man right now, indiscipline, slave to my emotions, lying to myself. Even though my conscience is a little bit more mature and devloped and my inner voices knows exactly what to do and what is right for me to grow even more.
+My indiscipline self will never move forward with the work my inner voices tell it to do unless I start having a little discipline.
 I start from now right now, I will train to be a stronger man every day, so that I can take some responsibility for life and my actions, and learn how not to fall into my cravings and emotions and addictions.
-It's not that simple, like other I am the same , it means like if I told anyone else to just be a whole different human being and change their nature in a snap they will probably just listen and ignore me, same is with myself, even if I tell myself do all these things and in a snap be someone else that is not how I will change. I am a human and I have a nature, I must act accordingly and shape myself with help of understanding what I got as clay to make the pot, clay being the type of my individuality of my nature and pot is the desired outcome that my inner voice tells me to be.
+It's not that simple, like others I am the same , it means like if I told anyone else to just be a whole different human being and change their nature in a snap they will probably just listen and ignore me, same is with myself, even if I tell myself do all these things and in a snap be someone else that is not how I will change. I am a human and I have a nature, I must act accordingly and shape myself with help of understanding what I got as clay to make the pot, clay being the type of my individuality of my nature and pot is the desired outcome that my inner voice tells me to be.
 
 And note to myself, always listen to the inner voice make it your mission to keep the inner voices, all of them and their dialogues alive and articulate at all time without letting them falling into chaos, and devlop & grow with the help of as they already provide you a little base to grow on. But there is no limit for aiming up so we will be infinite.
 
-So The game of conscience and 
+So The game of inner voices and myself starts, we must wrestle with eachother and train ourselves to become grow , physically and intellectually.
