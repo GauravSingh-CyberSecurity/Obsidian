@@ -657,4 +657,10 @@ So The game of inner voices and myself starts, we must wrestle with eachother an
 I need to treat myself with alignment to my nature, like if I like little rewards to feel sense of achievement after doing a task , I must reward myself.
 Like after studying for 2 hours I might reward myself 20 min of nap.
 Or after working out hard I might reward myself a protein shake.
-I can use the positive reinforcement on myself if that may work with me, or I may use the technique of training 
+I can use the positive reinforcement on myself if that may work with me, or I may use the technique of training without purpose, or maybe research some more options that may align precisely with my own human nature and if none of the technique exists for my individual Human nature, I must build my own technique and then use it.
+And the technique is not something rigid like a schedule, rather this technique is an evolving solution that evolves every moment with my own being till I die.
+For there is nothing in me that I will ever stop from evolving and take away the chance for growing more.
+
+Thinking is listening to yourself and I will always try and become a better listener everyday of my life.
+I will use this technique as well, "Listen to myself, repeat  very clearly what I was thinking and the answer should be of my satisfaction. Only then my conscience/inner voices start to reply"
+And this goes on at every statement made by each inner voices. The others listen and then repeat it clearly and if that articulation is of my satisfaction move ahead to give a reply/answer/solution/another qu
