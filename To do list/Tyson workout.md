@@ -1,4 +1,27 @@
 
+**==Training Volume==**:
+6 days a week, two times a day
+
+
+**==Baki hanma Calisthenics:==**
+
+Push Ups
+4×25
+
+Sit Ups
+4×20
+
+Dips
+4×15
+
+Box Jumps
+4×12
+
+Pull Ups
+4×10
+
+
+
 Mike Tyson workout :
 50 pull ups [500]
 250 Sit-ups / crunches [500 daily]
