@@ -640,3 +640,10 @@ A true friend does not make you feel like this, the fact that I have felt this a
 
 Because fuck him, it's hard to accept this because this means I don't have any friends whatsoever and that thought is more terrifying but still it's true.
 Today I realise he is not the one to be by my side, so I won't be by his either.
+
+I will not pick at least 30 of his call, and I will not pick his call till he has called me more than 10 times in a single day.
+
+When I man is weak and too lazy to do anything about it, he blames people around him for his failure and weakness. Like I did above to the best friend of my life, and probably like he's doing to me as well by the way he is behaving.
+But how can I change him when I am the same weak man right now, indiscipline, slave to my emotions, lying to myself. Even though my conscience is a little bit more mature and devloped and my inner voice knows exactly what to do and what is right for me to grow even more.
+My indiscipline self will never move forward with the work my inner voice tell it to do unless I start having a little discipline.
+I start from 
