@@ -618,4 +618,4 @@ If you want someones trust there are only three things you need to do to get it:
 3) And shut the fuck up. (That means keep their secrets)
 
 
-That 
+That which inspires us to our greatest good is also the cause 
