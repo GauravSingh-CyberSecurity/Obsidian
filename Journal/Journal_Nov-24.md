@@ -617,8 +617,10 @@ If you want someones trust there are only three things you need to do to get it:
 2) be patient 
 3) And shut the fuck up. (That means keep their secrets)
 
-The message hidden under the patterns of our nature, it's inescapable. 
-Humanity,
 
-its emotions, compassion and rage both are two sides of a single coin
+
+The message hidden under the patterns of our nature, it's inescapable. 
+Humanity!
+Our very essence, our emotions.
+rage and compassion, two sides of a same coin inextricably bound.
 That which inspires us to our greatest good is also the cause of our greatest evil.
