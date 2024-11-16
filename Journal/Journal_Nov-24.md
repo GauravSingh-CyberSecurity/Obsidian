@@ -639,3 +639,4 @@ He is with me just for this and is not really a friend because if he was then I 
 A true friend does not make you feel like this, the fact that I have felt this and realised this means I will never ever be friends with him again. I will be just like he is with me , just for convenience and won't spend a dime or time on him.
 
 Because fuck him, it's hard to accept this because this means I don't have any friends whatsoever and that thought is more terrifying but still it's true.
+Today I realise he is not the one to be by my side, so I won't be by his either.
