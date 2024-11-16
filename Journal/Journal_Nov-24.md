@@ -635,4 +635,7 @@ That which inspires us to our greatest good is also the cause of our greatest ev
 
 Sanjay in last two months he has not picked up my calls 68 times, and only time he bothers to go out with me is when I am paying for drinking or paying for smoking, I have reached to this conclusion that he is a freeloader and he is used to only stick with me because I helped him with studies and stuff and I paid for things that's it, he never bothers to call me , he didn't even bother to call me on his birthday or invite me to birthday party, on the contrary I had to call him up and even spend my money on his party.
 Shit after calculating I find out I have spent 20000 rs on him in 5 months.
-He is with me just for this and is not really a friend because if he was then I wouldn't be thinking this or wr
+He is with me just for this and is not really a friend because if he was then I wouldn't be thinking this or writing this.
+A true friend does not make you feel like this, the fact that I have felt this and realised this means I will never ever be friends with him again. I will be just like he is with me , just for convenience and won't spend a dime or time on him.
+
+Because fuck him, it's hard to accept this because this means I don't have any friends whatsoever and that thought is more terrifying but still it's true.
