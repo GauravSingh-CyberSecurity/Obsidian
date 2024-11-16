@@ -608,8 +608,7 @@ No but what I did is I chose violence,and I did that to assert my dominance. I d
 Why does anyone commit acts , others deem unspeakable?  for Love..
 
 
-Knowledge is a paradox. 
-The more one understands, the more one realises the vastness of his ignorance.
+
 
 
 If you want someones trust there are only three things you need to do to get it:
@@ -618,6 +617,11 @@ If you want someones trust there are only three things you need to do to get it:
 3) And shut the fuck up. (That means keep their secrets)
 
 
+
+
+
+Knowledge is a paradox. 
+The more one understands, the more one realises the vastness of his ignorance.
 
 The message hidden under the patterns of our nature, it's inescapable. 
 Humanity!
