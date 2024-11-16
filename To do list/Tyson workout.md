@@ -22,7 +22,7 @@ Pull Ups
 
 
 
-Mike Tyson workout :
+==Mike Tyson workout :==
 50 pull ups [500]
 250 Sit-ups / crunches [500 daily]
 50 Push-ups [500 daily]

@@ -602,3 +602,10 @@ No but what I did is I chose violence,and I did that to assert my dominance. I d
 
 
 
+
+# 16-Nov-2024
+
+Why does anyone commit acts , others deem unspeakable?  for Love..
+
+
+Knowledge is a p
