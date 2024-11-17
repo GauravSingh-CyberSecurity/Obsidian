@@ -663,4 +663,11 @@ For there is nothing in me that I will ever stop from evolving and take away the
 
 Thinking is listening to yourself and I will always try and become a better listener everyday of my life.
 I will use this technique as well, "Listen to myself, repeat  very clearly what I was thinking and the answer should be of my satisfaction. Only then my conscience/inner voices start to reply"
-And this goes on at every statement made by each inner voices. The others listen and then repeat it clearly and if that articulation is of my satisfaction move ahead to give a reply/answer/solution/another qu
+And this goes on at every statement made by each inner voices. The others listen and then repeat it clearly and if that articulation is of my satisfaction move ahead to give a reply/answer/solution/another question.
+And obviously write down my thoughts, and I also devlop the skill of writing my mind down every day. And I am moving towards growth and mastery everyday. For even every master of his craft still must have a place he would purse as calling that place mastery.
+In that sense every master is striving for even more mastery till the end of his time.
+
+
+
+
+The ironic tragedy is that life has to be lived forward but only makes sense in reverse.
