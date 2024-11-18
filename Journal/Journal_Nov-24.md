@@ -671,3 +671,8 @@ In that sense every master is striving for even more mastery till the end of his
 
 
 The ironic tragedy is that life has to be lived forward but only makes sense in reverse.
+
+
+# 18-November-2024
+
+Fear kills more dreams than failure ever will.

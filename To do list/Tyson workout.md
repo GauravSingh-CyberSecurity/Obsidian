@@ -1,3 +1,4 @@
+Discipline is doing what you hate to do, but doing it like you love it.
 
 **==Training Volume==**:
 6 days a week, two times a day
