@@ -20,6 +20,7 @@
 - [ ] fill that BML task form shared by pawan (vapt retesting, post go live bug fixes testing )
 - [ ] Wire mis configuration when changing the button
 - [ ] CMS account 
+- [ ] ISO work
 
 
 
