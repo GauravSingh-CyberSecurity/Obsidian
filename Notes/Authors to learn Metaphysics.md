@@ -41,6 +41,8 @@
 38. **Sophocles**
 39. George Orwell
 40. Aleksandr Solzhenitsyn( The Gulag Archipelago)
+41. George Orwell 
+42. William Shakespeare 
 
 
 
