@@ -22,6 +22,7 @@
 - [ ] CMS account 
 - [ ] ISO work
 
-8.2
+8.27
+8.25
 
 
