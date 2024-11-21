@@ -4,7 +4,7 @@
 1. Seneca 
 2. Confucius 
 3. Socrates 
-4. Nietzsche 
+4. **Nietzsche** (Kaufman translation)
 5. Nichollio Machiavelli 
 6. Aristotle 
 7. Plato
