@@ -1,5 +1,5 @@
 
-Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierkegaard
+Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierkegaard, Solzhenitsyn (Aleksandr Solzhenitsyn), Immanuel Kant,
 
 
 **Genres**: Psychology, philosophy, metaphysics,self improvement (critical thinking), stoic.
@@ -46,6 +46,9 @@ Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierke
 40. Aleksandr Solzhenitsyn( The Gulag Archipelago)
 41. George Orwell 
 42. William Shakespeare 
+43. Thomas Hobbes
+44. Aldous Huxley
+45. David Hume
 
 
 
