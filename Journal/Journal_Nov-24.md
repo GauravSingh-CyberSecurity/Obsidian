@@ -688,3 +688,7 @@ Fear kills more dreams than failure ever will.
 6) Treat yourself appropriately physically and mentally so you can maintain your health 
 7) you need to engage with broader social community 
 8) continually educate yourself and devlop your skills.
+
+# 21-11-2024
+
+Many people are set in concrete with regard to their essential being, but not me I will reinvent myself every decade 
