@@ -1,4 +1,7 @@
 
+Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierkegaard
+
+
 **Genres**: Psychology, philosophy, metaphysics,self improvement (critical thinking), stoic.
 
 1. Seneca 
@@ -15,7 +18,7 @@
 12. Bjørn Lomborg
 13. Sigmund Freud 
 14. Phil stutz 
-15. Carl Jung 
+15. **Carl Jung** 
 16. B.F. Skinner
 17. Robert Greene
 18. Immanuel Kant
@@ -37,7 +40,7 @@
 34. Epictetus
 35. Zeno of citum
 36. Ernest Hemingway
-37. Fyodor Dostoevsky
+37. **Fyodor Dostoevsky**
 38. **Sophocles**
 39. George Orwell
 40. Aleksandr Solzhenitsyn( The Gulag Archipelago)
