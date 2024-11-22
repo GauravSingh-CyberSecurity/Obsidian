@@ -1,5 +1,6 @@
 Before starting Nietzsche read this:-
-0) Nietzsche: Philosopher, Psychologist, Antichrist by Walter Kaufmann
+0) Nietzsche: A Very Short Introduction by Michael tanner 
+0) Nietzsche: Philosopher, Psychologist, Antichrist by **==Walter Kaufmann==**
 
 
 Reading order:-
