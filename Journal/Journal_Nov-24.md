@@ -708,4 +708,8 @@ Not to take possession of your goals is just that,
 Let your life be an accident.
 
 
-We are more i
+We are more in love with desire, than the desired.
+
+Even though I know that the love has ended that once existed, I am still in love with the desire of being in love.
+
+I s
