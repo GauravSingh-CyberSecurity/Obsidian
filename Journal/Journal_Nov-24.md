@@ -715,4 +715,8 @@ Even though I know that the love has ended that once existed, I am still in love
 
 I should have been I, before I became we.
 
-You must be ready to burn yourself in your own fla
+
+You must be ready to burn yourself in your own flame, how could you become new if you would not first become artist.
+
+
+Sometimes people don't want 
