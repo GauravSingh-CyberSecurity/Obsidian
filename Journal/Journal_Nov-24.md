@@ -722,4 +722,9 @@ You must be ready to burn yourself in your own flame, how could you become new i
 Sometimes people don't want to hear the truth, because they don't want their illusions destroyed.
 
 
-We were friends and have become strangers to each other. But this is as it ought to be, and we do not want either to conceal or obscure the fact... We are two ships, each with its own goal and course... Perhaps we shall never see one another again—or perhaps we may meet again but fail to recognize each other; the different seas and suns have altered us!
+We were friends and have become strangers to each other. But this is as it ought to be, and we do not want either to conceal or obscure the fact as we have to be ashamed of it. We are two ships, each with its own goal and course... Perhaps we shall never see one another again—or perhaps we may meet again but fail to recognize each other; the different seas and suns have altered us!
+And finally we have to become strangers to one another because it's the law to which we are subject.
+
+
+most individuals are "educated ignorants," misled into believing they are gaining knowledge, while in reality, they serve a system that cultivates mediocrity rather than genius
+
