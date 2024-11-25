@@ -719,4 +719,7 @@ I should have been I, before I became we.
 You must be ready to burn yourself in your own flame, how could you become new if you would not first become artist.
 
 
-Sometimes people don't want 
+Sometimes people don't want to hear the truth, because they don't want their illusions destroyed.
+
+
+We were friends and have become strangers to each other. But this is as it ought to be, and we do not want either to conceal or obscure the fact... We are two ships, each with its own goal and course... Perhaps we shall never see one another again—or perhaps we may meet again but fail to recognize each other; the different seas and suns have altered us!
