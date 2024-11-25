@@ -712,4 +712,5 @@ We are more in love with desire, than the desired.
 
 Even though I know that the love has ended that once existed, I am still in love with the desire of being in love.
 
-I s
+
+I should have been I, before I became we.
