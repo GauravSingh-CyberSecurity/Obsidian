@@ -703,4 +703,9 @@ Choose between comfort and the truth!
 You want to choose the pleasure of growth, prepare yourself for some pain.
 Want less pain, shrink go be part of the herd.
 
-Not to take possession of 
+
+Not to take possession of your goals is just that,
+Let your life be an accident.
+
+
+We are more i
