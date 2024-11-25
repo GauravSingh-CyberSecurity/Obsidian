@@ -692,3 +692,15 @@ Fear kills more dreams than failure ever will.
 # 21-11-2024
 
 Many people are set in concrete with regard to their essential being, but not me I will reinvent myself every decade 
+
+# 23-11-2024
+
+If you only do what you can do then you'll never be more than you are now.
+
+# **26-11-2024**
+
+Choose between comfort and the truth!
+You want to choose the pleasure of growth, prepare yourself for some pain.
+Want less pain, shrink go be part of the herd.
+
+Not to take possession of 
