@@ -728,3 +728,4 @@ And finally we have to become strangers to one another because it's the law to w
 
 most individuals are "educated ignorants," misled into believing they are gaining knowledge, while in reality, they serve a system that cultivates mediocrity rather than genius
 
+(Nietzsche contends that genuine education should focus on nurturing exceptional individuals capable of significant contributions, rather than conforming to a flawed educational structure designed for the majority)
