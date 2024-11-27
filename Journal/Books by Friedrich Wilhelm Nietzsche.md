@@ -17,8 +17,9 @@ Reading order:-
 10. [ ] Nietzsche contra Wagner
 11. [ ] The Will to Power
 12. [ ] Ecce Homo
-13. [ ] Index to Nietzsche 
+13. [ ] Untimely Meditations
 14. [ ] The Birth of Tragedy
+15. [ ] Index to Nietzsche 
 
 
 https://www.fiyope.com/guides/nietzsche%3A%20where%20to%20begin%3F-01hdn8yes8y15bzh99ygr5dgmm
