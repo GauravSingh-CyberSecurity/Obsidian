@@ -21,6 +21,14 @@
 - [ ] Wire mis configuration when changing the button
 - [ ] CMS account 
 - [ ] ISO work
+Salting algo
+Encrypt the database columns by default 
+Standardize encryption, security testing, sonarcube report, Nstar security list 
+
+SSL/TLS versions
+
+
+
 
 8.27
 8.25
