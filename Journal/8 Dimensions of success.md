@@ -1,3 +1,4 @@
+Continuous process of :-Learning>knowledge>intelligence>wisdom>peace 
 
 **8 Dimensions of success** :-
 1) you need an intimate partner 
