@@ -4,11 +4,12 @@ We have such a responsibility to guide our young so that they don't end up falli
 
 
 
-Ubiquitous assimilation (always absorbing, everything, everywhere, all the time) ,h
 
 
 
 
+What is Ubiquitous assimilation ?(always absorbing, everything, everywhere, all the time) 
+(https://youtu.be/ZHSycWF3uU4?si=wjLrcBz3SKfHdp36)
 
 
 # **Ubiquitous assimilation**:  
