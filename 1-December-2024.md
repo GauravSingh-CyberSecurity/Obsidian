@@ -14,8 +14,13 @@ What is Ubiquitous assimilation ?(always absorbing, everything, everywhere, all 
 We are always consciously or unconsciously practicing Ubiquitous assimilation, So then
 How are you to imagine anything if the images are always provided for you? Through the screen.
 
-Doublethink(to believe in two opposing views and thinking both of them are right.) 
-eg: Of Doublethink. To deliberately believe in lies, while knowing they're false.
+**Doublethink** : To deliberately believe in lies, while knowing they're false. (eg: to believe in two opposing views and thinking both of them are right.) 
+
+Examples of this in everyday life: 
+"Oh, I need to be pretty to be happy. I need surgery to be pretty. I need to be thin, famous, fashionable." 
+Our young men today are being told that women are whores, bitches, things to be screwed, beaten, shit on, and shamed. 
+This is a marketing holocaust. 
+Twenty-four hours a day for the rest of our lives, the powers that be are hard at work dumbing us to death.
 
 # **Ubiquitous assimilation**:  
 it mean, absorbing information, experiences, and influences from all around us, constantly and everywhere.
