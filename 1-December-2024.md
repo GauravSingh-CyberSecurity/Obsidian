@@ -12,6 +12,8 @@ What is Ubiquitous assimilation ?(always absorbing, everything, everywhere, all 
 (https://youtu.be/ZHSycWF3uU4?si=wjLrcBz3SKfHdp36)
 
 
+How are you to imagine anything if the images are always provided for you?
+
 # **Ubiquitous assimilation**:  
 it mean, absorbing information, experiences, and influences from all around us, constantly and everywhere.
 
