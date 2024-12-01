@@ -11,8 +11,11 @@ We have such a responsibility to guide our young so that they don't end up falli
 What is Ubiquitous assimilation ?(always absorbing, everything, everywhere, all the time) 
 (https://youtu.be/ZHSycWF3uU4?si=wjLrcBz3SKfHdp36)
 
+We are always consciously or unconsciously practicing Ubiquitous assimilation, So then
+How are you to imagine anything if the images are always provided for you? Through the screen.
 
-How are you to imagine anything if the images are always provided for you?
+Doublethink(to believe in two opposing views and thinking both of them are right.) 
+eg: Of Doublethink. To deliberately believe in lies, while knowing they're false.
 
 # **Ubiquitous assimilation**:  
 it mean, absorbing information, experiences, and influences from all around us, constantly and everywhere.
