@@ -14,13 +14,19 @@ What is Ubiquitous assimilation ?(always absorbing, everything, everywhere, all 
 We are always consciously or unconsciously practicing Ubiquitous assimilation, So then
 How are you to imagine anything if the images are always provided for you? Through the screen.
 
-**Doublethink** : To deliberately believe in lies, while knowing they're false. (eg: to believe in two opposing views and thinking both of them are right.) 
+**Doublethink** : To deliberately believe in lies, while knowing they're false. (In essence to believe in two opposing views and thinking both of them are right.) 
 
 Examples of this in everyday life: 
 "Oh, I need to be pretty to be happy. I need surgery to be pretty. I need to be thin, famous, fashionable." 
 Our young men today are being told that women are whores, bitches, things to be screwed, beaten, shit on, and shamed. 
 This is a marketing holocaust. 
 Twenty-four hours a day for the rest of our lives, the powers that be are hard at work dumbing us to death.
+
+So to defend ourselves, and fight against assimilating this dullness into our thought processes, 
+we must learn to read. 
+To stimulate our own imagination, 
+to cultivate our own consciousness, our own belief systems. 
+We all need skills to defend, to preserve our own minds.
 
 # **Ubiquitous assimilation**:  
 it mean, absorbing information, experiences, and influences from all around us, constantly and everywhere.
@@ -40,3 +46,10 @@ To apply the concept of ubiquitous assimilation in daily life, consider these st
 **Cultivate Individuality:** Engage in activities that stimulate your imagination and creativity, such as reading diverse literature or exploring new ideas, to resist societal pressures
 
 By being mindful, you can transform how you assimilate information and experiences
+
+
+# 2-Dec-2024
+
+How much of you is you, and how much of you is the world?
+
+How much of your thoughts, personality, Individuality, consciousness and being itself is you, and how much of your personality is made out of the advertisements, narrative, and trends of the world.
