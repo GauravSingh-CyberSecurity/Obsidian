@@ -53,3 +53,14 @@ By being mindful, you can transform how you assimilate information and experienc
 How much of you is you, and how much of you is the world?
 
 How much of your thoughts, personality, Individuality, consciousness and being itself is you, and how much of your personality is made out of the advertisements, narrative, and trends of the world.
+
+
+# **3-Dec-2024**
+
+We build our own prison.
+Bars forged of Oaths, Codes, Commitments.
+Walls of Self Doubt and accepted Limitation.
+We inhabit these Cells, these identities and call them us.
+I thought I could break free by eliminating those I deemed my jailors.
+
+But I think the cycle only ends when you find the will to walk away.
