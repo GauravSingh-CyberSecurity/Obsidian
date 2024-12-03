@@ -4,6 +4,24 @@ Discipline is doing what you hate to do, but doing it like you love it.
 6 days a week, two times a day
 
 
+**Baki hanma gym:** 
+
+Here is Baki Hanma Real Back Workout ⬇️
+
+✅ Deadlift - 2 sets of 3 to 5 reps
+
+✅ Lat Pulldown - 3 sets of 8 to 10 reps
+
+✅ Wide grip seated cable row - 3 sets of 8 to 10 reps
+
+✅ Cable Pullovers - 3 sets of 10 reps
+
+✅ Hammer Curls - 2 sets of 8 to 10 reps
+
+
+
+
+
 **==Baki hanma Calisthenics:==**
 
 Push Ups

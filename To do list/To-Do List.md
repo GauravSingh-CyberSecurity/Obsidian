@@ -16,9 +16,9 @@
 - [ ] python for penitration testers On try hack me.
 - [ ] BML production testing 
 - [ ] setup RDP hosting server , using credentials they shared with me
-- [ ] Digi company, VAPT on staging 
+- [x] Digi company, VAPT on staging 
 - [ ] fill that BML task form shared by pawan (vapt retesting, post go live bug fixes testing )
-- [ ] Wire mis configuration when changing the button
+- [x] Wire mis configuration when changing the button
 - [ ] CMS account 
 - [ ] ISO work
 Salting algo
