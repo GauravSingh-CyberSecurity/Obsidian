@@ -1,0 +1,1 @@
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/pulse/best-cve-sources-cyber-security-news-stay-informed-secure-evans-&ved=2ahUKEwjIie-2yJeEAxW84jgGHSvHDooQFnoECBwQAQ&usg=AOvVaw2y8pLq50J_RX4Ck7hRi8kj

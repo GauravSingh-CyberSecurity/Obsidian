@@ -1,0 +1,78 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "code-runner.runInTerminal": true,
+    "explorer.confirmDelete": false,
+    "editor.mouseWheelZoom": true,
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview",
+        "*.docx": "default",
+        "*.pkl": "default"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "code-runner.saveAllFilesBeforeRun": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "synthwave84.brightness": 1,
+    "wallpaper-setting.filePath": "c:\\Users\\gaura\\Downloads\\Itachi.jpg",
+    "background.opacity": 0.5,
+    "wallpaper-setting.slideEffectFadeIn": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "java.debug.settings.forceBuildBeforeLaunch": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "/bin/python3",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "easycode.userEmail": "gaurav3042003@gmail.com",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql connection",
+            "database": "myshop",
+            "username": "Gaurav",
+            "askForPassword": true
+        }
+    ],
+    "redhat.telemetry.enabled": true,
+    "cmake.configureOnOpen": true,
+    "settingsSync.ignoredSettings": [
+        "synthwave84.brightness"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "settingsSync.ignoredExtensions": [
+        "github.vscode-pull-request-github"
+    ],
+    "easycode.model": "gpt-3.5-turbo",
+    "git.suggestSmartCommit": false,
+    "workbench.colorTheme": "SynthWave '84",
+    "glassit.alpha": 255
+}
