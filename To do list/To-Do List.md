@@ -1,6 +1,6 @@
 
 - [ ] Check email
-- [ ] check skype 
+- [x] check skype 
 - [ ] clean and arrange my table 
 - [ ] This is a revision week , do revision for cyber security, bug bounty till 10 November.
 - [ ] remove AD access of accounts for former employees, do a proper AD audit for harrier
