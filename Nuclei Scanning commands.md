@@ -19,3 +19,5 @@ nuclei -t /home/kali/.local/nuclei-templates/ -target <target> -o nuclei_results
 ```
 nuclei -t /home/kali/.local/nuclei-templates/ -list targets.txt -o nuclei_results.txt -c 40 -stats
 ```
+
+
