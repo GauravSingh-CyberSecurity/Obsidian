@@ -21,6 +21,9 @@
 - [x] Wire mis configuration when changing the button
 - [ ] CMS account 
 - [ ] ISO work
+- [ ] share photo to Dilip chacha via wetransfer
+
+
 Salting algo
 Encrypt the database columns by default 
 Standardize encryption, security testing, sonarcube report, Nstar security list 

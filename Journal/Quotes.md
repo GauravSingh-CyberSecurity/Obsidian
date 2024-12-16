@@ -3,7 +3,7 @@ We have such a responsibility to guide our young so that they don't end up falli
 
 
 
-
+Decipline outshines motivation every time.
 
 
 
@@ -46,3 +46,5 @@ To apply the concept of ubiquitous assimilation in daily life, consider these st
 **Cultivate Individuality:** Engage in activities that stimulate your imagination and creativity, such as reading diverse literature or exploring new ideas, to resist societal pressures
 
 By being mindful, you can transform how you assimilate information and experiences
+
+
