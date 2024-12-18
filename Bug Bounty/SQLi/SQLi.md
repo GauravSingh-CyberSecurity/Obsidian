@@ -64,3 +64,7 @@ request sent for exploiting the sqli:
 
 `csrf=8ePpuDgiMTtIpvIa5QFCXEvVy8eY4ZZb&username=administrator%27--&password=%27%27`
 
+
+
+https://0a9000f803024633818f758c0079008f.web-security-academy.net/my-account?id=administrator
+SELECT firstname FROM products WHERE username= 'administrator'--' and password=
