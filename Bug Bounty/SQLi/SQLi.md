@@ -1,6 +1,11 @@
 https://www.youtube.com/watch?v=wX6tszfgYp4
 
+
+# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video: https://www.youtube.com/watch?v=X1X1UdaC_90
+
+notes:
 SQLi Product category filter (https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) 
+
 
 Query structure : SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 
@@ -20,3 +25,9 @@ the query is
 SELECT * FROM products WHERE category = ''' AND released = 1
 
 and it shows internal server error 
+
+
+SELECT * FROM products WHERE category = 'Corporate+gifts' AND released = -
+then use  '-- , now it shows empty means the query executed hence sqli present
+
+
