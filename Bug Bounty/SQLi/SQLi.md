@@ -7,7 +7,8 @@ notes:
 SQLi Product category filter (https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) 
 
 
-Query structure : SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+Query structure : SELECT * FROM products WHER
+E category = 'Gifts' AND released = 1
 
 end goal: display all products regardless of category both released and unreleased.
 application by default do show unreleased product to user but sqli does it.
@@ -33,3 +34,9 @@ then use  '-- , now it shows empty means the query executed hence sqli present
 
 SELECT * FROM products WHERE category = ' '  or 1=1 -- ' AND released = 1
 then use **'  or 1=1 --**  now it shows all product  means the query executed hence sqli exploited.
+
+
+
+
+# Lab: SQL injection vulnerability allowing login bypass
+
