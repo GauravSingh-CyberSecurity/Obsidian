@@ -75,3 +75,5 @@ SELECT firstname FROM products WHERE username= 'administrator'--' and password='
 
 ## Retrieving data from other database tables i.e [SQL injection UNION attacks]
 
+**SQL injection UNION attacks** :
+https://portswigger.net/web-security/sql-injection/union-attacks
