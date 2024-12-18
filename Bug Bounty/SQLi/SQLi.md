@@ -69,3 +69,9 @@ The above request have the below url structure and Query structure
 https://0a9000f803024633818f758c0079008f.web-security-academy.net/my-account?id=administrator
 
 SELECT firstname FROM products WHERE username= 'administrator'--' and password=' '
+
+
+
+
+## Retrieving data from other database tables i.e [SQL injection UNION attacks]
+
