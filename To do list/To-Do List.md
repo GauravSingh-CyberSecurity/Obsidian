@@ -1,11 +1,9 @@
 
-- [ ] Check email
-- [x] check skype 
 - [ ] clean and arrange my table 
 - [ ] This is a revision week , do revision for cyber security, bug bounty till 10 November.
 - [ ] remove AD access of accounts for former employees, do a proper AD audit for harrier
 - [ ] make template for vapt and security training ppt.
-- [ ] design , deployment, requirment, vapt, change request, release management, audit document 
+- [x] design , deployment, requirment, vapt, change request, release management, audit document 
 - [ ] harrier website security testing 
 - [ ] to make roadmaps use roadmaps.sh
 - [ ] update resume and start looking for new job
@@ -33,7 +31,9 @@ SSL/TLS versions
 
 
 
-8.27
-8.25
+Upload large projects on GitHub
+Make GitHub.io portfolio and gitbook.io
+Notes and blogs
+
 
 
