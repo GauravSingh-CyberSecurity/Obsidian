@@ -25,3 +25,5 @@ nuclei -t /home/kali/.local/nuclei-templates/ -list targets.txt -o nuclei_result
 
 nuclei -t /home/kali/.local/nuclei-templates/http/technologies/waf-detect.yaml,/home/kali/.local/nuclei-templates/http/technologies/secui-waf-detect.yaml,/home/kali/.local/nuclei-templates/dns/dns-waf-detect.yaml,/home/kali/.local/nuclei-templates/http/fuzzing/waf-fuzz.yaml,/home/kali/.local/nuclei-templates/cloud/aws/cloudfront/cloudfront-integrated-waf.yaml,/home/kali/.local/nuclei-templates/http/vulnerabilities/wordpress/wordpress-wordfence-waf-bypass-xss.yaml -target <target> -o nuclei_results.txt -c 40 -stats
 
+
+
