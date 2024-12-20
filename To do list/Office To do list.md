@@ -9,4 +9,7 @@
 - [ ] 4pm security training on Friday.
 - [ ] use sonarcube, incident report 
 - [ ] sec test Athena, harrier, Derivium,bml,bnhs,iex,shweta hacked website.
-- [ ] call tibdiwaal for iso standup
+- [x] call tibdiwaal for iso standup
+- [ ] get all harrier client applications inventory made
+- [ ] take Derivium client applications from amit sir 
+- [ ] make Derivium single vapt report 
