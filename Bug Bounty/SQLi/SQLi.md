@@ -79,3 +79,8 @@ SELECT firstname FROM products WHERE username= 'administrator'--' and password='
 **SQL injection UNION attacks** :
 https://portswigger.net/web-security/sql-injection/union-attacks
 
+
+# Lab: SQL injection UNION attack, determining the number of columns returned by the query
+(https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
+
+
