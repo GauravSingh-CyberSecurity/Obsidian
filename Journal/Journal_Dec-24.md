@@ -76,3 +76,9 @@ Importance Reading and learning philosophy:
 **Communication Skills**: Engaging with philosophical texts improves your ability to articulate thoughts clearly and persuasively, enhancing both written and verbal communication.
 
 **Self-Reflection**: Philosophy encourages introspection, challenging your beliefs and values, which can lead to personal growth and a more nuanced worldview
+
+
+# 21-Dec-24
+
+Don't change your goal,
+Increase the effort.

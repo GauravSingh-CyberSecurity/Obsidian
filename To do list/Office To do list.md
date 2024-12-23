@@ -12,4 +12,5 @@
 - [x] call tibdiwaal for iso standup
 - [ ] get all harrier client applications inventory made
 - [ ] take Derivium client applications from amit sir 
-- [ ] make Derivium single vapt report 
+- [x] make Derivium single vapt report 
+- [ ] bnhs retesting 

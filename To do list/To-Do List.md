@@ -19,7 +19,8 @@
 - [x] Wire mis configuration when changing the button
 - [ ] CMS account 
 - [ ] ISO work
-- [ ] share photo to Dilip chacha via wetransfer
+- [ ] setup GitHub large projects upload, GitHub.io for portfolio,gitbook.io for notes,
+- [ ] setup vscode for coding and use the free GitHub copilot 
 
 
 Salting algo
