@@ -107,6 +107,8 @@ Query #2: select a, b from table1 UNION select c,d from table2
 2,3
 4,5
 
+
+https://learn.microsoft.com/en-us/sql/t-sql/language-elements/set-operators-union-transact-sql?view=sql-server-ver16
 Rule: 
 - The number and the order of the columns must be the same in all queries
 - The data types must be compatible
