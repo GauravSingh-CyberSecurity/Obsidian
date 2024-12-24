@@ -109,8 +109,7 @@ Query #2: select a, b from table1 UNION select c,d from table2
 2,3
 4,5
 
-Union operator SQL(Microsoft):
-https://learn.microsoft.com/en-us/sql/t-sql/language-elements/set-operators-union-transact-sql?view=sql-server-ver16
+
 
 
 Rule: 
@@ -118,7 +117,8 @@ Rule:
 - The data types must be compatible
 
 
-SQLi attack (way #1):
+SQLi attack (way #1):  Union operator SQL(Microsoft):
+https://learn.microsoft.com/en-us/sql/t-sql/language-elements/set-operators-union-transact-sql?view=sql-server-ver16
 
 select ? from table1 UNION select NULL
 -error -> incorrect number of columns
@@ -126,7 +126,10 @@ select ? from table1 UNION select NULL
 select ? from table1 UNION select NULL, NULL, NULL
 -200 response code -> correct number of columns
 
-SQLi attack (way #2):
+
+
+SQLi attack (way #2):  Order by operator SQL(Microsoft):
+https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-transact-sql?view=sql-server-ver16
 
 select a, b from table1 order by 3
 
