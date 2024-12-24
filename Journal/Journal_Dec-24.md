@@ -82,3 +82,25 @@ Importance Reading and learning philosophy:
 
 Don't change your goal,
 Increase the effort.
+
+
+# 24_Dec_2024
+
+SOP department 
+
+Testing 
+Development 
+Finance
+Sales 
+HR
+IT
+
+
+**Responsibilities matrix** 
+Department name 
+
+department responsible for the control (creator of sop, maintainer of sop, implementation of sop)
+
+Department concerned with the control (implementation of the sop)
+
+People r

@@ -11,18 +11,18 @@ Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierke
 5. Nichollio Machiavelli 
 6. Aristotle 
 7. Plato
-8. Marcus Aurelius 
-9. Rene Decarte
+8. **Marcus Aurelius** 
+9. **Rene Decarte**
 10. Victor Frankl 
-11. Jordan b Peterson 
+11. **Jordan b Peterson** 
 12. Bjørn Lomborg
-13. Sigmund Freud 
+13. **Sigmund Freud** 
 14. Phil stutz 
 15. **Carl Jung** 
 16. B.F. Skinner
 17. Robert Greene
-18. Immanuel Kant
-19. Jean Piaget
+18. **Immanuel Kant**
+19. Jean **Piaget**
 20. Gottfried Wilhelm Leibniz
 21. Baruch Spinoza
 22. David Hume
@@ -39,12 +39,12 @@ Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierke
 33. Cicero
 34. Epictetus
 35. Zeno of citum
-36. Ernest Hemingway
+36. Ernest **Hemingway**
 37. **Fyodor Dostoevsky**
 38. **Sophocles**
 39. George Orwell
-40. Aleksandr Solzhenitsyn( The Gulag Archipelago)
-41. George Orwell 
+40. **Aleksandr Solzhenitsyn**( The Gulag Archipelago)
+41. George **Orwell** 
 42. William Shakespeare 
 43. Thomas Hobbes
 44. Aldous Huxley
