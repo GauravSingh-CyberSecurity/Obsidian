@@ -1,5 +1,10 @@
 https://www.youtube.com/watch?v=wX6tszfgYp4
 
+To test if sqli exists or not
+1) use  ( ' ) as input and if it shows some error   , then
+2) use ( '-- ) if it shows  200 ok response that means SQLi is present
+because at ( ' ) the sql shows error due to syntax error, but at ( '-- ) the -- comments out the rest of the sql query being executed hence request dont show error.
+
 
 # Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video: https://www.youtube.com/watch?v=X1X1UdaC_90
 
