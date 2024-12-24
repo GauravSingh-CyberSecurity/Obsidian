@@ -97,6 +97,8 @@ a | b       c | d
 1 , 2       2 , 3
 3 , 4       4 , 5
 
+
+
 Query #1: select a, b from table1
 1,2
 3,4
@@ -114,6 +116,7 @@ https://learn.microsoft.com/en-us/sql/t-sql/language-elements/set-operators-unio
 Rule: 
 - The number and the order of the columns must be the same in all queries
 - The data types must be compatible
+
 
 SQLi attack (way #1):
 
