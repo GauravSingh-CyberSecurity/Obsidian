@@ -185,4 +185,4 @@ Analysis:
 ' UNION select NULL, 'a', NULL--
 ```
 
-
+'+UNION+SELECT+NULL,NULL,'abcdef'--
