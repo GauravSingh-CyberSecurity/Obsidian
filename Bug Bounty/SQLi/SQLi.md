@@ -6,7 +6,8 @@ To test if sqli exists or not
 because at ( ' ) the sql shows error due to syntax error, but at ( '-- ) the -- comments out the rest of the sql query being executed hence request dont show error.
 
 
-# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video: https://www.youtube.com/watch?v=X1X1UdaC_90
+# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video:https://portswigger.net/web-security/sql-injection/
+ lab video: https://www.youtube.com/watch?v=X1X1UdaC_90
 
 notes:
 SQLi Product category filter (https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) 
@@ -162,5 +163,5 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 
 
 
-
+# Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
 
