@@ -172,6 +172,7 @@ select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL
 -> error -> column is not type text
 -> no error -> column is of type text
 
+```
 Analysis:
 
 ' order by 1--
@@ -182,3 +183,6 @@ Analysis:
 
 ' UNION select 'a', NULL, NULL--'
 ' UNION select NULL, 'a', NULL--
+```
+
+
