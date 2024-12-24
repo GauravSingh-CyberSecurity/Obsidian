@@ -78,14 +78,14 @@ SELECT firstname FROM products WHERE username= 'administrator'--' and password='
 
 
 
-# Retrieving data from other database tables i.e [SQL injection UNION attacks]
+# Retrieving data from other database tables i.e [https://portswigger.net/web-security/sql-injection/union-attacks]
 
 
 **SQL injection UNION attacks** :
 https://portswigger.net/web-security/sql-injection/union-attacks
 
 
-# Lab: SQL injection UNION attack, determining the number of columns returned by the query
+# Lab: SQL injection UNION attack, determining the number of columns returned by the query(https://portswigger.net/web-security/sql-injection/union-attacks)
 (https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
 solution video: https://www.youtube.com/watch?v=umXGHbEyW5I
@@ -140,7 +140,27 @@ https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-trans
 select a, b from table1 order by 3
 
 
+```
+
+ ####  Solution
+
+1. Use Burp Suite to intercept and modify the request that sets the product category filter.
+2. Modify the `category` parameter, giving it the value `'+UNION+SELECT+NULL--`. Observe that an error occurs.
+3. Modify the `category` parameter to add an additional column containing a null value:
+    
+    `'+UNION+SELECT+NULL,NULL--`
+4. Continue adding null values until the error disappears and the response includes additional content containing the null values.
+```
 
 
 Query used to solve this lab was:
-``` https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?category=Gifts%27+UNION+SELECT+NULL,NULL,NULL-- 
+```
+https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?category=Gifts%27+UNION+SELECT+NULL,NULL,NULL-- 
+
+```
+
+
+
+
+
+
