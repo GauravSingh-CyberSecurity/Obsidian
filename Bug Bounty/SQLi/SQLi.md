@@ -230,3 +230,7 @@ select a, b from products where category='Gifts
 
 administrator
 tqx26ugf8jp1g30atsu9
+
+
+# 7)Lab: SQL injection UNION attack, retrieving multiple values in a single column(https://portswigger.net/web-security/sql-injection/union-attacks)
+
