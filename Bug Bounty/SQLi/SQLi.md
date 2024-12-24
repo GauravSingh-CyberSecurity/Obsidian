@@ -139,7 +139,7 @@ select ? from table1 UNION select NULL, NULL, NULL
 SQLi attack (way #2):  Order by operator SQL(Microsoft):
 https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-transact-sql?view=sql-server-ver16
 
-select a, b from table1 order by 3
+select a, b from table1 order by 3 (using this we can determin no.of columns using in the sql query)
 
 
 ```
