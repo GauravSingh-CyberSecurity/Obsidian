@@ -103,4 +103,11 @@ department responsible for the control (creator of sop, maintainer of sop, imple
 
 Department concerned with the control (implementation of the sop)
 
-People r
+People in the department responsible for the control 
+
+
+Note: team leads for every project will oversee that SOP in the project are being followed or not.
+
+Controls are not being assigned by us to any individual , instead we will be assigning the controls to particular department to create SOP.
+
+Furthermore the People in department can take up responsibility for maintaining the SOP , maybe the heads of every department 
