@@ -189,7 +189,7 @@ select a, b from table1 order by 3 (using this we can determin no.of columns usi
 2. Modify the `category` parameter, giving it the value `'+UNION+SELECT+NULL--`. Observe that an error occurs.
 3. Modify the `category` parameter to add an additional column containing a null value:
     
-    `'+UNION+SELECT+NULL,NULL--`
+    `'+UNION+SELECT+NULL,NULL--` or ( '+UNION+SELECT+1,2--)
 4. Continue adding null values until the error disappears and the response includes additional content containing the null values.
 ```
 
@@ -209,7 +209,7 @@ Lab video: https://www.youtube.com/watch?v=SGBTC5D7DTs1
 Notes: https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/sql-injection/lab-04/notes.txt
 **Step #2: Determine the data type of the columns**
 
-select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--) or( '+UNION+SELECT+1,2--)
+select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--) or( '+UNION+SELECT+1,2--) depending on DB like MSsql or postgres etc.
 -> error -> column is not type text
 -> no error -> column is of type text
 
