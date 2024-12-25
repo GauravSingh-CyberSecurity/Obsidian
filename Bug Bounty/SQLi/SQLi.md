@@ -3,7 +3,7 @@ https://www.youtube.com/watch?v=wX6tszfgYp4
 Portswigger SQLI:
 https://portswigger.net/web-security/sql-injection
 
-
+repo with solutions:
 https://github.com/rkhal101/Web-Security-Academy-Series/tree/main/sql-injection
 
 ![[Screenshot From 2024-12-25 14-01-07.png]]
@@ -121,6 +121,8 @@ therefore if sqli is present and username= admin then youll get login.
 
 **SQL injection UNION attacks** :
 https://portswigger.net/web-security/sql-injection/union-attacks
+
+
 
 
 # 4)Lab: SQL injection UNION attack, determining the number of columns returned by the query(https://portswigger.net/web-security/sql-injection/union-attacks)
