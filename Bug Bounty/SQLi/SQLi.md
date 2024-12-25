@@ -129,7 +129,7 @@ https://portswigger.net/web-security/sql-injection/union-attacks
 (https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
 solution video: https://www.youtube.com/watch?v=umXGHbEyW5I
-
+Notes: https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/sql-injection/lab-03/notes.txt
 Explaination of video:
 
 SQLi - Product category filter
@@ -206,10 +206,10 @@ https://0aed007503ed3a1fa9f7494e002b00e3.web-security-academy.net/filter?categor
 # 5)Lab: SQL injection UNION attack, finding a column containing text(https://portswigger.net/web-security/sql-injection/union-attacks)
 
 Lab video: https://www.youtube.com/watch?v=SGBTC5D7DTs1
-
+Notes: https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/sql-injection/lab-04/notes.txt
 **Step #2: Determine the data type of the columns**
 
-select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--)
+select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--) or( '+UNION+SELECT+1,2--)
 -> error -> column is not type text
 -> no error -> column is of type text
 
@@ -241,7 +241,7 @@ Query used to solve the lab:
 
 Lab video: https://www.youtube.com/watch?v=6Dsj5SqR944
 
-
+Notes: https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/sql-injection/lab-05/notes.txt
 SQL Injection - Product category filter.
 
 End Goal - Output the usernames and passwords in the users table and login as the administrator user.
