@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=wX6tszfgYp4
 
+https://portswigger.net/web-security/sql-injection
 To test if sqli exists or not
 1) use  ( ' ) as input and if it shows some error   , then
 2) use ( '-- ) if it shows  200 ok response that means SQLi is present
