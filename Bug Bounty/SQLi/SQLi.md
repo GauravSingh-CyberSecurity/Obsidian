@@ -317,7 +317,7 @@ carlos*hx8lpsrznosr462ydnvh
 administrator*35v95vbpktdv4c2nqgak
 wiener*0qc4vtnx4o08sr5nsstf
 
-script.py <url> 
+# 8)Lab: SQL injection UNION attack, retrieving multiple values in a single column 
 
 
 
