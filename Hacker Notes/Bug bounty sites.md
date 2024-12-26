@@ -3,7 +3,7 @@
 Hackerone
 Bugcrowd
 Intigriti
-Synack
+Synack red team
 Cobalt
 Glassdoor
 ZipRecruiter
