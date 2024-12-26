@@ -16,3 +16,8 @@ lab: https://portswigger.net/web-security/cross-site-scripting/reflected/lab-htm
 
 ```
 
+
+
+# 2)Lab: Stored XSS into HTML context with nothing encoded
+
+LAB: https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
