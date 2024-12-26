@@ -1,5 +1,8 @@
 https://www.youtube.com/watch?v=wX6tszfgYp4
 
+Sqli Cheat sheet:
+https://portswigger.net/web-security/sql-injection/cheat-sheet
+
 Portswigger SQLI:
 https://portswigger.net/web-security/sql-injection
 
