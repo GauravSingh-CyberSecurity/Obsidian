@@ -7,6 +7,7 @@ repo with solutions:
 https://github.com/rkhal101/Web-Security-Academy-Series/tree/main/sql-injection
 
 ![[Screenshot From 2024-12-25 14-01-07.png]]
+How to detect SQLi: https://portswigger.net/web-security/sql-injection#how-to-detect-sql-injection-vulnerabilities
 ```
 
 to check SQLi on url
