@@ -103,7 +103,7 @@ To solve this lab, make the "back" link alert `document.cookie`.
 ```
 
 
-# 6)Lab: DOM XSS in jQuery selector sink using a hashchange event
+# 6)Lab (imp): DOM XSS in jQuery selector sink using a hashchange event
 
 LAb: https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-selector-hash-change-event
 
