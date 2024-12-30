@@ -2,7 +2,10 @@ Link: https://portswigger.net/web-security/cross-site-scripting#what-is-cross-si
 
 cheat-sheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
-
+Types of XSS:
+1)Reflected XSS: https://portswigger.net/web-security/cross-site-scripting/reflected
+2)Stored XSS: https://portswigger.net/web-security/cross-site-scripting/stored
+3)
 # 1)Lab: Reflected XSS into HTML context with nothing encoded
 lab: https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
 
