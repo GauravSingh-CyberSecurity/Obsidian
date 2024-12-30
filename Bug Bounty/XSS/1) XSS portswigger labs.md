@@ -144,5 +144,5 @@ Just because you're able to trigger the `alert()` yourself doesn't mean that t
 2. Observe that the random string has been reflected inside a quoted attribute.
 3. Replace your input with the following payload to escape the quoted attribute and inject an event handler:
     
-    `"onmouseover="alert(1)`
+    `"onmouseover="alert(1)`  
 4. Verify the technique worked by right-clicking, selecting "Copy URL", and pasting the URL in the browser. When you move the mouse over the injected element it should trigger an alert.
