@@ -128,6 +128,8 @@ To solve the lab, deliver an exploit to the victim that calls the `print()` fu
 
 LAB: https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded
 
+Video: https://www.youtube.com/watch?v=8zis9TrZmfU
+
 This lab contains a reflected cross-site scripting vulnerability in the search blog functionality where angle brackets are HTML-encoded. To solve this lab, perform a cross-site scripting attack that injects an attribute and calls the `alert` function.
 
 ```
