@@ -282,6 +282,7 @@ tqx26ugf8jp1g30atsu9
 
 # 7)Lab: SQL injection UNION attack, retrieving multiple values in a single column(https://portswigger.net/web-security/sql-injection/union-attacks)
 Lab video: https://www.youtube.com/watch?v=yRVYoqR9vrI
+LAB: https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-multiple-values-in-single-column
 
 SQL Injection - Product category filter
 
