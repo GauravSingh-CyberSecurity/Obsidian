@@ -185,3 +185,17 @@ nikto -h https://staging.digicompany.in -useproxy http://127.0.0.1:8080
 ---
 
 Would you like further help analyzing the results or creating custom Nikto configurations?
+
+
+
+
+
+
+
+
+
+
+
+# Go buster for directory traversal (to find paths)
+
+gobuster dir -u https://staging.digicompany.in/ -w /home/kali/SecLists/Discovery/Web-Content/directory-list-2.3-big.txt
