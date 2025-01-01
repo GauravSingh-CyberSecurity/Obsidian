@@ -111,3 +111,8 @@ Note: team leads for every project will oversee that SOP in the project are bein
 Controls are not being assigned by us to any individual , instead we will be assigning the controls to particular department to create SOP.
 
 Furthermore the People in department can take up responsibility for maintaining the SOP , maybe the heads of every department can give particular control to particular individual to implement as applicable.
+
+
+# **26-Dec-24**
+
+Give the men a reason they deem as righteous, They will fight like demi-gods.
