@@ -1,3 +1,6 @@
+
+
+# Nikto
 Here’s a step-by-step guide to using **Nikto** for scanning a target with various configurations and options:
 
 ---
@@ -199,3 +202,5 @@ Would you like further help analyzing the results or creating custom Nikto confi
 # Go buster for directory traversal (to find paths)
 
 gobuster dir -u https://staging.digicompany.in/ -w /home/kali/SecLists/Discovery/Web-Content/directory-list-2.3-big.txt
+
+gobuster dir -u https://staging.digicompany.in/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50 -x html,php,js,json,css -k
