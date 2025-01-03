@@ -206,4 +206,4 @@ gobuster dir -u https://staging.digicompany.in/ -w /home/kali/SecLists/Discovery
 gobuster dir -u https://staging.digicompany.in/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50 -x html,php,js,json,css -k
 
 
-ashfaque.mohammad@harriersys.comDigi 
+ashfaque.mohammad@harriersys.com
