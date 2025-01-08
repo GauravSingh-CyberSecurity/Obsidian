@@ -20,5 +20,19 @@ Give provocative speech that speak to your people
 
 Blame  finance, government types, sell hate and outrage, give vendetta to your people.
 
-Give name to your group and a uniform 
-# 3)
+Give name to your group and a uniform, make a party to fight 
+# 3)Be Man of people 
+Yours will be the face of your nation
+
+Show people you are one of them, a man of the people.
+
+You dream what the masses dream, I am you , you are me and I am the one to make the dream true.
+
+Wear a proper uniform of a soilder, common man, farmer. Take the getup of your followers appeal .
+
+Cement bond with common people 
+# 4) Brand your movement 
+
+Connect with people into there subconscious.
+
+Make a great marketing strategy to sell y
