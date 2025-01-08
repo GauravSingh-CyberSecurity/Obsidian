@@ -1,3 +1,7 @@
+CSRF: https://portswigger.net/web-security/csrf
+
+
+
 
 CSRF Portswigger labs notes by Rana Khalil: 
 https://github.com/rkhal101/Web-Security-Academy-Series/tree/main/csrf
