@@ -21,6 +21,7 @@
 - [ ] ISO work
 - [ ] setup GitHub large projects upload, GitHub.io for portfolio,gitbook.io for notes,
 - [ ] setup vscode for coding and use the free GitHub copilot 
+- [ ] write end of year memoir 
 
 
 Salting algo
