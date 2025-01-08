@@ -1,5 +1,5 @@
 
-***==Chapter 1) Seize power==***
+# Chapter 1) Seize power of your nation
 ## 1) Believe in yourself:
 If you want to rule you first have to believe yourself that you can and are meant to be a ruler.
 You have to believe you are special and a liberator of your people.
@@ -12,7 +12,7 @@ You find this belief from an origin story that transforms you into a god/demi go
 
 You should be Highly narcissistic and center of the world.
 
-# 2)Outrage sells
+## 2)Outrage sells
 You want people attention, show people there enemy is your and you will be there leader, and you have followers.
 
 Blame a group 
@@ -22,7 +22,7 @@ Give provocative speech that speak to your people
 Blame  finance, government types, sell hate and outrage, give vendetta to your people.
 
 Give name to your group and a uniform, make a party to fight 
-# 3)Be Man of people 
+## 3)Be Man of people 
 Yours will be the face of your nation
 
 Show people you are one of them, a man of the people.
@@ -32,7 +32,7 @@ You dream what the masses dream, I am you , you are me and I am the one to make 
 Wear a proper uniform of a soilder, common man, farmer. Take the getup of your followers appeal .
 
 Cement bond with common people 
-# 4) Brand your movement 
+## 4) Brand your movement 
 Define your mission 
 
 Connect with people into there subconscious.
@@ -49,7 +49,7 @@ Brand and glorify your movement
 Marching, rally, speech, advertising 
 
 And then scale up the operation 
-# 5)Build your Squad 
+## 5)Build your Squad 
 
 Make a inner circle of trust, Direct family members, relatives.
 
@@ -64,7 +64,7 @@ And so on
 
 Find most loyal followers who put you first.
 
-# 6) choose when to strike 
+## 6) choose when to strike 
 
 Find your moment to seize the power on large scale and do not miss
 
@@ -72,7 +72,7 @@ Play a long game, be patient, at least a decade is normal
 
 Have cobra like patient and find the right moment, create the moment over the years of plotting.
 
-# 7)Get a book written on yourself, get a bible on you
+## 7)Get a book written on yourself, get a bible on you
 
 Use bad times to rise in power, like critianity did, 
 
@@ -93,5 +93,14 @@ You are the man
 Now the big question, how to keep the wolves at Bay 
 
 
-# Chapter 2)Crush your rivals 
+# Chapter 2)Crush your rivals
+
+Gaining power was easy, you need to make sure you keep power.
+Don't be a julius caeser.
+
+## 1)crush your rivals 
+Kill or be killed 
+
+
+
 
