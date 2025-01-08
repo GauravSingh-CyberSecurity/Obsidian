@@ -67,6 +67,22 @@ Find most loyal followers who put you first.
 
 Find your moment to seize the power on large scale and do not miss
 
-Play a long game, be patient, at least a decade 
+Play a long game, be patient, at least a decade is normal 
 
-Have cobra like patient and find the right moment, create the moment over the years of 
+Have cobra like patient and find the right moment, create the moment over the years of plotting.
+
+# 7)Get a book written on yourself, get a bible on you
+
+Use bad times to rise in power, like critianity did, 
+
+Nothing says opportunity like a good crisis, 
+
+War, market crash, etc
+
+You bring new order out of the chaos for your people.
+
+Take full military control, no democracy, one single side that's your side.
+
+In crisis show your strong authoritarian ship.
+
+Now, you are not undersog
