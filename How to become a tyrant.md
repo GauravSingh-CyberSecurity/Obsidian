@@ -99,8 +99,22 @@ Gaining power was easy, you need to make sure you keep power.
 Don't be a julius caeser.
 
 ## 1)crush your rivals 
+
 Kill or be killed 
 
+Fast fact to rise to power:
+1) Be a bully at young age
+2) join a gang or make a gang that will
+Grow into your army 
+3) organize multiple coup to rise in power 
+4) Make alliance while still second man
+5) retire the number one man, or kill him
 
+## 2)Establish total dominance 
 
+You need to show people there is a new sheriff in town,
+
+I am the judge , jury and executioner.
+
+But if you behave I am the friend who will help you grow.
 
