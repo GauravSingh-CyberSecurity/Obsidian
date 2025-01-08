@@ -11,4 +11,14 @@ You find this belief from an origin story that transforms you into a god/demi go
 
 You should be Highly narcissistic and center of the world.
 
-Outrage sell
+# 2)Outrage sells
+You want people attention, show people there enemy is your and you will be there leader, and you have followers.
+
+Blame a group 
+
+Give provocative speech that speak to your people 
+
+Blame  finance, government types, sell hate and outrage, give vendetta to your people.
+
+Give name to your group and a uniform 
+# 3)
