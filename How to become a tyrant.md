@@ -4,4 +4,4 @@ If you want to rule you first have to believe yourself that you can and are mean
 You have to believe you are special and a liberator of your people.
 You need to have mega confidence in your self.
 
-You find this 
+You find this belief from an origin story that transforms you into a god/demi god.
