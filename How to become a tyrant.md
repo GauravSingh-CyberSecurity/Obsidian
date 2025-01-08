@@ -35,4 +35,20 @@ Cement bond with common people
 
 Connect with people into there subconscious.
 
-Make a great marketing strategy to sell y
+Make a great marketing strategy to sell your brand.
+
+Use perfect symbols, iconography for your brand.
+
+Your people need to be dressed in a single uniform of a soilder.
+To signify loyalty and show the person is on the team.
+
+Brand and glorify your movement 
+
+Marching, rally, speech, advertising 
+
+And then scale up the operation 
+# 5)Build your Squad 
+
+Make a inner circle of trust, Direct family members, relatives.
+
+You need people with diverse skills
