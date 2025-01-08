@@ -20,7 +20,7 @@ https://github.com/rkhal101/Web-Security-Academy-Series/tree/main/csrf
 # 1) Lab: CSRF vulnerability with no defenses
 
  Lab:https://portswigger.net/web-security/csrf/lab-no-defenses
- Lab video :https://www.youtube.com/watch?v=HTgyif6u5RY
+
 
 ```
 This lab's email change functionality is vulnerable to CSRF.
@@ -57,8 +57,10 @@ document.forms[0].submit(); </script>
 4. Click "Deliver to victim" to solve the lab.
 
 
-Notes by Rana Khalil: 
+Notes by Rana Khalil:  
 https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/csrf/lab-01/notes.txt
+
+ Lab video :https://www.youtube.com/watch?v=HTgyif6u5RY
 ```
 Lab #1 - CSRF vulnerability with no defenses
 
