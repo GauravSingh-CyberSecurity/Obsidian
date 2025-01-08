@@ -32,6 +32,7 @@ Wear a proper uniform of a soilder, common man, farmer. Take the getup of your f
 
 Cement bond with common people 
 # 4) Brand your movement 
+Define your mission 
 
 Connect with people into there subconscious.
 
@@ -51,4 +52,21 @@ And then scale up the operation
 
 Make a inner circle of trust, Direct family members, relatives.
 
-You need people with diverse skills
+You need people with diverse skills:
+The organizer
+The stormtrooper
+The Assistant 
+The war Hero 
+The propaganda chief 
+
+And so on
+
+Find most loyal followers who put you first.
+
+# 6) choose when to strike 
+
+Find your moment to seize the power on large scale and do not miss
+
+Play a long game, be patient, at least a decade 
+
+Have cobra like patient and find the right moment, create the moment over the years of 
