@@ -22,4 +22,10 @@ I can't have anyone holding such kind of power over me with active intention of 
 And to save the sovereignty of my conscience I must oblige with this decision of theirs.
 And make sure never to give them my friendship again for they don't care for it enough.
 
-It was their decision 
+It was their decision to end it, and yes I tried to persuade them otherwise.
+
+Maybe they thought that they will teach me a lesson, and afterwards when I am punished enough according to them, they'll let me off the hook.
+Or maybe they thought that this is the final decision and I don't really matter enough to be given a second thought.
+Whatever it maybe, 
+
+I can't have the same story play out again, for me a friend is like single soul dwelling in two bodies, and friends don't think of punishin
