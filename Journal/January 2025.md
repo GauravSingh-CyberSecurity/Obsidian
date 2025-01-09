@@ -28,4 +28,12 @@ Maybe they thought that they will teach me a lesson, and afterwards when I am pu
 Or maybe they thought that this is the final decision and I don't really matter enough to be given a second thought.
 Whatever it maybe, 
 
-I can't have the same story play out again, for me a friend is like single soul dwelling in two bodies, and friends don't think of punishin
+I can't have the same story play out again, for me a friend is like single soul dwelling in two bodies, and friends don't think of torturing each other .
+
+It did came as a shock for the first  day and hurt me , because I didn't have time reflect , but with days passing by I was able to take hold of my situation, got time to reflect and understand things.
+For pain is I can take hurt is I can tolerate it's no problem.
+
+But I won't let anyone control me , make me feel guilty, hold my conscience hostage and make me feel paralyzed with shock .
+
+After suffering it once , I swear not to go through it again.
+For they burnt the bridges, I must keep the 
