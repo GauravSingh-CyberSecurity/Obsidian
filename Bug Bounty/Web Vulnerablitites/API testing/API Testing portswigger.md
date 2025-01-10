@@ -28,6 +28,7 @@ To solve the lab, find the exposed API documentation and delete `carlos`. You c
 
 
 # 2)Lab: Finding and exploiting an unused API endpoint
+
 Lab video: https://youtu.be/qjaBIcqZlfI
 
 To solve the lab, exploit a hidden API endpoint to buy a **Lightweight l33t Leather Jacket**. You can log in to your own account using the following credentials: `wiener:peter`.
@@ -65,3 +66,4 @@ To solve the lab, exploit a hidden API endpoint to buy a **Lightweight l33t Lea
     
 15. Go to your basket and click **Place order** to solve the lab.
 ```
+
