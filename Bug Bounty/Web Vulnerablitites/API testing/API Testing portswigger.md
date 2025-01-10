@@ -26,3 +26,5 @@ To solve the lab, find the exposed API documentation and delete `carlos`. You c
 8. To delete Carlos and solve the lab, click on the `DELETE` row, enter `carlos`, then click **Send request**.
 ```
 
+
+# 2)Lab: Finding and exploiting an unused API endpoint
