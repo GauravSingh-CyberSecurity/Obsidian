@@ -78,3 +78,4 @@ In order for a CSRF attack to be possible:
 - No unpredictable request parameters - satisfied
 ```
 
+
