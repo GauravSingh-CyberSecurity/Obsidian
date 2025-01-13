@@ -133,3 +133,4 @@ In order for a CSRF attack to be possible:
 Testing CSRF Tokens:
 1. Change the request method from POST to GET
 ```
+
