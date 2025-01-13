@@ -1,5 +1,6 @@
 CSRF: https://portswigger.net/web-security/csrf
-
+Notes by Rana Khalil:  
+https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/csrf/
 
 ## How to construct a CSRF attack
 
@@ -81,6 +82,8 @@ In order for a CSRF attack to be possible:
 
 # 2) Lab: CSRF where token validation depends on request method
 
+Lab video: (by rana khalil): 
+
 This lab's email change functionality is vulnerable to CSRF. It attempts to block CSRF attacks, but only applies defenses to certain types of requests.
 
 To solve the lab, use your exploit server to host an HTML page that uses a CSRF attack to change the viewer's email address.
@@ -103,3 +106,30 @@ You cannot register an email address that is already taken by another user. If y
 <form action="https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email"> <input type="hidden" name="email" value="anything%40web-security-academy.net"> </form> <script> document.forms[0].submit(); </script>
 ```
 
+1. Go to the exploit server, paste your exploit HTML into the "Body" section, and click "Store".
+2. To verify if the exploit will work, try it on yourself by clicking "View exploit" and checking the resulting HTTP request and response.
+3. Change the email address in your exploit so that it doesn't match your own.
+4. Store the exploit, then click "Deliver to victim" to solve the lab.
+
+Notes by Rana Khalil: 
+https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/csrf/lab-02/notes.txt
+
+```
+Lab #2 - CSRF where token validation depends on request method
+
+Vulnerable parameter - email change functionality
+
+Goal - exploit CSRF to change email address
+
+Creds - wiener:peter
+
+Analysis:
+
+In order for a CSRF attack to be possible:
+- A relevant action: change a users email
+- Cookie-based session handling: session cookie
+- No unpredictable request parameters: Request method can be changed to GET which does not require CSRF token
+
+Testing CSRF Tokens:
+1. Change the request method from POST to GET
+```
