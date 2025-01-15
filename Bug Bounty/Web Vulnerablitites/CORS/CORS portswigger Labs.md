@@ -32,7 +32,6 @@ Lab solution:https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/c
 HTML script:https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/cors/lab-01/cors-lab-01.html
 
 
-
 ```
 Lab #1 - CORS vulnerability with basic origin reflection
 
@@ -47,7 +46,7 @@ Testing for CORS misconfigurations:
 2.
 ```
 
-Html
+Html script for exploiting CORS:
 ```
 <html>
     <body>
