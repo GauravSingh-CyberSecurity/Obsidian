@@ -19,8 +19,8 @@ Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierke
 13. **Sigmund Freud** 
 14. Phil stutz 
 15. **Carl Jung** 
-16. B.F. Skinner
-17. Robert Greene
+16. **B.F. Skinner**
+17. **Robert Greene**
 18. **Immanuel Kant**
 19. Jean **Piaget**
 20. Gottfried Wilhelm Leibniz
@@ -29,7 +29,7 @@ Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierke
 23. Georg Wilhelm Friedrich Hegel
 24. Martin Heidegger
 25. Jean-Paul Sartre
-26. Daniel Kahneman
+26. **Daniel Kahneman**
 27. Abraham Maslow
 28. William James
 29. Albert Bandura

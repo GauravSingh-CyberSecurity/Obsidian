@@ -18,3 +18,6 @@
 - [ ] Digicompany VAPT 
 - [ ] implement WAF on BNHS, Athena projects.
 - [ ] put link of policy in SharePoint soa 
+
+14 jan 25_ WFH(value delivery ):
+1 hr Derivium retesting 
