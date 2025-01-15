@@ -26,3 +26,21 @@ You can log in to your own account using the following credentials: `wiener:pet
 2. Go back to the exploit server and click **Deliver exploit to victim**.
 3. Click **Access log**, retrieve and submit the victim's API key to complete the lab.
 
+Rana khalil: 
+Lab video:https://www.youtube.com/watch?v=XTFDst3TjMM&ab_channel=RanaKhalil
+Lab solution:https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/cors/lab-01/notes.txt
+
+```
+Lab #1 - CORS vulnerability with basic origin reflection
+
+Target Goal - exploit the CORS misconfiguration to retrieve the administrator's API key
+
+Creds - wiener:peter
+
+Analysis:
+
+Testing for CORS misconfigurations:
+1. change the origin to an arbitrary value / True
+2.
+```
+
