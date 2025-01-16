@@ -43,3 +43,14 @@ You can log in to your own account using the following credentials: `wiener:pet
 4. Complete and submit the login page, and forward the resulting request in Burp.
 5. Observe that the response sets the cookie `Admin=false`. Change it to `Admin=true`.
 6. Load the admin panel and delete `carlos`.
+
+Notes:
+```
+we logged into the website as a user , than tried to get admin by /admin after the url but it only allows access to admin for that /admin repo .
+    
+    so we used burp suite and captured the request and in interceptor at cookies we saw there is a section admin and its value is false we changed it to true and send request back to website and got logged in as admin
+    
+    now , we will have to change false to true again and again at every request that is send to website because we havent put the admin id and pw to get authenticated , so instead of changing the false to true every time burp intercept the request.
+    
+    we can go to proxy settings>match and replace rules>Add>match (Admin=false)>replace(Admin=true)
+```
