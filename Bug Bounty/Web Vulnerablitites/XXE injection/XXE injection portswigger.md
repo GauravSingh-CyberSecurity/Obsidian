@@ -1,6 +1,8 @@
 XXE portswigger: https://portswigger.net/web-security/xxe
 
-
+1) check is there an XML that is sent in Post request or in any other request
+2) insert a DTD tag , followed by an entity(the entity is external)
+eg:
 # 1)Lab: Exploiting XXE using external entities to retrieve files
 Lab:https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files
 
