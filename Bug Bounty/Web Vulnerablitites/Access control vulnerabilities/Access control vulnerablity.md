@@ -26,3 +26,20 @@ Solve the lab by accessing the admin panel, and using it to delete the user `ca
 2. Observe that it contains some JavaScript that discloses the URL of the admin panel.
 3. Load the admin panel and delete `carlos`.
 
+# 3)Lab: User role controlled by request parameter
+Lab:https://portswigger.net/web-security/access-control/lab-user-role-controlled-by-request-parameter
+
+This lab has an admin panel at `/admin`, which identifies administrators using a forgeable cookie.
+
+Solve the lab by accessing the admin panel and using it to delete the user `carlos`.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+#### Solution
+
+1. Browse to `/admin` and observe that you can't access the admin panel.
+2. Browse to the login page.
+3. In Burp Proxy, turn interception on and enable response interception.
+4. Complete and submit the login page, and forward the resulting request in Burp.
+5. Observe that the response sets the cookie `Admin=false`. Change it to `Admin=true`.
+6. Load the admin panel and delete `carlos`.
