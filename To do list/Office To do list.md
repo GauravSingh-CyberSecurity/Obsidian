@@ -20,3 +20,4 @@
 - [ ] put link of policy in SharePoint soa 
 
 17 jan 25_ make list of vulnerability found 
+paytonic 
