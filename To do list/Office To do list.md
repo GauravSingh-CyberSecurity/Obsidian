@@ -19,4 +19,4 @@
 - [ ] implement WAF on BNHS, Athena projects.
 - [ ] put link of policy in SharePoint soa 
 
-Paytonic VAPT
+17 jan 25_ make list of vulnerability found 

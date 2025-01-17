@@ -54,3 +54,6 @@ Here I mourn my feelings for I have lost a friend. A friend I will never have ag
 
 
 In a world with majority of mediocre humans , now Mediocrity has become more acceptable, tolerable and allowed then mastery of self and rising above as a glorious entity of life.
+
+# 16-jan-2025
+How big would you dream if you knew you could not fail 
