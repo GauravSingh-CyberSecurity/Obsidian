@@ -3,6 +3,8 @@ CORS Portswigger: https://portswigger.net/web-security/cors
 
 # 1)Lab: CORS vulnerability with basic origin reflection
 
+Lab: https://portswigger.net/web-security/cors/lab-basic-origin-reflection-attack
+
 This website has an insecure CORS configuration in that it trusts all origins.
 
 To solve the lab, craft some JavaScript that uses CORS to retrieve the administrator's API key and upload the code to your exploit server. The lab is solved when you successfully submit the administrator's API key.
