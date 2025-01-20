@@ -21,3 +21,5 @@
 
 17 jan 25_ make list of vulnerability found 
 paytonic vapt
+
+20 jan 45min bnhs csp fixes 
