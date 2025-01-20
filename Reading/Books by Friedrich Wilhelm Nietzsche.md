@@ -20,6 +20,7 @@ Reading order:-
 13. [ ] Untimely Meditations
 14. [ ] The Birth of Tragedy
 15. [ ] Index to Nietzsche 
+16. [ ] On Truth and Lies in a Nonmoral Sense /On Truth and Lie in an Extra-Moral Sense
 
 
 https://www.fiyope.com/guides/nietzsche%3A%20where%20to%20begin%3F-01hdn8yes8y15bzh99ygr5dgmm
