@@ -48,3 +48,8 @@ To apply the concept of ubiquitous assimilation in daily life, consider these st
 By being mindful, you can transform how you assimilate information and experiences
 
 
+I now myself live, in every detail, striving for wisdom, while I formerly merely worshipped and idolized the wise
+-Nietzsche 
+
+He who fights with monsters should see to it that he himself does not become a monster. And if you gaze long into an abyss, the abyss also gazes into you.
+Beyond Good and Evil, Aphorism
