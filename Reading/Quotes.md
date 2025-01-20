@@ -48,8 +48,16 @@ To apply the concept of ubiquitous assimilation in daily life, consider these st
 By being mindful, you can transform how you assimilate information and experiences
 
 
-I now myself live, in every detail, striving for wisdom, while I formerly merely worshipped and idolized the wise
+==I now myself live, in every detail, striving for wisdom, while I formerly merely worshipped and idolized the wise==
 -Nietzsche 
 
 He who fights with monsters should see to it that he himself does not become a monster. And if you gaze long into an abyss, the abyss also gazes into you.
-Beyond Good and Evil, Aphorism
+-Nietzsche(Beyond Good and Evil, Aphorism)
+
+The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently
+-Nietzsche
+
+
+Art is the supreme task and the truly metaphysical activity in this life
+-Nietzsche
+
