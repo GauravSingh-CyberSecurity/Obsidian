@@ -133,3 +133,9 @@ When someone hides something behind a bush and looks for it again in the same pl
 
 
 
+The man who does not wish to belong to the mass needs only to cease taking himself easily; let him follow his conscience, which calls to him: “Be your self! All you are now doing, thinking, desiring, is not you yourself.”
+
+
+
+There exists no more repulsive and desolate creature in the world than the man who has evaded his genius and who now looks furtively to left and right, behind him and all about him. In the end such a man becomes impossible to get hold of, since he is wholly exterior, without kernel: a tattered, painted bag of clothes; a decked-out ghost that cannot inspire even fear and certainly not pity.
+
