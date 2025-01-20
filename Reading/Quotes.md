@@ -123,6 +123,8 @@ Everything which distinguishes man from the animals depends upon this ability to
 
 
 When someone hides something behind a bush and looks for it again in the same place and finds it there as well, there is not much to praise in such seeking and finding. Yet this is how matters stand regarding seeking and finding "truth" within the realm of reason. If I make up the definition of a mammal, and then, after inspecting a camel, declare "look, a mammal' I have indeed brought a truth to light in this way, but it is a truth of limited value.
+
+*That is to say, it is a thoroughly anthropomorphic truth which contains not a single point which would be "true in itself" or really and universally valid apart from man. At bottom, what the investigator of such truths is seeking is only the metamorphosis of the world into man.*
 -Nietzsche 
 
 
