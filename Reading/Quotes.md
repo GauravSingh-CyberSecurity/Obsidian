@@ -117,4 +117,17 @@ Truths are illusions which we have forgotten are illusions — they are metaphor
 
 
 
+Everything which distinguishes man from the animals depends upon this ability to volatilize perceptual metaphors in a schema, and thus to dissolve an image into a concept.
+-Nietzsche 
+
+
+
+When someone hides something behind a bush and looks for it again in the same place and finds it there as well, there is not much to praise in such seeking and finding. Yet this is how matters stand regarding seeking and finding "truth" within the realm of reason. If I make up the definition of a mammal, and then, after inspecting a camel, declare "look, a mammal' I have indeed brought a truth to light in this way, but it is a truth of limited value.
+-Nietzsche 
+
+
+
+
+
+
 
