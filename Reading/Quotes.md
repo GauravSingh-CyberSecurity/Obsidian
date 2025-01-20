@@ -81,3 +81,15 @@ Humans take greater delight in the quest for truth than in the truth itself.
 
 
 
+Philological considerations have slowly but surely taken the place of profound explorations of eternal problems. The question becomes: What did this or that philosopher think or not think? And is this or that text rightly ascribed to him or not? And even: Is this variant of a classical text preferable to that other? Students in university seminars today are encouraged to occupy themselves with such emasculated inquiries. As a result, of course, philosophy itself is banished from the university altogether.
+Not one of these nobly equipped young men has escaped the restless, exhausting, confusing, debilitating crisis of education. ... He feels that he cannot guide himself, cannot help himself—and then he dives hopelessly into the world of everyday life and daily routine, he is immersed in the most trivial activity possible, and his limbs grow weak and weary.
+-Nietzsche 
+
+
+
+**Once upon a time, in some out of the way corner of that universe which is dispersed into numberless twinkling solar systems, there was a star upon which clever beasts invented knowing**
+
+That was the most arrogant and mendacious minute of "world history," but nevertheless, it was only a minute. After nature had drawn a few breaths, the star cooled and congealed, and the clever beasts had to die. One might invent such a fable, and yet he still would not have adequately illustrated how miserable, how shadowy and transient, how aimless and arbitrary the human intellect looks within nature. There were eternities during which it did not exist. And when it is all over with the human intellect, nothing will have happened.
+-Nietzsche 
+
+
