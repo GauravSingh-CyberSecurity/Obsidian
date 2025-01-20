@@ -173,3 +173,22 @@ Young people love what is interesting and odd, no matter how true or false it is
 
 It is not the struggle of opinions that has made history so violent, but rather the struggle of belief in opinions, that is, the struggle of convictions
 -Nietzsche 
+
+
+
+Destination and paths. Many people are obstinate about the path once it is taken, few people about the destination.
+-Nietzsche 
+
+
+
+
+If you crush a cockroach, you're a hero. If you crush a beautiful butterfly, you're a villain. Morals have aesthetic criteria.
+-Nietzsche 
+
+
+
+
+The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.
+-Rudyard Kipling
+
+
