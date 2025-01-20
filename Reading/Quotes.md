@@ -157,4 +157,19 @@ Today as always, men fall into two groups: slaves and free men. Whoever does not
 
 
 
-***Many a man fails to become a thinker only because his memory is too good***.(Explanation:- When individuals rely heavily on their memories, they may stick to established facts and past experiences rather than exploring new ideas or questioning what they know. This reliance can limit creativity and critical thinking, as they may not feel the need to analyze or rethink information, leading to a lack of original thought. In essence, a strong memory can create a comfort zone that prevents deeper intellectual engagement)
+***Many a man fails to become a thinker only because his memory is too good***.
+-Nietzsche 
+(Explanation:- When individuals rely heavily on their memories, they may stick to established facts and past experiences rather than exploring new ideas or questioning what they know. This reliance can limit creativity and critical thinking, as they may not feel the need to analyze or rethink information, leading to a lack of original thought. In essence, a strong memory can create a comfort zone that prevents deeper intellectual engagement)
+
+
+
+
+Young people love what is interesting and odd, no matter how true or false it is. More mature minds love what is interesting and odd about truth. Fully mature intellects, finally, love truth, even when it appears plain and simple, boring to the ordinary person; for they have noticed that truth tends to reveal its highest wisdom in the guise of simplicity.
+-Nietzsche 
+
+
+
+
+
+It is not the struggle of opinions that has made history so violent, but rather the struggle of belief in opinions, that is, the struggle of convictions
+-Nietzsche 
