@@ -1,6 +1,6 @@
 Before starting Nietzsche read this:-
 
-0) https://en.m.wikiquote.org/wiki/Friedrich_Nietzsche
+0) https://en.m.wikiquote.org/wiki/Friedrich_Nietzsche (read the section of :- On Truth and Lie in an Extra-Moral Sense)
 0) Nietzsche: A Very Short Introduction by Michael tanner 
 0) Nietzsche: Philosopher, Psychologist, Antichrist by **==Walter Kaufmann==**
 
