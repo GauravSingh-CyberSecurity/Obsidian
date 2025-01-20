@@ -61,3 +61,4 @@ How big would you dream if you knew you could not fail
 # 20-jan-25
 
 The educational institution tell you in name of knowledge, There exists in the world a single path along which no one can go except you: whither does it lead? Do not ask, go along it.
+And someday if you haven't become willfully blind, ignorant, like you were trained to be,
