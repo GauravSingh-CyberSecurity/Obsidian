@@ -68,3 +68,16 @@ In the mountains of truth you will never climb in vain: either you will get up h
 
 
 Underneath this reality in which we live and have our being, another and altogether different reality lies concealed
+-Nietzsche
+
+
+No one can construct for you the bridge upon which precisely you must cross the stream of life, no one but you yourself alone
+-Nietzsche
+
+
+Humans take greater delight in the quest for truth than in the truth itself.
+-Gotthold Ephraim Lessing
+
+
+
+
