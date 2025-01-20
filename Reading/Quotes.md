@@ -157,3 +157,4 @@ Today as always, men fall into two groups: slaves and free men. Whoever does not
 
 
 
+***Many a man fails to become a thinker only because his memory is too good***.(Explanation:- When individuals rely heavily on their memories, they may stick to established facts and past experiences rather than exploring new ideas or questioning what they know. This reliance can limit creativity and critical thinking, as they may not feel the need to analyze or rethink information, leading to a lack of original thought. In essence, a strong memory can create a comfort zone that prevents deeper intellectual engagement)
