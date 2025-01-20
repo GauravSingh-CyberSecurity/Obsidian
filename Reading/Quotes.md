@@ -138,4 +138,17 @@ The man who does not wish to belong to the mass needs only to cease taking himse
 
 
 There exists no more repulsive and desolate creature in the world than the man who has evaded his genius and who now looks furtively to left and right, behind him and all about him. In the end such a man becomes impossible to get hold of, since he is wholly exterior, without kernel: a tattered, painted bag of clothes; a decked-out ghost that cannot inspire even fear and certainly not pity.
+-Nietzsche 
+
+
+
+
+We are responsible to ourselves for our own existence; consequently we want to be the true helmsman of this existence and refuse to allow our existence to resemble a mindless act of chance.
+-Nietzsche 
+
+
+Our destiny exercises its influence over us even when, as yet, we have not learned its nature: it is our future that lays down the law of our today.
+-Nietzsche 
+
+
 
