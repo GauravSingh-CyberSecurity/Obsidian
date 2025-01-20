@@ -189,6 +189,12 @@ If you crush a cockroach, you're a hero. If you crush a beautiful butterfly, you
 
 
 The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.
--Rudyard Kipling
+-Nietzsche 
+
+
+
+One must pay dearly for immortality; one has to die several times while one is still alive.
+
+
 
 
