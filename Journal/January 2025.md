@@ -63,3 +63,22 @@ How big would you dream if you knew you could not fail
 The educational institution under the banner of knowledge proclaims, There exists in the world a single path along which no one can go except you: whither does it lead? Do not ask, go along it.
 
 Yet, should the veil of willful ignorance, carefully cultivated within these very halls, begin to lift, should a spark of genuine inquiry ignite, a profound realization may dawn. You, the diligent student, have not been engaged in the pursuit of knowledge, but rather in the assimilation of narratives and ideologies crafted by others. Your identity, instead of blossoming into its own unique form, has been molded into a reflection of the prevailing societal norms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+In some remote corner of the universe, poured out and glittering in innumerable solar systems, there once was a star on which clever animals invented knowledge. That was the highest and most mendacious minute of "world history" — yet only a minute. After nature had drawn a few breaths the star grew cold, and the clever animals had to die.
+One might invent such a fable and still not have illustrated sufficiently how wretched, how shadowy and flighty, how aimless and arbitrary, the human intellect appears in nature. There have been eternities when it did not exist; and when it is done for again, nothing will have happened. (Do not interpret this in a nihilistic way, this is a factual observation )
+-Nietzsche 
+
+
+
