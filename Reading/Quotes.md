@@ -152,3 +152,8 @@ Our destiny exercises its influence over us even when, as yet, we have not learn
 
 
 
+Today as always, men fall into two groups: slaves and free men. Whoever does not have two-thirds of his day for himself, is a slave, whatever he may be: a statesman, a businessman, an official, or a scholar.
+-Nietzsche 
+
+
+
