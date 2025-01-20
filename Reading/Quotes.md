@@ -194,7 +194,12 @@ The individual has always had to struggle to keep from being overwhelmed by the 
 
 
 One must pay dearly for immortality; one has to die several times while one is still alive.
+-Nietzsche 
 
 
+The man of knowledge must be able not only to love his enemies but also to hate his friends.
+-nietzsche 
 
 
+Whatever has value in our world now does not have value in itself, according to its nature — nature is always value-less, but has been given value at some time, as a present — and it was we who gave and bestowed it
+-Nietzsche 
