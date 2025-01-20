@@ -48,6 +48,16 @@ To apply the concept of ubiquitous assimilation in daily life, consider these st
 By being mindful, you can transform how you assimilate information and experiences
 
 
+
+
+
+
+
+
+
+
+
+
 ==I now myself live, in every detail, striving for wisdom, while I formerly merely worshipped and idolized the wise==
 -Nietzsche 
 
@@ -91,5 +101,16 @@ Not one of these nobly equipped young men has escaped the restless, exhausting, 
 
 That was the most arrogant and mendacious minute of "world history," but nevertheless, it was only a minute. After nature had drawn a few breaths, the star cooled and congealed, and the clever beasts had to die. One might invent such a fable, and yet he still would not have adequately illustrated how miserable, how shadowy and transient, how aimless and arbitrary the human intellect looks within nature. There were eternities during which it did not exist. And when it is all over with the human intellect, nothing will have happened.
 -Nietzsche 
+
+
+
+
+The constant fluttering around the single flame of vanity is so much the rule and the law that almost nothing is more incomprehensible than ==how an honest and pure urge for truth could make its appearance among men==.
+-Nietzsche 
+
+We believe that we know something about the things themselves when we speak of trees, colors, snow, and flowers; and yet we possess nothing but metaphors for things — metaphors which correspond in no way to the original entities.
+-Nietzsche 
+
+
 
 
