@@ -57,3 +57,7 @@ In a world with majority of mediocre humans , now Mediocrity has become more acc
 
 # 16-jan-2025
 How big would you dream if you knew you could not fail 
+
+# 20-jan-25
+
+The educational institution tell you in name of knowledge, There exists in the world a single path along which no one can go except you: whither does it lead? Do not ask, go along it.
