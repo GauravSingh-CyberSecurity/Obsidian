@@ -58,6 +58,13 @@ The surest way to corrupt a youth is to instruct him to hold in higher esteem th
 -Nietzsche
 
 
-Art is the supreme task and the truly metaphysical activity in this life
+==Art is the supreme task and the truly metaphysical activity in this life==(so Start making art in your work, your life, your whole being)
 -Nietzsche
 
+
+In the mountains of truth you will never climb in vain: either you will get up higher today or you will exercise your strength so as to be able to get up higher tomorrow.
+-Nietzsche
+
+
+
+Underneath this reality in which we live and have our being, another and altogether different reality lies concealed
