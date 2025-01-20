@@ -64,7 +64,7 @@ The educational institution under the banner of knowledge proclaims, There exist
 
 Yet, should the veil of willful ignorance, carefully cultivated within these very halls, begin to lift, should a spark of genuine inquiry ignite, a profound realization may dawn. You, the diligent student, have not been engaged in the pursuit of knowledge, but rather in the assimilation of narratives and ideologies crafted by others. Your identity, instead of blossoming into its own unique form, has been molded into a reflection of the prevailing societal norms.
 
-
+As a "rational" being, he now places his behavior under the control of abstractions. He will no longer tolerate being carried away by sudden impressions, by intuitions.
 
 
 

@@ -112,5 +112,9 @@ We believe that we know something about the things themselves when we speak of t
 -Nietzsche 
 
 
+Truths are illusions which we have forgotten are illusions — they are metaphors that have become worn out and have been drained of sensuous force, coins which have lost their embossing and are now considered as metal and no longer as coins.
+-Nietzsche 
+
+
 
 
