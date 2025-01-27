@@ -1,3 +1,5 @@
+First get HTB CBBH cert 
+
 
 1) OSWA in dec 2025
 2) Develop Bug hunting income/skill together with oswa preparation 
@@ -6,3 +8,9 @@
 5) leave job and do full time bug bounty hunting in 2026.
 6) Concurrently prepare for oscp in 2026, gain the cert in Dec 2026
 7) 2027 Start prep for GMAT/GRE for MS.
+
+Certification sequence:
+First get HTB CBBH cert 
+OSWA
+OSCP
+OSWE
