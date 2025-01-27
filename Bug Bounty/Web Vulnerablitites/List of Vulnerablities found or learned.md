@@ -52,7 +52,10 @@
 | 48  | Source Control Management (SCM) Files Accessible (HTTP)                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 49  | Source Code disclosure                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |     |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
+ * Apache Log4j 1.x Multiple Vulnerabilities & Rmote code execution (Severity: CRITICAL)
+ * Oracle Java (Apr 2024 CPU) (Severity: CRITICAL)
+ * Insecure Windows Service Permissions (Severity: HIGH)
+ * 
 
 Vulnerability List for Android application:
  * Absence of Verification and Rate limit of OTP (Severity: High)
@@ -65,68 +68,3 @@ Vulnerability List for Android application:
 
 
 
-IP Address
-
-OS
-
-Vunerability Name
-
-Severity
-
-Reference (CVE/CWE)
-
-Impact
-
-Description
-
-Remediation
-
-XXX.XXX.10.188
-
-Windows
-
-Apache Log4j 1.x Multiple Vulnerabilities & Rmote code execution
-
-CRITICAL
-
-Versions of Apache Tomcat from are susceptible to remote code execution due to a vulnerability in the AJP connector when configured without the "rejectNonSsl" option. Exploiting this flaw allows attackers to execute arbitrary code on affected servers, compromising their integrity and potentially granting unauthorized access.
-
-The Apache Tomcat versions are vulnerable to a remote code execution vulnerability due to a flaw in the Tomcat AJP connector when the "rejection of non-AJP requests" is not enabled. Exploiting this vulnerability could allow an attacker to execute arbitrary code on the affected server, potentially leading to unauthorized access or data manipulation.
-
-To mitigate the vulnerability, immediately update Apache Tomcat to Lastest version. Additionally, enable the "rejectNonSsl" option in the AJP connector configuration to prevent exploitation of the remote code execution flaw.
-
-https://httpd.apache.org/security/vulnerabilities_24.html
-
-XXX.XXX.10.188
-
-Windows
-
-Oracle Java (Apr 2024 CPU)
-
-CRITICAL
-
-The Oracle Java Critical Patch Update (CPU) for April 2024 includes fixes for security vulnerabilities identified in Java SE and Java JDK/JRE. These vulnerabilities range from remote code execution to privilege escalation, impacting the security and stability of Java applications and systems.
-
-The Oracle Java Critical Patch Update (CPU) for April 2024 addresses multiple vulnerabilities that could be exploited remotely by attackers. These vulnerabilities may lead to unauthorized access, data manipulation, and potentially compromise the security and integrity of systems running affected versions of Oracle Java.
-
-To remediate the vulnerabilities in Oracle Java identified in the April 2024 CPU, apply the latest patches provided by Oracle to Java SE, JDK, and JRE installations. Ensure timely updates and monitor Oracle's security advisories for any additional recommendations or patches to maintain a secure Java environment.
-
-https://www.oracle.com/security-alerts/cpuapr2024.html
-
-XXX.XXX.10.188
-
-Windows
-
-Insecure Windows Service Permissions
-
-HIGH
-
-Insecure Windows service permissions refer to instances where system services are configured with incorrect or overly permissive access rights. This misconfiguration could potentially allow unauthorized users or malware to exploit these services, compromising system security and integrity.
-
-Insecure Windows service permissions can allow unauthorized users or malicious programs to manipulate or control essential system services. This can lead to system instability, unauthorized access to sensitive data, and potentially compromise the overall security of the Windows operating system.
-
-To remediate insecure Windows service permissions, conduct a thorough review and adjustment of service access permissions to ensure they adhere to the principle of least privilege. Regularly audit and monitor service permissions to promptly detect and correct any misconfigurations or unauthorized changes that could compromise system security.
-
-https://help.defense.com/en/articles/6600745-insecure-windows-service-permissions
-
- 
