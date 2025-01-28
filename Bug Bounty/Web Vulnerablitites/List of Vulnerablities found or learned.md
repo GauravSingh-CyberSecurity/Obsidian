@@ -85,4 +85,4 @@ I was able to login in admin panel and was able to edit the whole , website.
 Add blogs, delete blogs . I had full control over admin privileges.
 (This was a major broken authentication vulnerability )
 
-2) Paytonic: merchant dashboard, I was able to change user pw by , bruteforcing the generate OTP (input otp)
+2) Paytonic: merchant dashboard, I was able to change user pw by , bruteforcing the generate OTP (input otp field) , I did this by employing other vulnerability like , on login page(which uses mob no. and password )no rate limiting on login or generate OTP(for forgot pw) page .etc, error disclosing if Mobile number is correct or not , finding mobile number through error message and using  it to generate OTP, otp functionality doesn't send otp on mobile number, but I thought probably in backend OTP is generated for comparison of user inputting OTP, 
