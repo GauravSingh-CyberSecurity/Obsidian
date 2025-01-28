@@ -75,4 +75,14 @@ Vulnerability List for Android application:
 DAST vulnerability:
 In BML: when user change pw , the qr code when scanned that generates otp in MS Auth,the otp is invalid.
 Root cause: qr code was created using password set by user, when password is changed by user, the qr code become invalid.
-Fixed: by using email ID to generate qr, since email id is static and does 
+Fixed: by using email ID to generate qr, since email id is static and can't be changed.
+
+VAPT vulnerability:
+1) BNHS: found admin panel url, public facing (i.e on open internet )
+The admin panel had a register function that take email and send password on email.
+When used the email and password recieved in inbox.
+I was able to login in admin panel and was able to edit the whole , website.
+Add blogs, delete blogs . I had full control over admin privileges.
+(This was a major broken authentication vulnerability )
+
+2) Paytonic: merchant dashboard, I was able to change user pw by , bruteforcing the generate OTP (input otp)
