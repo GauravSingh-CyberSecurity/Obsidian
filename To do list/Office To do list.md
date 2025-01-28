@@ -24,6 +24,12 @@ paytonic vapt
 
 20 jan 45min bnhs csp fixes 
 
+28-jan-25
+BML report wrong year bug, 
+paytonic multiple vulnerability leading to change user password by forgot pw function (which generate OTP) bruteforcing 
+
+
+
 
 Derivium
 BML

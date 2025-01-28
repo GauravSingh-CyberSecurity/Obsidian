@@ -55,7 +55,11 @@
  * Apache Log4j 1.x Multiple Vulnerabilities & Rmote code execution (Severity: CRITICAL)
  * Oracle Java (Apr 2024 CPU) (Severity: CRITICAL)
  * Insecure Windows Service Permissions (Severity: HIGH)
- * 
+
+
+
+
+
 
 Vulnerability List for Android application:
  * Absence of Verification and Rate limit of OTP (Severity: High)
@@ -68,3 +72,7 @@ Vulnerability List for Android application:
 
 
 
+DAST vulnerability:
+In BML: when user change pw , the qr code when scanned that generates otp in MS Auth,the otp is invalid.
+Root cause: qr code was created using password set by user, when password is changed by user, the qr code become invalid.
+Fixed: by using email ID to generate qr, since email id is static and does 
