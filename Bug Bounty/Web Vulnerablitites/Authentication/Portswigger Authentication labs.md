@@ -216,3 +216,7 @@ To add to the challenge, the lab also implements a form of IP-based brute-force 
 11. In the **Payloads** side panel, add the list of numbers to payload position 1 and add the list of passwords to payload position 2. Start the attack.
 12. When the attack is finished, find the response with a `302` status. Make a note of this password.
 13. Log in using the username and password that you identified and access the user account page to solve the lab.
+
+
+
+sudo  mv "/media/kali/11542a57-af91-4938-bdf5-978b2e33d549/NahamSec intro to bug bounty "  "/home/kali/Documents/"
