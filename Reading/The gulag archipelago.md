@@ -58,9 +58,16 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 > “It is impossible to expel evil from the world in its entirety, but it is possible to constrict it within each person.”
 ---
 
+> if in order to live it is necessary not to live, then what's it all for?
 
+>  A person who is not inwardly prepared for the use of violence against him is always weaker than the person committing the violence.
 
---
+>  We like to take our anger out on those who are weaker, those who cannot answer. It is a human trait. And somehow the arguments to prove we are right appear out of nowhere.
+
+> To do evil a human being must first of all believe that what he’s doing is good, or else that it’s a well-considered act in conformity with natural law. Fortunately, it is in the nature of the human being to seek a justification for his actions.
+> 
+
+---
 ### Jordan Peterson's Foreword (Key Themes):
 Peterson’s foreword emphasizes **personal responsibility** and the dangers of ideological possession, framing *The Gulag Archipelago* as a warning against the corrupting influence of utopian ideologies. He highlights Solzhenitsyn’s focus on individual moral choice, writing:  
 *“Solzhenitsyn insists that each person must confront the capacity for evil within themselves—a message as urgent now as it was under Soviet tyranny.”*  
