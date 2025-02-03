@@ -217,6 +217,8 @@ To add to the challenge, the lab also implements a form of IP-based brute-force 
 12. When the attack is finished, find the response with a `302` status. Make a note of this password.
 13. Log in using the username and password that you identified and access the user account page to solve the lab.
 
-
+Note: 
+1) `X-Forwarded-For: 5` this header can be used to change the requests ip address. if not proper validation put in ip blocking mechanism for rate limiting.
+2) Sometimes web applications first , check if username is valid if yes, then they check if pw 
 
 
