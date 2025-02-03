@@ -28,3 +28,7 @@ To solve the lab, enumerate a valid username, brute-force this user's password, 
 9. In the **Payloads** side panel, clear the list of usernames and replace it with the list of candidate passwords. Click  **Start attack**.
 10. When the attack is finished, look at the **Status** column. Notice that each request received a response with a `200` status code except for one, which got a `302` response. This suggests that the login attempt was successful - make a note of the password in the **Payload** column.
 11. Log in using the username and password that you identified and access the user account page to solve the lab.
+
+```
+Note: Solution i found was :- username=ec2-user&password=654321
+```
