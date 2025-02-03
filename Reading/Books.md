@@ -1,4 +1,4 @@
-Official Recommended books 
+Official Recommended books by Jordan b Peterson: https://www.jordanbpeterson.com/books/
 
 - The Road to Serfdom Book by Friedrich Hayek
 - The Gulag Archipelago Book by Aleksandr Solzhenitsyn
@@ -8,6 +8,16 @@ Official Recommended books
 - Brave New World Novel by Aldous Huxley
 - The Brothers Karamazov Novel 
 
+
+`Reading list` :-
+`On genealogy of morals` 
+`Maps of meaning` 
+`The gulag archipelago` 
+`We who wrestle with god` 
+
+`Friedrich Nietzsche` 
+`Robert Greene` 
+`Fyodor dostievsky` 
 
 
 
