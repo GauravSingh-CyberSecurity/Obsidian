@@ -12,13 +12,19 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
    *“Ideology—that is what gives evil-doing its long-sought justification and gives the evil-doer the necessary steadfastness and determination.”*  
 
 2. **On the Line Between Good and Evil**:  
-   *“The line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?”*  
+   *“The line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?”*    
+> “The line separating good and evil passes not through states, nor between classes, nor between political parties either—but right through every human heart.”
+> 
+
 
 3. **On Surviving Injustice**:  
    *“It was granted to me to carry away from my prison years on my bent back, which nearly broke beneath its load, this essential experience: **how a human being becomes evil and how good**.”*  
 
 4. **On Truth**:  
    *“The simple step of a courageous individual is not to take part in the lie. ‘One word of truth shall outweigh the whole world.’”*  
+   
+   > “In keeping silent about evil, in burying it so deep within us that no sign of it appears on the surface, we are implanting it, and it will rise up a thousandfold in the future.”
+
 
 5. **On Complicity**:  
    *“Let the lie come into the world, let it even triumph. But not through me.”*  
@@ -28,6 +34,8 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 
 7. **On Totalitarianism**:  
    *“Unlimited power in the hands of limited people always leads to cruelty.”*  
+   
+   > “A state of war only serves as an excuse for domestic tyranny.”
 
 8. **On Fear**:  
    *“It’s a universal law—intolerance is the first sign of an inadequate education. An ill-educated person behaves with arrogant impatience, whereas truly profound education breeds humility.”*  
@@ -48,4 +56,3 @@ Peterson also underscores the book’s relevance to modern society, arguing that
 
 ---
 
-For the full text, including Solzhenitsyn’s detailed accounts and Peterson’s foreword, please refer to the abridged edition of *The Gulag Archipelago* (ISBN: 978-0061253805). Always ensure proper attribution when quoting copyrighted material.
