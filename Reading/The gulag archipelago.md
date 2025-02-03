@@ -14,7 +14,8 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 2. **On the Line Between Good and Evil**:  
    *“The line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?”*    
 > “The line separating good and evil passes not through states, nor between classes, nor between political parties either—but right through every human heart.”
-> 
+
+> “If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being.”
 
 
 3. **On Surviving Injustice**:  
@@ -32,7 +33,7 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 6. **On the Human Spirit**:  
    *“Bless you prison, bless you for being in my life. For there, lying upon the rotting prison straw, I came to realize that the object of life is not prosperity as we are made to believe, but the maturity of the human soul.”*  
 
-7. **On Totalitarianism**:  
+7. **On Totalitarianism, Power and Corruption:**:  
    *“Unlimited power in the hands of limited people always leads to cruelty.”*  
    
    > “A state of war only serves as an excuse for domestic tyranny.”
@@ -46,6 +47,21 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 10. **On Hope**:  
     *“It is not because the truth is too difficult to see that we make mistakes... we make mistakes because the easiest and most comfortable course for us is to seek insight where it accords with our emotions—especially selfish ones.”*  
 
+---
+
+**On Suffering and the Human Spirit:**
+> “Bless you, prison, for having been in my life!”
+
+
+> “It is impossible to expel evil from the world in its entirety, but it is possible to constrict it within each person.”
+
+
+
+
+
+
+
+> “You only have power over people as long as you don’t take everything away from them. But when you’ve robbed a man of everything, he’s no longer in your power—he’s free again.”
 ---
 
 ### Jordan Peterson's Foreword (Key Themes):
