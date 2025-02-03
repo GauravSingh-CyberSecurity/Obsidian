@@ -65,7 +65,9 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 >  We like to take our anger out on those who are weaker, those who cannot answer. It is a human trait. And somehow the arguments to prove we are right appear out of nowhere.
 
 > To do evil a human being must first of all believe that what he’s doing is good, or else that it’s a well-considered act in conformity with natural law. Fortunately, it is in the nature of the human being to seek a justification for his actions.
+> The imagination and the spiritual strength of Shakespeare’s evildoers stopped short at a dozen corpses. Because they had no ideology. 
 > 
+> Ideology—that is what gives evildoing its long-sought justification and gives the evildoer the necessary steadfastness and determination. That is the social theory which helps to make his acts seem good instead of bad in his own and others’ eyes, so that he won’t hear reproaches and curses but will receive praise and honors.
 
 ---
 ### Jordan Peterson's Foreword (Key Themes):
