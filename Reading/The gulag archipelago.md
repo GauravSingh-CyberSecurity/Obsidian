@@ -64,11 +64,21 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 
 >  We like to take our anger out on those who are weaker, those who cannot answer. It is a human trait. And somehow the arguments to prove we are right appear out of nowhere.
 
+
+
+
+
+
 > To do evil a human being must first of all believe that what he’s doing is good, or else that it’s a well-considered act in conformity with natural law. Fortunately, it is in the nature of the human being to seek a justification for his actions.
 > The imagination and the spiritual strength of Shakespeare’s evildoers stopped short at a dozen corpses. Because they had no ideology. 
 > 
 > Ideology—that is what gives evildoing its long-sought justification and gives the evildoer the necessary steadfastness and determination. That is the social theory which helps to make his acts seem good instead of bad in his own and others’ eyes, so that he won’t hear reproaches and curses but will receive praise and honors.
 
+Explanation of above quote: 
+**Solzhenitsyn’s View on Shakespeare’s Evildoers**
+`Solzhenitsyn, particularly in The Gulag Archipelago, reflects on the nature of evil, rejecting the idea that it exists only in obviously wicked individuals. He believed that Shakespeare’s villains, who are often purely malevolent and self-aware of their evil, fail to capture the true nature of how people commit evil in reality. In contrast to Shakespeare’s characters, who frequently revel in their wickedness, Solzhenitsyn observed that real-life perpetrators often justify their actions as good, necessary, or even noble.`
+
+"If only it were all so simple! If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being."
 
 ` Shakespeare’s depiction of villains who are often fully conscious of their evil and embrace it. In Solzhenitsyn’s view, true evil is not a characteristic of certain monstrous individuals but something that can emerge within any person under certain circumstances. `
 
