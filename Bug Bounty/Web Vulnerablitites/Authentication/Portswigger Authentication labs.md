@@ -32,3 +32,24 @@ To solve the lab, enumerate a valid username, brute-force this user's password, 
 ```
 Note: Solution i found was :- username=ec2-user&password=654321
 ```
+
+
+# 2)Lab: 2FA simple bypass
+Lab:https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass
+Lab Video: https://www.youtube.com/watch?v=2WpBVanEn3M&ab_channel=RanaKhalil
+
+
+This lab's two-factor authentication can be bypassed. You have already obtained a valid username and password, but do not have access to the user's 2FA verification code. To solve the lab, access Carlos's account page.
+
+- Your credentials: `wiener:peter`
+- Victim's credentials `carlos:montoya`
+
+
+
+ ####  Solution
+
+1. Log in to your own account. Your 2FA verification code will be sent to you by email. Click the **Email client** button to access your emails.
+2. Go to your account page and make a note of the URL.
+3. Log out of your account.
+4. Log in using the victim's credentials.
+5. When prompted for the verification code, manually change the URL to navigate to `/my-account`. The lab is solved when the page loads.
