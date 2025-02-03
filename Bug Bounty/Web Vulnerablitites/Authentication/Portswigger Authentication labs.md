@@ -219,4 +219,4 @@ To add to the challenge, the lab also implements a form of IP-based brute-force 
 
 
 
-sudo  mv "/media/kali/11542a57-af91-4938-bdf5-978b2e33d549/NahamSec intro to bug bounty "  "/home/kali/Documents/"
+
