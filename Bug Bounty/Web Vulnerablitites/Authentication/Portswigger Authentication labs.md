@@ -63,6 +63,8 @@ URL: https://0a87007e0461e262d0b33d9c00010016.web-security-academy.net/my-accoun
 
 Lab: https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic
 
+Lab Video: https://www.youtube.com/watch?v=GtTk78pyLPI&ab_channel=RanaKhalil
+
 This lab's password reset functionality is vulnerable. To solve the lab, reset Carlos's password then log in and access his "My account" page.
 
 - Your credentials: `wiener:peter`
