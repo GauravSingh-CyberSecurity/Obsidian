@@ -1,3 +1,4 @@
+Portswigger Authentication: https://portswigger.net/web-security/authentication#what-is-authentication
 
 # 1)Lab: Username enumeration via different responses
 lab:https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses
@@ -50,13 +51,15 @@ This lab's two-factor authentication can be bypassed. You have already obtained 
 
 1. Log in to your own account. Your 2FA verification code will be sent to you by email. Click the **Email client** button to access your emails.
 2. Go to your account page and make a note of the URL.
-```
+
 URL: https://0a87007e0461e262d0b33d9c00010016.web-security-academy.net/my-account?id=wiener
-
- (Your username is: wiener
-
-Your email is: wiener@exploit-0a2e00a7042de2bed0fe3c5601cb0035.exploit-server.net)
-```
 3. Log out of your account.
 4. Log in using the victim's credentials.
 5. When prompted for the verification code, manually change the URL to navigate to `/my-account`. The lab is solved when the page loads.
+
+
+
+# 3) Lab: Password reset broken logic
+
+Lab: https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic
+
