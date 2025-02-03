@@ -37,6 +37,8 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
    *“Unlimited power in the hands of limited people always leads to cruelty.”*  
    
    > “A state of war only serves as an excuse for domestic tyranny.”
+   
+   > “You only have power over people as long as you don’t take everything away from them. But when you’ve robbed a man of everything, he’s no longer in your power—he’s free again.”
 
 8. **On Fear**:  
    *“It’s a universal law—intolerance is the first sign of an inadequate education. An ill-educated person behaves with arrogant impatience, whereas truly profound education breeds humility.”*  
@@ -54,16 +56,11 @@ Aleksandr Solzhenitsyn's *The Gulag Archipelago* (abridged version) is a seminal
 
 
 > “It is impossible to expel evil from the world in its entirety, but it is possible to constrict it within each person.”
-
-
-
-
-
-
-
-> “You only have power over people as long as you don’t take everything away from them. But when you’ve robbed a man of everything, he’s no longer in your power—he’s free again.”
 ---
 
+
+
+--
 ### Jordan Peterson's Foreword (Key Themes):
 Peterson’s foreword emphasizes **personal responsibility** and the dangers of ideological possession, framing *The Gulag Archipelago* as a warning against the corrupting influence of utopian ideologies. He highlights Solzhenitsyn’s focus on individual moral choice, writing:  
 *“Solzhenitsyn insists that each person must confront the capacity for evil within themselves—a message as urgent now as it was under Soviet tyranny.”*  
