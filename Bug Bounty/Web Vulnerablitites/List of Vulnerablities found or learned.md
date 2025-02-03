@@ -78,13 +78,15 @@ Root cause: qr code was created using password set by user, when password is cha
 Fixed: by using email ID to generate qr, since email id is static and can't be changed.
 
 VAPT vulnerability:
-1) BNHS: found admin panel url, public facing (i.e on open internet )
+1) BNHS: found admin panel url, public facing (i.e on open internet ) by directory fuzzing/dirbusting/ dir browsing 
 The admin panel had a register function that take email and send password on email.
 When used the email and password recieved in inbox.
 I was able to login in admin panel and was able to edit the whole , website.
 Add blogs, delete blogs . I had full control over admin privileges.
 (This was a major broken authentication vulnerability )
+CVSS score: 10.0 (critical)
 
 2) Paytonic: merchant dashboard, I was able to change user pw by , bruteforcing the generate OTP (input otp field) , I did this by employing other vulnerability like , on login page(which uses mob no. and password )no rate limiting on login or generate OTP(for forgot pw) page .etc, error disclosing if Mobile number is correct or not , finding mobile number through error message and using  it to generate OTP, otp functionality doesn't send otp on mobile number(i.e not working creating a DOS scenario), but I thought probably in backend OTP is generated for comparison of user inputting OTP, so since no rate limiting I did bruteforcing on OTP for all possible 6 digit number and found OTP then used OTP to change user password,
    I was able to change a user password without being and authorised user and since generate OTP(for forgot password  functionality ) does not send otp to Users mobile number, user can't even use forgot PW to get their account back. And I have full control.
-   (Broken Authentication, information disclosure, No rate limiting, DOS since otp not sent to user, account )
+   (Broken Authentication, information disclosure, No rate limiting, DOS since otp not sent to user, leading to permanent account takeover)
+   CVSS score: 9.8 critical.

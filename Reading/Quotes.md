@@ -203,3 +203,7 @@ The man of knowledge must be able not only to love his enemies but also to hate 
 
 Whatever has value in our world now does not have value in itself, according to its nature — nature is always value-less, but has been given value at some time, as a present — and it was we who gave and bestowed it
 -Nietzsche 
+
+
+
+You prepare for war in times of peace.
