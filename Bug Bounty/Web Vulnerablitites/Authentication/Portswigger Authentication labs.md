@@ -139,3 +139,9 @@ temp-forgot-password-token=x&username=carlos&new-password-1=peter&new-password-2
 ```
 
 
+# 4)Lab: Username enumeration via subtly different responses
+
+Lab: https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses
+
+Lab Video: https://www.youtube.com/watch?v=1pZTGqBgejU&ab_channel=RanaKhalil
+
