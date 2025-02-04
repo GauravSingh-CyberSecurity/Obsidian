@@ -220,5 +220,5 @@ To add to the challenge, the lab also implements a form of IP-based brute-force 
 Note: 
 1) `X-Forwarded-For: 5` this header can be used to change the requests ip address. if not proper validation put in ip blocking mechanism for rate limiting.
 2) Sometimes web applications first , check if username is valid if yes, then they check if pw is valid. this can be exploited to find correct username , by inputting large string in PW field. if username was invalid , the PW wont be checked and response will take less time, if username was correct the Large string PW will be checked which will take more time for response. Hence you will find the legit username.
-
+3) Learned about Pitch fork attack in intruder, with using payload on  
 
