@@ -1,4 +1,5 @@
-# 12 rules for life
+# 12 rules for life an antidote to ==chaos==
+Focous on preventing too much chaos that leads to nihilism 
 
  **RULE 1 /** Stand up straight with your shoulders back
  
@@ -26,7 +27,8 @@
 
 
 
-Beyond order, 12 more rules:
+# ==Beyond order==, 12 more rules:
+Focous on preventing too much order that leads to rigidity.
 
 RULE 1 / Do not carelessly denigrate social institutions or creative achievement.
 
