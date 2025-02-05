@@ -222,3 +222,7 @@ Note:
 2) Sometimes web applications first , check if username is valid if yes, then they check if pw is valid. this can be exploited to find correct username , by inputting large string in PW field. if username was invalid , the PW wont be checked and response will take less time, if username was correct the Large string PW will be checked which will take more time for response. Hence you will find the legit username.
 3) Learned about Pitch fork attack in intruder, with using payload on  X-Forwarded-For: , Username, than after found username , using username to do another  Pitch fork attack on X-Forwarded-For: , password.
 
+# 6)Lab: Broken brute-force protection, IP block
+Lab : https://portswigger.net/web-security/authentication/password-based/lab-broken-bruteforce-protection-ip-block
+
+Lab Video: 
