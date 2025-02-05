@@ -225,4 +225,5 @@ Note:
 # 6)Lab: Broken brute-force protection, IP block
 Lab : https://portswigger.net/web-security/authentication/password-based/lab-broken-bruteforce-protection-ip-block
 
-Lab Video: 
+Lab Video: https://www.youtube.com/watch?v=qXt5yqGa8ZA&ab_channel=RanaKhalil
+
