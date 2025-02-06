@@ -227,6 +227,8 @@ Lab : https://portswigger.net/web-security/authentication/password-based/lab-bro
 
 Lab Video: https://www.youtube.com/watch?v=qXt5yqGa8ZA&ab_channel=RanaKhalil
 
+Turbo intruder script used in this labs auth logic:  https://github.com/rkhal101/Web-Security-Academy-Series/blob/main/broken-authentication/lab-06/authentication-lab-06-usernames.py
+
 
 
 This lab is vulnerable due to a logic flaw in its password brute-force protection. To solve the lab, brute-force the victim's password, then log in and access their account page.
