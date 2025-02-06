@@ -207,3 +207,6 @@ Whatever has value in our world now does not have value in itself, according to 
 
 
 You prepare for war in times of peace.
+
+
+The pathway appears when, the aim is firmly in mind.
