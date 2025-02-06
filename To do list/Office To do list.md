@@ -29,7 +29,7 @@ BML report wrong year bug,
 paytonic multiple vulnerability leading to change user password by forgot pw function (which generate OTP) bruteforcing 
 
 
-
+BNHS WAF testing, goveva HUL vapt
 
 Derivium
 BML
