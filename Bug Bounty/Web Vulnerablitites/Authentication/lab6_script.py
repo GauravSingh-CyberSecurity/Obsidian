@@ -7,7 +7,7 @@ for i in range(150):
 
 
 print("##############The following are the passwords:############")
-with open('passwords.txt', 'r') as f:
+with open('passwords.md', 'r') as f:
     lines = f.readlines()
 
 i = 0
