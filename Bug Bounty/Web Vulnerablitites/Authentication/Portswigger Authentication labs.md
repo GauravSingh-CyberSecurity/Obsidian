@@ -259,7 +259,10 @@ Advanced users may want to solve this lab by using a macro or the Turbo Intruder
 
 # 7)Lab: Username enumeration via account lock
 
-Lab 
+Lab: https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-account-lock
+
+Lab Video: https://www.youtube.com/watch?v=fT31xo1cUoM&ab_channel=RanaKhalil
+
 This lab is vulnerable to username enumeration. It uses account locking, but this contains a logic flaw. To solve the lab, enumerate a valid username, brute-force this user's password, then access their account page.
 
 - [Candidate usernames](https://portswigger.net/web-security/authentication/auth-lab-usernames)
