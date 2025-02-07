@@ -444,3 +444,7 @@ This lab stores the user's password hash in a cookie. The lab also contains an X
 Analysis:
 
 i am using hashcat to crack hash
+
+To crack the hash using **Hashcat**, you first need to identify the hash type.
+- You can use [Hash-Identifier](https://github.com/blackploit/hash-identifier) or [hashid](https://github.com/psypanda/hashID) to determine the type:
+- 
