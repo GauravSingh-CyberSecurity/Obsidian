@@ -367,3 +367,7 @@ To solve the lab, brute-force Carlos's cookie to gain access to his **My accoun
     - Change the `id` parameter in the request URL to `carlos` instead of `wiener`.
     - Change the **Add prefix** rule to add `carlos:` instead of `wiener:`.
 10. When the attack is finished, the lab will be solved. Notice that only one request returned a response containing `Update email`. The payload from this request is the valid `stay-logged-in` cookie for Carlos's account.
+
+Analysis: 
+
+use crackstation to check the format of hash
