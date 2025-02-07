@@ -376,12 +376,25 @@ Analysis:
 (https://crackstation.net)
 
 
+i.e for this cookie: 
+Set-Cookie: stay-logged-in=d2llbmVyOjUxZGMzMGRkYzQ3M2Q0M2E2MDExZTllYmJhNmNhNzcw;
+
+step 1 ) burp decoder-  Examine this cookie in the decoder panel and notice that it is Base64-encoded.
+
+step2)Its decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Study the length and character set of this string and notice that it could be an MD5 hash
+
+step 3) then use crackstation to break md5
+
+process is:-
 - base64(username:md5(password))
 - base64(carlos:md5(x))
 - for real life pentest never use online crackers, instead use offline tools like hashcat
 
+process on actual token : 
 
-i.e for this cookie: 
-Set-Cookie: stay-logged-in=d2llbmVyOjUxZGMzMGRkYzQ3M2Q0M2E2MDExZTllYmJhNmNhNzcw;
+token: d2llbmVyOjUxZGMzMGRkYzQ3M2Q0M2E2MDExZTllYmJhNmNhNzcw
+burp-decoder(base64) : wiener:51dc30ddc473d43a6011e9ebba6ca770
+now take:  51dc30ddc473d43a6011e9ebba6ca770  (understand this is MD5)
 
-step 1 ) burp decoder- 
+put in crackstation: 51dc30ddc473d43a6011e9ebba6ca770
+
