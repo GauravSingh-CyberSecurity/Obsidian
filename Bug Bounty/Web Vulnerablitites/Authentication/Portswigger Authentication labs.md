@@ -314,3 +314,19 @@ Carlos will not attempt to log in to the website himself.
 6. In Burp Intruder, set the `verify` parameter to `carlos` and add a payload position to the `mfa-code` parameter. Brute-force the verification code.
 7. Load the 302 response in the browser.
 8. Click **My account** to solve the lab.
+
+Analysis: 
+
+```
+req of intrest:
+
+1) login req that take id and pw
+2) otp sent to user email req
+3) submit otp req
+
+
+Vulnerablity found :
+1) session token broken(even if deleted from req, the req works 200)
+2) the 2fa depends on client side param(i.e Cookie: verify=wiener;)
+```
+
