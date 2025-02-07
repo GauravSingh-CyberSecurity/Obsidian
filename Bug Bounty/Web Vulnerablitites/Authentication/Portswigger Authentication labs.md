@@ -440,3 +440,7 @@ This lab stores the user's password hash in a cookie. The lab also contains an X
     `carlos:26323c16d5f4dabff3bb136f2460a943`
 8. Copy the hash and paste it into a search engine. This will reveal that the password is `onceuponatime`.
 9. Log in to the victim's account, go to the "My account" page, and delete their account to solve the lab.
+
+Analysis:
+
+i am using hashcat to crack hash
