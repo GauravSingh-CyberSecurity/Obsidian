@@ -447,4 +447,5 @@ i am using hashcat to crack hash
 
 To crack the hash using **Hashcat**, you first need to identify the hash type.
 - You can use [Hash-Identifier](https://github.com/blackploit/hash-identifier) or [hashid](https://github.com/psypanda/hashID) to determine the type:
+- `hashid 51dc30ddc473d43a6011e9ebba6ca770`
 - 
