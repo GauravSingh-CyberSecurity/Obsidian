@@ -458,3 +458,6 @@ xss payload:
 
 victim user found:
 carlos:onceuponatime
+
+
+# 11)Lab: Password reset poisoning via middleware
