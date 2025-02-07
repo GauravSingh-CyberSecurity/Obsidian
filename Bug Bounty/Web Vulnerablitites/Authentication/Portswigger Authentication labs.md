@@ -407,4 +407,5 @@ now enumerating another user:
 - base64(carlos:md5(x))
 - for real life pentest never use online crackers, instead use offline tools like hashcat
 
-
+as shown in the SS this is how you create the payload in intruder : base64(username:md5(password)) for  stay-logged-in
+![[Screenshot From 2025-02-07 14-55-49.png]]
