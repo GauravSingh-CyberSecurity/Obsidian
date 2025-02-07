@@ -372,6 +372,7 @@ Analysis:
 
 - use crackstation to check the format of hash/encryption text you found
 (https://crackstation.net)
+- capture multiple  req (eg: login req) to check which cookies are being generated randomly and changes at every request, do the same for responses - send 
 
 - Your credentials: `wiener:peter`
 - Victim's username: `carlos`
