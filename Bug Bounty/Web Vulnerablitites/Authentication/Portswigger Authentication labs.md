@@ -369,14 +369,19 @@ To solve the lab, brute-force Carlos's cookie to gain access to his **My accoun
 10. When the attack is finished, the lab will be solved. Notice that only one request returned a response containing `Update email`. The payload from this request is the valid `stay-logged-in` cookie for Carlos's account.
 
 Analysis: 
+- capture multiple  req (eg: login req) to check which cookies are being generated randomly and changes at every request, do the same for responses - send multiple req and check in response which cookies values change randomly at every response, and which cookies value stay the same at every response.
+- you can now decode the persistent cookie, that does not generates randomly,(first find out what encryption or hash it is by using chatgpt,hashcat,burp-decoder or crackstaion. etc)
 
 - use crackstation to check the format of hash/encryption text you found
 (https://crackstation.net)
-- capture multiple  req (eg: login req) to check which cookies are being generated randomly and changes at every request, do the same for responses - send 
 
-- Your credentials: `wiener:peter`
-- Victim's username: `carlos`
 
 - base64(username:md5(password))
 - base64(carlos:md5(x))
 - for real life pentest never use online crackers, instead use offline tools like hashcat
+
+
+i.e for this cookie: 
+Set-Cookie: stay-logged-in=d2llbmVyOjUxZGMzMGRkYzQ3M2Q0M2E2MDExZTllYmJhNmNhNzcw;
+
+step 1 ) burp decoder- 
