@@ -328,5 +328,6 @@ req of intrest:
 Vulnerablity found :
 1) session token broken(even if deleted from req, the req works 200)
 2) the 2fa depends on client side param(i.e Cookie: verify=wiener;)
+3) by using the happy flow of 2fa login we found "4 digit" otp format is used, then we found no rate limiting on otp, so we did bruteforce o
 ```
 
