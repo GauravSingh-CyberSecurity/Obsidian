@@ -370,4 +370,11 @@ To solve the lab, brute-force Carlos's cookie to gain access to his **My accoun
 
 Analysis: 
 
-use crackstation to check the format of hash
+- use crackstation to check the format of hash/encryption text you found
+(https://crackstation.net)
+
+- Your credentials: `wiener:peter`
+- Victim's username: `carlos`
+
+- base64(username:md5(password))
+- base64(carlos:md5(x))
