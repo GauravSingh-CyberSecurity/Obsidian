@@ -29,8 +29,6 @@ BML report wrong year bug,
 paytonic multiple vulnerability leading to change user password by forgot pw function (which generate OTP) bruteforcing 
 
 
-BNHS WAF testing, goveva HUL vapt
-
 Derivium
 BML
 Staging Digicompany 
@@ -39,3 +37,10 @@ Harrier.com
 Athena 
 Paytonic
 IEX
+Avifauna
+goveva HUL
+
+
+BNHS WAF testing, goveva HUL vapt
+take iso27001 booklet from amit sir
+iso meet with tibdiwal sir this week
