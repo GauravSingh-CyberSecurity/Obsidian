@@ -409,3 +409,7 @@ now enumerating another user:
 
 as shown in the SS this is how you create the payload in intruder : base64(username:md5(password)) , for  stay-logged-in cookie .
 ![[Screenshot From 2025-02-07 14-55-49.png]]
+
+
+
+# 10)Lab: Offline password cracking
