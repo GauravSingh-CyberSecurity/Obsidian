@@ -1,4 +1,4 @@
-
+==Note:== setup chrome extension for way back machine for easy use
 
 Tuotrial for wayback url: https://www.geeksforgeeks.org/waybackurls-fetch-all-the-urls-that-the-wayback-machine-knows-about-for-a-domain/
 
