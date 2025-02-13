@@ -140,3 +140,61 @@ This command provides additional context by indicating the sources from which UR
 ## Conclusion
 
 A key tool for security testing is web crawling, which makes comprehensive reconnaissance and vulnerability assessment possible. Security experts may systematically examine web domains, find historical data, and spot possible security threats by utilising tools like Waybackurls. By incorporating web crawling into security testing processes, security assessments become more effective, which in turn strengthens digital ecosystems’ resistance to cyberattacks.
+
+
+# chatgpt
+
+  
+**Setting Up and Using Wayback URLs for Crawling**
+
+- **Wayback Machine** (https://web.archive.org/) stores historical snapshots of websites.
+- Used to **crawl** past versions of a target domain to identify endpoints, pages, and parameters that may no longer be publicly accessible but still exist in the backend.
+- Helps in **enumerating hidden endpoints** and reconstructing the application’s previous attack surface for potential vulnerabilities.
+
+**Collecting Potential Targets from Crawled Data**
+
+- Extract **endpoints, directories, and parameters** from archived versions of the site.
+- Identify possible injection points, outdated or unpatched functionalities, and internal pages that were previously exposed.
+- Use tools like **gau (GetAllURLs)**, **waybackurls**, and **katana** for automated collection.
+
+**Using SQLmap for SQL Injection Testing**
+
+- SQLmap is an automated tool to detect and exploit **SQL injection vulnerabilities**.
+- Targets the URLs obtained from Wayback Machine to check if any archived endpoints are vulnerable.
+- **Challenge:** Due to Web Application Firewall (WAF), SQLmap requests are getting filtered, preventing direct exploitation.
+
+**Web Application Firewall (WAF) Bypassing Challenges**
+
+- WAFs detect and block malicious SQL queries, making SQL injection testing harder.
+- Possible **bypasses**:
+    - Using **tamper scripts** in SQLmap (`--tamper=space2comment` etc.).
+    - Encoding payloads (`--hex`, `--base64`).
+    - Using time-based techniques (`--technique=T`).
+    - Sending requests through **burp collaborator** or using **DNS-based exfiltration**.
+
+**Setting Up FFUF for Fuzzing**
+
+- **FFUF (Fuzz Faster U Fool)** is a fast web fuzzer used to brute-force directories, parameters, and files.
+- Helps in **discovering hidden or unlinked resources** on BNHS systems.
+- Can send **malformed or abnormal data** to test how the application behaves under unexpected inputs. 
+
+**Fuzzing BNHS Website and Applications**
+
+- Sending unexpected inputs to find vulnerabilities such as:
+    - **Directory traversal** (`../../etc/passwd`)
+    - **XSS injection points** (`<script>alert(1)</script>`)
+    - **Command Injection** (`; cat /etc/passwd`)
+- Helps in identifying security weaknesses that developers may have overlooked.
+
+**Exploring the Wayback Machine for Additional Intelligence**
+
+- Identifying **past site versions**, removed pages, and outdated functionalities.
+- Finding previously **leaked API keys, internal admin panels, or exposed credentials**.
+- Testing if **previously vulnerable endpoints** still exist in some form in the current application.
+
+### **Next Steps**
+
+- Refine SQLmap techniques to bypass WAF.
+- Continue fuzzing with FFUF to identify more attack vectors.
+- Investigate additional sources like **JS files, GitHub leaks, and Google Dorks** to expand the attack surface.
+- Review and document findings for further security improvements.
