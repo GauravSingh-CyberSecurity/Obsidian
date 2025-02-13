@@ -7,6 +7,21 @@ Official Recommended books by Jordan b Peterson: https://www.jordanbpeterson.com
 - Nineteen Eighty-Four Novel by George Orwell
 - Brave New World Novel by Aldous Huxley
 - The Brothers Karamazov Novel 
+- The Discovery of the Unconscious
+   Book by Henri Ellenberger
+- Affective NeuroscienceRemove
+Cover for 
+
+Affective Neuroscience
+
+
+
+
+
+
+Affective Neuroscience
+The Foundations of Human and Animal Emotions
+Jaak Panksepp
 
 
 `Reading list` :-
