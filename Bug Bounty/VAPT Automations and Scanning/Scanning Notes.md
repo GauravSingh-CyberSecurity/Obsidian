@@ -1,4 +1,101 @@
 
+# open-source alternatives to Nessus
+
+
+If you're looking for **open-source alternatives** to Nessus, here are some great options:
+
+### **1. OpenVAS (Greenbone Vulnerability Management - GVM) 🚀**
+
+✅ **Best Nessus alternative** – Full-featured and open-source.  
+✅ **Regular vulnerability updates** (via Greenbone).  
+✅ **Supports compliance checks** (CIS, PCI-DSS, etc.).  
+✅ **Web-based interface** for easy management.  
+🚫 **Setup is complex** compared to Nessus.
+
+🔹 **Installation (Debian/Ubuntu):**
+
+```bash
+sudo apt update && sudo apt install openvas -y
+sudo gvm-setup
+```
+
+🔹 **Access:** `https://<your-server-ip>:9392`
+
+---
+
+### **2. Nmap + Nmap Scripting Engine (NSE) 🔍**
+
+✅ **Powerful and lightweight** network scanning tool.  
+✅ Supports **vulnerability scanning via NSE scripts**.  
+✅ No GUI, but integrates with Zenmap (GUI for Nmap).  
+🚫 **Does not offer automated reporting** like Nessus.
+
+🔹 **Installation (Debian/Ubuntu):**
+
+```bash
+sudo apt install nmap -y
+```
+
+🔹 **Basic Vulnerability Scan Example:**
+
+```bash
+nmap --script vuln <target-ip>
+```
+
+---
+
+### **3. Nikto (Web Application Scanner) 🌐**
+
+✅ Best for **web application security assessments**.  
+✅ Detects **misconfigurations, outdated software, and vulnerabilities**.  
+🚫 **Not a full system vulnerability scanner**.
+
+🔹 **Installation:**
+
+```bash
+sudo apt install nikto -y
+```
+
+🔹 **Basic Scan Example:**
+
+```bash
+nikto -h http://target.com
+```
+
+---
+
+### **4. Wapiti (Web Vulnerability Scanner) 🛠️**
+
+✅ Focused on **web vulnerabilities** (XSS, SQLi, LFI, etc.).  
+✅ Supports **passive and active scanning**.  
+🚫 No GUI, purely CLI-based.
+
+🔹 **Installation (Debian/Ubuntu):**
+
+```bash
+sudo apt install wapiti -y
+```
+
+🔹 **Basic Scan Example:**
+
+```bash
+wapiti -u http://target.com
+```
+
+---
+
+### **Which One to Choose?**
+
+- **For network scanning:** OpenVAS, Nmap
+- **For web app scanning:** Nikto, Wapiti
+- **For enterprise-level alternative:** OpenVAS
+
+Would you like a guide on setting up OpenVAS or another tool? 🚀
+
+
+
+
+# Notes
 There isn’t a single place that has every scanner’s commands in one document, but there are a few solid resources where you can find cheat sheets and command lists for most commonly used security scanners. Here are the best options:
 
 1. GitHub Repositories (Best for Cheat Sheets & Command Lists)
@@ -184,4 +281,13 @@ Best Approach for Server Scanning:
 
 
 Want me to create a cheat sheet with exact commands for your workflow?
+
+
+
+
+
+
+
+
+
 
