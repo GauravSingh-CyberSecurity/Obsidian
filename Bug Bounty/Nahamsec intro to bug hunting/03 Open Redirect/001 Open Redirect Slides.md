@@ -1,3 +1,7 @@
+
+
+
+
 1
 00:00:00,240 --> 00:00:05,880
 Now let's check out our first vulnerability open redirect, also known as unvalidated redirects and
@@ -132,3 +136,18 @@ it, even though it could be invalid and it may still go to evil site dot com.
 32
 00:02:19,590 --> 00:02:23,040
 Now, let's look at this on an actual example application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
