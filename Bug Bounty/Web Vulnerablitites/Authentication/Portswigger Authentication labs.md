@@ -574,6 +574,11 @@ this .py code uses .txt file and both are present in this folder itself, but can
 
 # 14)Lab: 2FA bypass using a brute-force attack
 
+Note: this lab shows how macros feature works in burpsuite. i.e it is used to re run a set of http request to for example regenerate csrf token, since after every 2 attempt the csrf token expires.
+==eg:== issue is - after every 2 wrong otp input the session (csrf) gets invalidated, and user needs to login again to be redirected to MFA page, using UI this will get very time consuming to bruteforce.
+
+Hence, we use macros
+
 Lab: https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-bypass-using-a-brute-force-attack
 Lab Video: https://www.youtube.com/watch?v=ZvU1M-OuXl0&ab_channel=RanaKhalil
 
