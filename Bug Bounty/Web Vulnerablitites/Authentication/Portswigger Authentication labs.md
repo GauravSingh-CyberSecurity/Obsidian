@@ -548,3 +548,25 @@ This lab is vulnerable due to a logic flaw in its brute-force protection. To sol
 4. Right-click on this request and select **Show response in browser**. Copy the URL and load it in the browser. The page loads and you are logged in as `carlos`.
 5. Click **My account** to access Carlos's account page and solve the lab.
 
+Code: (lab-13_convert-pwd-format.py and password.txt) use vscode to see these file in this folder.
+```
+print("[", end='')
+
+  
+
+with open('passwords.txt', 'r') as f:
+
+lines = f.readlines()
+
+  
+
+for pwd in lines:
+
+print('"' + pwd.rstrip("\n") + '",', end='')
+
+  
+
+print('"random"]', end='')
+```
+
+this .py code uses .txt file and both are present in this folder itself, but can only be seen in vscode, since obsidian only shows .md files.
