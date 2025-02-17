@@ -491,4 +491,9 @@ Exploit server: it has `email client` that shows the (forgot pw) email recived i
 Also it has Access log. 
 
 POC to solve lab:
-first use wiener , in forgot pw field, capture the re
+- first use wiener , in forgot pw field, capture the req and send to repeater.
+- also see when forgot PW hit for wiener, email client(email inbox) for wiener recived forgot pw link,
+take that req and send to repeater as well.
+- take the first req of forgot pw and input `X-Forwarded-Host`:  with the exploit server url as host.
+- see that the req was forwarded to exploit server .
+- now change the username to Carlos and hit it again, see the forgot pw link was sent in our email inbox( that was of wiener) since the `X-Forwarded-Host` value is of our exploit server that is 
