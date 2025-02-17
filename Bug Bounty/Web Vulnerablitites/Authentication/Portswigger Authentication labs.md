@@ -530,7 +530,7 @@ This lab's password change functionality makes it vulnerable to brute-force atta
 
 Lab: https://portswigger.net/web-security/authentication/password-based/lab-broken-brute-force-protection-multiple-credentials-per-request
 
-Lab Video: 
+Lab Video: https://www.youtube.com/watch?v=IzFom_xFtEc&ab_channel=RanaKhalil
 
 This lab is vulnerable due to a logic flaw in its brute-force protection. To solve the lab, brute-force Carlos's password, then access his account page.
 
