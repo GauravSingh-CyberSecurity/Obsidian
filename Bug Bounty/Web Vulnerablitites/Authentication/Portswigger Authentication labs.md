@@ -483,8 +483,12 @@ This lab is vulnerable to password reset poisoning. The user `carlos` will car
 
 Analysis:
 
-we have: 
+**==we have:==** 
 our user : `wiener:peter`
 victim user: carlos
 
-Exploit server
+Exploit server: it has `email client` that shows the (forgot pw) email recived in inbox for wiener.
+Also it has Access log. 
+
+POC to solve lab:
+first use wiener , in forgot pw field, capture the re
