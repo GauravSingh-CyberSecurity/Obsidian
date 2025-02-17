@@ -49,6 +49,10 @@ of where you can actually direct the users to.
 00:00:52,170 --> 00:00:56,790
 But if you understand how this limitation of filters work, you may be able to bypass it.
 
+
+
+
+![[Screenshot From 2025-02-17 20-32-15.png]]
 13
 00:00:57,000 --> 00:01:01,650
 So, for example, as I mentioned earlier, you can go to example, dot com login and next page would
