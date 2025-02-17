@@ -2,14 +2,16 @@
 00:00:00,180 --> 00:00:05,700
 Now, let's see what this actually looks like within our browser, we can access the Chrome dev tools
 
-2
-00:00:05,700 --> 00:00:11,520
-by clicking on the page, going to inspect this will show us what the browser is exchanging with the
+==2==
+==00:00:05,700 --> 00:00:11,520==
+==by clicking on the page, going to inspect this will show us what the browser is exchanging with the==
 
-3
-00:00:11,520 --> 00:00:12,130
-Web server.
+==3==
+==00:00:11,520 --> 00:00:12,130==
+==Web server.==
 
+
+![[Screenshot From 2025-02-17 19-56-21.png]]
 4
 00:00:12,360 --> 00:00:18,120
 So as we refresh in the network tab, it will show us all the requests made within this page in order
