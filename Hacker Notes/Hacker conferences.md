@@ -1,0 +1,4 @@
+
+Defcon
+Bsides
+Opsec
