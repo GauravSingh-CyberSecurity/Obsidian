@@ -483,12 +483,8 @@ This lab is vulnerable to password reset poisoning. The user `carlos` will car
 
 Analysis:
 
-our user:  `wiener:peter`
-Victim : carlos
+we have: 
+our user : `wiener:peter`
+victim user: carlos
 
-- go to forgot PW and input wiener
-- capture req and modify the req by inputing  `X-Forwarded-Host:` header , and see that the req 
-- is being forwarded to the `X-Forwarded-Host:` path (i.e its forwarded to exploit server that has the host )
-- in email client (inbox) we can see the change pw link that contain `X-Forwarded-Host:` as 
-value, indicating that the header worked and forwarded req to arbitary host.
-- now in the access log section , of exploit server . check if carlos clicked
+Exploit server
