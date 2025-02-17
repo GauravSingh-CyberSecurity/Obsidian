@@ -462,7 +462,7 @@ carlos:onceuponatime
 
 # 11)Lab: Password reset poisoning via middleware
 
-
+Lab: https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware
 Lab video: https://www.youtube.com/watch?v=7_RvLi6fdr0&ab_channel=RanaKhalil
 
 This lab is vulnerable to password reset poisoning. The user `carlos` will carelessly click on any links in emails that he receives. To solve the lab, log in to Carlos's account. You can log in to your own account using the following credentials: `wiener:peter`. Any emails sent to this account can be read via the email client on the exploit server.
