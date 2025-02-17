@@ -46,37 +46,37 @@ I've also seen me at conferences like Def Con Bseiso and OPSEC, where I presente
 00:00:41,520 --> 00:00:45,600
 I hacked into companies like Apple, Lyft, Snapchat and Airbnb.
 
-13
-00:00:45,840 --> 00:00:46,740
-Let's talk about this course.
+==13==
+==00:00:45,840 --> 00:00:46,740==
+==Let's talk about this course.==
 
-14
-00:00:46,920 --> 00:00:49,010
-Each chapter is going to have three different things.
+==14==
+==00:00:46,920 --> 00:00:49,010==
+==Each chapter is going to have three different things.==
 
-15
-00:00:49,050 --> 00:00:53,370
-The first thing is we're going to talk about what the vulnerabilities are, how to look for him, and
+==15==
+==00:00:49,050 --> 00:00:53,370==
+==The first thing is we're going to talk about what the vulnerabilities are, how to look for him, and==
 
-16
-00:00:53,370 --> 00:00:58,020
-then we're going to do a live demo of how to actually exploit and find these vulnerabilities in different
+==16==
+==00:00:53,370 --> 00:00:58,020==
+==then we're going to do a live demo of how to actually exploit and find these vulnerabilities in different==
 
-17
-00:00:58,020 --> 00:00:58,700
-applications.
+==17==
+==00:00:58,020 --> 00:00:58,700==
+==applications.==
 
-18
-00:00:58,830 --> 00:01:00,690
-Later, we'll have a hands on that.
+==18==
+==00:00:58,830 --> 00:01:00,690==
+==Later, we'll have a hands on that.==
 
-19
-00:01:00,760 --> 00:01:04,290
-We have created an entire infrastructure to show you how to push a target.
+==19==
+==00:01:00,760 --> 00:01:04,290==
+==We have created an entire infrastructure to show you how to push a target.==
 
-20
-00:01:04,410 --> 00:01:08,910
-How do I do recon and how do I look for each vulnerability type in a specific application?
+==20==
+==00:01:04,410 --> 00:01:08,910==
+==How do I do recon and how do I look for each vulnerability type in a specific application?==
 
 21
 00:01:09,240 --> 00:01:09,570
