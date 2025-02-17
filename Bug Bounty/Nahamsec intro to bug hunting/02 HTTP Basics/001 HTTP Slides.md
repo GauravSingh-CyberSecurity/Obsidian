@@ -103,6 +103,7 @@ And the referrer is the website where you were referred to the next one.
 00:01:24,210 --> 00:01:28,440
 But as you saw in the last slide, there is a keyword called Get.
 
+![[Screenshot From 2025-02-17 19-51-02.png]]
 27
 00:01:28,440 --> 00:01:30,570
 I mean that I'm saying get this page for me.
@@ -143,6 +144,8 @@ So it doesn't give you a response at all.
 00:01:59,820 --> 00:02:02,130
 It just looks to see if that page is available.
 
+
+![[Screenshot From 2025-02-17 19-52-13.png]]
 37
 00:02:02,730 --> 00:02:07,500
 When you make a request to a Web server, the server is going to respond with a variety of ranges.
