@@ -1,3 +1,9 @@
+# Setup Guide for Nahamsec’s Intro To Bug Bounty Labs    https://medium.com/@hackitdamn/setup-guide-for-nahamsecs-intro-to-bug-bounty-labs-f398ab26dae9
+
+
+
+
+Transcript of video: 
 1
 00:00:00,150 --> 00:00:02,490
 Hello and welcome to introduce bug hunting.
