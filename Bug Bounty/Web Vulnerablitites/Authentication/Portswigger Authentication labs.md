@@ -480,3 +480,12 @@ This lab is vulnerable to password reset poisoning. The user `carlos` will car
 7. Go back to your email client and copy the valid password reset link (not the one that points to the exploit server). Paste this into the browser and change the value of the `temp-forgot-password-token` parameter to the value that you stole from the victim.
 8. Load this URL and set a new password for Carlos's account.
 9. Log in to Carlos's account using the new password to solve the lab.
+
+Analysis:
+
+our user:  `wiener:peter`
+Victim : carlos
+
+go to forgot PW and input wiener
+capture req and modify the req by inputing  `X-Forwarded-Host:` header , and see that the req is being forwarded to the `X-Forwarded-Host:` path (i.e its forwarded to exploit server that has the host )
+in email we can see the change pw link that contain 
