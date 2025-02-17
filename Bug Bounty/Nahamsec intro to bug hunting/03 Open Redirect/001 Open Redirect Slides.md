@@ -1,7 +1,136 @@
 
+# Links/urls working breakdown: 
+Sure! Let's break down every part of this **Google redirect URL** and explain what each component does.
+
+---
+
+## **Full URL:**
+
+```
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/pulse/best-cve-sources-cyber-security-news-stay-informed-secure-evans-&ved=2ahUKEwjIie-2yJeEAxW84jgGHSvHDooQFnoECBwQAQ&usg=AOvVaw2y8pLq50J_RX4Ck7hRi8kj
+```
+
+---
+
+## **Breakdown of Each Part**
+
+### **1️⃣ Base URL:**
+
+```
+https://www.google.com/url
+```
+
+- This means **Google is handling the redirection** to another webpage.
+- Google often uses such links when users click on search results or ads.
+
+---
+
+### **2️⃣ Query Parameters (After `?`)**
+
+Everything after the `?` is a **query string**, consisting of **key-value pairs** separated by `&`.
+
+### **🔹 `sa=t`**
+
+```
+sa=t
+```
+
+- `sa` (Source Action) refers to **how the URL was accessed**.
+- `t` means it was accessed through a **text link**.
+
+---
+
+### **🔹 `source=web`**
+
+```
+source=web
+```
+
+- Indicates that the user clicked this link **from a web search** (Google Search results page).
+- If the link was from Google Images, it might say `source=images`.
+
+---
+
+### **🔹 `rct=j`**
+
+```
+rct=j
+```
+
+- `rct` (Redirect Type) specifies **the type of redirection**.
+- `j` likely refers to a **JavaScript-based redirect** used by Google.
+
+---
+
+### **🔹 `opi=89978449`**
+
+```
+opi=89978449
+```
+
+- This seems to be a unique **tracking identifier**.
+- Google sometimes appends this for **internal analytics**.
+
+---
+
+### **🔹 `url=https://www.linkedin.com/...`**
+
+```
+url=https://www.linkedin.com/pulse/best-cve-sources-cyber-security-news-stay-informed-secure-evans-
+```
+
+- This is the **actual destination URL** where the user will be redirected.
+- It's a **LinkedIn article** about CVE sources and cybersecurity news.
+
+---
+
+### **🔹 `ved=2ahUKEwjIie-2yJeEAxW84jgGHSvHDooQFnoECBwQAQ`**
+
+```
+ved=2ahUKEwjIie-2yJeEAxW84jgGHSvHDooQFnoECBwQAQ
+```
+
+- This is a **Google tracking parameter**.
+- It stores **encoded metadata** about:
+    - The search result position
+    - The click context
+    - Possibly A/B testing data
+- Google uses it to track user interactions.
+
+---
+
+### **🔹 `usg=AOvVaw2y8pLq50J_RX4Ck7hRi8kj`**
+
+```
+usg=AOvVaw2y8pLq50J_RX4Ck7hRi8kj
+```
+
+- **Google's URL Signature (usg)**
+- It **prevents tampering** with the redirect.
+- If modified, Google may block the redirect for security reasons.
+
+---
+
+## **Final Explanation**
+
+1. **Google tracks the link click** and logs metadata.
+2. **The user is redirected** to the real URL (`linkedin.com`).
+3. The extra parameters help Google **analyze search behaviors, prevent spam, and improve ad performance**.
+
+---
+
+### **How to Extract the Clean URL?**
+
+To get the **actual LinkedIn URL** without Google tracking: 👉 **Copy everything after `url=` and decode it:**
+
+```
+https://www.linkedin.com/pulse/best-cve-sources-cyber-security-news-stay-informed-secure-evans-
+```
+
+This removes all **Google tracking** and gives you a direct link! 🚀
 
 
-
+# Transcript of video:
 1
 00:00:00,240 --> 00:00:05,880
 Now let's check out our first vulnerability open redirect, also known as unvalidated redirects and
