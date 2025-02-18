@@ -378,5 +378,144 @@ If **requests get blocked**, a WAF is active.
 
 
 
+### **Step-by-Step Guide to Detecting WAF Using `wafw00f`**
+
+The **`wafw00f`** tool helps detect the **presence of a Web Application Firewall (WAF)**, identify its type, and check how it is blocking requests.
+
+---
+
+### **🔍 Step 1: Basic WAF Detection**
+
+To check if a **WAF** is protecting a website, use:
+
+```sh
+wafw00f http://firstchangefinserv.in
+```
+
+🔹 **Expected Output**:
+
+- If a WAF is detected, it will show **the WAF type (e.g., Cloudflare, Imperva, AWS WAF, etc.).**
+- If no WAF is detected, the response will indicate that.
+
+---
+
+### **🔍 Step 2: Get More Detailed WAF Information**
+
+Run the command with **verbose mode (-v)** for more details:
+
+```sh
+wafw00f -v http://firstchangefinserv.in
+```
+
+🔹 **This provides additional insights** into how the WAF responds to different detection techniques.
+
+---
+
+### **🔍 Step 3: Find All Matching WAFs**
+
+Some sites use **multiple WAFs**. To check for all possible WAFs, use:
+
+```sh
+wafw00f -a http://firstchangefinserv.in
+```
+
+🔹 **Expected Output**:
+
+- Lists **all possible WAFs** that match signatures.
+
+---
+
+### **🔍 Step 4: Check How Many Requests the WAF Blocks**
+
+To analyze how aggressively the WAF is blocking, **use verbose mode and check responses manually**:
+
+```sh
+wafw00f -v http://firstchangefinserv.in
+```
+
+1. Look for **403 Forbidden**, **406 Not Acceptable**, or other blocking codes.
+2. Try sending repeated requests to check for **rate-limiting** or **IP blocking**.
+
+---
+
+### **🔍 Step 5: Detect WAF While Avoiding Redirects**
+
+If the website has **redirects** that interfere with detection, disable them:
+
+```sh
+wafw00f -r http://firstchangefinserv.in
+```
+
+🔹 This prevents WAFw00f from following redirects, ensuring **accurate** WAF detection.
+
+---
+
+### **🔍 Step 6: Use a Proxy for Stealth Scanning**
+
+If you want to **route requests through a proxy** (e.g., Burp Suite, TOR), use:
+
+```sh
+wafw00f -p http://127.0.0.1:8080 http://firstchangefinserv.in
+```
+
+🔹 This sends traffic through a **proxy** to analyze responses.
+
+---
+
+### **🔍 Step 7: Save WAF Detection Results to a File**
+
+If you want to save the output for later analysis, use:
+
+```sh
+wafw00f -o waf-results.txt http://firstchangefinserv.in
+```
+
+🔹 This writes the results to a **text file (`waf-results.txt`)**.
+
+---
+
+### **🚀 Summary of Useful Commands**
+
+|**Command**|**Purpose**|
+|---|---|
+|`wafw00f http://firstchangefinserv.in`|Basic WAF detection|
+|`wafw00f -v http://firstchangefinserv.in`|Get detailed WAF information|
+|`wafw00f -a http://firstchangefinserv.in`|Find all matching WAFs|
+|`wafw00f -r http://firstchangefinserv.in`|Prevent redirect interference|
+|`wafw00f -p http://127.0.0.1:8080 http://firstchangefinserv.in`|Use a proxy for scanning|
+|`wafw00f -o waf-results.txt http://firstchangefinserv.in`|Save results to a file|
+
+---
+
+### **🎯 Next Steps**
+
+- If WAF is detected, try **bypassing it** using **Nuclei WAF bypass templates**:
+    
+    ```sh
+    nuclei -t fuzzing/headers-bypass.yaml -u http://firstchangefinserv.in -c 40 -stats
+    ```
+    
+- If **requests are blocked**, you can test with **Burp Suite Intruder** to check the request limit.
+
+---
+
+Let me know if you need further details! 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
