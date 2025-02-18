@@ -1,4 +1,8 @@
+
+Docker setup guide on kali linux: https://www.kali.org/docs/containers/installing-docker-on-kali/
 # Setup Guide for Nahamsec’s Intro To Bug Bounty Labs    https://medium.com/@hackitdamn/setup-guide-for-nahamsecs-intro-to-bug-bounty-labs-f398ab26dae9
+
+
 
 
 
