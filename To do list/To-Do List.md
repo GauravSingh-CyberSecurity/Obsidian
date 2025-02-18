@@ -38,4 +38,6 @@ Make GitHub.io portfolio and gitbook.io
 Notes and blogs
 
 
+this weekend 22/23 feb- tasks: backup the college study materials from google classroom and gdrive,  give bike for servicing.
+
 
