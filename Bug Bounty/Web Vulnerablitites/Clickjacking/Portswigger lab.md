@@ -1,8 +1,11 @@
 clickjacking: https://portswigger.net/web-security/clickjacking#what-is-clickjacking
 
-Labs:  https://portswigger.net/web-security/all-labs#clickjacking
+Labs path:  https://portswigger.net/web-security/all-labs#clickjacking
 
 # 1)Lab: Basic clickjacking with CSRF token protection
+
+Lab: https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected
+Lab Vid: https://www.youtube.com/watch?v=_tz0O5-cndE&ab_channel=Intigriti
 
 This lab contains login functionality and a delete account button that is protected by a CSRF token. A user will click on elements that display the word "click" on a decoy website.
 
