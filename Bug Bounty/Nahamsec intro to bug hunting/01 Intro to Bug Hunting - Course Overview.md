@@ -2,12 +2,58 @@
 Docker setup guide on kali linux: https://www.kali.org/docs/containers/installing-docker-on-kali/
 # Setup Guide for Nahamsec’s Intro To Bug Bounty Labs    https://medium.com/@hackitdamn/setup-guide-for-nahamsecs-intro-to-bug-bounty-labs-f398ab26dae9
 
+==once build created== :
+C:\home\kali\nahamsec.training> sudo  docker build -t nahamsec .
+
+==Setup start:-== 
+C:\home\kali\nahamsec.training> sudo docker run -d -p 8081:80 nahamsec
+b9e2ac3361ea71c27bc08f106a01d1aae33efb28fa515963f2f6dfffa51b7d5a
+
+C:\home\kali\nahamsec.training> sudo docker ps
+CONTAINER ID   IMAGE      COMMAND         CREATED         STATUS         PORTS                                     NAMES
+b9e2ac3361ea   nahamsec   "/startup.sh"   9 seconds ago   Up 9 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   kind_turing
+C:\home\kali\nahamsec.training> 
+C:\home\kali\nahamsec.training> 
+C:\home\kali\nahamsec.training> sudo docker logs b9e2ac3361ea
+ * Starting nginx nginx
+   ...done.
+ * Starting MySQL database server mysqld
+su: warning: cannot change directory to /nonexistent: No such file or directory
+   ...done.
+C:\home\kali\nahamsec.training> 
+C:\home\kali\nahamsec.training> 
+C:\home\kali\nahamsec.training> curl -I http://xss.naham.sec
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 20 Feb 2025 05:42:32 GMT
+Content-Type: text/html
+Content-Length: 5
+Last-Modified: Mon, 11 Dec 2023 23:42:45 GMT
+Connection: keep-alive
+ETag: "65779e75-5"
+Accept-Ranges: bytes
 
 
 
 
 
-Transcript of video: 
+==if above not working stop and remove container:==
+
+C:\home\kali\nahamsec.training> sudo docker stop  bfec12ea5314
+bfec12ea5314
+C:\home\kali\nahamsec.training> sudo docker rm  bfec12ea5314
+bfec12ea5314
+
+
+==then :== 
+sudo docker run -d -p 8081:80 nahamsec
+
+
+then repeat the setup process
+
+
+
+# Transcript of video: 
 1
 00:00:00,150 --> 00:00:02,490
 Hello and welcome to introduce bug hunting.
@@ -95,3 +141,15 @@ All right.
 22
 00:01:09,750 --> 00:01:10,800
 Let's now jump into it.
+
+
+
+
+
+
+
+
+
+
+
+
