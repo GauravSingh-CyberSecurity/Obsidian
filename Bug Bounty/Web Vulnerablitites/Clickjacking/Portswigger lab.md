@@ -2,7 +2,12 @@ clickjacking: https://portswigger.net/web-security/clickjacking#what-is-clickjac
 
 Labs path:  https://portswigger.net/web-security/all-labs#clickjacking
 
-clickjacking preventions:- implement security headers like
+==clickjacking preventions :-== 
+implement security headers like CSP, X-Frame-Options, implement click confirmation popup(Add a confirmation prompt before performing sensitive actions. eg: allow microphone popup or payment confirmation popup ), **Re-authentication for Critical Actions**  Ask users to enter their password before performing sensitive actions. **Multi-Factor Authentication (MFA)**  Prevent unauthorized actions by requiring an additional verification step.   
+
+
+
+
 ### **Scenario 1: Stealing Credentials via Fake Login Page**
 
 **Target:** Online Banking Users  
