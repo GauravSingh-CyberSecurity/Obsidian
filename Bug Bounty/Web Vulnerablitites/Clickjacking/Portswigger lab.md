@@ -2,6 +2,46 @@ clickjacking: https://portswigger.net/web-security/clickjacking#what-is-clickjac
 
 Labs path:  https://portswigger.net/web-security/all-labs#clickjacking
 
+clickjacking preventions:- implement security headers like
+### **Scenario 1: Stealing Credentials via Fake Login Page**
+
+**Target:** Online Banking Users  
+**Attack:**
+
+1. The attacker creates a malicious website offering a free gift card.
+2. The legitimate online banking login page is loaded inside an **invisible iframe**.
+3. The attacker places a **fake login form** on top of the iframe, perfectly aligning with the original login fields.
+4. When users try to enter their **username and password**, they are actually typing into the **attacker’s form**, which captures the credentials before redirecting the request to the bank’s original form to avoid suspicion.
+
+**Impact:** The attacker steals login credentials, enabling unauthorized access to victims’ bank accounts.
+
+---
+
+### **Scenario 2: Unintended Money Transfer via Clickjacking**
+
+**Target:** Users Authenticated to a Payment Website  
+**Attack:**
+
+1. The victim is already logged into their **payment portal** (e.g., PayPal, banking site).
+2. The attacker sends the victim a link to an online quiz or a game, where the "Next" button is actually an **invisible transfer button** overlaid from the banking site (via iframe).
+3. When the user clicks “Next” or any button in the game, it triggers a **hidden money transfer request**.
+
+**Impact:** The victim unknowingly transfers money to the attacker’s account while believing they are just playing a game.
+
+---
+
+### **Scenario 3: Enabling Webcam & Microphone Access via Clickjacking**
+
+**Target:** Users with Webcams (Google Meet, Zoom, etc.)  
+**Attack:**
+
+1. The attacker creates a fake **"Click to Watch Free Video"** page.
+2. A transparent **iframe** of the browser’s camera/microphone permission popup is placed exactly over the "Play" button.
+3. When the victim clicks "Play," they are unknowingly clicking the **"Allow Camera/Microphone"** button instead.
+4. The attacker now has full access to the victim’s webcam and microphone.
+
+**Impact:** The attacker can **spy on the victim** and capture sensitive conversations or footage.
+
 # 1)Lab: Basic clickjacking with CSRF token protection
 
 Lab: https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected
