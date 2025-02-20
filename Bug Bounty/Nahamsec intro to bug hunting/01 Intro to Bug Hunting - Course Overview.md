@@ -2,11 +2,34 @@
 Docker setup guide on kali linux: https://www.kali.org/docs/containers/installing-docker-on-kali/
 # Setup Guide for Nahamsec’s Intro To Bug Bounty Labs    https://medium.com/@hackitdamn/setup-guide-for-nahamsecs-intro-to-bug-bounty-labs-f398ab26dae9
 
+```
+shortcut:
+
+To stop labs: 
+C:\home\kali\nahamsec.training> sudo systemctl stop docker
+
+to start labs: 
+C:\home\kali\nahamsec.training> sudo systemctl start docker
+C:\home\kali\nahamsec.training> sudo docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+C:\home\kali\nahamsec.training> sudo docker run -d -p 8081:80 nahamsec
+847d1d26a64c628ba9912cb9d034279ba80a54e9c7de050afa123eac48ff4a2b
+C:\home\kali\nahamsec.training> sudo docker ps
+CONTAINER ID   IMAGE      COMMAND         CREATED         STATUS         PORTS                                     NAMES
+847d1d26a64c   nahamsec   "/startup.sh"   6 seconds ago   Up 6 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   ecstatic_wescoff
+
+
+```
+
+
+
+
+
 ==once build created== :
 C:\home\kali\nahamsec.training> sudo  docker build -t nahamsec .
 
 ==Setup start:-== 
-C:\home\kali\nahamsec.training> sudo docker run -d -p 8081:80 nahamsec
+C:\home\kali\nahamsec.training> ==sudo docker run -d -p 8081:80 nahamsec==
 b9e2ac3361ea71c27bc08f106a01d1aae33efb28fa515963f2f6dfffa51b7d5a
 
 C:\home\kali\nahamsec.training> sudo docker ps
