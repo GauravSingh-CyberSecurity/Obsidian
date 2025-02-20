@@ -2,8 +2,20 @@ clickjacking: https://portswigger.net/web-security/clickjacking#what-is-clickjac
 
 Labs path:  https://portswigger.net/web-security/all-labs#clickjacking
 
-==clickjacking preventions :-== 
-implement security headers like CSP, X-Frame-Options, implement click confirmation popup(Add a confirmation prompt before performing sensitive actions. eg: allow microphone popup or payment confirmation popup ), **Re-authentication for Critical Actions**  Ask users to enter their password before performing sensitive actions. **Multi-Factor Authentication (MFA)**  Prevent unauthorized actions by requiring an additional verification step.   
+### clickjacking preventions :- 
+implement security headers like CSP, X-Frame-Options, implement click confirmation popup(Add a confirmation prompt before performing sensitive actions. eg: allow microphone popup or payment confirmation popup ), 
+**Re-authentication for Critical Actions**  Ask users to enter their password before performing sensitive actions. 
+**Multi-Factor Authentication (MFA)**  Prevent unauthorized actions by requiring an additional verification step.   
+**JavaScript frame-busting** can be an additional layer of security.This script checks if the page is loaded inside an iframe and removes the content if it is.
+
+**Testing Clickjacking Vulnerabilities**
+To check if your site is vulnerable:
+```
+<iframe src="https://yourwebsite.com" width="800" height="600"></iframe>
+```
+1. Create a simple HTML file that embeds your site in an **iframe**:
+2. Open this file in a browser.
+3. If your site loads inside the iframe, it's vulnerable. If it refuses to load, your protection is working.
 
 
 
