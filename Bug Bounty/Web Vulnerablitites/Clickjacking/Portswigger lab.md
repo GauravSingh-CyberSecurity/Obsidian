@@ -35,3 +35,5 @@ The victim will be using Chrome so test your exploit on that browser.
 
 **Analysis:**
 iframe:- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+
+CSS:- https://developer.mozilla.org/en-US/docs/Web/CSS
