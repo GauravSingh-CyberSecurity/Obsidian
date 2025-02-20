@@ -32,3 +32,6 @@ The victim will be using Chrome so test your exploit on that browser.
 3. Hover over **Test me** and ensure the cursor changes to a hand indicating that the div element is positioned correctly. **Do not actually click the "Delete account" button yourself.** If you do, the lab will be broken and you will need to wait until it resets to try again (about 20 minutes). If the div does not line up properly, adjust the `top` and `left` properties of the style sheet.
 4. Once you have the div element lined up correctly, change "Test me" to "Click me" and click **Store**.
 5. Click on **Deliver exploit to victim** and the lab should be solved.
+
+**Analysis:**
+iframe:- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
