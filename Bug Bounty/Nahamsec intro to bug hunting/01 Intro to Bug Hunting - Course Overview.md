@@ -24,7 +24,6 @@ CONTAINER ID   IMAGE      COMMAND         CREATED         STATUS         PORTS  
 
 
 
-
 ==once build created== :
 C:\home\kali\nahamsec.training> sudo  docker build -t nahamsec .
 
