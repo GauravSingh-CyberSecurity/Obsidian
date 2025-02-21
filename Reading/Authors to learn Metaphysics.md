@@ -1,6 +1,9 @@
 
 Start with Nietzsche, Carl Jung, Fyodor Dostoevsky, Sigmund Freud, Søren Kierkegaard, Solzhenitsyn (Aleksandr Solzhenitsyn), Immanuel Kant,
 
+Augustine, Aquinas, Pascal, Baudelaire, Blake, Dostoevski, Tolstoy, Hemingway, Picasso, Joyce, and Beckett.
+
+Kierkegaard, Nietzsche, Heidegger, and Sartre
 
 **Genres**: Psychology, philosophy, metaphysics,self improvement (critical thinking), stoic.
 

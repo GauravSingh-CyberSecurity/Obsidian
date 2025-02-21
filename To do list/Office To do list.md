@@ -39,8 +39,14 @@ Paytonic
 IEX
 Avifauna
 goveva HUL
+First change Finserv
 
 
 BNHS WAF testing, goveva HUL vapt
 take iso27001 booklet from amit sir
 iso meet with tibdiwal sir this week
+
+
+Risk register update, sec training, 5.12 control sop, first serve report .
+
+MFA in vpn, SP access, 
