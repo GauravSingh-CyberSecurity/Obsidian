@@ -1,5 +1,6 @@
 
-Lab: http://or1.naham.sec:8081/
+Lab1: http://or1.naham.sec:8081/
+Lab2: 
 
 1
 00:00:00,180 --> 00:00:01,320
