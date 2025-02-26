@@ -6,6 +6,30 @@ Analysis:
 method 1: http://or1.naham.sec:8081/?redirect=http://www.google.com
 Method 2( for not allowed redirects):http://or1.naham.sec:8081/?redirect=http://www.google.com@nahamsec.com 
 
+
+eg:
+```
+GET /?redirect=https://www.google.com HTTP/1.1
+Host: firstchangefinserv.in
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Te: trailers
+Content-Length: 47
+Connection: keep-alive
+
+```
+
+
+
+
 1
 00:00:00,180 --> 00:00:01,320
 So let's take our training site.
