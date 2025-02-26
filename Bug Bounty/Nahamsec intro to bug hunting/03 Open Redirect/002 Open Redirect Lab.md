@@ -4,7 +4,7 @@ Lab2: http://or2.naham.sec:8081/
 
 Analysis:
 method 1: http://or1.naham.sec:8081/?redirect=http://www.google.com
-Method 2( for not allowed redirects):http://or1.naham.sec:8081/?redirect=http://www.google.com@nahamse 
+Method 2( for not allowed redirects):http://or1.naham.sec:8081/?redirect=http://www.google.com@nahamsec.com 
 
 1
 00:00:00,180 --> 00:00:01,320
