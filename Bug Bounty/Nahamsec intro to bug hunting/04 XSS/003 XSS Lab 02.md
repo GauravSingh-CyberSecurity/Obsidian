@@ -1,6 +1,9 @@
 Reflected XSS (Analysis of lab:-  http://xss2.naham.sec:8081/)
 
+using this in input  field , check if they execute or not:
+<script>alert(1)</script>   (Analysis: this script does not execute for the lab)
 
+now in the "Dev tool (F@)"
 
 ---
 1
