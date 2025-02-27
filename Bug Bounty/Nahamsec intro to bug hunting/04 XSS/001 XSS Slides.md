@@ -164,6 +164,9 @@ The injection typically so happens on the victims request, but it gets passed fo
 00:02:45,570 --> 00:02:48,090
 or different JavaScript code for it to work.
 
+
+
+![[Screenshot From 2025-02-27 12-17-42.png]]
 40
 00:02:48,420 --> 00:02:52,500
 So let's look at reflected exercise, exercise, an example on the screen.
