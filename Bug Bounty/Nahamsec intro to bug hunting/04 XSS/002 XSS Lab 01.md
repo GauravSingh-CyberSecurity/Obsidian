@@ -1,6 +1,6 @@
-Analysis of lab:-  http://xss.naham.sec:8081/
+Reflected XSS (Analysis of lab:-  http://xss.naham.sec:8081/)
 
-using this in input :
+using this in input  field , check if they execute or not:
 <script>alert(document.cookie)</script> test123
 <script>alert(1)</script>
 <U>test</U>
