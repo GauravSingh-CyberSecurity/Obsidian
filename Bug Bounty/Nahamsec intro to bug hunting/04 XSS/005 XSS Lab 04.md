@@ -1,9 +1,9 @@
 ==Stored XSS (Analysis of lab== ;-  http://xss4.naham.sec:8081/ )
 
 look in dev tools , where you text ends up , after inputting it in the input field.
-it could be in script tag, title tag, body etc.
+it could be in script tag, title tag(i.e head tag) , body etc.
 
-in this case it end
+in this our input  ends up in script  tag, 
 
 
 
