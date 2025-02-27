@@ -286,56 +286,57 @@ And we have successfully been able to exploit this access.
 
 64
 00:03:56,150 --> 00:04:00,890
-So, again, the piece of advice that I have for you is always, always, always look at where your
+==So, again, the piece of advice that I have for you is always, always, always look at where your==
 
-65
-00:04:00,890 --> 00:04:01,720
-text ends up.
+==65==
+==00:04:00,890 --> 00:04:01,720==
+==text ends up.==
 
-66
-00:04:01,790 --> 00:04:03,290
-This could be in multiple places.
+==66==
+==00:04:01,790 --> 00:04:03,290==
+==This could be in multiple places.==
 
-67
-00:04:03,530 --> 00:04:04,370
-It could be in a script.
+==67==
+==00:04:03,530 --> 00:04:04,370==
+==It could be in a script.==
 
-68
-00:04:04,370 --> 00:04:05,600
-Had to give me the title tied.
+==68==
+==00:04:04,370 --> 00:04:05,600==
+==Had to give me the title tied.==
 
-69
-00:04:05,960 --> 00:04:07,040
-Each of these are different.
+==69==
+==00:04:05,960 --> 00:04:07,040==
+==Each of these are different.==
 
-70
-00:04:07,130 --> 00:04:11,180
-You have to make sure you understand how to close these different parameters and different script tags
+==70==
+==00:04:07,130 --> 00:04:11,180==
+==You have to make sure you understand how to close these different parameters and different script tags==
 
-71
-00:04:11,480 --> 00:04:12,680
-or HTML talks.
+==71==
+==00:04:11,480 --> 00:04:12,680==
+==or HTML talks.==
 
-72
-00:04:12,920 --> 00:04:18,920
-So never rely on copy pasting payloads because there was may not work in some context and in some cases
+==72==
+==00:04:12,920 --> 00:04:18,920==
+==So never rely on copy pasting payloads because there was may not work in some context and in some cases==
 
-73
-00:04:18,920 --> 00:04:23,990
-it may actually get filtered by an application firewall or some sort of filtering system in place.
+==73==
+==00:04:18,920 --> 00:04:23,990==
+==it may actually get filtered by an application firewall or some sort of filtering system in place.==
 
-74
-00:04:24,320 --> 00:04:30,050
-So always start small, start with a text, go to an e-mail injection and then later on escalate that
+==74==
+==00:04:24,320 --> 00:04:30,050==
+==So always start small, start with a text, go to an e-mail injection and then later on escalate that==
 
-75
-00:04:30,050 --> 00:04:30,720
-to access.
+==75==
+==00:04:30,050 --> 00:04:30,720==
+==to access.==
 
-76
-00:04:30,950 --> 00:04:36,170
-And once you have done this enough time, you have actually your own methodology on how you look for
+==76==
+==00:04:30,950 --> 00:04:36,170==
+==And once you have done this enough time, you have actually your own methodology on how you look for==
 
-77
-00:04:36,170 --> 00:04:37,520
-the text assessment abilities.
+==77==
+==00:04:36,170 --> 00:04:37,520==
+==the text assessment abilities.==
+
