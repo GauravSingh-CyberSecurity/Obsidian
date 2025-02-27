@@ -1,7 +1,7 @@
-==Stored XSS (Analysis of lab== ;-  http://xss4.naham.sec:8081/ )
+==DOM XSS (Analysis of lab== ;-  http://xss4.naham.sec:8081/ )
 
-look in dev tools , where you text ends up , after inputting it in the input field.
-it could be in script tag, title tag(i.e head tag) , body etc.
+look in dev tools , ==where you text ends up  in code, after inputting it in the input field.==
+it could be in script tag, title tag(i.e head tag) , body etc. by identifying that you can further manipulate it to test xss.
 
 in this our input  ends up in script  tag, 
 
@@ -19,7 +19,11 @@ http://xss4.naham.sec:8081/?name=gaurav+++%27%3B+++alert%282%29++%2F%2Fcomment
 i.e this is the payload    :-         `   ';   alert(2)  //   `  
 
 
+and below the SS of the successful  DOM XSS injection : 
+
 ![[Screenshot From 2025-02-27 16-54-47.png]]
+
+![[Screenshot From 2025-02-27 16-55-33.png]]
 
 
 
