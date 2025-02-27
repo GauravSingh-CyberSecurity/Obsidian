@@ -8,8 +8,18 @@ in this our input  ends up in script  tag,
 we used ( '; )  to escape the script tag and then  ( // ) to comment rest of the query .
 and in between the we included   an alert message  : ==alert(1)== 
 
+```
+non encoded format :
+http://xss4.naham.sec:8081/?name=gaurav   ';   alert(2)  //comment
+
+encoded format :
+http://xss4.naham.sec:8081/?name=gaurav+++%27%3B+++alert%282%29++%2F%2Fcomment
+```
+
+i.e this is the payload    :-         `   ';   alert(2)  //   `  
 
 
+![[Screenshot From 2025-02-27 16-54-47.png]]
 
 
 
