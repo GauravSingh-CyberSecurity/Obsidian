@@ -20,9 +20,17 @@ Now edit as HTML(right click>edit as html in dev tools) this script `"<script>al
 ![[Screenshot From 2025-02-27 15-38-07.png]]
 
 and update it to this :-
-" "> <script>alert(1)</script>
+`  " ">   <script>alert(1)</script>  `
+
 
 that is you basically escaped the quotes, to bring the payload in code format instead of string format.
+when you input it in the input field:
+![[Screenshot From 2025-02-27 15-43-15.png]]
+
+this is how it looks in the dev tools: 
+![[Screenshot From 2025-02-27 15-44-25.png]]
+
+summarry :- in dev tools when we 
 
 ---
 
