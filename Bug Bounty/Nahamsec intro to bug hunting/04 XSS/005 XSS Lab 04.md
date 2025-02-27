@@ -1,4 +1,7 @@
 ==DOM XSS (Analysis of lab== ;-  http://xss4.naham.sec:8081/ )
+![[Screenshot From 2025-02-27 17-07-55.png]]
+![[Screenshot From 2025-02-27 17-08-12.png]]
+
 
 look in dev tools , ==where you text ends up  in code, after inputting it in the input field.==
 it could be in script tag, title tag(i.e head tag) , body etc. by identifying that you can further manipulate it to test xss.

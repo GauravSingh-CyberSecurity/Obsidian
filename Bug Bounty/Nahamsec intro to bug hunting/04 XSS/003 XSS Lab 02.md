@@ -3,6 +3,8 @@
 Reflected XSS (==Analysis of lab:==-  http://xss2.naham.sec:8081/)
 
 ![[Screenshot From 2025-02-27 17-05-12.png]]
+![[Screenshot From 2025-02-27 17-05-36.png]]
+
 
 
 ```

@@ -1,5 +1,8 @@
 Reflected XSS (Analysis of lab:-  http://xss.naham.sec:8081/)
 
+![[Screenshot From 2025-02-27 17-06-34.png]]
+![[Screenshot From 2025-02-27 17-06-54.png]]
+
 using this in input  field , check if they execute or not:
 <script>alert(document.cookie)</script> test123
 <script>alert(1)</script>
