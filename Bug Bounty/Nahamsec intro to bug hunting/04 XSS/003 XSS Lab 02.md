@@ -30,7 +30,18 @@ when you input it in the input field:
 this is how it looks in the dev tools: 
 ![[Screenshot From 2025-02-27 15-44-25.png]]
 
-summarry :- in dev tools when we 
+
+summarry :- in dev tools when we see this input   <script>alert(1)</script>  
+look like this  
+<input value="<script>alert(1)</script> ">  
+that is , the input is in string format . Hence payload dont execute.
+
+in dev tools we just try to escape the quotes(" ") to escape the strings,
+
+like this  <input value=" ">   <script>alert(1)</script> 
+i.e this is payload ( " ">   <script>alert(1)</script> ).
+
+and it executes
 
 ---
 
