@@ -251,6 +251,9 @@ And if the website comes back and renders this HTML code and there's a possibili
 00:04:07,440 --> 00:04:08,670
 access has vulnerabilities.
 
+
+
+![[Screenshot From 2025-02-27 12-22-31.png]]
 61
 00:04:08,700 --> 00:04:13,590
 Some of the examples that have been found previously on Facebook, for example, is, as you can see,
