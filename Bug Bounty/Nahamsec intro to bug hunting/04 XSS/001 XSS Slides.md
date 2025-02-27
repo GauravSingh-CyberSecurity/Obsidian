@@ -376,6 +376,7 @@ But always think about anywhere that you can put any user input or any text that
 00:06:05,730 --> 00:06:10,860
 website could be a potential for access as the last, but not least, there is access.
 
+![[Screenshot From 2025-02-27 14-45-54.png]]
 91
 00:06:10,890 --> 00:06:16,090
 This is typically when JavaScript reflects data from an attacker controlled resource, for example.
@@ -443,3 +444,5 @@ Dumex says is one of those things where you want to learn about JavaScript befor
 107
 00:07:16,470 --> 00:07:20,750
 for it, because it relies on you understanding how the code works and where to look for it.
+
+
