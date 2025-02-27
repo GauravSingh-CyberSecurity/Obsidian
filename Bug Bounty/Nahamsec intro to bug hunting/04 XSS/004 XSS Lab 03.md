@@ -1,4 +1,4 @@
-Stored XSS (Analysis of lab ;-   http://xss3.naham.sec:8081/ )
+==Stored XSS (Analysis of lab== ;-   http://xss3.naham.sec:8081/ )
 
 to solve lab:- 
 input "gaurav"  and enter
@@ -11,6 +11,8 @@ see the input is stored in header : (Welcome, gaurav)  , and not reflected in th
 
 ![[Screenshot From 2025-02-27 16-14-11.png]]
 
+
+
 now in dev tools "edit as html" 
 ![[Screenshot From 2025-02-27 16-15-39.png]]
 and escape the " title tags " , and just create a simple alert payload :- 
@@ -20,7 +22,11 @@ i.e this the payload  (  </title>  <script>alert("gaurav")</script> ), lets try 
 
 
 ![[Screenshot From 2025-02-27 16-24-58.png]]
-after inputting the payload and clikc enter,  it worked and the alert ->  g
+after inputting the payload and clikc enter,  it worked and the alert ->  gaurav .  was generated
+
+![[Screenshot From 2025-02-27 16-26-12.png]]
+
+==hence we are able to take the stored input in header field, manipulate the html code  and exploit the xss.==
 
 
 ---
