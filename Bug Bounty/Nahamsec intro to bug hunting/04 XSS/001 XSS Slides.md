@@ -290,6 +290,8 @@ If you're not familiar with script tags or JavaScript, I highly recommend lookin
 00:04:38,550 --> 00:04:43,740
 And I'm also going to make sure to attach it to this chapter of this course stories that says, on the
 
+
+![[Screenshot From 2025-02-27 13-02-42.png]]
 70
 00:04:43,740 --> 00:04:46,410
 other hand, is also known as persistent exercise.
