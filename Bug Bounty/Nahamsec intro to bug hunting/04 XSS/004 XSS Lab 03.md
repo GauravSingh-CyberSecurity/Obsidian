@@ -1,10 +1,17 @@
 Stored XSS (Analysis of lab ;-   http://xss3.naham.sec:8081/ )
 
+to solve lab:- 
+input "gaurav"  and enter
 
+![[Screenshot From 2025-02-27 16-12-24.png]]
 
+see the input is stored in header : (Welcome, gaurav)  , and not reflected in the body. 
 
+![[Screenshot From 2025-02-27 16-13-05.png]]
 
+![[Screenshot From 2025-02-27 16-14-11.png]]
 
+now in dev tools "edit as html" 
 
 ---
 1
