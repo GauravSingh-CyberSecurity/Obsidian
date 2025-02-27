@@ -1,11 +1,23 @@
+
+
 Reflected XSS (Analysis of lab:-  http://xss2.naham.sec:8081/)
 
+```
 using this in input  field , check if they execute or not:
 <script>alert(1)</script>   (Analysis: this script does not execute for the lab)
 
-now in the "Dev tool (F@)"
+
+
+now in the "Dev tool (F2/inspect)" in inspector, under <body> , you can find 
+```
+
+under `<body>`  , you can find   ``
+![[Screenshot From 2025-02-27 15-33-12 5.png]]
+""> <script>alert(1)</script>
 
 ---
+
+
 1
 00:00:00,300 --> 00:00:01,330
 Let's take another example.
