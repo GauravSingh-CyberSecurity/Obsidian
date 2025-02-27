@@ -1,6 +1,6 @@
 
 
-Reflected XSS (Analysis of lab:-  http://xss2.naham.sec:8081/)
+Reflected XSS (==Analysis of lab:==-  http://xss2.naham.sec:8081/)
 
 ```
 using this in input  field , check if they execute or not:
