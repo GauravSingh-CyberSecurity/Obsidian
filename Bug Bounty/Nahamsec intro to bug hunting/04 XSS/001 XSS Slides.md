@@ -376,6 +376,7 @@ But always think about anywhere that you can put any user input or any text that
 00:06:05,730 --> 00:06:10,860
 website could be a potential for access as the last, but not least, there is access.
 
+==Note: to better understand DOM XSS get familiar with javascript==
 ![[Screenshot From 2025-02-27 14-45-54.png]]
 91
 00:06:10,890 --> 00:06:16,090
