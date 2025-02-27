@@ -15,7 +15,7 @@ see the input is stored in header : (Welcome, gaurav)  , and not reflected in th
 
 now in dev tools "edit as html" 
 ![[Screenshot From 2025-02-27 16-15-39.png]]
-and escape the " title tags " , and just create a simple alert payload :- 
+and escape the ==" title tags "== , and just create a simple alert payload :- 
 
 ![[Screenshot From 2025-02-27 16-24-14.png]]
 i.e this the payload  (  </title>  <script>alert("gaurav")</script> ), lets try it out -
