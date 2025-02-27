@@ -1,7 +1,7 @@
 Analysis of lab:-  http://xss.naham.sec:8081/
 
 using this in input :
-<script>alert(document.cookie)</script>
+<script>alert(document.cookie)</script> test123
 <script>alert(1)</script>
 <U>test</U>
 
