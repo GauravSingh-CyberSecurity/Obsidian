@@ -5,6 +5,11 @@ it could be in script tag, title tag(i.e head tag) , body etc.
 
 in this our input  ends up in script  tag, 
 
+we used ( '; )  to escape the script tag and then  ( // ) to comment rest of the query .
+and in between the we included   an alert message  : ==alert(1)== 
+
+
+
 
 
 
