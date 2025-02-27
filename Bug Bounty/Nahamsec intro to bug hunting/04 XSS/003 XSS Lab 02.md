@@ -41,8 +41,8 @@ in dev tools we just try to escape the quotes(" ") to escape the strings,
 like this  <input value=" ">   <script>alert(1)</script> 
 i.e this is payload ( " ">   <script>alert(1)</script> ).
 
-and it executes
-
+and it executes and alert pop up appears
+![[Screenshot From 2025-02-27 15-55-06.png]]
 ---
 
 
