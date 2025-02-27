@@ -11,9 +11,18 @@ using this in input  field , check if they execute or not:
 now in the "Dev tool (F2/inspect)" in inspector, under <body> , you can find 
 ```
 
-under `<body>`  , you can find   ``
+under `<body>`  , you can find   `<input value="<script>alert(1)</script> ">`
+and see that it did nor execute , since the payload is sent in a Quote ( " " ) format.
+
 ![[Screenshot From 2025-02-27 15-33-12 5.png]]
-""> <script>alert(1)</script>
+
+Now edit as HTML(right click>edit as html in dev tools) this script `"<script>alert(1)</script> ">`
+![[Screenshot From 2025-02-27 15-38-07.png]]
+
+and update it to this :-
+" "> <script>alert(1)</script>
+
+that is you basically escaped the quotes, to bring the payload in code format instead of string format.
 
 ---
 
