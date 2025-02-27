@@ -2,6 +2,9 @@
 
 Reflected XSS (==Analysis of lab:==-  http://xss2.naham.sec:8081/)
 
+![[Screenshot From 2025-02-27 17-05-12.png]]
+
+
 ```
 using this in input  field , check if they execute or not:
 <script>alert(1)</script>   (Analysis: this script does not execute for the lab)
