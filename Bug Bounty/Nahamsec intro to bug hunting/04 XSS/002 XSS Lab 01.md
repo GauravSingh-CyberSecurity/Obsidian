@@ -1,3 +1,12 @@
+Analysis of lab:-  http://xss.naham.sec:8081/
+
+using this in input :
+<script>alert(document.cookie)</script>
+<script>alert(1)</script>
+<U>test</U>
+
+---
+
 1
 00:00:00,300 --> 00:00:02,200
 Now, let's look at some examples of exercise.
