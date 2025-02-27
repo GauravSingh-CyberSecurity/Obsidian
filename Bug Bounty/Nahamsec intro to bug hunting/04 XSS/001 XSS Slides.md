@@ -41,6 +41,8 @@ So if a website like a bank is vulnerable to an exercise, we can start transferr
 00:00:37,500 --> 00:00:40,860
 year to another, change their password and so on.
 
+
+![[Screenshot From 2025-02-27 12-13-34.png]]
 11
 00:00:41,430 --> 00:00:42,270
 So how does that work?
@@ -85,6 +87,8 @@ So, for example, as an admin, if you have access to file uploads and other funct
 00:01:26,520 --> 00:01:30,320
 website and access against that user could be very, very beneficial.
 
+
+![[Pasted image 20250227121530.png]]
 22
 00:01:30,600 --> 00:01:34,700
 The impact for Accessors it actually depends on a lot of different factors.
@@ -105,6 +109,9 @@ But typically a reflective exercise could be anywhere from medium and in-store e
 00:01:53,460 --> 00:01:56,830
 to a high or critical depending on the end results.
 
+
+
+![[Screenshot From 2025-02-27 12-16-11.png]]
 27
 00:01:57,000 --> 00:01:59,150
 So again, can have mentioned a different types of exercise.
