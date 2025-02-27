@@ -53,6 +53,7 @@ Kierkegaard, Nietzsche, Heidegger, and Sartre
 44. Aldous Huxley
 45. David Hume
 46. Schopenhauer
+47. Walt Whitman 
 
 
 
