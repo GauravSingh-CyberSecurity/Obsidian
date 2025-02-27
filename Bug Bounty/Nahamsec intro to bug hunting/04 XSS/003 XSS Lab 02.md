@@ -12,7 +12,7 @@ now in the "Dev tool (F2/inspect)" in inspector, under <body> , you can find
 ```
 
 under `<body>`  , you can find   `<input value="<script>alert(1)</script> ">`
-and see that it did nor execute , since the payload is sent in a Quote ( " " ) format.
+and see that it did not execute , since the payload is sent in a Quote ( " " ) format.
 
 ![[Screenshot From 2025-02-27 15-33-12 5.png]]
 
@@ -31,7 +31,7 @@ this is how it looks in the dev tools:
 ![[Screenshot From 2025-02-27 15-44-25.png]]
 
 
-summarry :- in dev tools when we see this input   <script>alert(1)</script>  
+==summarry :-== in dev tools when we see this input   <script>alert(1)</script>  
 look like this  
 <input value="<script>alert(1)</script> ">  
 that is , the input is in string format . Hence payload dont execute.
