@@ -12,6 +12,11 @@ see the input is stored in header : (Welcome, gaurav)  , and not reflected in th
 ![[Screenshot From 2025-02-27 16-14-11.png]]
 
 now in dev tools "edit as html" 
+![[Screenshot From 2025-02-27 16-15-39.png]]
+and escape the " title tags " , and just create a simple alert payload :- 
+
+![[Screenshot From 2025-02-27 16-18-37.png]]
+i.e this the payload   </title>  <script>alert(gaurav)</script>
 
 ---
 1
