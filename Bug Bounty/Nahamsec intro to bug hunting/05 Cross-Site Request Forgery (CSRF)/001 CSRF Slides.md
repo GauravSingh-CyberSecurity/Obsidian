@@ -7,11 +7,12 @@
 
 
 
+
 ---
 
 1
 00:00:00,570 --> 00:00:06,330
-The next vulnerability we're going to look for is CSF short for a cross site request forgery.
+The next vulnerability we're going to look for is CSRF short for a cross site request forgery.
 
 2
 00:00:06,750 --> 00:00:14,070
