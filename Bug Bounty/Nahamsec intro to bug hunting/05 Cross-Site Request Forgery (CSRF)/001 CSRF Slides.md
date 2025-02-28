@@ -26,11 +26,11 @@ without them knowing it.
 
 4
 00:00:15,720 --> 00:00:22,890
-The difference between CSF and exercise is that you can't actually still any data, but you can just
+==The difference between CSF and exercise is that you can't actually still any data, but you can just==
 
-5
-00:00:22,890 --> 00:00:27,530
-force the user to perform some action without them knowing that it happened.
+==5==
+==00:00:22,890 --> 00:00:27,530==
+==force the user to perform some action without them knowing that it happened.==
 
 6
 00:00:28,080 --> 00:00:30,030
