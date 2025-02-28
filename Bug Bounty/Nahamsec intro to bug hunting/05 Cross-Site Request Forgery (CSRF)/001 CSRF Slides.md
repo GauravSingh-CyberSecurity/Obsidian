@@ -42,7 +42,7 @@ This could be transferring money.
 
 8
 00:00:31,680 --> 00:00:34,410
-It's an action, but you can't actually still data from it.
+It's an action, but you can't actually steal data from it.
 
 9
 00:00:34,410 --> 00:00:35,670
@@ -52,6 +52,8 @@ You can't see anything in return.
 00:00:35,940 --> 00:00:39,870
 You can just have them do some stuff because of the way that the application works.
 
+
+![[Screenshot From 2025-02-28 12-32-47.png]]
 11
 00:00:40,210 --> 00:00:41,330
 So that's the kind of example.
@@ -136,6 +138,9 @@ to transfer money from this wallet, this amount in this type Bitcoin, and we can
 00:01:53,730 --> 00:01:57,150
 for the attackers wallet where the money gets transferred to them instead.
 
+
+
+![[Screenshot From 2025-02-28 12-35-47.png]]
 32
 00:01:58,590 --> 00:02:04,800
 So, again, that's one example of what we can do here is on a website that the attacker is controlling.
@@ -148,6 +153,9 @@ We can put an image tag or hyperlink where as soon as the victim visits it or cl
 00:02:09,840 --> 00:02:15,630
 it performs an action for us when we're within a form or we have to do instead of a link or an image
 
+
+
+![[Screenshot From 2025-02-28 12-37-12.png]]
 35
 00:02:15,630 --> 00:02:18,120
 tag, we actually have to recreate that form.
