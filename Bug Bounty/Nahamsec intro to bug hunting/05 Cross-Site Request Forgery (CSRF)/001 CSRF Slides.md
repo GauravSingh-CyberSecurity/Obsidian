@@ -1,4 +1,4 @@
-
+**cross site request forgery.**
 
 
 
@@ -14,6 +14,8 @@
 00:00:00,570 --> 00:00:06,330
 The next vulnerability we're going to look for is CSRF short for a cross site request forgery.
 
+
+![[Pasted image 20250228122418.png]]
 2
 00:00:06,750 --> 00:00:14,070
 So what is CSIRO and CSIRO vulnerability allows an attacker to perform an action on a victim's behalf
