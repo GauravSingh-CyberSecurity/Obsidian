@@ -23,6 +23,11 @@ that means we are able to get the details of other users as well, just by changi
 
 hence resulting in IDOR
 
+
+PS:  for above idor  we can also use an intruder attack to find all the possible id's using bruteforcer payload type. as shown in below ss..
+![[Pasted image 20250303160323.png]]
+![[Screenshot From 2025-03-03 16-02-29.png]]
+
 ---
 
 1
