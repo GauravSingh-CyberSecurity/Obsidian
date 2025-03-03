@@ -1,10 +1,17 @@
+Analysis of lab: http://idor.naham.sec:8081/
 
+![[Screenshot From 2025-03-03 15-51-35.png]]
 
+if we click update, nothing happens .
+but if we refresh the page 
 
+we get these Two get req:
+![[Pasted image 20250303155319.png]]
 
+if you look at  http://idor.naham.sec:8081/settings/12   this req,  there is an id 12.
+send this req from Proxy to repeater.
 
-
-
+just change the id from 12 to 1 
 
 ---
 
