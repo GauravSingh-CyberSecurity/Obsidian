@@ -11,7 +11,17 @@ we get these Two get req:
 if you look at  http://idor.naham.sec:8081/settings/12   this req,  there is an id 12.
 send this req from Proxy to repeater.
 
-just change the id from 12 to 1 
+just change the id from 12 to : 1 
+
+![[Screenshot From 2025-03-03 15-55-02.png]]
+notice that the user details changed in response,
+i.e for id : 12 - username -> ryanc1
+for id : 1 - username -> johna1   (as shown in ss)
+for id : 2 - username ->zoeyw1   
+
+that means we are able to get the details of other users as well, just by changing the id in the req parameter.
+
+hence resulting in IDOR
 
 ---
 
