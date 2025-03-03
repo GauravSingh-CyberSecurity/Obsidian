@@ -32,6 +32,8 @@ And either isn't just limited to retrieving data, but it could also allow you to
 00:00:29,280 --> 00:00:29,730
 as well.
 
+
+![[Pasted image 20250303122951.png]]
 8
 00:00:30,150 --> 00:00:37,530
 As you can see on the screen, for example, dot com API slash user is fetching an object with one six
