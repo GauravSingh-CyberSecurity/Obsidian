@@ -94,6 +94,8 @@ This one is API user profile.
 00:01:30,810 --> 00:01:33,600
 There is no idea in the actual address bar.
 
+
+![[Screenshot From 2025-03-03 15-38-34.png]]
 23
 00:01:33,690 --> 00:01:37,500
 But in the request that we're sending the data that's being sent to the server, we're providing an
