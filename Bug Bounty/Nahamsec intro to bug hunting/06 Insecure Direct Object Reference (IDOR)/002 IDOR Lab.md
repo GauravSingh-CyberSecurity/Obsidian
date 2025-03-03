@@ -28,6 +28,8 @@ PS:  for above idor  we can also use an intruder attack to find all the possible
 ![[Pasted image 20250303160323.png]]
 ![[Screenshot From 2025-03-03 16-02-29.png]]
 
+
+
 ---
 
 1
