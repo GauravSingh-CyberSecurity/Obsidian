@@ -9,6 +9,9 @@ Now, let's talk about insecure direct object reference, also known as eider, and
 00:00:04,920 --> 00:00:11,400
 popular vulnerability types found in bug bounties and I adore is when an application provides direct
 
+
+
+![[Screenshot From 2025-03-03 12-28-36.png]]
 3
 00:00:11,400 --> 00:00:14,620
 access to an object that doesn't belong to that user.
