@@ -1,4 +1,12 @@
+Analysis of LFD lab:-    http://lfi.naham.sec:8081/
 
+to find the Local file disclosure like    /etc/passwd.
+
+lets go to lab and start the analysis.
+
+
+the page only have cat photos and gif that is (i.e it allows more than single format of file, that is jpg, gif), hence we can rule out that the file format might have been hard coded , so we dont neet
+![[Screenshot From 2025-03-03 16-48-29.png]]
 
 
 
