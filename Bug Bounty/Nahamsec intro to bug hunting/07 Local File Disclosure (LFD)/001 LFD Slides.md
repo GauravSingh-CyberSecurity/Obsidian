@@ -170,6 +170,9 @@ So that's pieces back together.
 00:02:43,920 --> 00:02:48,780
 When we give the application our first of that stage, it's going to take it and put it in front of
 
+
+
+![[Screenshot From 2025-03-03 16-32-14.png]]
 41
 00:02:48,780 --> 00:02:50,790
 the actual path that we're looking for.
@@ -230,6 +233,8 @@ the file is stored and it's going to display its content.
 00:03:32,850 --> 00:03:37,950
 In some cases you may actually not need to do a slash, but it's very helpful to do it, especially
 
+
+![[Screenshot From 2025-03-03 16-33-50.png]]
 56
 00:03:37,950 --> 00:03:42,270
 in the case of having the power for each folder being hard coded into the code.
