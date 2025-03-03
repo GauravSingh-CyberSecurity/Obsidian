@@ -267,6 +267,8 @@ So this is a perfect time to actually go ahead and use our trick escape out of t
 00:04:08,340 --> 00:04:10,140
 our end and fetch for our file.
 
+
+![[Screenshot From 2025-03-03 16-36-24.png]]
 64
 00:04:10,620 --> 00:04:14,880
 So for example, if we go to download our transaction from this bank site, it's going to actually spit
@@ -315,6 +317,8 @@ It could also be by adding an invalid character or a question mark.
 00:04:46,980 --> 00:04:51,540
 But it just comes down to how the application works and what are the limitations that you're going against
 
+
+![[Screenshot From 2025-03-03 16-39-29.png]]
 76
 00:04:52,770 --> 00:04:58,980
 while I the injunction or a question mark may help us get rid of the remainder of the string, that's
