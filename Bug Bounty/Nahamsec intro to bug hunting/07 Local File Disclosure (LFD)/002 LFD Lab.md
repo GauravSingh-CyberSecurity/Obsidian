@@ -5,7 +5,7 @@ to find the Local file disclosure like    /etc/passwd.
 lets go to lab and start the analysis.
 
 
-the page only have cat photos and gif that is (i.e it allows more than single format of file, that is jpg, gif), hence we can rule out that the file format might have been hard coded , so we dont neet
+the page only have cat photos and gif that is (i.e it allows more than single format of file, that is jpg, gif), hence we can rule out that the file format( file extension) might have been hard coded  i.e that we are in a hardcoded directory like .png or .jpeg and need to escape out of it using  ? , so we dont need to try and exit out of a file format (using ? )
 ![[Screenshot From 2025-03-03 16-48-29.png]]
 
 
