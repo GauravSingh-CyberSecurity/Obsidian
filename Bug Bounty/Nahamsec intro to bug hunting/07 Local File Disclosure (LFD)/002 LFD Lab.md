@@ -19,49 +19,56 @@ JPEG image.
 
 
 
+
+we are going to type and to fetch the file for
+
+
+
+it etc/passwd by giving it the root folder, /etc folder and the password file   /passwd.
+
+/etc/passwd   as shown in below ss
+
+
+
+![[Screenshot From 2025-03-03 17-05-32.png]]
 It comes back and says file not found.
 
-18
-00:01:17,220 --> 00:01:18,810
+
 This could be for multiple reasons.
 
-19
-00:01:19,050 --> 00:01:24,930
+
 One, it could be because we are either in a hard coded directory, which means that we have to escape
 
-20
-00:01:24,930 --> 00:01:31,040
+
 out of it with a directory traversal or we have to escape the format file for whatever it's hardcoded.
 
-21
-00:01:31,090 --> 00:01:35,310
+
 So in other words, if it's expecting a JPEG at the end, you have to escape out of it.
 
-22
-00:01:35,310 --> 00:01:40,650
-But based on the view source that we saw, it looks like it ignores the extension because it takes both
 
-23
-00:01:40,800 --> 00:01:42,510
-gif and jpg.
+But based on the view source that we saw, it looks like it ignores the extension because it takes both gif and jpg.
 
-24
-00:01:42,780 --> 00:01:47,970
 So we can kind of assume that it's not a hard coding any extensions, but there is something we've got
 
-25
-00:01:47,970 --> 00:01:51,510
-to figure out in order to get to the file that we want to fetch.
+==to figure out in order to get to the file that we want to fetch.==
 
-26
-00:01:51,570 --> 00:01:56,460
-So for this case, as I mentioned, we expect it to be a directory traversal.
+==So for this case, as I mentioned, we expect it to be a directory traversal.==
 
 
 
+==So we're going to traverse as many directly as we can.==
+![[Screenshot From 2025-03-03 17-09-20.png]]
 
+==Again, if you do extra directories, it doesn't matter.==
+In Linux, you can add as many as you want and you're going to say etc/passwd or password.
 
+30
+00:02:06,000 --> 00:02:11,910
+And that is going to bring on the file that we asked for, which is a local file on this server that's
 
+31
+00:02:11,910 --> 00:02:13,650
+not on the website's root directory.
 
 ---
 Imp explaination of LFD :- 
