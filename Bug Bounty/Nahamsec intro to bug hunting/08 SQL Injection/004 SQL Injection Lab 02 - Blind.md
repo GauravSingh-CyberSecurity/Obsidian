@@ -111,9 +111,22 @@ And we can confirm that by going to the Web page and seeing one and two articles
 ![[Screenshot From 2025-03-04 22-08-09.png]]
 
 
-So I want to check and see if this is vulnerable to a SQL injection.
+==So I want to check and see if this is vulnerable to a SQL injection.==
+
+You have to spend some time to see how the application reacts to whatever you're giving it.
 
 
+So looking at the SQL injection here, the only thing we can rely on is whatever value comes back
+from the database.
+like for-  http://sqli2.naham.sec:8081/article-count?date=may%202020   (/article-count?date=may 2020)   we get count=2
+
+http://sqli2.naham.sec:8081/article-count?date=may%202020%27 (/article-count?date=may 2020' ) So if we give out something invalid, it's going to come back and say zero because it doesn't understand what   may 2020' 
+
+
+why May 20, May 20, 20 apostrophe means so.
+
+
+We want to make sure that we play with this query until I understand how it's getting executed.
 
 
 ---
