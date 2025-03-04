@@ -101,21 +101,19 @@ http://sqli2.naham.sec:8081/article-count?date=December%202020
 That's going to say, hey, there are zero articles in there where ==we know in May 2020 there were two articles.==  as we can see in source code above
 
 So we're going to switch this December for may.
-
+http://sqli2.naham.sec:8081/article-count?date=may%202020   (/article-count?date=may 2020)
 
 And of course, it's going to come back and say, hey, I may have two articles.
+![[Screenshot From 2025-03-04 22-07-22.png]]
 
-20
-00:01:01,200 --> 00:01:06,150
-And we can confirm that by going to the Web page and seeing one and two articles that were published
 
-21
-00:01:06,270 --> 00:01:07,430
-within the month of May.
+And we can confirm that by going to the Web page and seeing one and two articles that were published within the month of May.
+![[Screenshot From 2025-03-04 22-08-09.png]]
 
-22
-00:01:08,820 --> 00:01:12,710
-So I want to check and see if this is vulnerable to a single injection.
+
+So I want to check and see if this is vulnerable to a SQL injection.
+
+
 
 
 ---
