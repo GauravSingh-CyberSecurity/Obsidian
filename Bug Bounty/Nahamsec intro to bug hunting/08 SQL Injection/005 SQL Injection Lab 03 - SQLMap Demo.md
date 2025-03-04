@@ -10,12 +10,15 @@ The process of identifying and exploiting SQL injection vulnerabilities typicall
 This approach ensures a thorough assessment before leveraging automated tools for faster results.
 
 
-Eg --->
-==Using SQL map== 
-**for the vulnerable parameter that was identified in manual testing ** 
+
+
+
+Eg ---> ==**Using SQL map**== 
+
+**for the vulnerable parameter that was identified in manual testing using this payload** 
 (http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20substring(@@version,1,1%20)%3E=5%20and%20%271=1) 
 
-(i.e payload i used to find sql vulnerability in the query parameter of application -->                           ==may 2020' and substring(@@version,1,1 )>=5 and '1=1==  ) :-
+(i.e this is the payload i used to find sql vulnerability in the query parameter of application -->             ==may 2020' and substring(@@version,1,1 )>=5 and '1=1==  ) :-
 
 
 then we use Sqlmap command on the query (i.e valid url parameter with sqli present):
