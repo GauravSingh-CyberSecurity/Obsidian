@@ -1,18 +1,48 @@
 
 
-SQL injection is a crucial vulnerability to look for when analyzing application requests. It is essential to identify abnormalities in responses when sending queries, as SQL injection can sometimes be tedious to detect.
+So to recap, SQL injection is very, very important to look for abnormalities when you're sending a request. SQL injection could be very, very tedious.
 
-There are many great tools available for SQL injection testing, but understanding how it works is key. The way I approach SQL injection is by reminding myself that I am somewhere inside an SQL query—I just need to figure out where. Identifying the exact location of the injection point in an application is crucial.
+Ton of good tools out there that do it, but it really comes down to actually understanding how it works.
 
-For example, if you find an injection in an update function, you are likely within an `UPDATE` statement and need to determine how to insert your query and properly terminate the existing one. If you're retrieving data, such as accessing an article by ID, you are likely within a `SELECT` statement, and your goal is to break out of that query and inject your own.
+The way I look at a SQL injection is always reminding myself that I'm somewhere in a SQL query. We don't know where—we have to figure it out.
 
-Blind SQL injection can be especially tricky because it does not always provide direct error messages. Regular SQL injections might return database errors, revealing useful insights. However, blind SQL injection requires you to infer the database's response by using techniques like time-based or boolean-based injections. You need to determine whether the backend can be manipulated using time delays (`SLEEP` or `BENCHMARK`) or logic-based conditions to infer true/false responses.
+And that's kind of obvious when it comes down to the application or the part of the application that you're targeting.
 
-To master SQL injection, review the concepts thoroughly and practice with different labs. Understanding how injections work and how applications process queries is essential.
+So, for example, if you're updating something and you have a SQL injection, more than likely you are in an update statement where you have to figure out how to put your next query in it and how to end that previous one.
 
-When searching for SQL injection vulnerabilities, focus on areas where numerical IDs are used in URLs or parameters. APIs can sometimes be vulnerable, but traditional SQL injections are more common in places where numerical values are used for data retrieval. For example, if you see a parameter like `?id=1`, it is a good candidate for testing. Similarly, if a `POST` request contains an `ID` field, it might be worth testing for injection vulnerabilities.
+If you are just viewing something, like you're going to an article with `id=`, and that's fetching data, you know you're in a SELECT statement, and you want to break out of that current query and add your own query to it.
 
-Do not hesitate to test by adding quotation marks (`'`), observing errors, and adjusting payloads accordingly. If a response suggests SQL injection, explore further; if not, move on to other potential vulnerabilities. Understanding how to test for and exploit SQL injection effectively can be highly valuable in penetration testing and bug bounty hunting.
+When it comes down to blind SQL injection, it could get very, very tricky.
+
+You have to understand exactly where you are. With regular SQL injection, it gives you a hint and tells you, “Hey, your SQL query in UPDATE has this error.”
+
+But you don't have this luxury when it comes down to blind SQL injection.
+
+So you want to make sure you understand where you are, how to end it, and what you are going to abuse.
+
+What functionality are you going to abuse? Is it a sleep function? Is it a benchmark?
+
+You need to understand what the backend is to determine if you are making it a time-based or boolean-based attack—where it tells you if the statement you sent is true or false.
+
+Take some time, go back and review all these slides from this chapter.
+
+Make sure you understand how an injection works, and spend some time with different labs, including the ones included in this course, and make sure you get very familiar with it.
+
+SQL injection could be very, very lucrative but hard to look for.
+
+You have to pay attention to everything happening around the application and know where to look for it.
+
+Places that I like to look for SQL injection are anywhere I see an ID—some sort of numerical ID that says, “Hey, I want you to fetch this data.”
+
+Not really in an API—I don’t look for those. Sometimes, REST APIs are vulnerable, but in general, when you see a question mark followed by some parameter assigned to a number, you can try SQL injection there.
+
+If you see a POST request without changing data that says `id="1"`, you want to go ahead and check if that is also vulnerable to injection.
+
+So again, don't be afraid of putting a quotation mark here and there.
+
+Look for any error that comes back. If it hints at SQL injection, try to exploit it.
+
+If not, just move on to the next vulnerability type.
 
 
 
