@@ -154,9 +154,22 @@ Correct query would give us count=2, which is a number of articles in May 2020  
 
 
 
-Now, lets try different payloads in query to get the count=2,  
-so we can verify that the payload we inputted is getting executed. (because for function  article-count?date=  )  the count=2  is correct response, since application has 2 articles.
-and count=0 is wrong, and this happens because the application does not understand the payload, means the payload is not getting executed correctly , hence not giving correct count
+Now, Let's test different payloads in the SQL query to achieve `count=2`. This will help us verify whether the payload is being executed correctly.
+
+For the function `/article-count?date=`, the expected correct response is `count=2` since the application has two articles. However, if we receive `count=0`, it indicates that the application did not understand or process the payload correctly. This suggests that the payload in SQL Query is not being executed as intended, which is why the correct count is not returned.
+
+```
+eg:  of successful execution of SQL query in DB
+query : http://sqli2.naham.sec:8081/article-count?date=may%202020  
+(response : count=2)
+
+
+eg: of  unsuccessful execution of SQL query in DB
+query: http://sqli2.naham.sec:8081/article-count?date=may%202020%27 
+(response : count=0)
+
+```
+using this logic, lets try to find a successful execution of maliciously crafted sql 
 
 ---
 
