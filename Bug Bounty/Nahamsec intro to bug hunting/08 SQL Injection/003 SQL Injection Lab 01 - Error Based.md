@@ -1,12 +1,21 @@
 
-Analysis of SQLi lab 
+Analysis of SQLi lab:-  (http://sqli.naham.sec:8081/)
 
 
-![[Screenshot From 2025-03-04 13-11-55.png]]![[Screenshot From 2025-03-04 13-11-55.png]]
+![[Screenshot From 2025-03-04 13-11-55 1.png]]
+
+click on read more on first article and see it has an id..
+![[Screenshot From 2025-03-04 13-13-25.png]]
+
+input  ( ' )  to test sqli :-  
+![[Screenshot From 2025-03-04 13-14-24.png]]
+since the error pop up, its " error based sqli " present here.
 
 
 
+test other payloads and see result on the vulnerable endpoint:-
 
+for payload  "  2-1 "
 
 
 
