@@ -1,7 +1,7 @@
 
 Refrence: 
 - study a mysql course
-- study about mysql on mysql website (https://dev.mysql.com/doc/   |  )
+- study about mysql on mysql website (https://dev.mysql.com/doc/   | https://www.w3schools.com/MySQL/default.asp )
 
 
 ---
