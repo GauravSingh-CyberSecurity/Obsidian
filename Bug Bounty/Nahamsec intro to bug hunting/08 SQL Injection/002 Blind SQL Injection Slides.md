@@ -140,6 +140,9 @@ It's going to give us some sort of an error that indicates, OK, maybe there's a 
 00:01:47,250 --> 00:01:48,300
 Let's look into it further.
 
+
+
+![[Screenshot From 2025-03-04 12-47-56.png]]
 36
 00:01:48,450 --> 00:01:52,920
 That way we can actually verify a sequel injection exists outside of giving it true conditions.
@@ -192,6 +195,8 @@ By the end of the day, they all have similar functions when we can delay the res
 00:02:41,820 --> 00:02:43,080
 sequence injection exists.
 
+
+![[Screenshot From 2025-03-04 12-49-45.png]]
 49
 00:02:43,270 --> 00:02:48,450
 So in other words, to wrap it up, what we're doing here is we're closing the previous statement again
