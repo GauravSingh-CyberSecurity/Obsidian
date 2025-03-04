@@ -4,12 +4,25 @@ Analysis of Blind SQLi lab:- ( http://sqli2.naham.sec:8081/ )
 click on read more
 
 you get rendered to ( http://sqli2.naham.sec:8081/article?id=2 )
+
 now add ( ' )  http://sqli2.naham.sec:8081/article?id=2'
+response:  nothing comes back(no error comes back) or nothing changes , the article is still the same 
+![[Screenshot From 2025-03-04 21-52-05.png]]
 
 
+This one's a little bit tricky because we're going to have to rely on a little bit of a deeper understanding of this application.
+
+So let's go back to my examples.
+Home page one.
+
+Right Click on the source.
+
+We're going to look for more places where there are different parameters.
+So in this case, we have article ID =2
 
 
-
+That's where we had our previous sql injection and that's how we load the articles that are within
+the database.
 
 
 ---
