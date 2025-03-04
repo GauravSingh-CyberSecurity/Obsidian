@@ -154,7 +154,9 @@ Correct query would give us count=2, which is a number of articles in May 2020  
 
 
 
-Now, lets try di
+Now, lets try different payloads in query to get the count=2,  
+so we can verify that the payload we inputted is getting executed. (because for function  article-count?date=  )  the count=2  is correct response, since application has 2 articles.
+and count=0 is wrong, and this happens because the application does not understand the payload, means the payload is not getting executed correctly , hence not giving correct count
 
 ---
 
