@@ -29,15 +29,94 @@ the database.
 
 
 Now, 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="[/css/bootstrap.min.css](view-source:http://sqli2.naham.sec:8081/css/bootstrap.min.css)" rel="stylesheet">
+</head>
+<body>
+<div class="container" style="padding-top:80px;">
+
+        <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default" style="margin-top:20px">
+                <div class="panel-heading">
+                    <h3 class="panel-title">The meaning of life</h3>
+                </div>
+                <div class="panel-body">
+                    <div> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt nec ipsum et lacinia. Donec semper orci vitae urna bibendum mollis. Fusc...</div>
+                    <div style="margin-top:10px" class="pull-right"><a href="[/article?id=2](view-source:http://sqli2.naham.sec:8081/article?id=2) ">read more...</a></div>
+                    <div style="margin-top:20px"><i>Article Created: 22nd May 2020</i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default" style="margin-top:20px">
+                <div class="panel-heading">
+                    <h3 class="panel-title">How to get started in hacking</h3>
+                </div>
+                <div class="panel-body">
+                    <div> Mauris et tempus purus. Vivamus a eros pulvinar, tristique massa sit amet, molestie sem. Aenean ullamcorper ligula eget nulla gravida, in congue metu...</div>
+                    <div style="margin-top:10px" class="pull-right"><a href="[/article?id=1](view-source:http://sqli2.naham.sec:8081/article?id=1) ">read more...</a></div>
+                    <div style="margin-top:20px"><i>Article Created: 13th May 2020</i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="pull-right"><span class="article_count"></span> article(s) created this month</p>
+        </div>
+    </div>
+
+</div>
+<script src="[/js/jquery.min.js](view-source:http://sqli2.naham.sec:8081/js/jquery.min.js)"></script>
+<script src="[/js/bootstrap.min.js](view-source:http://sqli2.naham.sec:8081/js/bootstrap.min.js)"></script>
+<script>
+    $.getJSON('/article-count?date=March+2025',function(resp){
+        $('span.article_count').html( resp.count );
+    })
+</script>
+</body>
+</html>
+```
 ![[Screenshot From 2025-03-04 21-58-52.png]]
 
- at the bottom, there's also this function that says, hey, you can actually get article accounts( /article-count?date=March+2025 ) within the database.
+ at the bottom, there's also this function that says, hey, you can actually get article accounts( ==/article-count?date=March+2025== ) within the database.
 
 
 So if we put in the month that we want from this case, we're going to look for December 2020.
 
+http://sqli2.naham.sec:8081/article-count?date=December%202020 
+( /article-count?date=December 2020)
+![[Screenshot From 2025-03-04 22-01-56.png]]
+That's going to say, hey, there are zero articles in there where ==we know in May 2020 there were two articles.==  as we can see in source code above
 
-That's going to say, hey, there are zero articles in there where we know in May there were two articles.
+So we're going to switch this December for may.
+
+
+And of course, it's going to come back and say, hey, I may have two articles.
+
+20
+00:01:01,200 --> 00:01:06,150
+And we can confirm that by going to the Web page and seeing one and two articles that were published
+
+21
+00:01:06,270 --> 00:01:07,430
+within the month of May.
+
+22
+00:01:08,820 --> 00:01:12,710
+So I want to check and see if this is vulnerable to a single injection.
+
 
 ---
 
