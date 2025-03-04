@@ -2,7 +2,7 @@
 
 
 
-
+![[Screenshot From 2025-03-04 12-24-06.png]]
 1
 00:00:00,450 --> 00:00:05,970
 Now, let's talk about SQL injection, SQL stands for structured query language to language use to communicate
@@ -15,6 +15,8 @@ with the database.
 00:00:06,930 --> 00:00:12,150
 Almost every single application that stores data will use some sort of a school in some way.
 
+
+![[Pasted image 20250304122547.png]]
 4
 00:00:12,210 --> 00:00:17,280
 A single injection will allow an attacker to potentially execute malicious queries that would lead him
@@ -31,6 +33,8 @@ So when you're making a request to retrieve some sort of a data, a query similar
 00:00:25,440 --> 00:00:28,020
 screen may appear in the background.
 
+
+![[Screenshot From 2025-03-04 12-26-28.png]]
 8
 00:00:28,200 --> 00:00:33,960
 There are two major types of SQL injection error based, which is not as usual anymore thanks to our
