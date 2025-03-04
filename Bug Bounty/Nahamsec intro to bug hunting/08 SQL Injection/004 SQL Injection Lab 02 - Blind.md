@@ -126,7 +126,11 @@ http://sqli2.naham.sec:8081/article-count?date=may%202020%27 (/article-count?dat
 
 
 
-We want to make sure that we play with this query until I understand how it's getting executed.
+
+
+
+
+We want to make sure that we play with this query(http://sqli2.naham.sec:8081/article-count?date=may%202020) until I understand how it's getting executed.
 
 
 
@@ -138,20 +142,19 @@ So, again, we don't know if we're doing this right or not.
 We know that there are some errors and some weird behaviors happening when we give it a single quote (i.e may 2020' )
 
 
-But now we have to figure out a way to get a true statement in there, get this Count=  go back up to
-two, because that's the only way we know there is actual vulnerabilities.
+But now we have to figure out a way to get a true statement in there, get this ==Count=0===   to go back  to " count=2 ", because that's the only way we know there is actual vulnerabilities.
 
-54
-00:03:06,240 --> 00:03:10,170
-And that's what the actual correct quarter would look like.
 
-55
-00:03:10,770 --> 00:03:14,250
-Correct query would give us two, which is a number of articles in May.
+And that's what the actual correct Query would look like.
 
-56
-00:03:14,250 --> 00:03:14,930
-Twenty twenty.
+Correct query would give us count=2, which is a number of articles in May 2020   (as shown in this ss)
+![[Screenshot From 2025-03-04 22-07-22 1.png]]
+
+
+
+
+
+Now, lets try di
 
 ---
 
