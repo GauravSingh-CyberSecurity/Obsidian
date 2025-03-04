@@ -15,8 +15,16 @@ since the error pop up, its " error based sqli " present here.
 
 test other payloads and see result on the vulnerable endpoint:-
 
-for payload  "  2-1 "
+for payload  "  2-1 "    (both in web and burp)
+![[Screenshot From 2025-03-04 13-17-25.png]]
+![[Screenshot From 2025-03-04 13-19-22.png]]
+we get the article with id=1,  i.e we were able to execute the subtraction command in sql DB of the application and get the result.
 
+
+that kind of tells us, hey, whatever, I give it to
+this application,   its evaluating it for me and giving it back as it's a query, not taking the value,
+but it's actually rendering the math expression to minus one and then giving us the value for that article.
+And of course, we already knew based on the MySQL error, that there is maybe a SQL injection present here.
 
 
 ---
