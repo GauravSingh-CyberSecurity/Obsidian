@@ -25,6 +25,20 @@ That's where we had our previous sql injection and that's how we load the articl
 the database.
 
 
+
+
+
+Now, 
+![[Screenshot From 2025-03-04 21-58-52.png]]
+
+ at the bottom, there's also this function that says, hey, you can actually get article accounts( /article-count?date=March+2025 ) within the database.
+
+
+So if we put in the month that we want from this case, we're going to look for December 2020.
+
+
+That's going to say, hey, there are zero articles in there where we know in May there were two articles.
+
 ---
 
 1
