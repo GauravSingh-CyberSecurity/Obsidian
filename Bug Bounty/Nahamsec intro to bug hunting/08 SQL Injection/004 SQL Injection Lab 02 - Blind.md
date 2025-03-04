@@ -120,14 +120,38 @@ So looking at the SQL injection here, the only thing we can rely on is whatever 
 from the database.
 like for-  http://sqli2.naham.sec:8081/article-count?date=may%202020   (/article-count?date=may 2020)   we get count=2
 
-http://sqli2.naham.sec:8081/article-count?date=may%202020%27 (/article-count?date=may 2020' ) So if we give out something invalid, it's going to come back and say zero because it doesn't understand what   may 2020' 
+http://sqli2.naham.sec:8081/article-count?date=may%202020%27 (/article-count?date=may 2020' ) So if we give out something invalid, it's going to come back and say zero because it doesn't understand what   ==may 2020'==   ( i.e apostrophe)  means
+![[Screenshot From 2025-03-04 22-17-28.png]]
 
 
-why May 20, May 20, 20 apostrophe means so.
 
 
 We want to make sure that we play with this query until I understand how it's getting executed.
 
+
+
+At this point, we're just playing a guessing game and the only way to verify it is by actually giving
+it a math expression.
+
+So, again, we don't know if we're doing this right or not.
+
+We know that there are some errors and some weird behaviors happening when we give it a single quote (i.e may 2020' )
+
+
+But now we have to figure out a way to get a true statement in there, get this Count=  go back up to
+two, because that's the only way we know there is actual vulnerabilities.
+
+54
+00:03:06,240 --> 00:03:10,170
+And that's what the actual correct quarter would look like.
+
+55
+00:03:10,770 --> 00:03:14,250
+Correct query would give us two, which is a number of articles in May.
+
+56
+00:03:14,250 --> 00:03:14,930
+Twenty twenty.
 
 ---
 
