@@ -202,7 +202,13 @@ that means the arbitrary query that we sent got executed in DB,  hence there is 
 
 
 
-Now, lets extract data from the vulnerablity we 
+Now, lets extract data from the vulnerability we found, by further modifying the payload that we give to sql query :
+
+in this lab the DB is mysql so we craft payload using mysql syntax :-   
+```
+may 2020'and substring(@@version,1,1 )=5 and '1=1
+```
+
 
 ---
 
