@@ -47,10 +47,14 @@ new libraries.
 00:00:34,920 --> 00:00:40,230
 But also there is blind SQL injection, which is more likely to run into an bug bounties in case of
 
+
+
 11
 00:00:40,230 --> 00:00:41,620
 an Arab SQL injection.
 
+
+![[Screenshot From 2025-03-04 12-27-18.png]]
 12
 00:00:41,640 --> 00:00:46,740
 The application comes back and tells you that your sequel query has some sort of an error in the syntax.
@@ -103,6 +107,8 @@ so on.
 00:01:29,820 --> 00:01:31,620
 So what actually happens when you put an apostrophe?
 
+
+![[Screenshot From 2025-03-04 12-28-44.png]]
 25
 00:01:31,620 --> 00:01:32,340
 Why is this work?
@@ -187,6 +193,9 @@ So for this slide, we just want to look at what a quarter looks like and why doe
 00:02:49,830 --> 00:02:51,030
 when we add an apostrophe?
 
+
+
+![[Screenshot From 2025-03-04 12-30-47.png]]
 46
 00:02:51,330 --> 00:02:57,330
 So in the next example, what we're going to do is we're going to end our previous query.
