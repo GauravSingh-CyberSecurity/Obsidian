@@ -13,7 +13,7 @@ since the error pop up, its " error based sqli " present here.
 
 
 
-test other payloads and see result on the vulnerable endpoint:-
+==test other payloads and see result on the vulnerable endpoint:-==
 
 for payload  "  2-1 "    (both in web and burp)
 ![[Screenshot From 2025-03-04 13-17-25.png]]
@@ -25,6 +25,10 @@ that kind of tells us, hey, whatever, I give it to
 this application,   its evaluating it for me and giving it back as it's a query, not taking the value,
 but it's actually rendering the math expression to minus one and then giving us the value for that article.
 And of course, we already knew based on the MySQL error, that there is maybe a SQL injection present here.
+
+
+Now, ==Lets enumerate number of columns present here :-==
+
 
 
 ---
