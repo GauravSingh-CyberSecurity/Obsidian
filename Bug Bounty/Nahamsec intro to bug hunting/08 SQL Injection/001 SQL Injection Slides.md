@@ -380,6 +380,8 @@ So, again, the dash dash that we have at the end of it is just a comment out and
 00:05:34,580 --> 00:05:38,520
 to ignore if there is any leftover code from the original query.
 
+
+![[Screenshot From 2025-03-04 12-35-59.png]]
 92
 00:05:38,900 --> 00:05:43,340
 So now that we know this application, for example, has three different columns we're going to do is
