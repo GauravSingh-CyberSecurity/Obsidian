@@ -1,5 +1,8 @@
 
+Analysis of SQLi lab 
 
+
+![[Screenshot From 2025-03-04 13-11-55.png]]![[Screenshot From 2025-03-04 13-11-55.png]]
 
 
 
