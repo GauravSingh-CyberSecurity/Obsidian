@@ -1,3 +1,11 @@
+
+Refrence: 
+- study a mysql course
+- study about mysql on mysql website (https://dev.mysql.com/doc/   |  )
+
+
+---
+
 ![[Screenshot From 2025-03-04 12-43-53.png]]
 
 1
@@ -377,6 +385,8 @@ are different methodologies that you can follow when it comes down to blind SQL 
 00:05:22,860 --> 00:05:26,220
 data and verify your vulnerability quickly.
 
+
+![[Screenshot From 2025-03-04 12-52-56.png]]
 94
 00:05:26,280 --> 00:05:27,570
 Let's revisit all of this.
