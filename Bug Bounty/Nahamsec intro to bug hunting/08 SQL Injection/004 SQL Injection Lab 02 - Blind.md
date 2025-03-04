@@ -189,7 +189,20 @@ that means the query got executed in db , and the query was date = may 2020 and 
 
 since 1=2 is false , even though  date = may 2020 is true
 
-due to " and " 
+due to " and " operator , if a single statement is false the whole statement became false
+and the query didnt get executed as true, resulting in showing wrong value  (count=0)
+
+
+so if 1=1 executes as true, and returns correct count of data in DB
+and 1=2 executes as false, and return wrong count
+
+that means the arbitrary query that we sent got executed in DB,  hence there is a blind sqli present.
+
+
+
+
+
+Now, lets extract data from the vulnerablity we 
 
 ---
 
