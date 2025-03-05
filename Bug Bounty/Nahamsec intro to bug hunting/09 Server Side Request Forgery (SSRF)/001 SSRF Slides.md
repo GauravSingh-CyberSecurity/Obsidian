@@ -4,7 +4,7 @@
 https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
 
-==Note:== open redirects can be escalated to SSRF.
+==Note:== open redirects can be escalated to SSRF. And SSRF can  be escalated to RCE(remote code exection)
 
 So there's a few things you may want to keep in mind while finding SSRF
 First of all, remember, you're making a server side request.

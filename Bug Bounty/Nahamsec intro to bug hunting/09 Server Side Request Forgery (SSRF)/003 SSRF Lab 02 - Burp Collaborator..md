@@ -6,12 +6,16 @@ for the Web page, it's actually taking a screenshot( instead of giving source co
 
 
 
-Now we use burp collaborator: 
+==Now we use burp collaborator:== 
 - Go to **Burp Suite** → **Burp Collaborator** tab.
 -  set Payloads to generate:  (as per requirement, by default 1)
 - Click on **"Copy to clipboard"**.  To copy the payload
-- paste it in the above webs
 - Burp will provide a **unique URL** that can be used to capture interactions from external sources.
+- paste it in the above webpages input( field to be tested for ssrf)
+- Go to Collaborator
+- click on " Poll Now"  and see an http req was recived. and ip address( 49.248.248.54:46926 ) in the request is not our own ip address, hence it is servers ip .
+- ![[Screenshot From 2025-03-05 12-27-55.png]]
+- Therefore SSRF can be present
 
 
 
