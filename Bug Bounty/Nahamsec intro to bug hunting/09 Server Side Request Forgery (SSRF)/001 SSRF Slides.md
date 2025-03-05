@@ -15,15 +15,27 @@ They're actually different ways to look for content on our local hosts other tha
 You might want to get creative, understand how to use the different bypasses to achieve what you're looking for.
 
 Also, remember that an open redirect could be very handy.
-So don't burn it.  If you find open redirect, try and keep it for necessary.
+So don't burn it.  If you find open redirect, try and keep it for necessarily finding ssrf.
+I'm not saying to not report this vulnerability, but I'm saying make sure you cover all your bases (for testing ssrf and other depended vuln) before you report the open redirect on its own.
 
-123
-00:07:46,860 --> 00:07:52,200
-If I'm not saying to not report this vulnerability, but I'm saying make sure you cover all your bases
 
-124
-00:07:52,350 --> 00:07:54,450
-before you report the operator act on its own.
+the one thing I want to make sure you understand with SSRF is that
+you want to make sure that the request comes from a remote server and it doesn't come from your personal IP address.
+So that said, if it does happen and you see a request coming from a remote server.
+
+So if that does happen and the request comes from a remote server, always remember that this particular machine may be able to talk to other micro services within this PIVER network that may require to be
+
+132
+00:08:23,070 --> 00:08:23,820
+on a VPN.
+
+133
+00:08:24,030 --> 00:08:29,130
+If you see that the request is coming from your personal IP address, then that means that this vulnerability
+
+134
+00:08:29,130 --> 00:08:32,430
+isn't actually necessary if you just making a request through your browser.
 
 
 ---
