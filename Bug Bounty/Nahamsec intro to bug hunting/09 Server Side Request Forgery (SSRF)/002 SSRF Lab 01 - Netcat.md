@@ -7,12 +7,18 @@ So, for example, what we're seeing is an application that just features the sour
 
 
 
+since , for this lab request comes from a remote server, we can found this using netcat or burp.
 
+lets , try these payloads to see if the response is success
+
+http://lochalhost
 ![[Pasted image 20250305115348.png]]
 
 
+![[Screenshot From 2025-03-05 11-57-03.png]]
 
-we can use Netcat or Burp-suite to test for SSRF
+
+we can use Netcat or Burp-suite to test for SSRF to see if request comes from a remote server,  of your own ip address.
 
 Now, The first thing we want to do is we want to Setup "Netcat" - ( setup guide available in this course's 
 [14.] How to Setup Your Lab (Installing and Demos) )
