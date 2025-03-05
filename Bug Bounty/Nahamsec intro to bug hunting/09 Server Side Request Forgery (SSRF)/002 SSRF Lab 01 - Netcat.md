@@ -10,7 +10,7 @@ we can use Netcat or Burp-suite to test for SSRF
 Now, The first thing we want to do is we want to Setup "Netcat" - ( setup guide available in this course's 
 [14.] How to Setup Your Lab (Installing and Demos) )
 
-
+ 
 
 
 
