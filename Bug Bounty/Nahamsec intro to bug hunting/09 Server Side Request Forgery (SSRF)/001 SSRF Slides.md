@@ -6,6 +6,26 @@ https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
 Note: open redirects can be escalated to SSRF.
 
+So there's a few things you may want to keep in mind while finding SSRF
+First of all, remember, you're making a server side request.
+So that means the request you're making is on the servers behalf and not your browser.
+
+They're actually different ways to look for content on our local hosts other than looking for the keyword localhost or pointing to the 127.0.0.1 IP address.
+
+You might want to get creative, understand how to use the different bypasses to achieve what you're looking for.
+
+Also, remember that an open redirect could be very handy.
+So don't burn it.  If you find open redirect, try and keep it for necessary.
+
+123
+00:07:46,860 --> 00:07:52,200
+If I'm not saying to not report this vulnerability, but I'm saying make sure you cover all your bases
+
+124
+00:07:52,350 --> 00:07:54,450
+before you report the operator act on its own.
+
+
 ---
 
 1
@@ -472,6 +492,8 @@ So in other words, we're going to say, hey, I want you to load this HTML page an
 00:07:08,100 --> 00:07:13,010
 we're going to start hafitz this file faster response that I cannot see and send it back to my server.
 
+
+![[Pasted image 20250305084433.png]]
 113
 00:07:13,350 --> 00:07:16,760
 So there's a few things you may want to keep in mind while fighting for ISIS.
