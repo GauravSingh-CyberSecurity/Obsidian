@@ -14,8 +14,11 @@ lets , try these payloads to see if the response is success
 http://lochalhost
 ![[Pasted image 20250305115348.png]]
 
-
+file:///etc/passwd
 ![[Screenshot From 2025-03-05 11-57-03.png]]
+and as shown in ss the , response is successfully coming for these paths. that should not be shown to user by the server. hence ssrf confirmed.
+
+
 
 
 we can use Netcat or Burp-suite to test for SSRF to see if request comes from a remote server,  of your own ip address.
@@ -62,7 +65,7 @@ netcat command to listen to port 8000
 
  
 ```
-nc -lvnp 8000
+nc -lvp 8000
 ```
 
 
@@ -87,6 +90,7 @@ This will make Burp Suite listen on **port 800**0, similar to `nc -lvnp 8000`.
 
 ---
 
+# Transcript: 
 
 
 1
