@@ -1,7 +1,8 @@
-Analysis of SSR lab:-  
+Analysis of SSRF lab:-  ( http://ssrf.naham.sec:8081/ )  
 
 
-
+So, for example, what we're seeing is an application that just features the source code for any website, so if you put in Google dot com, it actually fetches it and gives you the source code for the whatever web page.
+![[Screenshot From 2025-03-05 09-02-25.png]]
 
 
 
@@ -38,7 +39,7 @@ We've given it before us to make sure there's Matsusaka fear.
 
 5
 00:00:14,670 --> 00:00:18,260
-The first thing we want to do is we want to spin up a net counter.
+The first thing we want to do is we want to spin up a net counter.The first thing we want to do is we want to spin up a net counter.
 
 6
 00:00:18,270 --> 00:00:18,930
