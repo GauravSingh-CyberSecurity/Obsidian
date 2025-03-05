@@ -4,7 +4,7 @@
 https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
 
-Note: open redirects can be escalated to SSRF.
+==Note:== open redirects can be escalated to SSRF.
 
 So there's a few things you may want to keep in mind while finding SSRF
 First of all, remember, you're making a server side request.
@@ -19,23 +19,13 @@ So don't burn it.  If you find open redirect, try and keep it for necessarily fi
 I'm not saying to not report this vulnerability, but I'm saying make sure you cover all your bases (for testing ssrf and other depended vuln) before you report the open redirect on its own.
 
 
-the one thing I want to make sure you understand with SSRF is that
+==the one thing I want to make sure you understand with SSRF is== that
 you want to make sure that the request comes from a remote server and it doesn't come from your personal IP address.
 So that said, if it does happen and you see a request coming from a remote server.
 
-So if that does happen and the request comes from a remote server, always remember that this particular machine may be able to talk to other micro services within this PIVER network that may require to be
+So if that does happen and the request comes from a remote server, always remember that this particular machine may be able to talk to other micro services within this PRIVATE network that may require to be on a VPN.
 
-132
-00:08:23,070 --> 00:08:23,820
-on a VPN.
-
-133
-00:08:24,030 --> 00:08:29,130
-If you see that the request is coming from your personal IP address, then that means that this vulnerability
-
-134
-00:08:29,130 --> 00:08:32,430
-isn't actually necessary if you just making a request through your browser.
+If you see that the request is coming from your personal IP address, then that means that this vulnerability isn't actually necessary if you just making a request through your browser.
 
 
 ---
