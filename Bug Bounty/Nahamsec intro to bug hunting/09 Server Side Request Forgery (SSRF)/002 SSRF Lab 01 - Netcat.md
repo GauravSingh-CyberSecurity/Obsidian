@@ -55,6 +55,19 @@ nc -lvnp 8000
 
 
 
+for burpsuite 
+### **Method 1: Using Burp Suite Proxy Listener (Similar to Netcat -l Mode)**
+
+If you want Burp Suite to listen for incoming connections on a specific port (like Netcat does):
+
+1. **Open Burp Suite** → Go to **Proxy** tab.
+2. Click on **Proxy Settings** → Under **Proxy Listeners**, click **Add**.
+3. Set **Bind to address** to `All interfaces` or `127.0.0.1` (localhost).
+4. Set **Bind to port** to `800` (or any desired port).
+5. Ensure **"Support invisible proxying"** is enabled if needed.
+6. Click **OK** → Ensure the listener is **turned on**.
+
+This will make Burp Suite listen on **port 800**0, similar to `nc -lvnp 8000`.
 
 
 
