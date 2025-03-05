@@ -1,4 +1,10 @@
 
+
+026 URI-Schemes
+https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
+
+---
+
 1
 00:00:00,060 --> 00:00:05,460
 The next vulnerability we're going to look at is server side, of course, forgery, also known as necessary,
@@ -183,8 +189,8 @@ And here's what I will show you.
 
 45
 00:02:39,300 --> 00:02:44,070
-If you were actually sitting within our internal network, the best thing about it necessarily is that
-
+If you were actually sitting within our internal network, the best thing about  SSRF it  necessarily is that
+![[Screenshot From 2025-03-05 08-35-52.png]]
 46
 00:02:44,070 --> 00:02:49,800
 it doesn't just limit you to internal resources, but it also allows you to search internal files depending
@@ -201,6 +207,9 @@ So in this case, the application allows us to use foul language, which actually 
 00:02:57,330 --> 00:03:00,060
 file and displays the contents of it within the application.
 
+
+
+![[Screenshot From 2025-03-05 08-37-26.png]]
 50
 00:03:00,210 --> 00:03:05,670
 Now let's talk about the blindness SRF blindness SRF happens where you are actually able to hit an internal
