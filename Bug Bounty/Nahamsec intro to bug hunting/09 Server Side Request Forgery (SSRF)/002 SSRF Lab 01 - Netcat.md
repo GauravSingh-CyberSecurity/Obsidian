@@ -81,7 +81,7 @@ We've given it before us to make sure there's Matsusaka fear.
 
 5
 00:00:14,670 --> 00:00:18,260
-The first thing we want to do is we want to spin up a net counter.The first thing we want to do is we want to spin up a net counter.
+The first thing we want to do is we want to spin up a netcat.The first thing we want to do is we want to spin up a net counter.
 
 6
 00:00:18,270 --> 00:00:18,930
