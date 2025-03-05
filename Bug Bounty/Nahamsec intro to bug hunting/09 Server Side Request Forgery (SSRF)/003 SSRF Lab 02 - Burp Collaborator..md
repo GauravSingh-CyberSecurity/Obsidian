@@ -6,8 +6,12 @@ for the Web page, it's actually taking a screenshot( instead of giving source co
 
 
 
-
-
+Now we use burp collaborator: 
+- Go to **Burp Suite** → **Burp Collaborator** tab.
+-  set Payloads to generate:  (as per requirement, by default 1)
+- Click on **"Copy to clipboard"**.  To copy the payload
+- paste it in the above webs
+- Burp will provide a **unique URL** that can be used to capture interactions from external sources.
 
 
 
