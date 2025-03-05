@@ -5,6 +5,13 @@ So, for example, what we're seeing is an application that just features the sour
 ![[Screenshot From 2025-03-05 09-02-25.png]]
 
 
+
+
+
+![[Pasted image 20250305115348.png]]
+
+
+
 we can use Netcat or Burp-suite to test for SSRF
 
 Now, The first thing we want to do is we want to Setup "Netcat" - ( setup guide available in this course's 
