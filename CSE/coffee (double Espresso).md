@@ -8,4 +8,4 @@ A double espresso is 120mg caffeine.
 ***==Note: 4 cups(480 mg caffeine) of double espresso is max for a day.==***
 
 
-![[Coffee.png]]
+![[Hacker Notes/Coffee.png]]
