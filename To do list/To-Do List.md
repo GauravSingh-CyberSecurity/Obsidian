@@ -42,3 +42,10 @@ Bike servicing, wash bag,crocs,shoes.
 
 
 
+**Revision for CBBH/OSWA**
+
+- HTML/CSS
+- JS
+- SQL
+- vulnerability learned in portswigger
+- vulnerability learned in nahamsec Udemy course 

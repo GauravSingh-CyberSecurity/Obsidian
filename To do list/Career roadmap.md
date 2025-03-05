@@ -9,11 +9,11 @@ First get HTB CBBH cert
 6) Concurrently prepare for oscp in 2026, gain the cert in Dec 2026
 7) 2027 Start prep for GMAT/GRE for MS.
 
-Certification sequence:
-First get HTB CBBH cert 
-OSWA
-OSCP
-OSWE
+==Certification sequence:==
+==First get HTB CBBH cert== 
+==OSWA==
+==OSCP==
+==OSWE==
 
 
 
