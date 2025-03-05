@@ -3,6 +3,9 @@
 026 URI-Schemes
 https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
+
+Note: open redirects can be escalated to SSRF.
+
 ---
 
 1
@@ -258,6 +261,9 @@ about ninety four milliseconds, which is close to our first example, which could
 00:03:48,150 --> 00:03:50,180
 may be running within six three seven nine.
 
+
+
+![[Screenshot From 2025-03-05 08-39-00.png]]
 62
 00:03:50,520 --> 00:03:56,280
 Whereas in SRF we are getting some sort of a response by looking at the HTP response code.
@@ -302,6 +308,8 @@ And the application comes back and says, hey, 200, OK, there is something actual
 00:04:31,590 --> 00:04:32,010
 as well.
 
+
+![[Screenshot From 2025-03-05 08-40-05.png]]
 73
 00:04:32,400 --> 00:04:36,610
 Now, let's look at some of these limitations and potential blockers when it comes down to looking for
@@ -346,6 +354,8 @@ see the response.
 00:05:15,750 --> 00:05:19,380
 So you may have to play around and find a way around it.
 
+
+![[Screenshot From 2025-03-05 08-41-24.png]]
 84
 00:05:19,650 --> 00:05:20,870
 Now, let's talk about a solution.
