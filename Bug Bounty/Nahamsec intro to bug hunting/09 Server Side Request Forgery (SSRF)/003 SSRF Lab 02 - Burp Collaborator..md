@@ -18,7 +18,7 @@ for the Web page, it's actually taking a screenshot( instead of giving source co
 - Therefore SSRF can be present
 
 
-Now using some ssrf payloads to confirm SSRF exists:-
+==Now using some ssrf payloads to confirm SSRF exists:-==
 
 http://localhost
 ![[Screenshot From 2025-03-05 13-08-16.png]]
@@ -33,7 +33,25 @@ response: ![[Pasted image 20250305130746.png]]
 http://127.0.0.1:80
 response: 
 ![[Pasted image 20250305130746.png]]
-file:///etc/passwd
+
+
+
+- file:///etc/passwd
+![[Pasted image 20250305131010.png]]
+response: 
+![[Pasted image 20250305131029.png]]
+
+Hence SSRF Found.
+
+
+
+
+
+
+
+
+
+
 
 
 # **SSRF (Server-Side Request Forgery) Payloads**
@@ -177,6 +195,13 @@ Let me know if you need specific payloads for a particular scenario! 🚀
 
 ---
 
+
+
+
+
+
+
+---
 # Transcript of lab: 
 
 1
