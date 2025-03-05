@@ -1,6 +1,10 @@
-
+Analysis of SSRF lab:-  ( http://ssrf2.naham.sec:8081/ )
 
 ![[Screenshot From 2025-03-05 12-09-19.png]]
+this example is the same thing as ssrf lab1, instead of giving us a source code
+for the Web page, it's actually taking a screenshot( instead of giving source code like lab1).
+
+
 
 
 

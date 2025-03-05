@@ -1,5 +1,5 @@
 Analysis of SSRF lab:-  ( http://ssrf.naham.sec:8081/ )  
-
+Note : for using netcat in this example, to find ssrf you need personal server
 
 So, for example, what we're seeing is an application that just features the source code for any website, so if you put in Google dot com, it actually fetches it and gives you the source code for the whatever web page.
 ![[Screenshot From 2025-03-05 09-02-25.png]]
@@ -23,6 +23,7 @@ and as shown in ss the , response is successfully coming for these paths. that s
 
 we can use Netcat or Burp-suite to test for SSRF to see if request comes from a remote server,  of your own ip address.
 
+Note : for using netcat in this example, to find ssrf you need personal server
 Now, The first thing we want to do is we want to Setup "Netcat" - ( setup guide available in this course's 
 [14.] How to Setup Your Lab (Installing and Demos) )
 ```
@@ -65,7 +66,7 @@ netcat command to listen to port 8000
 
  
 ```
-nc -lvp 8000
+nc -lvnp 8000
 ```
 
 
