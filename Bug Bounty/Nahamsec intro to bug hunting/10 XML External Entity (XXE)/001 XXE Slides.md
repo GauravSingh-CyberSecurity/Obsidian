@@ -8,11 +8,11 @@ https://www.w3schools.com/xml/default.asp
 
 To gain a foundational understanding of XML and its structure, consider exploring the following resources:
 
-- **W3Schools XML Tutorial**: This tutorial offers a comprehensive introduction to XML, covering its syntax, how to use it, and its various applications. https://www.w3schools.com/xml/?utm_source=chatgpt.com
+- **W3Schools XML Tutorial**: This tutorial offers a comprehensive introduction to XML, covering its syntax, how to use it, and its various applications. https://www.w3schools.com/xml/default.asp
     
-- **GeeksforGeeks XML Basics**: This resource provides an overview of XML, detailing its features and how it differs from other markup languages like HTML. https://www.geeksforgeeks.org/xml-basics/?utm_source=chatgpt.com
+- **GeeksforGeeks XML Basics**: This resource provides an overview of XML, detailing its features and how it differs from other markup languages like HTML. https://www.geeksforgeeks.org/xml-basics/?ref=ml_lbp
     
-- **Microsoft's Introduction to XML**: This article explains the basics of XML, including its purpose and how it integrates with other technologies. https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44?utm_source=chatgpt.com
+- **Microsoft's Introduction to XML**: This article explains the basics of XML, including its purpose and how it integrates with other technologies. https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44#:~:text=The%20combination%20of%20data%20file,usable%20ways%20by%20a%20transform.
     
 
 These resources will help you understand XML's structure, its syntax rules, and how it is used to represent data across various platforms.
