@@ -46,12 +46,27 @@ For this one, I'm going to try **localhost on port 80**. It comes back and confi
 Now, let's try the same request but using an **IP address ( http://127.0.0.1 ) instead of localhost**. You'll notice that some blind SSRF protections exist, but there are restrictions we might need to bypass. 
 
 
+
+Now,
 Since we were able to access **localhost** (http://localhost ), let's try scanning another port.
 I'll attempt to connect to another **port on localhost** (http://localhost:8080). This time, the response is **"Request Failed"**, and it returned fairly quickly. Now, let's try another port (http://localhost:10000) and observe the response time.
 
 
 
-The goal here is to scan as many ports as possible to determine whether the SSRF vulnerability grants access to an **internal network**. This allows us to enumerate the internal infrastructure and identify **open ports** that could be further explored.
+The goal here is to scan as many ports as possible to determine whether the SSRF vulnerability grants access to an **internal network**. This allows us to enumerate the internal infrastructure and identify **open ports** that could be further explored .
+
+
+
+Always pay close attention to responses. In some cases, the application may not return **verbose error messages,** but a noticeable **delay** can indicate whether a port is open or closed.
+
+
+For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If the response is instant, it likely means the request was blocked or failed.
+
+Summary :- 
+In this case , if I provide a different IP address, you’ll notice that it takes longer compared to an available resource, which responds much faster.
+
+
+So, from this example, remember that **blind SSRFs** can be tricky. You need to experiment and analyze how the application behaves. Pay close attention to **response times, error messages, and unusual behaviors** to identify potential vulnerabilities.
 
 
 ---
@@ -74,13 +89,10 @@ Now, let's have a look at another example. This example is another website that 
 
 
 
-Always pay close attention to responses. In some cases, the application may not return verbose error messages, but a noticeable **delay** can indicate whether a port is open or closed.
 
-For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If the response is instant, it likely means the request was blocked or failed.
 
-In this case, if I provide a different IP address, you’ll notice that it takes longer compared to an available resource, which responds much faster.
 
-So, from this example, remember that **blind SSRFs** can be tricky. You need to experiment and analyze how the application behaves. Pay close attention to **response times, error messages, and unusual behaviors** to identify potential vulnerabilities.
+
 
 # Transcript of lab: 
 
