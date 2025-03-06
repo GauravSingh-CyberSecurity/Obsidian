@@ -3,15 +3,16 @@
 If you're not familiar with XML, I highly recommend looking into the basics of XML, looking at
 over and understanding how XML is structured.
 
-​XML (eXtensible Markup Language) is a versatile markup language designed to store and transport data in a format that is both human-readable and machine-readable. It allows users to define their own customized tags, facilitating the structured representation of information. citeturn0search0
+​XML (eXtensible Markup Language) is a versatile markup language designed to store and transport data in a format that is both human-readable and machine-readable. It allows users to define their own customized tags, facilitating the structured representation of information.
+https://www.w3schools.com/xml/default.asp
 
 To gain a foundational understanding of XML and its structure, consider exploring the following resources:
 
-- **W3Schools XML Tutorial**: This tutorial offers a comprehensive introduction to XML, covering its syntax, how to use it, and its various applications. citeturn0search0
+- **W3Schools XML Tutorial**: This tutorial offers a comprehensive introduction to XML, covering its syntax, how to use it, and its various applications. https://www.w3schools.com/xml/?utm_source=chatgpt.com
     
-- **GeeksforGeeks XML Basics**: This resource provides an overview of XML, detailing its features and how it differs from other markup languages like HTML. citeturn0search1
+- **GeeksforGeeks XML Basics**: This resource provides an overview of XML, detailing its features and how it differs from other markup languages like HTML. https://www.geeksforgeeks.org/xml-basics/?utm_source=chatgpt.com
     
-- **Microsoft's Introduction to XML**: This article explains the basics of XML, including its purpose and how it integrates with other technologies. citeturn0search2
+- **Microsoft's Introduction to XML**: This article explains the basics of XML, including its purpose and how it integrates with other technologies. https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44?utm_source=chatgpt.com
     
 
 These resources will help you understand XML's structure, its syntax rules, and how it is used to represent data across various platforms.
