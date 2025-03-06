@@ -1,7 +1,31 @@
 Analysis of SSRF lab:-  (http://ssrf6.naham.sec:8081/)
 
+![[Screenshot From 2025-03-06 14-58-04.png]]
+Let's look at our next example. In this example, we're going to try reaching a remote website. As always, we'll try Google.com.
 
+As we can see, it replies and confirms that it can fetch the contents of the remote website we requested. We can also confirm this by using a Burp Collaborator or Netcat—whichever tool you prefer. Both are good ways to check for SSRF.
 
+We’ll now push that in and confirm that a request is coming from another server that is not our IP address. For example, if I know my IP address and this request is coming from a different one, I can confirm that the request originated from a remote server.
+
+To further validate this, we can enter a URL with an SSRF test from the target site. Once we submit the request, we can observe the incoming request and confirm that it was sent from the target website. Additionally, we can check the IP address, headers, and other request details.
+
+Now, let's test with a local IP. For example, if we check the metadata service IP address, we know that every cloud service provider has this IP address, which sometimes provides metadata and, in some cases, even secret keys, depending on how it's configured.
+
+We attempt to access this IP, but the server responds with a message stating that only remote URLs are allowed. Next, we try accessing localhost to see if we can reach the backend of the machine. Entering localhost yields the same restriction, implying that either there is an SSRF defense mechanism in place or some filtering is being applied.
+
+However, a useful trick is leveraging a domain like `x.ip.io`. This domain allows you to resolve any IP address by appending it to their domain. This means we can use it to bypass filters and access internal IPs, such as `10.x.x.x` or even the cloud metadata service.
+
+In our case, we attempt to resolve `169.254.169.254` using `169.254.169.254.ip.io`. We ensure the request is prefixed with `http://` and send it. This time, the response changes—it no longer states that the request is not remote. Instead, we get a "404 Not Found" response, likely because there is nothing hosted on the webroot.
+
+To dig deeper, we try accessing the `/metadata` endpoint. Again, the response is "404 Not Found." However, for DigitalOcean, the correct metadata endpoint is `/metadata/v1`. When we send this request, the server responds with access to metadata information.
+
+Although this specific case does not expose highly sensitive data, it demonstrates the impact of an SSRF vulnerability that allows access to localhost.
+
+We also attempt to access `127.0.0.1` directly, but it appears there is some filtering against this address. The server blocks requests to `127.0.0.1`, but it allowed the metadata IP via the bypass.
+
+This technique of using an external domain like `x.ip.io` is very useful for bypassing SSRF filters. Alternatively, you can create your own subdomain and configure an A record pointing to an internal IP address. This allows further testing, including targeting `169.254.169.254` for metadata access.
+
+Using this approach, we successfully bypassed the blacklist and demonstrated how SSRF can be leveraged even when some filtering is in place.
 
 
 
