@@ -63,7 +63,9 @@ Always pay close attention to responses. In some cases, the application may not 
 For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If a response comes back very quickly l, we know that we have access to it,   versus giving it something that doesn't exist at all.
 
 Summary :- 
-In this case (SSRF Lab 03 - Whitelisting) , if I provide a different IP address, you’ll notice that it takes longer compared to an available resource, which responds much faster.
+In this case (SSRF Lab 03 - Whitelisting) , So for this instance, 
+if I would giving it a little bit of a different IP address (http://127.0.0.9) .
+It takes a little bit longer than something that is available(http://127.0.0.1:80) and comes back fairly quickly.
 
 
 So, from this example, remember that **blind SSRFs** can be tricky. You need to experiment and analyze how the application behaves. Pay close attention to **response times, error messages, and unusual behaviors** to identify potential vulnerabilities.
@@ -77,18 +79,7 @@ So, from this example, remember that **blind SSRFs** can be tricky. You need to 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 # Transcript of lab: 
