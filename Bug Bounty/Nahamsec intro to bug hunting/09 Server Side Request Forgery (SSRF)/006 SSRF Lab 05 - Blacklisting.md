@@ -10,9 +10,11 @@ We’ll now push that in and confirm that a request is coming from another serve
 
 
 ![[Screenshot From 2025-03-06 15-04-09.png]]
-To further validate this, we can enter a URL(https://cbro1e6kadd51ay11yvrft4dt4zwnnbc.oastify.com  , this url was ge) with an SSRF test from the target site. Once we submit the request, we can observe the incoming request and confirm that it was sent from the target website. Additionally, we can check the IP address, headers, and other request details.
+To further validate this, we can enter a URL(https://cbro1e6kadd51ay11yvrft4dt4zwnnbc.oastify.com  , this url was generated from burp collaborator by copying the payload, from copy to clipboard option) with an SSRF test from the target site.  Once we submit the request,
+![[Pasted image 20250306150623.png]]
+ we can observe the incoming request and confirm that it was sent from the target website(i.e ip address is of server and not our local systems ip address). Additionally, we can check the IP address, headers, and other request details.
 
-Now, let's test with a local IP. For example, if we check the metadata service IP address, we know that every cloud service provider has this IP address, which sometimes provides metadata and, in some cases, even secret keys, depending on how it's configured.
+Now, let's test with a local IP. For example, if we check the metadata service IP address( http://169.254.169.254), we know that every cloud service provider has this IP address, which sometimes provides metadata and, in some cases, even secret keys, depending on how it's configured.
 
 We attempt to access this IP, but the server responds with a message stating that only remote URLs are allowed. Next, we try accessing localhost to see if we can reach the backend of the machine. Entering localhost yields the same restriction, implying that either there is an SSRF defense mechanism in place or some filtering is being applied.
 
