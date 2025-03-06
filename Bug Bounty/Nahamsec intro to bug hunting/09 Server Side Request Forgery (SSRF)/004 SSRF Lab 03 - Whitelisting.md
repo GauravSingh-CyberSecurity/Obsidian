@@ -60,18 +60,15 @@ The goal here is to scan as many ports as possible to determine whether the SSRF
 Always pay close attention to responses. In some cases, the application may not return **verbose error messages,** but a noticeable **delay** can indicate whether a port is open or closed.
 
 
-For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If the response is instant, it likely means the request was blocked or failed.
+For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If a response comes back very quickly l, we know that we have access to it,   versus giving it something that doesn't exist at all.
 
 Summary :- 
-In this case , if I provide a different IP address, you’ll notice that it takes longer compared to an available resource, which responds much faster.
+In this case (SSRF Lab 03 - Whitelisting) , if I provide a different IP address, you’ll notice that it takes longer compared to an available resource, which responds much faster.
 
 
 So, from this example, remember that **blind SSRFs** can be tricky. You need to experiment and analyze how the application behaves. Pay close attention to **response times, error messages, and unusual behaviors** to identify potential vulnerabilities.
 
 
----
-
-Now, let's have a look at another example. This example is another website that checks whether a website is up.
 
 
 
@@ -266,7 +263,7 @@ It takes a little bit longer than something that is available and comes back fai
 
 43
 00:02:42,930 --> 00:02:48,390
-So, again, I want to make sure you take this away from this example that blunt assessors are very
+So, again, I want to make sure you take this away from this example that Blind ssrf are very
 
 44
 00:02:48,390 --> 00:02:48,840
