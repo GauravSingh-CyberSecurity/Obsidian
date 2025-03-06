@@ -2,6 +2,40 @@ Analysis of SSRF lab:-   ( http://ssrf5.naham.sec:8081/ )
 
 
 
+Let's look at our next example. In this example, we're going to try reaching a remote website.
+
+As always, we'll try **google.com**, but put it in a request. As we can see, it replies and tells us, _"Hey, I can fetch the contents of the remote website you have asked for."_
+
+We can also confirm this by using **Burp Collaborator** or **Netcat**, whichever tool you prefer. Both are good ways to verify an SSRF (Server-Side Request Forgery) vulnerability.
+
+Now, let's push that request and observe what happens. We'll confirm that a request is coming from a server other than our own IP address. For example, I know my IP address, but the response comes from a different one. This confirms that the request is being made from a remote server.
+
+Additionally, we can test by entering a URL with an **SSRF test** from the target site. Once we submit the request, another request is received. By analyzing the incoming request, we can confirm that it originated from our target website.
+
+From the response, we can observe details such as the IP address, the headers sent, and other useful information.
+
+Now, let's see what happens when we target a **local IP**. For example, if we want to check for the **metadata IP address**, we should remember that every **cloud service provider** has one. Sometimes, these addresses provide metadata access or even secret keys, depending on the configuration.
+
+In this case, we send a request, but the server responds: _"Only remote requests are allowed."_
+
+Next, we'll test access to **localhost**. Our goal is to determine whether we can access the backend server running on the same machine. We send a request, and the response suggests that some **defense mechanism** is in place against SSRF, or perhaps filtering is implemented.
+
+Fortunately, there's a workaround using a service like **xip.io** (or you can create your own domain for this). The **xip.io** service allows resolving an IP address behind a domain name, which can help bypass some SSRF restrictions.
+
+For instance, if we use `169.254.169.254.xip.io`, the request appears as a remote one instead of a local request.
+
+Now, let's test it. We send a request to `169.254.169.254.xip.io` prefixed with `http://`. This time, the request no longer gets blocked for being non-remote; instead, it returns **404 Not Found**. This suggests that nothing is hosted on the web root.
+
+If we append `/metadata/` to the URL and send the request again, we receive another **404**. However, we know that for DigitalOcean, the correct path is `/metadata/v1/`. When we send a request to this endpoint, it successfully returns **metadata information** from the cloud provider.
+
+In this case, the retrieved metadata doesn’t expose anything highly sensitive, but it still demonstrates the **impact of an SSRF vulnerability** allowing access to localhost.
+
+If we need to refer to **localhost using an IP**, we use `127.0.0.1`. Let's try making a request to `http://127.0.0.1/` and observe the response. Again, it gets filtered, meaning some level of protection is in place. However, this filtering differs from the bypass that worked for the **metadata IP**.
+
+This method is a great technique to know! If you own a domain, you can configure an **A record** within your domain management settings to point to any IP address, including `169.254.169.254`.
+
+Using a service like **xip.io** or setting up your own custom domain can help bypass certain SSRF protections and access restricted endpoints.
+
 
 
 
