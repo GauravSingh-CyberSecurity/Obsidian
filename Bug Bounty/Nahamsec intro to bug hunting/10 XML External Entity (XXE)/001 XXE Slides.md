@@ -3,6 +3,18 @@
 If you're not familiar with XML, I highly recommend looking into the basics of XML, looking at
 over and understanding how XML is structured.
 
+​XML (eXtensible Markup Language) is a versatile markup language designed to store and transport data in a format that is both human-readable and machine-readable. It allows users to define their own customized tags, facilitating the structured representation of information. citeturn0search0
+
+To gain a foundational understanding of XML and its structure, consider exploring the following resources:
+
+- **W3Schools XML Tutorial**: This tutorial offers a comprehensive introduction to XML, covering its syntax, how to use it, and its various applications. citeturn0search0
+    
+- **GeeksforGeeks XML Basics**: This resource provides an overview of XML, detailing its features and how it differs from other markup languages like HTML. citeturn0search1
+    
+- **Microsoft's Introduction to XML**: This article explains the basics of XML, including its purpose and how it integrates with other technologies. citeturn0search2
+    
+
+These resources will help you understand XML's structure, its syntax rules, and how it is used to represent data across various platforms.
 
 
 ---
@@ -192,9 +204,12 @@ We go back, we change Foo to username Miklosi username, but we put an element in
 00:02:57,930 --> 00:03:00,680
 back and gives us the contents of that file.
 
+
+
+![[Screenshot From 2025-03-06 16-59-55.png]]
 46
 00:03:02,130 --> 00:03:05,610
-We can also do this, as mentioned earlier, to leverage SRF.
+We can also do this, as mentioned earlier, to leverage SSRF.
 
 47
 00:03:05,730 --> 00:03:11,280
@@ -224,6 +239,8 @@ And again, Downbelow within Fux we're calling it and we having get past that dat
 00:03:35,040 --> 00:03:35,420
 to us.
 
+
+![[Screenshot From 2025-03-06 17-01-08.png]]
 54
 00:03:35,790 --> 00:03:40,340
 There might be times where we may have a blind xixi where we don't see the response.
