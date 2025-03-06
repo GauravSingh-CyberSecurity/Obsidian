@@ -63,7 +63,7 @@ This confirms that the application is actually making requests to **localhost** 
 
 Since we now know that we can query localhost, let's see if we can **scan for open ports**.
 
-A common port to check is **22 (SSH)**, as many servers use SSH for remote access. Let's test it:
+A common port to check is **22 (SSH)**, ahttp://localhost:22s many servers use SSH for remote access. Let's test it:
 
 ```
 http://localhost:22
