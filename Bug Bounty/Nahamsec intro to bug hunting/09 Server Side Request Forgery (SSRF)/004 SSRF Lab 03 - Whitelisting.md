@@ -1,5 +1,11 @@
+Analysis of SSRF lab:- ( http://ssrf4.naham.sec:8081/ )
+
+![[Pasted image 20250306123054.png]]
+this example is another website that says check whether a website is up.
 
 
+So whatever I.P. address we give it, it's going to tell us if there is a response for it, whether
+if or not, if the website is up.
 
 
 
