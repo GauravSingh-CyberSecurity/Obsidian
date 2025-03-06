@@ -12,6 +12,26 @@ As always, we're going to type in **Google.com**. This comes back and says, "Hey
 Obviously, we can't use a file:///etc/passwd because it's being filtered. But this is a blind SSRF, so whatever IP address we provide, it will check if there is a response, indicating whether the website is up or not.
 
 
+In this case, if we get a **404**, we know that the **metadata IP address** for https://example.com/nonexistentpage returns a **404**.
+![[Screenshot From 2025-03-06 12-44-21.png]]
+ If I enter this IP address and it says "Invalid," it means there should be a response.
+
+
+
+Now, let's try giving it an **invalid IP address**—one that is not available. It should come back with a **request failed** message.
+![[Screenshot From 2025-03-06 12-45-52.png]]
+When dealing with a **blind SSRF**, it's important to observe how the application behaves. In some cases, the application may return different responses depending on the request. For example, in this case, the server responds with **"Request Failed"** when attempting to connect.
+
+
+
+
+Now, let's try scanning different ports. I'll start with **port 10000**. As you can see, it's taking a little longer to load before returning a response. Now, let's try **port 80**, which is typically used for HTTP.
+
+
+
+For this one, I'm going to try **localhost on port 80**. It comes back and confirms that we have access to **localhost**, proving that an SSRF vulnerability exists. We are able to access the local network.
+
+
 ---
 
 Now, let's have a look at another example. This example is another website that checks whether a website is up.
@@ -20,15 +40,13 @@ Now, let's have a look at another example. This example is another website that 
 
 
 
-In this case, if we get a **404**, we know from our previous examples that the **metadata IP address** for DigitalOcean returns a **404**. If I enter this IP address and it says "Invalid," it means there should be a response.
 
-Now, let's try giving it an **invalid IP address**—one that is not available. It should come back with a **request failed** message.
 
-When dealing with a **blind SSRF**, it's important to observe how the application behaves. In some cases, the application may return different responses depending on the request. For example, in this case, the server responds with **"Request Failed"** when attempting to connect.
 
-Now, let's try scanning different ports. I'll start with **port 10000**. As you can see, it's taking a little longer to load before returning a response. Now, let's try **port 80**, which is typically used for HTTP.
 
-For this one, I'm going to try **localhost on port 80**. It comes back and confirms that we have access to **localhost**, proving that an SSRF vulnerability exists. We are able to access the local network.
+
+
+
 
 Now, let's try the same request but using an **IP address instead of localhost**. You'll notice that some SSRF protections exist, but there are restrictions we might need to bypass. Since we were able to access **localhost**, let's try scanning another port.
 
