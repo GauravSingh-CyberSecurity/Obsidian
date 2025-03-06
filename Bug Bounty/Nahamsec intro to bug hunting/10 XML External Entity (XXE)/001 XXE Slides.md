@@ -1,6 +1,7 @@
 
-
-
+- XML DTD :https://www.w3schools.com/xml/xml_dtd.asp
+If you're not familiar with XML, I highly recommend looking into the basics of XML, looking at
+over and understanding how XML is structured.
 
 
 
@@ -126,7 +127,7 @@ The application takes that and responds with no take back.
 29
 00:01:47,310 --> 00:01:51,630
 So that means that past it took the value it was looking for and return it back to us.
-
+![[Screenshot From 2025-03-06 16-55-20.png]]
 30
 00:01:52,580 --> 00:01:58,260
 But now what we can do in this case is we can use a system identifier, which is very common in XML.
