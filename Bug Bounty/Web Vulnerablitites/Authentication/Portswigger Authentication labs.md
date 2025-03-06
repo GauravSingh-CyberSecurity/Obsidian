@@ -408,7 +408,7 @@ now enumerating another user:
 - for real life pentest never use online crackers, instead use offline tools like hashcat
 
 as shown in the SS this is how you create the payload in intruder : base64(username:md5(password)) , for  stay-logged-in cookie .
-![[Screenshot From 2025-02-07 14-55-49.png]]
+![[SCREENSHOT/screenshots 1/Screenshot From 2025-02-07 14-55-49.png]]
 
 
 
