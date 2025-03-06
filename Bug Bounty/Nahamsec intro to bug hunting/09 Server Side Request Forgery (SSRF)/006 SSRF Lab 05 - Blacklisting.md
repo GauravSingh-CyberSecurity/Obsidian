@@ -28,9 +28,10 @@ xip.io :(https://medium.com/@arunov/explore-the-magic-of-xip-io-free-wildcard-dn
 In our case, we attempt to resolve `169.254.169.254` using (https://169.254.169.254.xip.io). We ensure the request is prefixed with `http://` and send it. This time, the response changes—it no longer states that the request is not remote. Instead, we get a "404 not found" 
 response, likely because there is nothing hosted on the webroot.
 
-To dig deeper, we try accessing the `/metadata` endpoint. Again, the response is "404 Not Found." 
+To dig deeper, we try accessing the `/metadata` endpoint
+(http://169.254.169.254.xip.io/metadata/). Again, the response is "404 Not Found." 
 
-However, for `169.254.169.254` , the correct metadata endpoint is `169.254.169.254.xip.io/metadata/v1`. When we send this request, the server responds with access to metadata information. Now, we successfully bypassed the blacklist and demonstrated how SSRF can be leveraged even when some filtering is in place.
+However, for `169.254.169.254` , the correct metadata endpoint is `http://169.254.169.254.xip.io/metadata/v1`. When we send this request, the server responds with access to metadata information. Now, we successfully bypassed the blacklist and demonstrated how SSRF can be leveraged even when some filtering is in place.
 ![[Screenshot From 2025-03-06 15-26-17.png]]
 Although this specific case does not expose highly sensitive data, it demonstrates the impact of an SSRF vulnerability that allows access to localhost.
 
