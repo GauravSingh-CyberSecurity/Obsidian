@@ -2,6 +2,110 @@ Analysis of SSRF lab:-  (http://ssrf5.naham.sec:8081/)
 
 
 
+![[Screenshot From 2025-03-06 13-26-21.png]]
+Now, let's take another example of this SSRF vulnerability. In this case, the website tells us whether a remote website is accessible.
+
+If I enter something like **google.com**, it responds, saying, _"This website is accessible, and I can fetch its contents."_
+
+Let's try another random website, like **example.com** (https://example.com) , to see if it works. The response comes back as _"Website is up."_
+
+Now, let's see if we can exploit this vulnerability to perform actions like **port scanning, blind SSRF,** or something similar.
+
+
+
+### Step 1: Confirming the Vulnerability
+
+The first thing we want to do is verify whether the application is vulnerable. We can do this using **Netcat** or **Burp Suite Collaborator**.
+
+For this example, I'll use **Burp Collaborator**, as it makes the process easier. However, you can also use your own server or an external tool like Netcat.
+
+
+
+I'll send a request (http://g1isriwo0h39reo5r2lv5xuhj8pzdq1f.oastify.com) to the application, which should respond, confirming that a request was made from the server to our **Burp Collaborator instance**.
+
+This verifies that the application makes **server-side requests**, meaning it is vulnerable to **SSRF**. Additionally, the request comes from the **target server's backend** and not our own computer or browser.
+
+### Step 2: Testing for Localhost Access
+
+Next, we want to check if the server allows access to **localhost**. We can test this by entering either `"localhost"` or its corresponding **IP address (127.0.0.1)**.
+
+Let's try this:
+
+- If we enter `127.0.0.1`, the response says: _"Only external URLs are allowed."_
+- If we enter `"localhost"`, the response is the same.
+
+This suggests that the application is filtering requests to local addresses.
+
+### Step 3: Bypassing Restrictions
+
+Let's see if we can bypass this restriction. One way to do this is by appending a **port number** to `localhost`.
+
+For example, let's try:
+
+```
+http://localhost:80
+```
+
+Surprisingly, the application responds: _"Website is up."_ This suggests that port filtering is weak, and we've successfully bypassed the check.
+
+To confirm that this behavior is valid, let's try another random **port number**, such as `81`, which is unlikely to be open.
+
+```
+http://localhost:81
+```
+
+This time, the response is _"Request failed."_
+
+This confirms that the application is actually making requests to **localhost** and checking if services are running on specified ports.
+
+### Step 4: Port Scanning via SSRF
+
+Since we now know that we can query localhost, let's see if we can **scan for open ports**.
+
+A common port to check is **22 (SSH)**, as many servers use SSH for remote access. Let's test it:
+
+```
+http://localhost:22
+```
+
+The response is different from the previous failures, indicating that port **22 is open**.
+
+Now, let's test some other ports:
+
+- **Port 81**: Request failed (closed port).
+- **Port 25**: Request failed (closed port).
+- **Port 443 (HTTPS)**: Different response, indicating that it may be open.
+
+From this, we can determine that **ports 80, 443, and 22** are open, meaning we can perform **port scanning via SSRF**.
+
+### Step 5: Testing External IPs
+
+Now that we've confirmed we can scan localhost, let's see if we can access **other private IP addresses** within the internal network.
+
+If we suspect the target is on a private network (e.g., `192.168.1.x` or `10.0.0.x`), we can try:
+
+```
+http://192.168.1.1:22
+```
+
+If the request **fails**, it likely means either the IP is unreachable, or no services are running.
+
+If we get a different response, it suggests that the **IP exists** and has an **open port**.
+
+### Conclusion
+
+With this vulnerability, we’ve successfully:  
+✔ Verified SSRF exists.  
+✔ Bypassed localhost restrictions.  
+✔ Performed **blind SSRF-based port scanning**.  
+✔ Identified open ports such as **80, 443, and 22**.  
+✔ Attempted to scan other private IPs within the internal network.
+
+This is an **important finding**, as it shows that the application allows **unauthorized internal network access**, which could lead to **further exploitation**.
+
+To report this vulnerability, we can provide a **proof of concept (PoC)** showing how we discovered and exploited the issue, demonstrating its **security impact** on the target system.
+
+
 
 ---
 1
