@@ -16,11 +16,16 @@ To further validate this, we can enter a URL(https://cbro1e6kadd51ay11yvrft4dt4z
 
 Now, let's test with a local IP. For example, if we check the metadata service IP address( http://169.254.169.254), we know that every cloud service provider has this IP address, which sometimes provides metadata and, in some cases, even secret keys, depending on how it's configured.
 
-We attempt to access this IP, but the server responds with a message stating that only remote URLs are allowed. Next, we try accessing localhost to see if we can reach the backend of the machine. Entering localhost yields the same restriction, implying that either there is an SSRF defense mechanism in place or some filtering is being applied.
 
-However, a useful trick is leveraging a domain like `x.ip.io`. This domain allows you to resolve any IP address by appending it to their domain. This means we can use it to bypass filters and access internal IPs, such as `10.x.x.x` or even the cloud metadata service.
 
-In our case, we attempt to resolve `169.254.169.254` using `169.254.169.254.ip.io`. We ensure the request is prefixed with `http://` and send it. This time, the response changes—it no longer states that the request is not remote. Instead, we get a "404 Not Found" response, likely because there is nothing hosted on the webroot.
+![[Screenshot From 2025-03-06 15-10-14.png]]
+We attempt to access this IP, but the server responds with a message stating that only remote URLs are allowed. Next, we try accessing localhost(http://localhost) to see if we can reach the backend of the machine. Entering localhost yields the same restriction, implying that either there is an SSRF defense mechanism in place or some filtering is being applied.
+
+
+
+==However, a useful trick is leveraging a domain like== `x.ip.io`. ==This domain allows you to resolve any IP address by appending it to their domain. This means we can use it to bypass filters and access internal IPs, such as== `10.x.x.x` ==or even the cloud metadata service.==
+
+In our case, we attempt to resolve `169.254.169.254` using (https://169.254.169.254.ip.io). We ensure the request is prefixed with `http://` and send it. This time, the response changes—it no longer states that the request is not remote. Instead, we get a "404 Not Found" response, likely because there is nothing hosted on the webroot.
 
 To dig deeper, we try accessing the `/metadata` endpoint. Again, the response is "404 Not Found." However, for DigitalOcean, the correct metadata endpoint is `/metadata/v1`. When we send this request, the server responds with access to metadata information.
 
