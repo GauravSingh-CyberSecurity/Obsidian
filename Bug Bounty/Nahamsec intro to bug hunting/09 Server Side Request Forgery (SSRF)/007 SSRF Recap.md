@@ -54,36 +54,36 @@ in the sense that the company is using and it comes to SRF.
 
 11
 00:00:48,030 --> 00:00:53,460
-The biggest thing is you can either look for local network so you do some recon, find out where the
+==The biggest thing is you can either look for local network so you do some recon, find out where the==
 
-12
-00:00:53,640 --> 00:00:59,330
-internal services are pointing to sort of to it and see if it renders or you can actually look for HWC
+==12==
+==00:00:53,640 --> 00:00:59,330==
+==internal services are pointing to sort of to it and see if it renders or you can actually look for HWC==
 
-13
-00:00:59,340 --> 00:01:04,590
-metadata or other cloud providers metadata and seeing if you can pull data from it in that way.
+==13==
+==00:00:59,340 --> 00:01:04,590==
+==metadata or other cloud providers metadata and seeing if you can pull data from it in that way.==
 
-14
-00:01:05,250 --> 00:01:09,330
-Last but not least, I want to make sure I call this out as a sort of has a ton of different flavors.
+==14==
+==00:01:05,250 --> 00:01:09,330==
+==Last but not least, I want to make sure I call this out as a sort of has a ton of different flavors.==
 
-15
-00:01:09,520 --> 00:01:15,360
-There is blind, there is the full response and limited necessar of foul play around.
+==15==
+==00:01:09,520 --> 00:01:15,360==
+==There is blind, there is the full response and limited necessar of foul play around.==
 
-16
-00:01:15,360 --> 00:01:20,550
-If you see a request coming from a server, play around with it, understand what data you have access
+==16==
+==00:01:15,360 --> 00:01:20,550==
+==If you see a request coming from a server, play around with it, understand what data you have access==
 
-17
-00:01:20,550 --> 00:01:25,860
-to and how can you prove impact to the customer's team that's receiving a vulnerability in order to
+==17==
+==00:01:20,550 --> 00:01:25,860==
+==to and how can you prove impact to the customer's team that's receiving a vulnerability in order to==
 
-18
-00:01:25,860 --> 00:01:30,840
-maximize your bounty and also showing the impact of your vulnerability based on the things that you
+==18==
+==00:01:25,860 --> 00:01:30,840==
+==maximize your bounty and also showing the impact of your vulnerability based on the things that you==
 
-19
-00:01:30,840 --> 00:01:31,240
-have found.
+==19==
+==00:01:30,840 --> 00:01:31,240==
+==have found.==
