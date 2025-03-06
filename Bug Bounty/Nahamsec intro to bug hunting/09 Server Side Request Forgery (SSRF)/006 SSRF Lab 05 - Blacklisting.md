@@ -2,12 +2,15 @@ Analysis of SSRF lab:-  (http://ssrf6.naham.sec:8081/)
 
 ![[Screenshot From 2025-03-06 14-58-04.png]]
 Let's look at our next example. In this example, we're going to try reaching a remote website. As always, we'll try Google.com.
+As we can see, it replies and confirms that it can fetch the contents of the remote website we requested. 
 
-As we can see, it replies and confirms that it can fetch the contents of the remote website we requested. We can also confirm this by using a Burp Collaborator or Netcat—whichever tool you prefer. Both are good ways to check for SSRF.
+We can also confirm this by using a Burp Collaborator or Netcat—whichever tool you prefer. Both are good ways to check for SSRF.
 
 We’ll now push that in and confirm that a request is coming from another server that is not our IP address. For example, if I know my IP address and this request is coming from a different one, I can confirm that the request originated from a remote server.
 
-To further validate this, we can enter a URL with an SSRF test from the target site. Once we submit the request, we can observe the incoming request and confirm that it was sent from the target website. Additionally, we can check the IP address, headers, and other request details.
+
+![[Screenshot From 2025-03-06 15-04-09.png]]
+To further validate this, we can enter a URL(https://cbro1e6kadd51ay11yvrft4dt4zwnnbc.oastify.com  , this url was ge) with an SSRF test from the target site. Once we submit the request, we can observe the incoming request and confirm that it was sent from the target website. Additionally, we can check the IP address, headers, and other request details.
 
 Now, let's test with a local IP. For example, if we check the metadata service IP address, we know that every cloud service provider has this IP address, which sometimes provides metadata and, in some cases, even secret keys, depending on how it's configured.
 
