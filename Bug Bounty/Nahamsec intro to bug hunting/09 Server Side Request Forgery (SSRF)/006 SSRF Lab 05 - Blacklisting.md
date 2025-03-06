@@ -28,13 +28,17 @@ xip.io :(https://medium.com/@arunov/explore-the-magic-of-xip-io-free-wildcard-dn
 In our case, we attempt to resolve `169.254.169.254` using (https://169.254.169.254.xip.io). We ensure the request is prefixed with `http://` and send it. This time, the response changes—it no longer states that the request is not remote. Instead, we get a "404 not found" 
 response, likely because there is nothing hosted on the webroot.
 
-To dig deeper, we try accessing the `/metadata` endpoint. Again, the response is "404 Not Found." However, for `169.254.169.254` , the correct metadata endpoint is `/metadata/v1`. When we send this request, the server responds with access to metadata information.
+To dig deeper, we try accessing the `/metadata` endpoint. Again, the response is "404 Not Found." 
 
+However, for `169.254.169.254` , the correct metadata endpoint is `169.254.169.254.xip.io/metadata/v1`. When we send this request, the server responds with access to metadata information. Now, we successfully bypassed the blacklist and demonstrated how SSRF can be leveraged even when some filtering is in place.
+![[Screenshot From 2025-03-06 15-26-17.png]]
 Although this specific case does not expose highly sensitive data, it demonstrates the impact of an SSRF vulnerability that allows access to localhost.
 
+
+![[Screenshot From 2025-03-06 15-27-40.png]]
 We also attempt to access `127.0.0.1` directly, but it appears there is some filtering against this address. The server blocks requests to `127.0.0.1`, but it allowed the metadata IP via the bypass.
 
-This technique of using an external domain like `x.ip.io` is very useful for bypassing SSRF filters. Alternatively, you can create your own subdomain and configure an A record pointing to an internal IP address. This allows further testing, including targeting `169.254.169.254` for metadata access.
+This technique of using an external domain like `xip.io` is very useful for bypassing SSRF filters. Alternatively, you can create your own subdomain and configure an A record pointing to an internal IP address. This allows further testing, including targeting `169.254.169.254` for metadata access.
 
 Using this approach, we successfully bypassed the blacklist and demonstrated how SSRF can be leveraged even when some filtering is in place.
 
