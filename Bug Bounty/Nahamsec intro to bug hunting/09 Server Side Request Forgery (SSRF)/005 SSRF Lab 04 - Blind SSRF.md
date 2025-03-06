@@ -19,15 +19,16 @@ The first thing we want to do is verify whether the application is vulnerable. W
 
 For this example, I'll use **Burp Collaborator**, as it makes the process easier. However, you can also use your own server or an external tool like Netcat.
 
-
-
 I'll send a request (http://g1isriwo0h39reo5r2lv5xuhj8pzdq1f.oastify.com) to the application, which should respond, confirming that a request was made from the server to our **Burp Collaborator instance**.
+![[Screenshot From 2025-03-06 13-28-56.png]]
 
+in collaborator we can see the ip address is not our machines, i.e its servers ip.  that means requests comes from the **target server's backend** and not our own computer or browser.
+![[Screenshot From 2025-03-06 13-30-31.png]]
 This verifies that the application makes **server-side requests**, meaning it is vulnerable to **SSRF**. Additionally, the request comes from the **target server's backend** and not our own computer or browser.
 
 ### Step 2: Testing for Localhost Access
 
-Next, we want to check if the server allows access to **localhost**. We can test this by entering either `"localhost"` or its corresponding **IP address (127.0.0.1)**.
+Next, we want to check if the server allows access to **localhost**. We can test this by entering either `"http://localhost"` or its corresponding **IP address (http://127.0.0.1)**.
 
 Let's try this:
 
