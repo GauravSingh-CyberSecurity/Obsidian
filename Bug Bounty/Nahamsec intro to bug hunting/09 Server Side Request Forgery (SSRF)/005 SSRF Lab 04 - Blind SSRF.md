@@ -34,7 +34,7 @@ Let's try this:
 
 - If we enter `127.0.0.1`, the response says: _"Only external URLs are allowed."_
 - If we enter `"localhost"`, the response is the same.
-
+![[Screenshot From 2025-03-06 13-33-54.png]]
 This suggests that the application is filtering requests to local addresses.
 
 ### Step 3: Bypassing Restrictions
