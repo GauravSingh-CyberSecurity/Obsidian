@@ -167,19 +167,22 @@ We'll download our sample file, rename it as `sample.xml`, and open it in Notepa
 Next, we'll upload the file and intercept the request using Burp Suite.
 
 We can see the content of the file.
-![[Pasted image 20250307170324.png]]
 We'll send it to the Repeater tool and analyze the response.
-
+![[Pasted image 20250307170324.png]]
 After clicking "Go," the application returns our expected results.
 
-If this were an API, the response might only include text rather than the entire document structure.
 
+If this were an API, the response might only include text rather than the entire document structure.
 In that case, we could modify the payload, resend it, and retrieve the desired content.
 
+
+coming back here now we edit the modify the payload  in Burp repeater(we use sitemap(final_exploit_file).xml ), resend it, and retrieve the desired content.
+![[Screenshot From 2025-03-07 17-05-09.png]]
 
 
 ---
 
+# Transcript: 
 
 1
 00:00:00,330 --> 00:00:06,240
