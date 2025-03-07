@@ -157,8 +157,9 @@ At the top(top req in SS: https://www.google.com/) and bottom(bottom req in SS: 
 
 This is a straightforward attack.
 
-Sometimes, you may need to perform this through Burp Suite to observe the results more clearly, depending on how the application handles the response.
 
+
+Sometimes, you may need to perform this through Burp Suite to observe the results more clearly, depending on how the application handles the response.
 Now, let's test this using Burp Suite.
 
 We'll download our sample file, rename it as `sample.xml`, and open it in Notepad to verify that "XXE" is not yet included.
@@ -166,7 +167,7 @@ We'll download our sample file, rename it as `sample.xml`, and open it in Notepa
 Next, we'll upload the file and intercept the request using Burp Suite.
 
 We can see the content of the file.
-
+![[Pasted image 20250307170324.png]]
 We'll send it to the Repeater tool and analyze the response.
 
 After clicking "Go," the application returns our expected results.
