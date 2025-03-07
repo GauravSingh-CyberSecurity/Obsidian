@@ -131,23 +131,26 @@ sitemap(final_exploit_file).xml :-    (i.e this is the content of final XXE expl
 </urlset>
 ```
 
-Now, let's go back.
+Now, let's go 
 
-We'll update our file and click "Go."
+We'll upload our file and click "Go."
+![[Screenshot From 2025-03-07 16-50-26.png]]
 
-Our first attempt failed because I forgot to remove an extra payload at the bottom.
-
-If your attempt fails, check for syntax errors.
-
-Ensure there are no extra `DOCTYPE` elements at the bottom of the file.
-
+Ensure there are no extra `DOCTYPE` elements at the bottom of the xml file that we are uploading.
 Make sure it matches the required template structure.
 
-Now, we have "XXE" properly referenced, and it holds the file content.
 
-We’ll save this again and re-upload it.
+This time, instead of showing 
+```
+URL Results
+[https://www.google.com/](https://www.google.com/)
+[https://www.google.com/test](https://www.google.com/test)
+[https://www.google.com/test-2](https://www.google.com/test-2)
+```
+![[Screenshot From 2025-03-07 16-17-38.png]]
 
-This time, instead of showing "google.com," "test," or "test2," the application is displaying the contents assigned to "XXE."
+
+the application is displaying the contents assigned to "XXE."
 
 At the top and bottom of the request, we can still see the other two URLs we included in the file.
 
