@@ -1,7 +1,87 @@
+Analysis of XXE lab:-  (  http://xxe.naham.sec:8081/ )
 
+![[Screenshot From 2025-03-07 15-54-34.png]]
+Now, let's have a look at our XXE example. In this case, we're going against the sitemap tool where the application is actually giving us an .XML(sample file ) .
 
+A lot of times, the applications that you're using will provide a demo file so you can understand the format and how to import your own data.
 
+Go ahead and save this file—let's say "Flink"—and save it on your local machine.
 
+Open Notepad again. You can use whatever text editor you like, but I'm using Notepad for this example.
+
+Open the file and review it.
+
+In this case, the application expects us to send a set of URLs, specify a location (a website location), and assign it a priority.
+
+Whenever it gets uploaded, it parses this data and displays it back to the user.
+
+Let's give it a try.
+
+We'll go right here and set "Go." Once we hit "Go," we enter "google.com," "test," and "test," and check what comes back. It looks like this is where the information will be presented to the user.
+
+We want to ensure that we also query for our target file. If we are targeting `/etc/passwd`, we need to make sure that it appears in the "Location" field and not in "Priority," since the "Priority" field isn't visible in these results.
+
+Let's go back to our example quickly.
+
+We'll copy our payload and compare it to the example from our presentation.
+
+We can see that we already have the XML declaration, which we don't need in this case. This is usually included by default in an XML file.
+
+However, we don't have an entity that references "system" to fetch `/etc/passwd` and assign it to our entity "XXE."
+
+We can just copy this. You can format it as either a multiline or a single-line payload.
+
+I prefer keeping it all in one line, so I'll adjust it here.
+
+Now, we're calling `/etc/passwd` and assigning it to "XXE."
+
+Somewhere further down in the file, we need to call "XXE" so we can retrieve and display the assigned content.
+
+Since we know the application will display a list of URLs, like "test" and "test2," we'll replace one of these values with our payload to ensure the data from `/etc/passwd` is displayed.
+
+Once we make this change, we’ll save the file.
+
+Instead of overwriting the original, I highly recommend saving it as a separate file to preserve the original template in case something goes wrong.
+
+Now, let's go back.
+
+We'll update our file and click "Go."
+
+Our first attempt failed because I forgot to remove an extra payload at the bottom.
+
+If your attempt fails, check for syntax errors.
+
+Ensure there are no extra `DOCTYPE` elements at the bottom of the file.
+
+Make sure it matches the required template structure.
+
+Now, we have "XXE" properly referenced, and it holds the file content.
+
+We’ll save this again and re-upload it.
+
+This time, instead of showing "google.com," "test," or "test2," the application is displaying the contents assigned to "XXE."
+
+At the top and bottom of the request, we can still see the other two URLs we included in the file.
+
+This is a straightforward attack.
+
+Sometimes, you may need to perform this through Burp Suite to observe the results more clearly, depending on how the application handles the response.
+
+Now, let's test this using Burp Suite.
+
+We'll download our sample file, rename it as `sample.xml`, and open it in Notepad to verify that "XXE" is not yet included.
+
+Next, we'll upload the file and intercept the request using Burp Suite.
+
+We can see the content of the file.
+
+We'll send it to the Repeater tool and analyze the response.
+
+After clicking "Go," the application returns our expected results.
+
+If this were an API, the response might only include text rather than the entire document structure.
+
+In that case, we could modify the payload, resend it, and retrieve the desired content.
 
 
 
