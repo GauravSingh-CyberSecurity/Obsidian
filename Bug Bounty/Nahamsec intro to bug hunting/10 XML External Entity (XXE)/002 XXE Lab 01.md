@@ -150,9 +150,10 @@ URL Results
 ![[Screenshot From 2025-03-07 16-17-38.png]]
 
 
-the application is displaying the contents assigned to "XXE."
+the application is displaying the contents assigned to "&xxe."  in sitemap(final_exploit_file).xml file. as shown in this ss ![[Screenshot From 2025-03-07 16-50-26.png]] 
 
-At the top and bottom of the request, we can still see the other two URLs we included in the file.
+
+At the top(top req in SS: https://www.google.com/) and bottom(bottom req in SS: https://www.google.com/test-2) of the request, we can still see the other two URLs we included in the file.
 
 This is a straightforward attack.
 
