@@ -5,7 +5,11 @@ Now, let's have a look at our XXE example. In this case, we're going against the
 
 A lot of times, the applications that you're using will provide a demo file so you can understand the format and how to import your own data.
 
+
+
 Go ahead and save this file—let's say "Sitemap.xml"—and save it on your local machine.
+
+sitemap.xml :-
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -41,19 +45,22 @@ Go ahead and save this file—let's say "Sitemap.xml"—and save it on your loca
 ```
 
 
-Open Notepad again. You can use whatever text editor you like, but I'm using Notepad for this example.
+Open Notepad(text editor in linux) again. You can use whatever text editor you like, but I'm using Notepad for this example.
 
-Open the file and review it.
+Open the file(sitemap.xml) and review it.
 
 In this case, the application expects us to send a set of URLs, specify a location (a website location), and assign it a priority.
 
 Whenever it gets uploaded, it parses this data and displays it back to the user.
 
 Let's give it a try.
-
+![[Screenshot From 2025-03-07 16-17-38.png]]
 We'll go right here and set "Go." Once we hit "Go," we enter "google.com," "test," and "test," and check what comes back. It looks like this is where the information will be presented to the user.
 
 We want to ensure that we also query for our target file. If we are targeting `/etc/passwd`, we need to make sure that it appears in the "Location" field and not in "Priority," since the "Priority" field isn't visible in these results.
+
+
+
 
 Let's go back to our example quickly.
 
