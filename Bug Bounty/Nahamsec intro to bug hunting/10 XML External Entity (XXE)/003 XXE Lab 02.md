@@ -1,6 +1,69 @@
 
 
 
+Now, this is a second example. In this case, the website allows us to upload a contact file.
+
+Clicking on it provides us with an example file that we can download to see its format.
+
+As you can see, the file contains multiple email addresses and different names.
+
+We will copy this into our notepad and give it a try.
+
+We will send this file as it is to see how the application processes it.
+
+In other words, we are using the default example file provided by the application. Many websites provide such templates to ensure compatibility with their systems.
+
+We will now use the template to observe how the website interacts with it.
+
+We will save it as "contacts.xml" and navigate back to our documents.
+
+Next, we will upload the "contacts.xml" file, which is the default template provided by the website.
+
+Now, let's see the response.
+
+As you can see, the upload is completed. However, the application does not display any output or return any processed files.
+
+This suggests that the XML is being processed in the backend, but we do not receive a direct response—indicating a potential blind XXE (XML External Entity) vulnerability.
+
+Now that we have confirmed the vulnerability and observed that it reaches out to our remote server using Burp Collaborator, we will proceed with an external DTD (Document Type Definition) attack.
+
+I am currently hosting this DTD file on my private server.
+
+Here's what happens:
+
+1. We retrieve the contents of `/etc/passwd` using the `file://` scheme.
+2. We store this content in a variable named "data."
+3. The contents of `/etc/passwd` are then Base64-encoded.
+4. Finally, the encoded data is exfiltrated to our remote server.
+
+Encoding the file in Base64 ensures that we capture the entire content instead of just the first few lines. This also prevents the application from breaking the content due to newline characters.
+
+Now, let's modify our `contacts.xml` file.
+
+First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file.
+
+Next, we define XML entities that reference the external DTD.
+
+We set up two key entities:
+
+- `param1`, which references the external entity.
+- `remote`, which points to our remote DTD.
+
+We then ensure that the external DTD file properly executes system calls.
+
+To accomplish this, we append an ampersand (`&`) followed by a semicolon (`;`) to invoke the necessary functions.
+
+Now, we save the modified `contacts.xml` file and proceed to upload it.
+
+Before submitting the file, we start an HTTP server to capture incoming requests.
+
+As expected, the target server reaches out to our machine and fetches the external DTD.
+
+The application processes the DTD, retrieves `/etc/passwd`, encodes it in Base64, and sends it to our server.
+
+We now copy the Base64-encoded data and paste it into Burp Suite for decoding.
+
+After decoding, we successfully retrieve the contents of `/etc/passwd`, confirming that the XXE attack was successful.
 
 
 
