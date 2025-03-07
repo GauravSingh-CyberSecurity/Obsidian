@@ -5,7 +5,41 @@ Now, let's have a look at our XXE example. In this case, we're going against the
 
 A lot of times, the applications that you're using will provide a demo file so you can understand the format and how to import your own data.
 
-Go ahead and save this file—let's say "Flink"—and save it on your local machine.
+Go ahead and save this file—let's say "Sitemap.xml"—and save it on your local machine.
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <url>
+
+        <loc>https://www.google.com/</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://www.google.com/test</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://www.google.com/test-2</loc>
+
+        <priority>1.0</priority>
+
+    </url>
+
+</urlset>
+```
+
 
 Open Notepad again. You can use whatever text editor you like, but I'm using Notepad for this example.
 
