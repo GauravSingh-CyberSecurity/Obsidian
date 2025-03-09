@@ -54,4 +54,8 @@
 4) Books by Friedrich Nietzsche 
 5) books by Carl Jung 
 6) Books by immanuel kant
-7) b
+7) books by Ernest hemmingway 
+8) books by sarte
+9) Goethe , endorsed by Nietzsche 
+10) Ralph Waldo Emerson, endorsed by Nietzsche 
+11) Stendhal, endorsed by Nietzsche 
