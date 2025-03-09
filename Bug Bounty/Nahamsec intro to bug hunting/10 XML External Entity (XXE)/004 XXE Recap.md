@@ -49,7 +49,7 @@ In simple terms, by changing the entity from reading a file (XXE) to fetching a 
 
 1
 00:00:00,060 --> 00:00:06,180
-So that was everything from sexy sexy is still very, very common, it's not always limited to a application
+So that was everything from XXE is still very, very common, it's not always limited to a application
 
 2
 00:00:06,180 --> 00:00:08,250
@@ -69,7 +69,7 @@ So anywhere you see that allows you to upload some documentation or integration,
 
 6
 00:00:26,970 --> 00:00:29,510
-that you put your exact payload in there as well.
+that you put your XXE payload in there as well.
 
 7
 00:00:29,910 --> 00:00:33,060
@@ -85,7 +85,7 @@ And because it's a server side vulnerability that allows you to either fetch loc
 
 10
 00:00:41,760 --> 00:00:47,850
-perform as sort, it's a very, very valuable and it could become a critical or high paid bug that can
+perform an SSRF, it's a very, very valuable and it could become a critical or high paid bug that can
 
 11
 00:00:47,850 --> 00:00:50,910
@@ -93,11 +93,11 @@ get you a lot of boundy depending on how you exploit it.
 
 12
 00:00:50,970 --> 00:00:54,090
-But also don't limit yourself to looking for a full response.
+But also don't limit yourself to looking for a full response XXE,
 
 13
 00:00:54,090 --> 00:00:57,420
-Xixi blind keys are always there as well.
+ blind XXE  are always there as well.
 
 14
 00:00:57,610 --> 00:01:01,680
@@ -113,15 +113,15 @@ As always, the first step is to make sure you can actually use a system called t
 
 17
 00:01:06,450 --> 00:01:09,360
-or your collaborator and make sure that connection is made.
+or your burp collaborator and make sure that connection is made.
 
 18
 00:01:09,570 --> 00:01:13,860
-If that connection is made, depending on what the service is given back to you when you open your e-mail
+If that connection is made, depending on what the service is given back to you when you open your XML 
 
 19
 00:01:13,860 --> 00:01:18,660
-or document, then you want to take the next steps and figure out if it's blind for response and if
+or document, then you want to take the next steps and figure out if it's blind for full response and if
 
 20
 00:01:18,660 --> 00:01:22,530
@@ -133,7 +133,7 @@ So always think that they're very, very common.
 
 22
 00:01:25,620 --> 00:01:31,260
-And I highly recommend looking for any places that allows you to import your data in an e-mail format
+And I highly recommend looking for any places that allows you to import your data in an XML format
 
 23
 00:01:31,290 --> 00:01:31,960
@@ -141,4 +141,4 @@ when it comes out.
 
 24
 00:01:31,960 --> 00:01:33,030
-That is one that body types.
+These vulnerability types.
