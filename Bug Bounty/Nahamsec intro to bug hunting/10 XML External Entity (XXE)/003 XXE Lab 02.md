@@ -33,14 +33,14 @@ In other words, we are using the default example file provided by the applicatio
 We will now use the template to observe how the website interacts with it.
 
 We will save it as "contacts.xml" and navigate back to our documents.
-
 Next, we will upload the "contacts.xml" file, which is the default template provided by the website.
-
 Now, let's see the response.
-
+![[Screenshot From 2025-03-09 14-38-25.png]]
 As you can see, the upload is completed. However, the application does not display any output or return any processed files.
 
 This suggests that the XML is being processed in the backend, but we do not receive a direct response—indicating a potential blind XXE (XML External Entity) vulnerability.
+
+
 
 Now that we have confirmed the vulnerability and observed that it reaches out to our remote server using Burp Collaborator, we will proceed with an external DTD (Document Type Definition) attack.
 
