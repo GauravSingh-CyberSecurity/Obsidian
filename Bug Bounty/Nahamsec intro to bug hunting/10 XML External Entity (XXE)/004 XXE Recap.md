@@ -1,5 +1,5 @@
 
-
+XXE can be escalated to find an SSRF vulnerablity, as if an XXE is found on a server we can use the vulnerablity to send request on server like /etc/passwd and find an ssrf
 
 
 
