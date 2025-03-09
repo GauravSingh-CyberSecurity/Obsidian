@@ -126,7 +126,9 @@ We now copy the Base64-encoded data and paste it into Burp Suite for decoding.
 
 After decoding, we successfully retrieve the contents of `/etc/passwd`, confirming that the XXE attack was successful.
 
-Note:- the public ip of our system is
+
+
+==Note:- the public ip of our system is==
 ![[Pasted image 20250309165524.png]]
 
 
