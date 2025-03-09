@@ -63,3 +63,6 @@
 13) Thucydides , endorsed by Nietzsche 
 14) Schopenhauer, Nietzsche contradicted him later, but was nevertheless influenced at some point.
 15) Sophocles ( The Dionysian philosopher ), endorsed by Nietzsche 
+16) Aldous Huxley, endorsed by JB peterson 
+17) Jean piagent, endorsed by JB peterson 
+18) JB peterson further works like ==peterson Academy== and readinglist (https://www.jordanbpeterson.com/blog/book-list/)
