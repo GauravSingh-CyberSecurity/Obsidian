@@ -7,8 +7,8 @@ Before starting Nietzsche read this:-
 
 Reading order:-
 
-1. [ ] the Genealogy of Morals
-2. [ ] Twilight of the Idols
+1. [x] the Genealogy of Morals
+2. [x] Twilight of the Idols
 3. [ ] The Antichrist
 4. [ ] Human, All-Too Human
 5. [ ] Daybreak

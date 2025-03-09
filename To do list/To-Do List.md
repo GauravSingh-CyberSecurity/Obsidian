@@ -49,3 +49,7 @@ Bike servicing, wash bag,crocs,shoes.
 - SQL
 - vulnerability learned in portswigger
 - vulnerability learned in nahamsec Udemy course 
+
+
+
+Create our own llm without any constraints and sell on dark web

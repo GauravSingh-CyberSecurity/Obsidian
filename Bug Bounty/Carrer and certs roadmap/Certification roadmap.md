@@ -5,6 +5,15 @@
 ==OSCP==
 ==OSWE==
 
+#### **1️⃣2️⃣ Should CBBH holders target OSWA & OSWE first or OSCP?**
+
+- **If you want to specialize in ==Web Security & Bug Bounty:**== → **CBBH → OSWA → OSWE → (Optional) OSCP**
+- **If you want to be a ==Penetration Tester:**== → **CBBH → OSWA → OSCP → (Optional) OSEP**
+- **If you want to be a ==Full-Stack Offensive Security Expert:**== → **CBBH → OSWA → OSCP → OSWE**
+
+
+
+
 
 
 
@@ -99,4 +108,3 @@
 
 ---
 
-Would you like me to refine this further or add anything else?
