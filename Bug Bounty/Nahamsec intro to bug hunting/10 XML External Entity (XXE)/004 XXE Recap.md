@@ -1,7 +1,47 @@
 
-XXE can be escalated to find an SSRF vulnerablity, as if an XXE is found on a server we can use the vulnerablity to send request on server like /etc/passwd and find an ssrf
+If an XML parser is vulnerable to XXE, an attacker can define an external entity that points to a URL—forcing the server to make an HTTP request. By targeting internal network endpoints or services with that URL, ==the XXE can effectively be escalated to an SSRF attack==.
 
+---
+# Example Scenario:
 
+1. **XXE for File Disclosure:**
+    
+    An application processes XML files without proper safeguards. An attacker submits:
+    
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE data [
+      <!ENTITY file SYSTEM "file:///etc/passwd">
+    ]>
+    <data>
+      <info>&file;</info>
+    </data>
+    ```
+    
+    _What happens:_  
+    The XML parser reads the `/etc/passwd` file and includes its contents in the response, disclosing sensitive information.
+    
+2. **Escalation to SSRF:**
+    
+    Instead of reading a file, the attacker changes the external entity to point to an internal service:
+    
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE data [
+      <!ENTITY ext SYSTEM "http://localhost:8080/admin">
+    ]>
+    <data>
+      <info>&ext;</info>
+    </data>
+    ```
+    
+    _What happens:_  
+    The XML parser now makes an HTTP request to `http://localhost:8080/admin` (an internal endpoint). This forces the server to send a request to a service that is normally not reachable from the outside, effectively turning the XXE into an SSRF attack.
+    
+
+---
+
+In simple terms, by changing the entity from reading a file (XXE) to fetching a URL, you can force the server to interact with internal systems—escalating an XXE into an SSRF.
 
 ---
 
