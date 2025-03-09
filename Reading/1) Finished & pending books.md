@@ -59,3 +59,7 @@
 9) Goethe , endorsed by Nietzsche 
 10) Ralph Waldo Emerson, endorsed by Nietzsche 
 11) Stendhal, endorsed by Nietzsche 
+12) Homer, endorsed by Nietzsche 
+13) Thucydides , endorsed by Nietzsche 
+14) Schopenhauer, Nietzsche contradicted him later, but was nevertheless influenced at some point.
+15) Sophocles ( The Dionysian philosopher ), endorsed by Nietzsche 
