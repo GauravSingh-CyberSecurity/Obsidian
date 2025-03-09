@@ -2,15 +2,32 @@ Analysis of XXE lab:-  ( http://xxe2.naham.sec:8081/ )
 
 ![[Screenshot From 2025-03-09 14-28-04 1.png]]
 Now, this is a second example. In this case, the website allows us to upload a contact file( .xml format).
-Clicking on it provides us with an example file that we can download to see its format.
-
-
+Clicking on it provides us with an example file that we can download to see its format :-
+contacts(Lab 2).xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/contact.xsl"?>
+<contacts>
+    <contact>
+        <name>ben</name>
+        <email>ben@test.com</email>
+    </contact>
+    <contact>
+        <name>adam</name>
+        <email>adam@test.com</email>
+    </contact>
+    <contact>
+        <name>test</name>
+        <email>test@test.com</email>
+    </contact>
+</contacts>
+```
 As you can see, the file contains multiple email addresses and different names.
 
-We will copy this into our notepad and give it a try.
+We will copy this into our notepad(text editor) and give it a try.
 
-We will send this file as it is to see how the application processes it.
-
+We will send this file (contacts(Lab 2).xml ) as it is to see how the application processes it.
+![[Pasted image 20250309143802.png]]
 In other words, we are using the default example file provided by the application. Many websites provide such templates to ensure compatibility with their systems.
 
 We will now use the template to observe how the website interacts with it.
