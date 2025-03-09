@@ -1,9 +1,9 @@
+Analysis of XXE lab:-  ( http://xxe2.naham.sec:8081/ )
 
-
-
-Now, this is a second example. In this case, the website allows us to upload a contact file.
-
+![[Screenshot From 2025-03-09 14-28-04 1.png]]
+Now, this is a second example. In this case, the website allows us to upload a contact file( .xml format).
 Clicking on it provides us with an example file that we can download to see its format.
+
 
 As you can see, the file contains multiple email addresses and different names.
 
