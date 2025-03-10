@@ -5,10 +5,15 @@ Analysis of RCE lab :- ( http://rce2.naham.sec:8081/ )
 
 Now, let's look at our second example for remote command execution. In this case, it's no longer an ID; it's an application that performs networking. 
 For example, it’s going to ping the IP address 8.8.8.8, and then it will return the result of the ping command.
+![[Screenshot From 2025-03-10 20-34-53.png]]
+
+Again, this is a command available on both Windows and Linux. It will ping that IP address and give us the results. 
 
 
-Again, this is a command available on both Windows and Linux. It will ping that IP address and give us the results. Now, what happens if we pipe and ask for the results of the ping, but also for the results of the command ID?
+Now, what happens if we pipe( `|` ) and ask for the results of the ping, but also for the results of the command `id`
+![[Screenshot From 2025-03-10 20-35-48.png]]
 
+![[Screenshot From 2025-03-10 20-36-59.png]]
 Sure enough, after it's done pinging, it will return the output for the command ID, and, as mentioned, we can also use “uname -a.” It will execute the commands; it may take a while as it finishes the ping, and then immediately run “uname -a” to give us our results.
 
 Last but not least, one of my favorites: this is how you can perform code injection. We’re no longer injecting a simple Linux command into this website; instead, we’re going to inject code. I have been using this application for a while. Every time I make a request, I understand that it executes certain functions, so we can add a comment and then examine the network tab.
