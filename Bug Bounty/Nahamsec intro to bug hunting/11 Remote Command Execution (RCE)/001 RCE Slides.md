@@ -8,11 +8,11 @@
 
 1
 00:00:00,180 --> 00:00:04,920
-Let's have a look at remote command execution, also known as RC, so remote command execution is a
+Let's have a look at remote command execution, also known as RCE, so remote command execution is a
 ![[Screenshot From 2025-03-10 10-05-07.png]]
 2
 00:00:04,920 --> 00:00:09,770
-broad term that's applied to a vulnerability that allows an attacker to execute commands on the host
+broad term that's applied to a vulnerability that allows an attacker to execute commands/codes on the host
 
 3
 00:00:09,780 --> 00:00:12,600
@@ -42,6 +42,8 @@ It could happen a number of different ways, but we're going to cover the most po
 00:00:29,250 --> 00:00:30,450
 of finding an RC.
 
+
+![[Screenshot From 2025-03-10 10-06-20.png]]
 10
 00:00:31,800 --> 00:00:39,960
 So imagine you're going to a website where the application is looking for the stock if an item is available.
@@ -70,6 +72,8 @@ run this application and give it a value for five one for one.
 00:01:07,810 --> 00:01:13,350
 So it comes back and it says three items are available and that's what's being given to the user.
 
+
+![[Screenshot From 2025-03-10 10-07-41.png]]
 17
 00:01:15,120 --> 00:01:19,160
 So what we can do in this case, we're going to start fuzzing and we're going to start messing with
@@ -116,19 +120,19 @@ So we do semicolon and we give it the URLs, which is the list of files within th
 
 28
 00:01:55,020 --> 00:02:00,180
-Again, if you're not familiar with these commands, I highly recommend you looking into getting very
+Again, ==if you're not familiar with these commands, I highly recommend you looking into getting very==
 
-29
-00:02:00,180 --> 00:02:02,090
-familiar with Linux operating system.
+==29==
+==00:02:00,180 --> 00:02:02,090==
+==familiar with Linux operating system.==
 
-30
-00:02:02,100 --> 00:02:03,840
-You can do a boon to can you carry Linux?
+==30==
+==00:02:02,100 --> 00:02:03,840==
+==You can do a UBUNTU or can you learn Kali Linux?==
 
-31
-00:02:04,080 --> 00:02:09,740
-It's very beneficial just to have remote command execution, to be good at Linux in general.
+==31==
+==00:02:04,080 --> 00:02:09,740==
+==It's very beneficial just to have remote command execution, to be good at Linux in general.==
 
 32
 00:02:10,110 --> 00:02:11,970
