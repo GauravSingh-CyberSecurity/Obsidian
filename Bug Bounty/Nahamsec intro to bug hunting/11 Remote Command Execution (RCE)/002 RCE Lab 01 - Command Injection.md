@@ -36,10 +36,14 @@ This comes back and tells us which user we are running this command line.
 As I explained earlier, it tells us about the user (Uid) , the group(Gid), and group we are in.  
 
 
-At last, but not least, is the "uname" command, which tells us about the operating system—such as
+At last, but not least, is the "uname"  command, which tells us about the operating system—such as Linux here.
+![[Screenshot From 2025-03-10 20-10-02.png]]
+
+and "uname -a"
+![[Screenshot From 2025-03-10 20-11-09.png]]
+now it gives us some basic information and when it was last updated.  
 
 
-some basic information and when it was last updated.  
 So again, this is a very simple way of doing this.  
 It happens quite often.  
 You just have to find the right place to test, and you have to ensure you check almost every application or every parameter that you think could be vulnerable to command injection.  
