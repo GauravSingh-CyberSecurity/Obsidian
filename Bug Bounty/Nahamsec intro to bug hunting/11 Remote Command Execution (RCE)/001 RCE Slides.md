@@ -205,16 +205,13 @@ It would help you if you're looking for RCE's , which what it does is it was inl
 00:03:17,790 --> 00:03:23,910
 same command run, a secondary command and also output etes which will output its results 
  
-
-
-![[Screenshot From 2025-03-10 10-38-05.png]]
 49
 00:03:23,910 --> 00:03:24,330
 again with bug bounties.
 
 50
 00:03:24,330 --> 00:03:28,920
-You want to be very careful with what commands you run on these posts.
+You want to be very careful with what commands you run on these hosts.
 
 51
 00:03:28,920 --> 00:03:32,490
@@ -223,10 +220,10 @@ You don't want to run the wrong command and cause an outage.
 52
 00:03:32,710 --> 00:03:34,650
 So these are the four commands that I typically use.
-
+![[Screenshot From 2025-03-10 10-38-05.png]]
 53
 00:03:34,830 --> 00:03:39,480
-There's a Puedes, which is the printing which prints the working directory.
+There's a PWD, which is the printing which prints the working directory.
 
 54
 00:03:39,480 --> 00:03:43,860
@@ -234,7 +231,7 @@ Whatever you are working, whatever the application is hosted, it's going to come
 
 55
 00:03:44,190 --> 00:03:46,170
-that directory, the unified command.
+that directory, the Uname command.
 
 56
 00:03:46,170 --> 00:03:51,840
@@ -246,7 +243,7 @@ system.
 
 58
 00:03:53,370 --> 00:03:58,620
-The ID command tells you about the user, what group Derian, what user you are and the numeric ID.
+The 'ID'  command tells you about the user, what group Derian, what user you are and the numeric ID.
 
 59
 00:03:58,980 --> 00:04:04,410
@@ -258,47 +255,47 @@ and tells you this is the applications hostname that's given to the operating sy
 
 61
 00:04:09,150 --> 00:04:13,620
-And of course we just covered all of the different ways of doing OS commands.
+And ==of course we just covered all of the different ways of doing OS commands.==
 
-62
-00:04:13,860 --> 00:04:18,840
-So we are executing operating system commands, but you can actually do this within different programming
+==62==
+==00:04:13,860 --> 00:04:18,840==
+==So we are executing operating system commands, but you can actually do this within different programming==
 
-63
-00:04:18,840 --> 00:04:19,440
-languages.
+==63==
+==00:04:18,840 --> 00:04:19,440==
+==languages.==
 
 64
 00:04:19,680 --> 00:04:27,660
-So if you have the opportunity to execute and inject a script within a Web site, you can use functionalities,
+==So if you have the opportunity to execute and inject a script within a Web site, you can use functionalities,==
 
-65
-00:04:27,930 --> 00:04:35,790
-you can use functions like Shell exec, exec or different ones to actually execute a operating system
+==65==
+==00:04:27,930 --> 00:04:35,790==
+==you can use functions like Shell exec, exec or different ones to actually execute a operating system==
 
-66
-00:04:35,790 --> 00:04:36,630
-command using.
+==66==
+==00:04:35,790 --> 00:04:36,630==
+==command using.==
 
 67
 00:04:37,290 --> 00:04:41,940
-That's also another way that's very common when it comes down to looking for our CS the game.
+That's also another way that's very common when it comes down to looking for RCE's the game.
 
 68
 00:04:41,940 --> 00:04:45,960
-Before we wrap this chapter, I want to make sure you understand that RC is a very broad term.
+Before we wrap this chapter, I want to make sure you understand that ==RCE's is a very broad term.==
 
-69
-00:04:46,110 --> 00:04:47,970
-You can find them in a different number of ways.
+==69==
+==00:04:46,110 --> 00:04:47,970==
+==You can find them in a different number of ways.==
 
-70
-00:04:47,970 --> 00:04:50,100
-It could be in file uploads, which we'll cover later on.
+==70==
+==00:04:47,970 --> 00:04:50,100==
+==It could be in file uploads, which we'll cover later on.==
 
-71
-00:04:50,340 --> 00:04:53,820
-It could be by modifying side content, it could be debug functionalities.
+==71==
+==00:04:50,340 --> 00:04:53,820==
+==It could be by modifying site content, it could be debug functionalities.==
 
 72
 00:04:54,180 --> 00:04:59,490
