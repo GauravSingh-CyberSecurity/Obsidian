@@ -183,7 +183,7 @@ One of them could be the semicolon.
 
 43
 00:02:57,560 --> 00:03:01,290
-It could be the answer and it could be two of them could be a pipe or a double pipe.
+It could be the answer and it could be two of them could be a pipe ( | ) or a double pipe ( | | ).
 
 44
 00:03:01,450 --> 00:03:07,890
@@ -191,23 +191,26 @@ You can use all of those to run a command by finishing the previous one and addi
 
 45
 00:03:07,890 --> 00:03:10,460
-second one you can do is abash in line execution.
+second one you can do is a bash in line execution.
 
 46
 00:03:10,470 --> 00:03:12,940
-Again, highly recommend getting good at Basche.
+Again, ==highly recommend getting good at Bash scripting==.
 
 47
 00:03:12,960 --> 00:03:17,790
-It would help you if you're looking for our series, which what it does is it was inline within the
+It would help you if you're looking for RCE's , which what it does is it was inline within the
 
 48
 00:03:17,790 --> 00:03:23,910
-same command run, a secondary command and also output etes which will output its results again with
+same command run, a secondary command and also output etes which will output its results 
+ 
 
+
+![[Screenshot From 2025-03-10 10-38-05.png]]
 49
 00:03:23,910 --> 00:03:24,330
-backgrounders.
+again with bug bounties.
 
 50
 00:03:24,330 --> 00:03:28,920
