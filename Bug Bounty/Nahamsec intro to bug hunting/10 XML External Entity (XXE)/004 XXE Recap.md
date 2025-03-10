@@ -1,6 +1,10 @@
 
 If an XML parser is vulnerable to XXE, an attacker can define an external entity that points to a URL—forcing the server to make an HTTP request. By targeting internal network endpoints or services with that URL, ==the XXE can effectively be escalated to an SSRF attack==.
 
+XXE is still very common in 2025.
+And because it's a server side vulnerability that allows you to either fetch local files or actually
+perform an SSRF, it's a very, very valuable and it could become a critical or high paid bug.
+
 ---
 # Example Scenario:
 
@@ -65,11 +69,11 @@ Those are all zip files that have been packed and they also have XML files withi
 
 5
 00:00:21,030 --> 00:00:26,970
-So anywhere you see that allows you to upload some documentation or integration, you want to make sure
+==So anywhere you see that allows you to upload some documentation or integration, you want to make sure==
 
-6
-00:00:26,970 --> 00:00:29,510
-that you put your XXE payload in there as well.
+==6==
+==00:00:26,970 --> 00:00:29,510==
+==that you put your XXE payload in there as well.==
 
 7
 00:00:29,910 --> 00:00:33,060
@@ -77,27 +81,27 @@ We'll cover more of this in our lab where it comes out to document files.
 
 8
 00:00:33,330 --> 00:00:36,210
-But I want to make sure I echo that is still very common.
+==But I want to make sure I echo that XXE is still very common.==
 
-9
-00:00:36,360 --> 00:00:41,760
-And because it's a server side vulnerability that allows you to either fetch local files or actually
+==9==
+==00:00:36,360 --> 00:00:41,760==
+==And because it's a server side vulnerability that allows you to either fetch local files or actually==
 
-10
-00:00:41,760 --> 00:00:47,850
-perform an SSRF, it's a very, very valuable and it could become a critical or high paid bug that can
+==10==
+==00:00:41,760 --> 00:00:47,850==
+==perform an SSRF, it's a very, very valuable and it could become a critical or high paid bug that can==
 
-11
-00:00:47,850 --> 00:00:50,910
-get you a lot of boundy depending on how you exploit it.
+==11==
+==00:00:47,850 --> 00:00:50,910==
+==get you a lot of boundy depending on how you exploit it.==
 
 12
 00:00:50,970 --> 00:00:54,090
-But also don't limit yourself to looking for a full response XXE,
+==But also don't limit yourself to looking for a full response XXE,==
 
-13
-00:00:54,090 --> 00:00:57,420
- blind XXE  are always there as well.
+==13==
+==00:00:54,090 --> 00:00:57,420==
+ ==blind XXE  are always there as well.==
 
 14
 00:00:57,610 --> 00:01:01,680
