@@ -8,8 +8,7 @@ It comes back and says, "Hey, 43 items in stock."
 
 
 But let's actually see what happens when we click this.  
-![[Screenshot From 2025-03-10 19-44-36.png]]
-
+![[Screenshot From 2025-03-10 20-05-08.png]]
 ```
 So what we're going to do here is open up our network tab within Chrome DevTools
 You can do this again by right-clicking and selecting "Inspect" and then the "Network" tab.  
@@ -24,14 +23,23 @@ then lets sent the "stock-check" req to repeater for further testing of RCE:
 Now we are going to do this is we're just going to give it `ls` .  
 As you can see right here, it says "uploads."  
 ![[Screenshot From 2025-03-10 19-52-39.png]]
-
 So that means that's probably the folder we have in here.  
+
+
 The next thing we can do is run one of the commands that we had in our previous example in our slides.  
 So as we do "pwd", you can see right now it shows the folder we're working in.  
+![[Screenshot From 2025-03-10 20-06-33.png]]
+
 And of course, we can try the command for "id."  
+![[Screenshot From 2025-03-10 20-07-12.png]]
 This comes back and tells us which user we are running this command line.  
-As I explained earlier, it tells us about the user, the group, and the numerical ID for it.  
-At last, but not least, is the "uname" command, which tells us about the operating system—such as some basic information and when it was last updated.  
+As I explained earlier, it tells us about the user (Uid) , the group(Gid), and group we are in.  
+
+
+At last, but not least, is the "uname" command, which tells us about the operating system—such as
+
+
+some basic information and when it was last updated.  
 So again, this is a very simple way of doing this.  
 It happens quite often.  
 You just have to find the right place to test, and you have to ensure you check almost every application or every parameter that you think could be vulnerable to command injection.  
