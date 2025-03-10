@@ -17,11 +17,14 @@ We're going to click "check stock" in the background and we see that it's actual
 ```
 
 **==( in my case use burp suite ).==**  
-We're going to click on the below "stock-check" request and we see that it's actually making a request to product ID=1,  as 
-http://rce.naham.sec:8081/stock-check/?product_id=1
+We're going to click on the "stock-check" (http://rce.naham.sec:8081/stock-check/?product_id=1)request in burp proxy and we see that it's actually making a request to product ID=1,  as shown in above screenshot.
 
-How we are going to do this is we're just going to give it less.  
+then lets sent the "stock-check" req to repeater for further testing of RCE:
+
+Now we are going to do this is we're just going to give it `ls` .  
 As you can see right here, it says "uploads."  
+![[Screenshot From 2025-03-10 19-52-39.png]]
+
 So that means that's probably the folder we have in here.  
 The next thing we can do is run one of the commands that we had in our previous example in our slides.  
 So as we do "pwd", you can see right now it shows the folder we're working in.  
