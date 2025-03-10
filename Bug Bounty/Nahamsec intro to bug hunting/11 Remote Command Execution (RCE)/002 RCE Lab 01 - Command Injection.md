@@ -1,4 +1,4 @@
-Analysis of lab :- ( http://rce.naham.sec:8081/ )
+Analysis of RCE lab :- ( http://rce.naham.sec:8081/ )
 
 
 ![[Screenshot From 2025-03-10 19-41-56.png]]
@@ -53,10 +53,16 @@ And of course, as I mentioned in my last slide, there doesn't always have to be 
 ![[Screenshot From 2025-03-10 20-21-06.png]]
 There could be other ways of ending a command.  
 We can actually do this.  
-We can do it and use a pipe ( | ), for example,- A pipe (`|`) can be used to chain commands together.
+We can do it and use a pipe ( | ), for example,
+- A pipe (`|`) can be used to chain commands together.
 - It allows the system to ignore the output of the preceding command.
-- In the example, the first command returns `{"stock":43}` but its output is ignored.
-- The second command, `uname`, is executed and returns "Linux" as the response.  
+- In the above example, the first command (?product_id=1) returns `{"stock":43}` 
+- The second command, `uname` that comes after ( ; ), is executed and returns "Linux" as the response.  
+- we use pipe( | ) instead of semicolon ( ; ), and it ignores id=1, and execute "uname" and returns "Linux"
+![[Screenshot From 2025-03-10 20-27-51.png]]
+
+
+
 Or, again, it could be any other command that we have covered.
 
 
