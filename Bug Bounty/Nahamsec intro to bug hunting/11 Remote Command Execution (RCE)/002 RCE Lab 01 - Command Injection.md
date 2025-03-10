@@ -1,6 +1,35 @@
 Analysis of lab :- ( http://rce.naham.sec:8081/ )
 
 
+![[Screenshot From 2025-03-10 19-41-56.png]]
+So this first application, as we discuss, is going to check if something is in stock—we're going to click on it.  
+It comes back and says, "Hey, 43 items in stock."  
+![[Screenshot From 2025-03-10 19-42-41.png]]
+
+
+But let's actually see what happens when we click this.  
+
+So what we're going to do here is open up our network tab within Chrome DevTools.  
+You can do this again by right-clicking and selecting "Inspect" and then the "Network" tab.  
+We're going to click "check stock" in the background and we see that it's actually making a request to product ID equals one using stock check.  
+How we are going to do this is we're just going to give it less.  
+As you can see right here, it says "uploads."  
+So that means that's probably the folder we have in here.  
+The next thing we can do is run one of the commands that we had in our previous example in our slides.  
+So as we do "pwd", you can see right now it shows the folder we're working in.  
+And of course, we can try the command for "id."  
+This comes back and tells us which user we are running this command line.  
+As I explained earlier, it tells us about the user, the group, and the numerical ID for it.  
+At last, but not least, is the "uname" command, which tells us about the operating system—such as some basic information and when it was last updated.  
+So again, this is a very simple way of doing this.  
+It happens quite often.  
+You just have to find the right place to test, and you have to ensure you check almost every application or every parameter that you think could be vulnerable to command injection.  
+And of course, as I mentioned in my last slide, there doesn't always have to be a semicolon.  
+There could be other ways of ending a command.  
+We can actually do this.  
+We can do it and use a pipe, for example, a pipe can be used to chain commands.  
+And you can see it's going to ignore the previous command and give us the output for a second one, which is "id."  
+Or, again, it could be any other command that we have covered.
 
 
 
