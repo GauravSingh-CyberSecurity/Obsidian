@@ -44,14 +44,16 @@ and "uname -a"
 now it gives us some basic information and when it was last updated.  
 
 
-So again, this is a very simple way of doing this.  
+So again, this is a very simple way of doing this and searching for RCE.  
 It happens quite often.  
 You just have to find the right place to test, and you have to ensure you check almost every application or every parameter that you think could be vulnerable to command injection.  
-And of course, as I mentioned in my last slide, there doesn't always have to be a semicolon.  
+
+
+And of course, as I mentioned in my last slide, there doesn't always have to be a semicolon ( ; ) .  
 There could be other ways of ending a command.  
 We can actually do this.  
-We can do it and use a pipe, for example, a pipe can be used to chain commands.  
-And you can see it's going to ignore the previous command and give us the output for a second one, which is "id."  
+We can do it and use a pipe ( | ), for example, a pipe ( | ) can be used to chain commands.  
+And you can see it's going to ignore the previous command(id=1) and give us the output for a second one, which is "id."  
 Or, again, it could be any other command that we have covered.
 
 
