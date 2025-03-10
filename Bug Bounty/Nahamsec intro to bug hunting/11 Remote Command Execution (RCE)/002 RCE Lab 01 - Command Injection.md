@@ -8,10 +8,18 @@ It comes back and says, "Hey, 43 items in stock."
 
 
 But let's actually see what happens when we click this.  
+![[Screenshot From 2025-03-10 19-44-36.png]]
 
-So what we're going to do here is open up our network tab within Chrome DevTools.  
+```
+So what we're going to do here is open up our network tab within Chrome DevTools
 You can do this again by right-clicking and selecting "Inspect" and then the "Network" tab.  
 We're going to click "check stock" in the background and we see that it's actually making a request to product ID equals one using stock check.  
+```
+
+**==( in my case use burp suite ).==**  
+We're going to click on the below "stock-check" request and we see that it's actually making a request to product ID=1,  as 
+http://rce.naham.sec:8081/stock-check/?product_id=1
+
 How we are going to do this is we're just going to give it less.  
 As you can see right here, it says "uploads."  
 So that means that's probably the folder we have in here.  
