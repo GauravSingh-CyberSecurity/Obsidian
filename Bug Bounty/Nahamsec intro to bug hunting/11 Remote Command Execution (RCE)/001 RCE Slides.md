@@ -145,7 +145,7 @@ We give it our value five one for one semicolon to ended and we say else which e
 34
 00:02:19,890 --> 00:02:22,410
 in and it comes back and says three items are available.
-
+![[Screenshot From 2025-03-10 10-10-33.png]]
 35
 00:02:22,560 --> 00:02:25,680
 But also here is the output for the last command.
@@ -156,24 +156,27 @@ So we get the list of every file, every folder within that folder that we're wor
 
 37
 00:02:33,200 --> 00:02:38,910
-I get that folder that we're in is wherever the second application that's being ran in the back end
+I get that ==folder that we're in is wherever the second application that's being ran in the back end==
 
-38
-00:02:38,910 --> 00:02:39,470
-is hosted.
+==38==
+==00:02:38,910 --> 00:02:39,470==
+==is hosted.==
 
-39
-00:02:39,480 --> 00:02:43,500
-So in this case, whatever that folder name is, wherever that path of it is, we're going to get a
+==39==
+==00:02:39,480 --> 00:02:43,500==
+==So in this case, whatever that folder name is, wherever that path of it is, we're going to get a==
 
-40
-00:02:43,500 --> 00:02:49,830
-list of items within that directory so we get indexed FB images, access and access.
+==40==
+==00:02:43,500 --> 00:02:49,830==
+==list of items within that directory so we get== index.php, image css, and  ht.access.
+
+
+
 
 41
 00:02:50,160 --> 00:02:55,920
 So as I mentioned earlier, there are different methods where you can actually separate commands.
-
+![[Screenshot From 2025-03-10 10-13-51.png]]
 42
 00:02:55,920 --> 00:02:57,530
 One of them could be the semicolon.
