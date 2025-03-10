@@ -45,6 +45,8 @@
 26) the art of war by sun tzu
 27) can't hurt me by david gogins
 28) never finished by david gogins 
+29) The Alchemist 
+30) Atomic habits
 
 # Further reads(consideration for future reading)
 
@@ -65,4 +67,5 @@
 15) Sophocles ( The Dionysian philosopher ), endorsed by Nietzsche 
 16) Aldous Huxley, endorsed by JB peterson 
 17) Jean piagent, endorsed by JB peterson 
-18) JB peterson further works like ==peterson Academy== and readinglist (https://www.jordanbpeterson.com/blog/book-list/)
+18) JB peterson further works like ==peterson Academy== and book list (https://www.jordanbpeterson.com/blog/book-list/)/(https://www.jordanbpeterson.com/books/)
+19) The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1) by Adam Douglas 
