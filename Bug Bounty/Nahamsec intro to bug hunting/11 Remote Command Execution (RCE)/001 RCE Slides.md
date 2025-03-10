@@ -1,3 +1,32 @@
+# Transcript of slides, without errors :
+
+Let's have a look at remote command execution, also known as RCE. Remote command execution is a broad term applied to a vulnerability that allows an attacker to execute commands on the host operating system via the vulnerable application.
+
+This can be done in a number of ways. It could be either by injecting a command or by injecting code that the application is expecting, which leads to command execution. Again, this is a very broad term. It can happen in many different ways, but we're going to cover the most popular and common methods of finding RCE vulnerabilities.
+
+Imagine you're going to a website where the application is checking if an item is in stock. We assume that in the background, a command is running on the host operating system to verify if the item exists. For example, if you're looking for the ID "5141", our assumption is that on the backend there's a command running which checks for that value and returns that three items are available.
+
+So, what we can do in this case is start fuzzing and experimenting to see if remote command execution is possible. It doesn't have to be limited to numerical IDs; it could be any parameter that the application uses to call an underlying process on the operating system to retrieve data.
+
+In this case, we’re going to end our previous command in a Linux environment. There are several ways to do this, but one of the most popular methods is using a semicolon, which indicates that the previous command is finished. Then, you add another command immediately after.
+
+For instance, you could use a semicolon followed by a command that lists the files within a directory. If you're not familiar with these commands, I highly recommend getting very familiar with the Linux operating system. It's very beneficial to understand remote command execution to be proficient in Linux.
+
+Let's look at this example again: We provide our value "5141" followed by a semicolon, then add another command. The system executes the commands, returns that three items are available, and then outputs the result of the last command.
+
+Additionally, here is the output for the last command: it lists every file and folder in the directory where the secondary application is running. Essentially, whatever that directory or path is, you'll get an index of items within that folder.
+
+There are different methods to separate commands. One common method is using a semicolon. Other methods include using an ampersand, a pipe, or a double pipe. You can use all these methods to finish one command and then add another. Another technique is inline bash execution. I highly recommend getting proficient in bash, as it is very helpful when searching for RCE opportunities.
+
+For example, I typically use the following commands:
+
+- **pwd:** Prints the working directory.
+- **id:** Provides basic information about the user, including the user and group details and numeric IDs.
+- **hostname:** Prints the machine's hostname and domain name from the DNS, showing what the application’s host is on the operating system.
+
+These commands, along with others, help you understand how OS commands are executed. Of course, remote command execution can also be achieved in various programming languages using functions like `shell_exec` or `exec` to run operating system commands.
+
+Before wrapping up, I want to emphasize that RCE is a very broad term. You can find RCE vulnerabilities in many ways: through file uploads (which we'll cover later), by modifying side content, via debug functionalities, and more. There are countless ways to achieve remote command execution, and these examples are just some of the common methods.
 
 
 
