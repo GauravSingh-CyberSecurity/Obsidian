@@ -5,12 +5,16 @@ But what about other vulnerabilities? I mentioned vulnerabilities like RCE, SSRF
 
 So now we're going to do the same thing. We're going to intercept (in Burp Suite) and send out the same file(Linux-Commands_Cheat-Sheet.png). We're going to send it to the Burp repeater by right-clicking and selecting "Send to Repeater." If you're on Windows, it's Control+R, and if you're on Mac, it's Command+R.
 
-This sends the entire request to the repeater, and every time we send this request in, I'm going to test "test123." Every time we push "Send," it makes a request for us. If it was at our website, we can see that it has successfully done that.
+This sends the entire request to the repeater, and every time we send this request in, 
+I'm going to test this as  "test123." Every time we push "Send," it makes a request for us. If we look  at our website response, we can see that it has successfully done that.
+![[Screenshot From 2025-03-11 16-42-12.png]]
+
+But I want to test out for an RCE. If I remember the slides from our RCE chapter, there are a number of ways to get an RCE to work. One of those is to just give it a pipe ( | ). So at the end of that, we can add a pipe, which tells the system to finish whatever last command it's doing and then run the second command  "ls".
+We tried that, refreshed, and nothing worked. 
+We can see that. 
 
 
-But I want to test out for an RCE. If I remember the slides from our RCE chapter, there are a number of ways to get an RCE to work. One of those is to just give it a pipe. So at the end of that, we can add a pipe, which tells the system to finish whatever last command it's doing and then run the second command.
-
-We tried that, refreshed, and nothing worked. We can see that. What about if we wanted to test out something like a semicolon? We're going to do the same thing. That doesn't work either. We already covered the pipe and the semicolon.
+What about if we wanted to test out something like a semicolon? We're going to do the same thing. That doesn't work either. We already covered the pipe and the semicolon.
 
 One of the things we talked about was the concept of an inline command. This means if you're in the middle of the command line while the application is running its own command as an argument of some sort, we want to insert our own command within it. If you're not familiar with this, I highly recommend looking into it and reviewing the slides.
 
