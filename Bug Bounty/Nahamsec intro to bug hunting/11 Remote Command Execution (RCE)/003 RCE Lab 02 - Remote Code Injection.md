@@ -39,7 +39,7 @@ Now, whatever we put in Load comments drop down—for example we select **11/03/
 
 The next thing we can do is, because we know that for whatever reason, this application expects code—perhaps the developers did not properly sanitize user input—we discovered that we can inject code here. So I'm going to inject "PHP" code in here .
 
-If you're not familiar with PHP, I highly recommend you visit PHP.net to learn about its basic functions. One common tactic is using the echo command. We’re going to echo out the string "test" just to verify that our command is executed, and then we’ll close our PHP code to see what happens.
+If you're not familiar with PHP, I highly recommend you visit https://www.php.net/ to learn about its basic functions. One common tactic is using the echo command. We’re going to echo out the string "test" just to verify that our command is executed, and then we’ll close our PHP code to see what happens.
 
 When we go back, we see that it printed "test" as the output of echo without any errors or extra characters—it simply executed our code.
 
