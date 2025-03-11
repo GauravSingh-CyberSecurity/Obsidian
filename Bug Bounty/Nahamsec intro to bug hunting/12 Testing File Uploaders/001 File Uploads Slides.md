@@ -1,13 +1,16 @@
 
 
-
+![[Screenshot From 2025-03-11 11-43-46.png]]
 1
 00:00:00,150 --> 00:00:05,180
-Testing follow offloads, uploaded files are a significant risk to any application.
+Testing File Uploads, 
+
+Unrestricted uploaded files are a significant risk to any application.
+![[Screenshot From 2025-03-11 11-44-28.png]]
 
 2
 00:00:05,250 --> 00:00:11,760
-A lot of money programs or regular web applications always allow users to submit some sort of a file.
+A lot of bounty programs or regular web applications always allow users to submit some sort of a file.
 
 3
 00:00:11,880 --> 00:00:17,760
@@ -25,6 +28,8 @@ When it comes to uploading files, that could be a number of different vulnerabil
 00:00:24,270 --> 00:00:24,630
 happen.
 
+
+![[Screenshot From 2025-03-11 11-45-45.png]]
 7
 00:00:25,050 --> 00:00:29,610
 We can either upload a remote web or we can get a remote command execution.
@@ -39,7 +44,7 @@ e-mail or SPG file what it gives us access.
 
 10
 00:00:38,910 --> 00:00:45,510
-We can have Posterous or go out of the current directory and override previous files can do Xixi, which
+We can have Posterous or go out of the current directory and override previous files can do XXE, which
 
 11
 00:00:45,510 --> 00:00:48,330
@@ -57,13 +62,17 @@ This all depends on the application, but we're going to explore some of the most
 00:00:56,130 --> 00:00:57,060
 a file uploaded.
 
+
+
+
+![[Screenshot From 2025-03-11 11-46-50.png]]
 15
 00:00:58,960 --> 00:01:01,900
 So imagine you're sending your image to our website.
 
 16
 00:01:02,410 --> 00:01:07,400
-The Web site's going to make the following request to account image upload FB.
+The Web site's going to make the following request to account image upload.php.
 
 17
 00:01:07,840 --> 00:01:08,990
@@ -79,7 +88,7 @@ It's going to look similar to this one, this case.
 
 20
 00:01:14,740 --> 00:01:16,830
-As you can see, we have a mixed file size.
+As you can see, we have a max file size.
 
 21
 00:01:17,220 --> 00:01:18,510
@@ -103,7 +112,7 @@ image.
 
 26
 00:01:32,650 --> 00:01:38,230
-It's going to have the content type image jpeg and there's going to be some data in there that's going
+It's going to have the content type image/jpeg and there's going to be some data in there that's going
 
 27
 00:01:38,230 --> 00:01:39,160
