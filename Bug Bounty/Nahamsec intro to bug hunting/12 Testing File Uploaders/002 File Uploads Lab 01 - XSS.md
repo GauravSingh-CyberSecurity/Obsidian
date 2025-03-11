@@ -12,10 +12,12 @@ So, for this case, I want to make it a little bit easier.
 File uploads can be a bit tricky.  
 
 So we're going to use **==Burp Suite==** to capture the request that we're sending out.  
-In this case, we're going to send out the same file again.  
+In this case, we're going to send out the same file(Linux-Commands_Cheat-Sheet.png) again.  
+![[Screenshot From 2025-03-11 15-39-30.png]]
+then send request to repeater for , further testing.
 
 
-And for the name of it, we're going to test out an existence payload.  
+And for the filename of it, we're going to test out an existence payload.  
 So I'm going to add an underline tag and some characters to it and see how it reacts.  
 As expected, this is very common in many cases if the file name doesn't actually sanitize the user's input.  
 So, as expected, the string we provided after the underline tag appears underlined in the output of this file.  
