@@ -1,4 +1,11 @@
+types of upload vulnerablities
+![[Screenshot From 2025-03-11 11-45-45.png]]
 
+
+
+
+
+----
 
 ![[Screenshot From 2025-03-11 11-43-46.png]]
 1
@@ -14,7 +21,7 @@ A lot of bounty programs or regular web applications always allow users to submi
 
 3
 00:00:11,880 --> 00:00:17,760
-This could be either a social media platform or it could be legal documents or could even be HMO pages.
+This could be either a social media platform or it could be legal documents or could even be HTML pages.
 
 4
 00:00:17,760 --> 00:00:20,190
@@ -304,6 +311,9 @@ or don't limit yourself to just the content of the file.
 00:04:03,520 --> 00:04:06,800
 Always think about headers ,filename and other stuff as well.
 
+
+
+![[Screenshot From 2025-03-11 11-58-37.png]]
 72
 00:04:06,880 --> 00:04:11,560
 And of course, the most popular thing to do with a file upload or most people look for this as an XSS,
@@ -328,6 +338,8 @@ In other words, make sure that they're not just allowing you to upload HTML and 
 00:04:28,900 --> 00:04:30,190
 sort of a restriction against it.
 
+
+![[Screenshot From 2025-03-11 11-59-34.png]]
 78
 00:04:30,850 --> 00:04:35,530
 And last but not least, if none of that works, you can always try doing your past traversal from the
@@ -358,7 +370,7 @@ within the folder.
 
 85
 00:04:57,940 --> 00:05:02,890
-And you can do this usually if there is a patch over so it doesn't have to be in the Webroot folder.
+And you can do this usually if there is a Path traversal over so it doesn't have to be in the Webroot folder.
 
 86
 00:05:02,920 --> 00:05:10,030
