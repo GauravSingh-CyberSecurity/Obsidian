@@ -16,12 +16,16 @@ our attack vector.
 
 4
 00:00:11,460 --> 00:00:16,050
-In other words, the more assets we find, the locations we have to hack on and the more content we
+In other words, the more assets we find, the more applications(locations) we have to hack on and the more content we
 
 5
 00:00:16,050 --> 00:00:19,380
 have, there are more leads for us to potentially find vulnerabilities.
 
+
+
+
+![[Screenshot From 2025-03-11 20-27-08.png]]
 6
 00:00:19,470 --> 00:00:24,410
 As I mentioned earlier, the biggest reason behind doing recon is to find a bigger attack surface.
@@ -32,7 +36,7 @@ That means that we can extend the number of applications that we can hack on.
 
 8
 00:00:27,880 --> 00:00:32,820
-But more importantly, we want to find devlopment staging or keyword environments because these are
+But more importantly, we want to find devlopment, staging or QA environments because these are
 
 9
 00:00:32,820 --> 00:00:38,460
@@ -44,19 +48,11 @@ only for internal users.
 
 11
 00:00:39,600 --> 00:00:46,320
-And a lot of cases also doing recon could lead into finding sensitive information like API documentation
-
-12
-00:00:46,320 --> 00:00:51,420
-logs, backups and other forms of information that could lead to a vulnerability.
+In a lot of cases ,  also doing recon could lead into finding ==sensitive information like API documentation== , ==logs, backups and other forms of information that could lead to a vulnerability.==
 
 13
 00:00:51,770 --> 00:00:56,430
-You can do this in a bunch of different ways, but please make sure that you read companies bug bounty
-
-14
-00:00:56,430 --> 00:01:02,160
-program policy to make sure that you can do recon properly and go after their assets and infrastructure
+You can do this in a bunch of different ways, but please make sure that you read companies bug bounty program policy to make sure that you can do recon properly and go after their assets and infrastructure
 
 15
 00:01:02,370 --> 00:01:05,640
@@ -64,7 +60,7 @@ because a lot of companies do not include everything they own.
 
 16
 00:01:05,850 --> 00:01:11,010
-So in other words, a company like Google, Facebook, Verizon, Media, Snapchat or GM, they include
+So in other words, a company like Google, Facebook, Ryzen, Media, Snapchat or GM, they include
 
 17
 00:01:11,010 --> 00:01:16,170
@@ -74,6 +70,11 @@ all of the digital assets, which makes their scope a lot bigger than a company l
 00:01:16,170 --> 00:01:18,000
 they only include their main application.
 
+
+
+
+
+![[Screenshot From 2025-03-11 20-30-22.png]]
 19
 00:01:18,030 --> 00:01:19,890
 Now, let's talk about asset discovery.
@@ -92,7 +93,7 @@ main route domains.
 
 23
 00:01:36,360 --> 00:01:42,090
-So, for example, if you're going to Google dot com Melda, Google dot com drive store and all these
+So, for example, if you're going to Google.com Melda, Google dot com drive store and all these
 
 24
 00:01:42,090 --> 00:01:48,030
