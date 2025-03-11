@@ -1,14 +1,20 @@
-
+Analysis of File uploads lab 1 :-  ( http://upload.naham.sec:8081/ )
 
 Let's look at our example for the file upload. In this case, we're just going to use a file upload.  
 We're going to take an image.  
 We're going to test by uploading a PNG image.  
+![[Screenshot From 2025-03-11 15-36-58.png]]
 And it comes back and stores our file on the server.  
+![[Screenshot From 2025-03-11 15-37-25.png]]
+
 But I want to test for different vulnerabilities.  
 So, for this case, I want to make it a little bit easier.  
 File uploads can be a bit tricky.  
-So we're going to use Burp Suite to capture the request that we're sending out.  
+
+So we're going to use **==Burp Suite==** to capture the request that we're sending out.  
 In this case, we're going to send out the same file again.  
+
+
 And for the name of it, we're going to test out an existence payload.  
 So I'm going to add an underline tag and some characters to it and see how it reacts.  
 As expected, this is very common in many cases if the file name doesn't actually sanitize the user's input.  
