@@ -146,6 +146,8 @@ As you can see, we are changing a few things.
 00:01:56,740 --> 00:02:00,820
 The first thing is we're just going to straight up change the extension name from JPEG.
 
+
+![[Screenshot From 2025-03-11 11-49-15.png]]
 35
 00:02:01,960 --> 00:02:06,520
 We're going to remove the content type and we're going to give some function within our upload.
@@ -184,11 +186,12 @@ If that doesn't work, we can obviously readjust the content.
 
 44
 00:02:25,390 --> 00:02:31,930
-Time to match APHC file and hope that the application allowed us to upload our peers we file.
+Time to match our php file and hope that the application allowed us to upload our PHP file.
 
 45
 00:02:32,350 --> 00:02:34,930
 And I imagine that we tried the previous step.
+
 
 46
 00:02:34,930 --> 00:02:39,580
@@ -202,9 +205,11 @@ Again, we're we're playing a guessing game here.
 00:02:42,110 --> 00:02:45,780
 We don't know how the application works, but we're going to try our best to figure it out.
 
+
+![[Screenshot From 2025-03-11 11-51-22.png]]
 49
 00:02:46,720 --> 00:02:50,170
-And this case, what we can do is we can still at a jpeg within the file name.
+And this case, what we can do is we can still add a .jpeg within the file name.
 
 50
 00:02:50,440 --> 00:02:54,040
@@ -212,7 +217,7 @@ But remember that when you upload a file, the last extension is what matters.
 
 51
 00:02:54,500 --> 00:02:59,110
-So in other words, whatever other filename end zone is what's going to be taken by the application
+So in other words, whatever other filename ends in is what's going to be taken by the application
 
 52
 00:02:59,110 --> 00:02:59,830
@@ -252,7 +257,7 @@ file type we want.
 
 61
 00:03:23,590 --> 00:03:27,160
-This is very common obstinance and multiple points and bug bounty programs.
+This is very common obstinance and multiple pentest and bug bounty programs.
 
 62
 00:03:27,400 --> 00:03:33,680
