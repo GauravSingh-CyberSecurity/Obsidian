@@ -62,7 +62,7 @@ Another common way of doing this is putting another extension in the file name.
 
 15
 00:00:57,540 --> 00:01:05,430
-test.PNG.HTML or the other way, you can do a test.HTML? mark PMG, because in some cases
+test.PNG.HTML or the other way, you can do a test.HTML?PNG , because in some cases
 
 16
 00:01:05,700 --> 00:01:10,680

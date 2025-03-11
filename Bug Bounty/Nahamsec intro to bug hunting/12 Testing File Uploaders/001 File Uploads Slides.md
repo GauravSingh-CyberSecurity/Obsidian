@@ -1,3 +1,15 @@
+
+**==external-assets-links :==** 
+
+042 Content-Type
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
+
+042 Common-MIME-types
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+
+
+
+---
 types of upload vulnerablities
 ![[Screenshot From 2025-03-11 11-45-45.png]]
 
