@@ -18,8 +18,16 @@ echo "<pre>$output</pre>";
 What this does is assign our command to a variable called output, and then it echoes that output to display whatever comes back as a result.  
 
 So, let's go ahead and type that in.  
-We're going to actually change this to use the "id" command or "uname" or whatever we want.  
-In this case, with "uname -a", I'm going to leave our command as is.  
+```
+<?php  
+$output = shell_exec('uname -a');  
+echo "<pre>$output</pre>";  
+?>
+```
+We're going to actually change this (`shell_exec('ls -lart')` ) to use the "id" `shell_exec('id')`command or "uname" `shell_exec('uname')` or whatever we want. 
+
+In this case, with "uname -a" ( `shell_exec('uname -a')` ), I'm going to Paste our command as is in the comment.
+![[Screenshot From 2025-03-11 11-32-27.png]]
 As you can see, the application took our code, executed it at the operating system level, and returned the output of the command.
 
 
