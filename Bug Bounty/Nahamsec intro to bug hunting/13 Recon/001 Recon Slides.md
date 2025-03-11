@@ -93,7 +93,7 @@ main route domains.
 
 23
 00:01:36,360 --> 00:01:42,090
-So, for example, if you're going to Google.com Melda, Google dot com drive store and all these
+So, for example, if you're going to Google.com , mail.Google.com , drive.Google.com  , store.Google.com and all these
 
 24
 00:01:42,090 --> 00:01:48,030
@@ -101,7 +101,7 @@ different subdomains, all these different domains become a subdomain because the
 
 25
 00:01:48,030 --> 00:01:49,380
-route domain, like Google dot com.
+route domain, like Google.com.
 
 26
 00:01:49,660 --> 00:01:54,380
@@ -117,11 +117,11 @@ We'll cover this later in our lab.
 
 29
 00:02:00,690 --> 00:02:05,430
-But you can go on to Google and type in sight Google dot com and you can start seeing all the different
-
+But you can go on to Google and type in ==site: uber.com -www== and you can start seeing all the different
+![[Screenshot From 2025-03-11 20-33-40.png]]
 30
 00:02:05,430 --> 00:02:11,910
-domains that are under ueber itself and also look for subdomains by looking at certificate transparency.
+domains that are under Uber  itself and also look for subdomains by looking at certificate transparency.
 
 31
 00:02:12,150 --> 00:02:17,760
@@ -133,7 +133,7 @@ transparency logs, you can pull that information out through some automation or 
 
 33
 00:02:24,240 --> 00:02:25,410
-can look for him online.
+can look for them online.
 
 34
 00:02:25,440 --> 00:02:30,660
@@ -145,15 +145,11 @@ and you put that word before each domain and see if it comes back as positive or
 
 36
 00:02:36,470 --> 00:02:36,540
-it.
-
-37
-00:02:36,540 --> 00:02:39,690
-Responses give you a list of those domains that were available.
+it Responses give you a list of those domains that were available.
 
 38
 00:02:39,930 --> 00:02:41,850
-I personally don't do a lot of brute force thing.
+==I personally don't do a lot of brute force thing.==
 
 39
 00:02:42,060 --> 00:02:44,760
