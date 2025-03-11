@@ -48,6 +48,8 @@ i.e this is payload ( " ">   <script>alert(1)</script> ).
 
 and it executes and alert pop up appears
 ![[Screenshot From 2025-02-27 15-55-06.png]]
+
+
 ---
 
 

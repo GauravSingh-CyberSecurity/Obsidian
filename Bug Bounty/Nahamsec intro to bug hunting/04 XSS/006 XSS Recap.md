@@ -1,6 +1,6 @@
 1
 00:00:00,360 --> 00:00:05,820
-So that was excess exercise for Crosseyed, scripting their different ways of finding excesses, including
+So that was XSS or Cross site, scripting their different ways of finding excesses, including
 
 2
 00:00:05,820 --> 00:00:11,280
