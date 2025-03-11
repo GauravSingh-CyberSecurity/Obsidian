@@ -249,11 +249,11 @@ So the first one is Brute-forcing again, this is very, very common.
 
 62
 00:04:03,420 --> 00:04:08,050
-You can use tools like directory ==dirsearch== for WFuzz or gobuster.
+You can use tools like directory ==dirsearch== for ==WFuzz or gobuster.==
 
 63
 00:04:08,490 --> 00:04:12,510
-My preference is stuff and then directory search is a second one.
+My preference is WFuFF and then directory-search(dirsearch) is a second one.
 
 64
 00:04:12,810 --> 00:04:14,640
@@ -261,7 +261,7 @@ They're really, really good at very, very fast.
 
 65
 00:04:14,930 --> 00:04:20,520
-Can also do just passively through tools like get all your URLs or way back to your else, which we'll
+Can also do just passively through tools like ==get all your URLs== or ==way back URLs==, which we'll
 
 66
 00:04:20,520 --> 00:04:24,860
@@ -285,11 +285,11 @@ the application communicates with and understand what data it requires and how i
 
 71
 00:04:42,810 --> 00:04:47,160
-Doing this requires a little bit of understanding of JavaScript, which I highly recommend looking into
+Doing this requires a little bit of ==understanding of JavaScript, which I highly recommend looking into==
 
-72
-00:04:47,160 --> 00:04:49,410
-if you want to become a successful bug bounty hunter.
+==72==
+==00:04:47,160 --> 00:04:49,410==
+==if you want to become a successful bug bounty hunter.==
 
 73
 00:04:49,740 --> 00:04:52,860
@@ -299,6 +299,10 @@ But if you know how JavaScript works, this is a goldmine.
 00:04:52,860 --> 00:04:55,410
 Again, looking for JavaScript files, that's very, very important.
 
+
+
+
+![[Screenshot From 2025-03-11 20-43-22.png]]
 75
 00:04:55,530 --> 00:04:56,970
 So let's put this as a whole picture.
@@ -309,15 +313,11 @@ What does this look like?
 
 77
 00:04:58,380 --> 00:04:59,820
-You run and map on a.
+You run nmap on a.
 
 78
 00:04:59,870 --> 00:05:05,390
-Target, it comes back and tells you point eighty four or three and 843 all open, you do directly a
-
-79
-00:05:05,400 --> 00:05:11,180
-brute force thing and it shows admin as available and sends a four or three response code to go back
+Target, it comes back and tells you port 80 ,443 and 843 all open, you do directory-Bruteforcing and it shows admin is available and sends a 403 response code to go back
 
 80
 00:05:11,180 --> 00:05:12,010
@@ -325,11 +325,11 @@ to the first chapter.
 
 81
 00:05:12,020 --> 00:05:13,030
-We talk to our response.
+We talk to about web response.
 
 82
 00:05:13,430 --> 00:05:18,050
-We've talked about response codes and what they mean for three means it's there, but we don't have
+We've talked about response codes and what they mean , 403 means it's there, but we don't have
 
 83
 00:05:18,050 --> 00:05:18,920
@@ -341,7 +341,7 @@ So we brute force the admin directory again.
 
 85
 00:05:21,590 --> 00:05:27,770
-We find another file, for example, using the IP, which is armed, which returns at 200, indicating
+We find another file, for example, user.PHP, which is armed, which returns at 200, indicating
 
 86
 00:05:27,770 --> 00:05:30,200
