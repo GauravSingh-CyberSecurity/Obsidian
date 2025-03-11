@@ -28,8 +28,10 @@ We're going to actually change this (`shell_exec('ls -lart')` ) to use the "id" 
 
 In this case, with "uname -a" ( `shell_exec('uname -a')` ), I'm going to Paste our command as is in the comment.
 ![[Screenshot From 2025-03-11 11-32-27.png]]
-As you can see, the application took our code, executed it at the operating system level, and returned the output of the command.
 
+
+As you can see, the application took our code, executed it at the operating system level, and returned the output of the command (  Linux c649de042813 6.12.13-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.13-1kali1 (2025-02-11) x86_64 x86_64 x86_64 GNU/Linux )
+![[Screenshot From 2025-03-11 11-34-08.png]]
 
 
 ---
