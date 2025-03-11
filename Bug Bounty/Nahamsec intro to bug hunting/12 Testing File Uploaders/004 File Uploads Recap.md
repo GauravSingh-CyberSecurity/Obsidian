@@ -14,7 +14,7 @@ There isn't a single volume type that's attached to testing for follow uploads t
 
 3
 00:00:09,570 --> 00:00:14,690
-You can test for RCE, you can test for XXE, you can text for Path traversal.
+You can test for RCE, you can test for XXE, you can text for Path traversal .
 
 4
 00:00:14,700 --> 00:00:17,370
