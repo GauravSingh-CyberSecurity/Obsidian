@@ -46,11 +46,11 @@ When we go back, we see that it printed "test nahamsec" as the output of echo wi
 ![[Pasted image 20250311110342.png]]
 
 Now,
-One of the most popular and common ways to verify code injection with PHP is to insert an info command (  `<?PHP php.info() ?>`) that provides details such as the IP address, the Linux version, etc. 
+One of the most popular and common ways to verify code injection with PHP is to insert an info command (  `<?php phpinfo(); ?>`) that provides details such as the IP address, the Linux version, etc. 
 ![[Screenshot From 2025-03-11 11-07-41.png]]
 
-
-
+When we go back,  and Load the comment (`<?php phpinfo(); ?>`) i.e 11/3/25 we see php versions and other info ->
+![[Screenshot From 2025-03-11 11-10-36.png]]
 This proves that the application is executing our injected code. We can also try this approach using Python, Ruby, or any other language, depending on what the backend uses, in the hope that it will evaluate and execute our code on the server.
 
 In summary, as we examine our comment, we see that instead of printing out our code, the application is actually executing it and returning information (like version, system details, etc.). This clearly demonstrates that code injection is occurring on the server.
