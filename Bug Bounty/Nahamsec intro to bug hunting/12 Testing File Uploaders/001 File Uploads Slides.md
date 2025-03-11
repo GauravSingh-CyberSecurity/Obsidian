@@ -261,23 +261,28 @@ This is very common obstinance and multiple pentest and bug bounty programs.
 
 62
 00:03:27,400 --> 00:03:33,680
-But I was able to upload an e-mail or file budgets, including the previous extension in the file name.
+But I was able to upload an HTML or PHP file with just including the previous extension in the file name.
 
+
+
+
+
+![[Screenshot From 2025-03-11 11-54-38.png]]
 63
 00:03:34,480 --> 00:03:36,940
 You also have the option to change the file name.
 
 64
 00:03:36,970 --> 00:03:38,260
-This could be for Exercice.
+This could be for XSS.
 
 65
 00:03:38,260 --> 00:03:43,630
-We can abuse some of the RC stuff that we talked about in the previous chapters to either get an exorcist
+We can abuse some of the RCE stuff that we talked about in the previous chapters to either get an exorcist
 
 66
 00:03:43,630 --> 00:03:49,240
-because of the file name or you can actually try and get an RC depending on how the application passes
+because of the file name or you can actually try and get an RCE depending on how the application Parses
 
 67
 00:03:49,480 --> 00:03:51,000
@@ -289,7 +294,7 @@ So in other words, you can replace it with different payloads, assuming that the
 
 69
 00:03:55,750 --> 00:04:01,270
-to take a literal and run it either for Exercice RCU or whatever that is when testing a file upload
+to take a literal and run it either for XSS or RCE or whatever that is when testing a file upload
 
 70
 00:04:01,270 --> 00:04:03,490
@@ -297,11 +302,11 @@ or don't limit yourself to just the content of the file.
 
 71
 00:04:03,520 --> 00:04:06,800
-Always think about headers filename and other stuff as well.
+Always think about headers ,filename and other stuff as well.
 
 72
 00:04:06,880 --> 00:04:11,560
-And of course, the most popular thing to do with a file upload or most people look for this as an exercise,
+And of course, the most popular thing to do with a file upload or most people look for this as an XSS,
 
 73
 00:04:11,560 --> 00:04:13,240
@@ -309,11 +314,11 @@ you can just try and change the content.
 
 74
 00:04:13,240 --> 00:04:18,940
-Time to e-mail, text, output an HMO file and see if we can get access to some very common.
+Time to HTML text, upload an HTML file and see if we can get XSS, .
 
 75
 00:04:19,150 --> 00:04:24,100
-A lot of places allow this, but before reporting on access, make sure that this is not intended.
+A lot of places allow this, but before reporting on XSS, make sure that this is not intended.
 
 76
 00:04:24,490 --> 00:04:28,900
@@ -325,7 +330,7 @@ sort of a restriction against it.
 
 78
 00:04:30,850 --> 00:04:35,530
-And last but not least, if none of that works, you can always try doing your past reversal from the
+And last but not least, if none of that works, you can always try doing your past traversal from the
 
 79
 00:04:35,530 --> 00:04:36,310
