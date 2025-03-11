@@ -24,9 +24,12 @@ and, as mentioned, we can also use “uname -a.” It will execute the commands;
 
 Last but not least, one of my favorites:
 **==RCE Lab 03==** ( http://rce3.naham.sec:8081/ )
-==this is how you can perform code injection==. We’re no longer injecting a simple Linux command into this website; instead, ==we’re going to inject code==. I have been using this application for a while. Every time I make a request, I understand that it executes certain functions, so we can add a comment and then examine the network tab.
+==this is how you can perform code injection==. We’re no longer injecting a simple Linux command into this website; instead, ==we’re going to inject code==. I have been using this application for a while. Every time I make a request, I understand that it executes certain functions, so we can add a comment and then examine the network tab.  (for me, i am using burp suite and below is the SS)
+![[Screenshot From 2025-03-11 10-24-21.png]]
 
-We see here that it's making a request—let's try it again. It's making an Ajax request, sending out our comment as data. We can assume this is in one of the common languages. You still sometimes see this in bug bounty web applications.
+We see here that it's making a request—let's try it again. (after sending it to repeater for further testing)
+
+It's making an Ajax request, sending out our comment as data. We can assume this is in one of the common languages. You still sometimes see this in bug bounty web applications.
 
 Now, whatever we put in here—for example, the application is going to load our comment. The next thing we can do is, because we know that for whatever reason, this application expects code—perhaps the developers did not properly sanitize user input—we discovered that we can inject code here. So I'm going to inject it again.
 
