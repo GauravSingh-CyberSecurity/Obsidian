@@ -26,8 +26,9 @@ So, as expected, the string we provided after the underline tag ( <u> ) appears 
 
 We're going to go back again and upload another file.  
 That's the same file.  
-And as we have uploaded, we are going to send a file that triggers an alert as soon as the user hovers over the image or the text.  
+And as we have uploaded, we are going to edit the captured request in burpsuite and send a  file , with payload in "filename" that triggers an alert as soon as the user hovers over the image or the text.  
 So, on mouseover, as soon as we hover over it with our mouse, it will trigger alert('1').  
+(filename="<u onmouseover=alert(1)>hack.png") 
 In this case, it was alert('1').  
 But we know, we've confirmed that there is a vulnerability in this case and we can actually exploit it.
 
