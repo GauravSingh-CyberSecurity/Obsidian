@@ -53,7 +53,7 @@ When we go back,  and Load the comment (`<?php phpinfo(); ?>`) i.e 11/3/25 we se
 ![[Screenshot From 2025-03-11 11-10-36.png]]
 This proves that the application is executing our injected code. We can also try this approach using Python, Ruby, or any other language, depending on what the backend uses, in the hope that it will evaluate and execute our code on the server.
 
-In summary, as we examine our comment, we see that instead of printing out our code, the application is actually executing it and returning information (like version, system details, etc.). This clearly demonstrates that code injection is occurring on the server.
+In summary, as we examine our comment, we see that instead of printing out our code (`<?php phpinfo(); ?>`) as it is in plain text, the application is actually executing the code  and returning information (like version, system details, etc.). This clearly demonstrates that code injection is occurring on the server.
 
 
 ---
