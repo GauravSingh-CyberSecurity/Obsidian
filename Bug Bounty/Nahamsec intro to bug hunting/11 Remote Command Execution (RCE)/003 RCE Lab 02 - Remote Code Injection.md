@@ -32,9 +32,12 @@ We see here that it's making a request—let's try it again.  (after sending it 
 
 click on **"follow redirection"** : (and you get response as shown below)
 ![[Screenshot From 2025-03-11 10-29-12.png]]
-We can assume this is in "PHP" its still one of the common languages(or we can use Wa. You still sometimes see this in bug bounty web applications.
+We can assume this is in "PHP" its still one of the common languages(or we can use Wappalyzer browser extension to find the coding language used on appliaction). You still sometimes see this in bug bounty web applications.
 
-Now, whatever we put in here—for example, the application is going to load our comment. The next thing we can do is, because we know that for whatever reason, this application expects code—perhaps the developers did not properly sanitize user input—we discovered that we can inject code here. So I'm going to inject it again.
+Now, whatever we put in Load comments drop down—for example we select **11/03/25**, the application is going to load our comment for that date and time selected :-
+![[Screenshot From 2025-03-11 10-34-58.png]]
+
+The next thing we can do is, because we know that for whatever reason, this application expects code—perhaps the developers did not properly sanitize user input—we discovered that we can inject code here. So I'm going to inject "PHP" code in here .
 
 If you're not familiar with PHP, I highly recommend you visit PHP.net to learn about its basic functions. One common tactic is using the echo command. We’re going to echo out the string "test" just to verify that our command is executed, and then we’ll close our PHP code to see what happens.
 
