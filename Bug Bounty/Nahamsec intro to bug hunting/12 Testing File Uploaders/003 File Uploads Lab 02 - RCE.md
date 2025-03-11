@@ -12,13 +12,18 @@ I'm going to test this as  "test123." Every time we push "Send," it makes a requ
 But I want to test out for an RCE. If I remember the slides from our RCE chapter, there are a number of ways to get an RCE to work. One of those is to just give it a pipe ( | ). So at the end of that, we can add a pipe, which tells the system to finish whatever last command it's doing and then run the second command  "ls".
 We tried that, refreshed, and nothing worked. 
 We can see that. 
+![[Screenshot From 2025-03-11 16-46-01.png]]
+
+What about if we wanted to test out something like a semicolon? We're going to do the same thing. ![[Screenshot From 2025-03-11 16-46-49.png]]
+That doesn't work either. We already covered the pipe and the semicolon.
 
 
-What about if we wanted to test out something like a semicolon? We're going to do the same thing. That doesn't work either. We already covered the pipe and the semicolon.
 
-One of the things we talked about was the concept of an inline command. This means if you're in the middle of the command line while the application is running its own command as an argument of some sort, we want to insert our own command within it. If you're not familiar with this, I highly recommend looking into it and reviewing the slides.
+One of the things we talked about was the concept of an ==inline command==. This means if you're in the middle of the command line while the application is running its own command as an argument of some sort, we want to insert our own command within it. If you're not familiar with this, I highly recommend looking into it and reviewing the slides.
 
-In this case, we're going to give it an inline RCE using $(command). Our command goes in there, and we push "Go." As expected, nothing has worked.
+In this case, we're going to give it an inline RCE using `$(command)`. Our command goes in there - `$(ls)` , and we push "Go."
+
+As expected, nothing has worked.
 
 From previous tests, we can see that nothing is really working. It's not giving us an RCE. In this case, we have to test for a blind RCE. I know we haven't covered this previously in our slides. It's almost the same as an RCE; we just have to find a different way to see the output of a command.
 
