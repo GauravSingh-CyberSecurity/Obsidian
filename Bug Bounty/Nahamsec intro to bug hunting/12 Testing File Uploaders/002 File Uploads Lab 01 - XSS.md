@@ -18,9 +18,12 @@ then send request to repeater for , further testing.
 
 
 And for the filename of it, we're going to test out an existence payload.  
-So I'm going to add an underline tag and some characters to it and see how it reacts.  
-As expected, this is very common in many cases if the file name doesn't actually sanitize the user's input.  
-So, as expected, the string we provided after the underline tag appears underlined in the output of this file.  
+So I'm going to add an underline tag and some characters to it (filename="`test<u>hack.png`") and see how it reacts.  
+![[Screenshot From 2025-03-11 16-18-33.png]]
+As expected (testhack.png), this is very common in many cases if the file name doesn't actually sanitize the user's input.  
+So, as expected, the string we provided after the underline tag ( <u> ) appears underlined in the output of this file.  
+
+
 We're going to go back again and upload another file.  
 That's the same file.  
 And as we have uploaded, we are going to send a file that triggers an alert as soon as the user hovers over the image or the text.  
