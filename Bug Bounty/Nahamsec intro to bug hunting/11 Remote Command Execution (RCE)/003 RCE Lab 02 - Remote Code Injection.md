@@ -1,6 +1,5 @@
 Analysis of RCE lab :- ( http://rce2.naham.sec:8081/ )
-
-
+i.e
 ==RCE Lab 02== :-  ( http://rce2.naham.sec:8081/ )
 
 Now, let's look at our second example for remote command execution. In this case, it's no longer an ID; it's an application that performs networking. 

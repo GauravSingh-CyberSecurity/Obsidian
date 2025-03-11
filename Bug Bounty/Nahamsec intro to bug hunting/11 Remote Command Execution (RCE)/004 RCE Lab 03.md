@@ -1,6 +1,18 @@
-Analysis of RCE lab :  the lab3 continued from previous 
+Analysis of RCE lab :  the lab3 continued from previous (003 RCE Lab 02) notes: 
+( http://rce3.naham.sec:8081/ )
+![[Screenshot From 2025-03-11 11-20-40.png]]
 
 
+And last but not least, if we want to actually run a command using coding language(in this case PHP) , PHP has different functions that allow an application to run an operating system command. We can actually look it up.  
+We're going to look for PHP shell exec.  
+And we're going to check the manual for it to understand how it works( https://www.php.net/manual/en/function.shell-exec.php ). 
+
+The good thing is that with years of really good documentation, you can see all the similar functions that allow you to execute commands, execute system commands, and even provide examples.  
+What this does is assign our command to a variable called output, and then it echoes that output to display whatever comes back as a result.  
+So, let's go ahead and type that in.  
+We're going to actually change this to use the "id" command or "uname" or whatever we want.  
+In this case, with "uname -a", I'm going to leave our command as is.  
+As you can see, the application took our code, executed it at the operating system level, and returned the output of the command.
 
 
 
