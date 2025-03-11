@@ -157,7 +157,7 @@ It's definitely worth investing some time into doing it.
 
 40
 00:02:45,030 --> 00:02:49,830
-But going down the path of doing certificate transparencies a lot faster and doing it positively could
+But going down the path of doing certificate transparencies a lot faster and doing it Passively could
 
 41
 00:02:49,830 --> 00:02:51,720
@@ -177,12 +177,12 @@ You can do both.
 
 45
 00:02:57,280 --> 00:03:02,340
-You can choose to stick to one or however you find it fit, depending on the program that you're hiking
+You can choose to stick to one or however you find it fit, depending on the program that you're hacking on
 
-46
-00:03:02,340 --> 00:03:02,520
-on.
 
+
+
+![[Pasted image 20250311203752.png]]
 47
 00:03:02,870 --> 00:03:04,170
 Let's talk about content discovery.
@@ -197,7 +197,7 @@ or features that may not be directly accessible within the UI.
 
 50
 00:03:14,820 --> 00:03:20,340
-So we can this includes finding debug or diagnosis information, API documentation.
+So we can , this includes finding debug or diagnosis information, API documentation.
 
 51
 00:03:20,340 --> 00:03:26,220
@@ -205,7 +205,7 @@ As I mentioned earlier, we can look for admin panels which may have default or w
 
 52
 00:03:26,430 --> 00:03:31,470
-It can also do port scanning with and map, which shows you what other web ports or other ports are
+It can also do port scanning with nmap, which shows you what Other web ports or other ports are
 
 53
 00:03:31,470 --> 00:03:34,680
@@ -213,7 +213,7 @@ available on a particular domain or an IP address.
 
 54
 00:03:34,950 --> 00:03:40,560
-And you can further your attack surface by finishing up the ports to for example, a website may be
+And you can further your attack surface by finishing up the ports scan.  for example, a website may be
 
 55
 00:03:40,560 --> 00:03:45,900
@@ -221,7 +221,7 @@ running that application on Port 80 and 443 by default, which most websites do.
 
 56
 00:03:46,140 --> 00:03:51,390
-But in addition to that, they may have the Port eight for four to be opened or to have some other application
+But in addition to that, they may have the Port 843 opened or to have some other application
 
 57
 00:03:51,390 --> 00:03:55,980
@@ -231,6 +231,10 @@ running in the backend that communicates with the core or main application that 
 00:03:56,160 --> 00:03:57,660
 Port 80 or 443.
 
+
+
+
+![[Screenshot From 2025-03-11 20-40-11.png]]
 59
 00:03:57,840 --> 00:03:59,370
 So let's talk about asset discovery further.
@@ -241,11 +245,11 @@ How do you do it?
 
 61
 00:04:00,210 --> 00:04:03,390
-So the first one is forcing again, this is very, very common.
+So the first one is Brute-forcing again, this is very, very common.
 
 62
 00:04:03,420 --> 00:04:08,050
-You can use tools like directory search for wildfires or go bust.
+You can use tools like directory ==dirsearch== for WFuzz or gobuster.
 
 63
 00:04:08,490 --> 00:04:12,510
