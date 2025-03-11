@@ -1,7 +1,7 @@
 Analysis of RCE lab :- ( http://rce2.naham.sec:8081/ )
 
 
-
+==RCE Lab 02== :-  ( http://rce2.naham.sec:8081/ )
 
 Now, let's look at our second example for remote command execution. In this case, it's no longer an ID; it's an application that performs networking. 
 For example, it’s going to ping the IP address 8.8.8.8, and then it will return the result of the ping command.
