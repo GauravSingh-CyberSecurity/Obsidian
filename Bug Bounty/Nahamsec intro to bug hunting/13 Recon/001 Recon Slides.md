@@ -341,7 +341,7 @@ So we brute force the admin directory again.
 
 85
 00:05:21,590 --> 00:05:27,770
-We find another file, for example, user.PHP, which is armed, which returns at 200, indicating
+We find another file, for example, user.PHP,  which returns at 200, indicating
 
 86
 00:05:27,770 --> 00:05:30,200

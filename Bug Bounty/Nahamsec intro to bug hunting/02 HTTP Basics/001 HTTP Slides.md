@@ -146,6 +146,10 @@ It just looks to see if that page is available.
 
 
 ![[Screenshot From 2025-02-17 19-52-13.png]]
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+
+
 37
 00:02:02,730 --> 00:02:07,500
 When you make a request to a Web server, the server is going to respond with a variety of ranges.
