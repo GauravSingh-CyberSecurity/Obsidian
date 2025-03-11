@@ -23,7 +23,7 @@ and, as mentioned, we can also use “uname -a.” It will execute the commands;
 
 
 Last but not least, one of my favorites:
-RCE Lab 03 ( http://rce3.naham.sec:8081/ )
+**==RCE Lab 03==** ( http://rce3.naham.sec:8081/ )
 ==this is how you can perform code injection==. We’re no longer injecting a simple Linux command into this website; instead, ==we’re going to inject code==. I have been using this application for a while. Every time I make a request, I understand that it executes certain functions, so we can add a comment and then examine the network tab.
 
 We see here that it's making a request—let's try it again. It's making an Ajax request, sending out our comment as data. We can assume this is in one of the common languages. You still sometimes see this in bug bounty web applications.
