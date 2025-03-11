@@ -6,15 +6,15 @@
 
 1
 00:00:00,330 --> 00:00:05,520
-So that was it for file uploads, follow ups have unlimited ways of looking for vulnerabilities.
+So that was it for file uploads, file uploads have unlimited ways of looking for vulnerabilities.
 
 2
 00:00:05,550 --> 00:00:09,560
-There isn't a single volume type that's attached to testing for follow uploads there.
+There isn't a single volume type that's attached to testing for file uploaders there.
 
 3
 00:00:09,570 --> 00:00:14,690
-You can test for RCE, you can test for XXE, you can text for Path traversal .
+You can test for RCE, you can test for XXE, you can text for Path traversal  .
 
 4
 00:00:14,700 --> 00:00:17,370
@@ -34,7 +34,7 @@ back and forth until you get the vulnerability that you're looking for.
 
 8
 00:00:28,830 --> 00:00:34,050
-The top three things that I do when it comes down to looking for follow up bugs is putting payloads
+The top three things that I do when it comes down to looking for file upload bugs is putting payloads
 
 9
 00:00:34,050 --> 00:00:34,830
@@ -42,27 +42,27 @@ in the file name.
 
 10
 00:00:35,010 --> 00:00:40,250
-That could be an RC payload, it could be an exercise payload and also changing the extension.
+That could be an RCE payload, it could be an XSS payload and also changing the extension.
 
 11
 00:00:40,260 --> 00:00:45,630
-So if I'm doing test on Panji to send out an image, I can make a test as HTML and seeing if it lets
+So if I'm doing test.png to send out an image, I can make a test.HTML and seeing if it lets
 
 12
 00:00:45,630 --> 00:00:47,220
-me upload an e-mail file.
+me upload an HTML file.
 
 13
 00:00:47,250 --> 00:00:50,730
-Another common way of doing this is putting another extension in the file.
+Another common way of doing this is putting another extension in the file name.
 
 14
 00:00:50,730 --> 00:00:57,540
-And then, for example, if it allows to do test PMG, if it's just allowing it to do images on the
+, for example, if it allows to do test.PNG, if it's just allowing it to do images , then you wanna do
 
 15
 00:00:57,540 --> 00:01:05,430
-test on PMG and Shamal or the other way, you can do a test on question mark PMG, because in some cases
+test.PNG.HTML or the other way, you can do a test.HTML? mark PMG, because in some cases
 
 16
 00:01:05,700 --> 00:01:10,680
