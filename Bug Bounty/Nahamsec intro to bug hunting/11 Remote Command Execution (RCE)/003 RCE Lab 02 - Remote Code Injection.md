@@ -39,8 +39,10 @@ Now, whatever we put in Load comments drop down—for example we select **11/03/
 
 The next thing we can do is, because we know that for whatever reason, this application expects code—perhaps the developers did not properly sanitize user input—we discovered that we can inject code here. So I'm going to inject "PHP" code in here .
 
-If you're not familiar with PHP, I highly recommend you visit https://www.php.net/ to learn about its basic functions. One common tactic is using the echo command. We’re going to echo out the string "test" just to verify that our command is executed, and then we’ll close our PHP code to see what happens.
+If you're not familiar with PHP, I highly recommend you visit https://www.php.net/ to learn about its basic functions. One common tactic is using the **echo** command . We’re going to echo out the string "test" just to verify that our command is executed, and then we’ll close our PHP code to see what happens:- ( `<?PHP echo "test nahamsec"?>` )
+![[Screenshot From 2025-03-11 11-03-07.png]]
 
+![[Pasted image 20250311110342.png]]
 When we go back, we see that it printed "test" as the output of echo without any errors or extra characters—it simply executed our code.
 
 One of the most popular and common ways to verify code injection with PHP is to insert an info command that provides details such as the IP address, the Linux version, etc. This proves that the application is executing our injected code. We can also try this approach using Python, Ruby, or any other language, depending on what the backend uses, in the hope that it will evaluate and execute our code on the server.
