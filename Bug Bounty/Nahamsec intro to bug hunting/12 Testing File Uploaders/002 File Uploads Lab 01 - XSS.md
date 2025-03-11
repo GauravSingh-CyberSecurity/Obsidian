@@ -21,16 +21,18 @@ And for the filename of it, we're going to test out an existence payload.
 So I'm going to add an underline tag and some characters to it (filename="`test<u>hack.png`") and see how it reacts.  
 ![[Screenshot From 2025-03-11 16-18-33.png]]
 As expected (testhack.png), this is very common in many cases if the file name doesn't actually sanitize the user's input.  
-So, as expected, the string we provided after the underline tag ( <u> ) appears underlined in the output of this file.  
+So, as expected, the string we provided after the underline tag `( <u> )` appears underlined in the output of this file.  
 
 
 We're going to go back again and upload another file.  
 That's the same file.  
 And as we have uploaded, we are going to edit the captured request in burpsuite and send a  file , with payload in "filename" that triggers an alert as soon as the user hovers over the image or the text.  
 So, on mouseover, as soon as we hover over it with our mouse, it will trigger alert('1').  
-(filename="<u onmouseover=alert(1)>hack.png") 
-In this case, it was alert('1').  
-But we know, we've confirmed that there is a vulnerability in this case and we can actually exploit it.
+`(filename="<u onmouseover=alert(1)>hack.png")` 
+![[Screenshot From 2025-03-11 16-26-52 2.png]]
+![[Screenshot From 2025-03-11 16-28-13.png]]
+In this case, it was alert(' 1 ').  
+And we know, we've confirmed that there is a XSS vulnerability in this case and we can actually exploit it.
 
 
 
