@@ -58,7 +58,7 @@ Again, it's important to understand how these applications work. You want to tes
 
 RCE, especially blind RCE, is very common, particularly if the application is processing file names—renaming them, moving them, or modifying them in some way. You always want to look for these vulnerabilities.
 
-Again, they are very common, and understanding how to test for them properly is key to security testing.
+Again, Blind RCE's they are very common, and understanding how to test for them properly is key to security testing.
 
 ---
 
