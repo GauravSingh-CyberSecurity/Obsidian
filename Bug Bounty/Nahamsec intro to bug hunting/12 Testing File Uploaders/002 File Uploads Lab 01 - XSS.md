@@ -1,4 +1,4 @@
-Analysis of File uploads lab 1 :-  ( http://upload.naham.sec:8081/ )
+Analysis of File uploads lab  :-  ( http://upload.naham.sec:8081/ )
 
 Let's look at our example for the file upload. In this case, we're just going to use a file upload.  
 We're going to take an image.  
