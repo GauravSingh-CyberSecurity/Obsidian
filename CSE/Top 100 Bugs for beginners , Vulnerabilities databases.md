@@ -410,7 +410,7 @@ Deprecated SSL/TLS Versions (e.g., SSLv3)
 
 Improper SSL Certificate Chain
 
-
+---
 # Vulnerability Databases
 
 

@@ -410,7 +410,7 @@ Improper SSL Certificate Chain
 These are the most common vulnerabilities typically found by beginner bug hunters, focusing on widely recognized security issues within web applications, APIs, mobile apps, and cloud environments.
 
 
-
+---
 
 
 
