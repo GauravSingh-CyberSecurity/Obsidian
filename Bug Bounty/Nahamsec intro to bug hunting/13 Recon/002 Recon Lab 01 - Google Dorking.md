@@ -32,10 +32,17 @@ we can also omitt some links from the inurl:login results , using -tmsii or -med
 
 
 The other thing you can do is you can look for titles. So, you can say whatever has the ==`intitle:admin`== in it, bring it up—nothing there. I type in 'login'—it's =='intitle:login'.== So, it looks like 'intitle' brought up 'login'. You can type in 'admin' and see if there's any admin stuff coming up.
-![[Screenshot From 2025-03-13 14-44-51.png]]
+![[Pasted image 20250313144843.png]]
+![[Screenshot From 2025-03-13 14-49-12.png]]
 
 
-It's really powerful, especially if you're looking at a fresh new target or a website that has a lot of digital assets. I highly recommend learning how to do more with Google, but those are the most basic ones and the most valuable ones that I've seen hackers use, including myself, and I go to any time I'm looking for a bug bounty program that's brand new or I want to do some research on what their assets look like or what kind of domains they have and so on. You can also look for 'dev' sites by typing in your URL and giving it the keyword 'dev'. As you can see, this came up with 'dev.gm.com', which has a sign-in for it. You can also do stuff like 'qa'—if there are any 'qa' sites or anywhere that has the word 'qa' or anywhere that has the keyword 'qa', it will bring it up as well. So again, Google is very powerful. It's one of the first things I do when it comes to hacking on a brand new target that I've never hacked on.
+
+It's really powerful, especially if you're looking at a fresh new target or a website that has a lot of digital assets. 
+
+I highly recommend learning how to do more with Google dorking, but those are the most basic ones and the most valuable ones that I've seen hackers use, including myself, and I go to any time I'm looking for a bug bounty program that's brand new or I want to do some research on what their assets look like or what kind of domains they have and so on. You can also look for 'dev' sites by typing inurl and giving it the keyword 'dev'  :- `inurl:dev` . 
+![[Screenshot From 2025-03-13 14-49-52.png]]
+
+As you can see, this came up with 'dev.gm.com', which has a sign-in for it. You can also do stuff like 'qa'—if there are any 'qa' sites or anywhere that has the word 'qa' or anywhere that has the keyword 'qa', it will bring it up as well. So again, Google is very powerful. It's one of the first things I do when it comes to hacking on a brand new target that I've never hacked on.
 
 
 
