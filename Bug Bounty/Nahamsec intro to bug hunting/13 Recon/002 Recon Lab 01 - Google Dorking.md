@@ -1,6 +1,8 @@
 
 Analysis of Google dorking on: ( =='site:gm.com'.== )
+Google Dorking website :https://www.google-dorking.com/
 Google dork scanner: https://github.com/madhavmehndiratta/dorkScanner
+Exploit DB: https://www.exploit-db.com/google-hacking-database
 
 
 Now, let's look at Google when it comes to Dorking. Google Dorking is very important. We're going to look at GM. They have a free vulnerability disclosure program on HackerOne. You can check them out by going to hackerone.com/gm. In their scope right now, it states that everything they own digitally is part of their program. 
