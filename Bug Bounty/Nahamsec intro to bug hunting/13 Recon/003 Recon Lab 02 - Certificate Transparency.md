@@ -1,7 +1,45 @@
 
 
 
+Now, let's talk about cert transparency. cert.sh(https://crt.sh/) , this is very, very cool.
+it will Index every certificate that's out there, and all you have to do is type in the domain name.
+We're going to start with gm.com for this case.
+![[Screenshot From 2025-03-17 20-55-47.png]]
 
+It's going to take a second, depending on how large your target is.
+It's going to give you a list of matching identities, for gm.com, and so on.
+
+
+
+You can also just type in a wildcard behind us.
+
+Either one works.
+
+We can also do a percent sign or percent 25, which is an encoded version of it.
+
+It will bring back the same thing as well, and we get the good results.
+
+You can also automate this using JSON.
+
+You can output it, of course, as JSON if you want to automate on top of this.
+
+You can also do some automation.
+
+If you're good with Bash, Python, or whatever programming language you use, you can actually automate it and have it pull the domain name.
+
+You can do the name value or the common name.
+
+Right here, you can see it brings you all the domains for gm.com.
+
+You can do this.
+
+I can change this value for this domain, type in whatever it is, and it'll give you the same data.
+
+Name value is one of them, and then there's common name as well.
+
+I highly recommend doing both just to make sure you don't lose anything.
+
+We'll probably look at these further in our labs, but I just want to make sure I cover it in this part of our recon module for this course.
 
 
 
