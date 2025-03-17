@@ -1,0 +1,127 @@
+https://en.m.wikipedia.org/wiki/List_of_Nobel_laureates_in_Literature
+
+
+
+
+It seems like your question is incomplete, but based on your previous queries about Dostoevsky and Solzhenitsyn, I’ll assume you’re asking me to name all the Nobel Prize in Literature winners. Since you asked about "all" without specifying further, I’ll take it as a request for the complete list of laureates from 1901 to the present. As of today, March 12, 2025, the Nobel Prize in Literature has been awarded 117 times to 121 individuals (some years had shared prizes, and some had none awarded). Here’s the full list, year by year, with names only—keeping it concise as requested. If you meant something different by "name all," just let me know!
+
+- 1901: Sully Prudhomme
+- 1902: Theodor Mommsen
+- 1903: Bjørnstjerne Bjørnson
+- 1904: Frédéric Mistral, José Echegaray
+- 1905: Henryk Sienkiewicz
+- 1906: Giosuè Carducci
+- 1907: Rudyard Kipling
+- 1908: Rudolf Eucken
+- 1909: Selma Lagerlöf
+- 1910: Paul Heyse
+- 1911: Maurice Maeterlinck
+- 1912: Gerhart Hauptmann
+- 1913: Rabindranath Tagore
+- 1915: Romain Rolland
+- 1916: Verner von Heidenstam
+- 1917: Karl Gjellerup, Henrik Pontoppidan
+- 1919: Carl Spitteler
+- 1920: Knut Hamsun
+- 1921: Anatole France
+- 1922: Jacinto Benavente
+- 1923: William Butler Yeats
+- 1924: Władysław Reymont
+- 1925: George Bernard Shaw
+- 1926: Grazia Deledda
+- 1927: Henri Bergson
+- 1928: Sigrid Undset
+- 1929: Thomas Mann
+- 1930: Sinclair Lewis
+- 1931: Erik Axel Karlfeldt
+- 1932: John Galsworthy
+- 1933: Ivan Bunin
+- 1934: Luigi Pirandello
+- 1936: Eugene O’Neill
+- 1937: Roger Martin du Gard
+- 1938: Pearl S. Buck
+- 1939: Frans Eemil Sillanpää
+- 1944: Johannes V. Jensen
+- 1945: Gabriela Mistral
+- 1946: Hermann Hesse
+- 1947: André Gide
+- 1948: T.S. Eliot
+- 1949: William Faulkner
+- 1950: Bertrand Russell
+- 1951: Pär Lagerkvist
+- 1952: François Mauriac
+- 1953: Winston Churchill
+- 1954: Ernest Hemingway
+- 1955: Halldór Laxness
+- 1956: Juan Ramón Jiménez
+- 1957: Albert Camus
+- 1958: Boris Pasternak
+- 1959: Salvatore Quasimodo
+- 1960: Saint-John Perse
+- 1961: Ivo Andrić
+- 1962: John Steinbeck
+- 1963: Giorgos Seferis
+- 1964: Jean-Paul Sartre (declined)
+- 1965: Mikhail Sholokhov
+- 1966: Shmuel Yosef Agnon, Nelly Sachs
+- 1967: Miguel Ángel Asturias
+- 1968: Yasunari Kawabata
+- 1969: Samuel Beckett
+- 1970: Aleksandr Solzhenitsyn
+- 1971: Pablo Neruda
+- 1972: Heinrich Böll
+- 1973: Patrick White
+- 1974: Eyvind Johnson, Harry Martinson
+- 1975: Eugenio Montale
+- 1976: Saul Bellow
+- 1977: Vicente Aleixandre
+- 1978: Isaac Bashevis Singer
+- 1979: Odysseas Elytis
+- 1980: Czesław Miłosz
+- 1981: Elias Canetti
+- 1982: Gabriel García Márquez
+- 1983: William Golding
+- 1984: Jaroslav Seifert
+- 1985: Claude Simon
+- 1986: Wole Soyinka
+- 1987: Joseph Brodsky
+- 1988: Naguib Mahfouz
+- 1989: Camilo José Cela
+- 1990: Octavio Paz
+- 1991: Nadine Gordimer
+- 1992: Derek Walcott
+- 1993: Toni Morrison
+- 1994: Kenzaburō Ōe
+- 1995: Seamus Heaney
+- 1996: Wisława Szymborska
+- 1997: Dario Fo
+- 1998: José Saramago
+- 1999: Günter Grass
+- 2000: Gao Xingjian
+- 2001: V.S. Naipaul
+- 2002: Imre Kertész
+- 2003: J.M. Coetzee
+- 2004: Elfriede Jelinek
+- 2005: Harold Pinter
+- 2006: Orhan Pamuk
+- 2007: Doris Lessing
+- 2008: J.M.G. Le Clézio
+- 2009: Herta Müller
+- 2010: Mario Vargas Llosa
+- 2011: Tomas Tranströmer
+- 2012: Mo Yan
+- 2013: Alice Munro
+- 2014: Patrick Modiano
+- 2015: Svetlana Alexievich
+- 2016: Bob Dylan
+- 2017: Kazuo Ishiguro
+- 2018: Olga Tokarczuk
+- 2019: Peter Handke
+- 2020: Louise Glück
+- 2021: Abdulrazak Gurnah
+- 2022: Annie Ernaux
+- 2023: Jon Fosse
+- 2024: Han Kang
+
+Note: No prize was awarded in 1914, 1918, 1935, 1940, 1941, 1942, or 1943. The 2018 prize was delayed to 2019 due to a scandal in the Swedish Academy. This list is current through 2024; the 2025 winner won’t be announced until October. If you had something else in mind—like all works by a specific author—just clarify!
+

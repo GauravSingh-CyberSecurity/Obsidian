@@ -30,7 +30,7 @@ paytonic multiple vulnerability leading to change user password by forgot pw fun
 
 
 Derivium
-BML
+BML(azure ad as well)
 Staging Digicompany 
 BNHS
 Harrier.com
@@ -40,6 +40,9 @@ IEX
 Avifauna
 goveva HUL
 First change Finserv
+Data sights
+Deriviumcap.digicompany
+Quanteco
 
 
 BNHS WAF testing, goveva HUL vapt
