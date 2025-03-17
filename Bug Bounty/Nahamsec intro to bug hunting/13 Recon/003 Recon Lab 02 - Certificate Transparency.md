@@ -8,7 +8,7 @@ We're going to start with gm.com for this case.
 
 It's going to take a second, depending on how large your target is.
 It's going to give you a list of matching identities, for gm.com, and so on.
-
+![[Pasted image 20250317205852.png]]
 
 
 You can also just type in a wildcard behind us.
