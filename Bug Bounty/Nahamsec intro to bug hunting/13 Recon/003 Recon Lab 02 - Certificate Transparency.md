@@ -37,7 +37,7 @@ You can output it, of course, as JSON
 
 if you want to automate on top of this. You can also do some automation.
 If you're good with Bash, Python, or whatever programming language you use, you can actually automate it and have it pull the domain name.
-eg: 
+eg for this case: have it pull  the "name_value" or the "common_name" from json output using :
 ```
 Use Python (Cross-Platform):-
 
@@ -55,10 +55,26 @@ for entry in data:
 ```
 or 
 
+```
+Use `jq` (Linux/macOS)
 
-You can do the name value or the "common_name".
+curl -s "https://crt.sh/?q=%.gm.com&output=json" | jq '.[].common_name'
 
-Right here, you can see it brings you all the domains for gm.com.
+
+This filters and displays only the `common_name` field.
+```
+or
+```
+Use a Web Browser
+
+- Open `https://crt.sh/?q=%.gm.com&output=json` in your browser.
+- Press `Ctrl + F` (Windows/Linux) or `Cmd + F` (Mac).
+- Search for "common_name" to locate it in the JSON data.
+```
+
+Yes, the **`common_name`** parameter in **crt.sh** results provides the **primary domain name** or **subdomain** for which the SSL/TLS certificate was issued. and Right here, you can see it brings you all the domains for gm.com.
+
+
 
 You can do this.
 
