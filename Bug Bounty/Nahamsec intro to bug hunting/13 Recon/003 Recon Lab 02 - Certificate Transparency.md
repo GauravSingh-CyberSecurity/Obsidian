@@ -36,10 +36,27 @@ You can output it, of course, as JSON
 
 
 if you want to automate on top of this. You can also do some automation.
-
 If you're good with Bash, Python, or whatever programming language you use, you can actually automate it and have it pull the domain name.
+eg: 
+```
+Use Python (Cross-Platform):-
 
-You can do the name value or the common name.
+import requests
+
+url = "https://crt.sh/?q=%.gm.com&output=json"
+response = requests.get(url)
+data = response.json()
+
+# Extract and print common names
+for entry in data:
+    print(entry.get("common_name", "No common_name found"))
+
+
+```
+or 
+
+
+You can do the name value or the "common_name".
 
 Right here, you can see it brings you all the domains for gm.com.
 
