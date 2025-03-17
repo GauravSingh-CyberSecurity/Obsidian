@@ -72,15 +72,14 @@ Use a Web Browser
 - Search for "common_name" to locate it in the JSON data.
 ```
 
-Yes, the **`common_name`** parameter in **crt.sh** results provides the **primary domain name** or **subdomain** for which the SSL/TLS certificate was issued. and Right here, you can see it brings you all the domains for gm.com.
-
-
-
+the **`common_name`** parameter in **crt.sh** results provides the **primary domain name** or **subdomain** for which the SSL/TLS certificate was issued. and Right here, you can see it brings you all the domains for gm.com.
+![[Screenshot From 2025-03-17 21-21-50.png]]
 You can do this.
 
-I can change this value for this domain, type in whatever it is, and it'll give you the same data.
 
-Name value is one of them, and then there's common name as well.
+I can change this value **`common_name`**  for any domain that we found using the keyword common_name , type in whatever it is using **`ctrl+F`** , (eg this domain sdc.laam.gm.com) and it'll give you the same data.
+![[Screenshot From 2025-03-17 21-24-42.png]]
+Name_value is one of them, and then there's common_name as well.
 
 I highly recommend doing both just to make sure you don't lose anything.
 
