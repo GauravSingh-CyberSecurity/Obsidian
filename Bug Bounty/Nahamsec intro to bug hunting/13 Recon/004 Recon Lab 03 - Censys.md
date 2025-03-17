@@ -8,9 +8,9 @@ I highly recommend it. Even though they give you partial results and not the who
  You can actually visit this by going to their search ( https://platform.censys.io/search ) . You can search  by typing in a domain name.
 For example, we’re going to do **gm.com** now. We start looking at every IP address that has GM within it. You can filter based on the open ports.
 ![[Screenshot From 2025-03-17 22-22-56 1.png]]
-you can apply filters shown on the left, You can look at the tags. You can look at the port number , you can look at Network (ASof who owns this IP. 
 
-So you can go to **General Motors**, for example, and narrow down your search. This will show you all these domains.
+you can apply filters shown on the left, You can look at the tags. You can look at the port number , you can look at Network (AS) it shows who owns this IP. 
+ So you can go to **General Motors**, for example, and narrow down your search. This will show you all these domains.![[Screenshot From 2025-03-17 22-27-21.png]]
 
 You can also look for certificates. So, this right here shows **443, 443 certificate paths** where the DNS name matches GM.
 
