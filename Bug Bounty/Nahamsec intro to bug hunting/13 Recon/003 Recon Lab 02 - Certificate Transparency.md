@@ -20,10 +20,22 @@ It will bring back the same thing as well, and we get the good results.
 
 
 You can also automate this using JSON.
+```
+https://crt.sh/?q=%.gm.com&output=json
 
-You can output it, of course, as JSON if you want to automate on top of this.
 
-You can also do some automation.
+
+Explanation:
+  q=%.gm.com → Searches for all subdomains of `gm.com`.
+
+  &output=json → Ensures the response is returned in JSON format.
+
+```
+You can output it, of course, as JSON 
+![[Pasted image 20250317210852.png]]
+
+
+if you want to automate on top of this. You can also do some automation.
 
 If you're good with Bash, Python, or whatever programming language you use, you can actually automate it and have it pull the domain name.
 
