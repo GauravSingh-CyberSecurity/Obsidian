@@ -5,7 +5,7 @@ Now, let's have a look at Censys "Censys.io" is another really great tool to loo
 
 I highly recommend it. Even though they give you partial results and not the whole data, it’s still very worth looking into.
 
- You can actually visit this by going to their search. You can search for the IP space by typing in a domain name.
+ You can actually visit this by going to their search ( https://platform.censys.io/search ) . You can search  by typing in a domain name.
 
 For example, we’re going to do **gm.com** now. We start looking at every IP address that has GM within it. You can filter based on the open ports.
 
