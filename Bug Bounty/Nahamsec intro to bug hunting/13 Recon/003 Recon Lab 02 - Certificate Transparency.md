@@ -11,13 +11,13 @@ It's going to give you a list of matching identities, for gm.com, and so on.
 ![[Pasted image 20250317205852.png]]
 
 
-You can also just type in a wildcard behind us.
-
+You can also just type in a wildcard behind for (https://crt.sh/?q=gm.com) like this (https://crt.sh/?q=%.gm.com) or (https://crt.sh/?q=%25.gm.com) .
+i.e `%` acts as a wildcard to match subdomains of `gm.com`.  and `%25` is just a url encoded format for the wildcard `%` 
 Either one works.
-
 We can also do a percent sign or percent 25, which is an encoded version of it.
-
 It will bring back the same thing as well, and we get the good results.
+![[Screenshot From 2025-03-17 21-05-39.png]]
+
 
 You can also automate this using JSON.
 
