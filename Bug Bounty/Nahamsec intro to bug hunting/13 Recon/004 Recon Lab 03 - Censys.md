@@ -1,6 +1,5 @@
 
-Now, let's have a look at Censys. Censys is another really great tool to look for further subdomains or assets belonging to a company. You would actually need to register an account for free.
-
+Now, let's have a look at Censys "Censys.io" is another really great tool to look for further subdomains or assets belonging to a company. You would actually need to register an account for free.
 I highly recommend it. Even though they give you partial results and not the whole data, it’s still very worth looking into.
 
 You can download this. You can actually visit this by going to their search. You can search for the IP space by typing in a domain name.
