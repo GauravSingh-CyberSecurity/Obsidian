@@ -72,7 +72,7 @@ Use a Web Browser
 - Search for "common_name" to locate it in the JSON data.
 ```
 
-the **`common_name`** parameter in **crt.sh** results provides the **primary domain name** or **subdomain** for which the SSL/TLS certificate was issued. and Right here, you can see it brings you all the domains for gm.com.
+==the **`common_name`** parameter in **crt.sh** results provides the **primary domain name** or **subdomain** for which the SSL/TLS certificate was issued==. and Right here, you can see it brings you all the domains for gm.com.
 ![[Screenshot From 2025-03-17 21-21-50.png]]
 You can do this.
 
