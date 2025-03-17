@@ -1,9 +1,11 @@
 
 Now, let's have a look at Censys "Censys.io" is another really great tool to look for further subdomains or assets belonging to a company. You would actually need to register an account for free.
-![[Screenshot From 2025-03-17 22-12-38.png]]![[Screenshot From 2025-03-17 22-12-38.png]]
+![[Screenshot From 2025-03-17 22-12-38 1.png]]
+`--mwR)ix23f!Nu2`
+
 I highly recommend it. Even though they give you partial results and not the whole data, it’s still very worth looking into.
 
-You can download this. You can actually visit this by going to their search. You can search for the IP space by typing in a domain name.
+ You can actually visit this by going to their search. You can search for the IP space by typing in a domain name.
 
 For example, we’re going to do **gm.com** now. We start looking at every IP address that has GM within it. You can filter based on the open ports.
 
