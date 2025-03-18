@@ -113,11 +113,12 @@ We chain multiple commands together using pipes (`|`), allowing each command’s
 
 
 
-
+This above command is going to run every single subdomain in that list with `httprobe` and tell us which ones are available through HTTPS, HTTP, or both.
 
 So, in this case, you can hit them both ways as protocols, but we can click and open them up for further testing. Now that we know these are done, we can also run another way and go back to the same command.
 
-Not only are we fetching data from Cert.sh, but we're also making it clean by removing duplicates. This tool that we talked about in our setup tells us which sites are open and available.
+Not only are we fetching data from Cert.sh, but we're also making it clean by removing duplicates. This tool that we talked about in our setup tells us which sites are open and available. in this ss we can see htt
+![[Screenshot From 2025-03-18 20-58-45.png]]
 
 We can also take screenshots by typing in `aquatone`, and this will give us a list of all the available domains. It will also give us screenshots. For the purpose of this tutorial and to save time, I'm not going to actually run this command and show the results.
 
