@@ -11,8 +11,10 @@ https://www.shodan.io/
 
 All right, the last tool we're going to talk about is **Shodan**. Shodan(https://www.shodan.io/) is also very, very powerful and can actually be used to identify more assets.
 ![[Screenshot From 2025-03-18 16-08-13.png]]
-We're just going to start by simply type in the hostname==(hostname:"gm.com")== . This is the hostname, like `gm.com`, we’re going after. Based on this, it will give us a list of assets that include the IP addresses with the open ports, the headers, and all that information that we need.
+We're just going to start by simply type in the hostname **==(hostname:"gm.com")==** . This is the hostname, like `gm.com`, we’re going after. Based on this, it will give us a list of assets that include the IP addresses with the open ports, the headers, and all that information that we need.
 ![[Screenshot From 2025-03-18 16-12-07.png]]
+
+
 So, we're going to pull up one of these. We’ll open this one up just to show what kind of information it indexes.
 ![[Pasted image 20250318161248.png]]
 ![[Screenshot From 2025-03-18 16-13-13.png]]
@@ -32,6 +34,8 @@ For this case, I’m going to take everything out. We’re just going to leave _
 In other words, the domain may come back as something else other than _gm.com_, but it’s pointing to an IP address that is owned by GM. In this case, I don’t see any of them, but there are times where they could come up as an internal domain that we didn’t know existed but is hosted on their IP address as well.
 
 The other thing you can do is you can type in _SSL_ — which looks for certificates — and you can do _gm.com_, for example. That would bring up all of the different domains that have _gm.com_ in the SSL.
+![[Screenshot From 2025-03-18 20-11-39.png]]
+
 
 And last but not least, the other cool thing you can do with this is you can actually specify ports, for example, 8443. You can say, "Hey, bring me everything that has SSL, has GM in it, with the open port 8443 where an application could be hosted."
 
