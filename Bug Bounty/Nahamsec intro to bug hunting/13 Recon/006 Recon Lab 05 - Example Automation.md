@@ -50,17 +50,70 @@ Typing this will give us a list of domains that are available on gm.com. As it c
 ![[Screenshot From 2025-03-18 20-42-09.png]]
 
 
- We're going to just go ahead and type in another pipe ( | httprobe -c 50  )  in this 
+
+
+
+
+
+```
+ We're going to just go ahead and type in another pipe ( | httprobe -c 50  )  
+ in this 
  ( curl -s https://crt.sh/\?q=%25.gm.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u  )
 
+What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command  
+( curl -s https://crt.sh/\q=%25.gm.com\&output\=json  | )
 
+and feeding it into the next one ( | jq -r '.[].name_value' )  . 
 
-What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command  ( curl -s https://crt.sh/\?q=%25.gm.com\&output\=json  | )
-and feeding it into the next one ( | jq -r '.[].name_value' )  . Then, using another pipe, we're feeding it into another command ( sed 's/\*\.//g' | sort -u ) , and the results of all this get fed to you. 
+Then, using another pipe, we're feeding it into another command 
+( sed 's/\*\.//g' | sort -u ) , 
 
-We're also going to feed the results of all of this into another tool that we discussed when setting up our lab, which is `httprope`  ( | httprobe -c 50  ) . This tool will tell us how many of these subdomains are actually accessible through HTTP or HTTPS.
+and the results of all this get fed to you. 
+
+We're also going to feed the results of all of this into another tool that we discussed when setting up our lab, which is `httprope`  
+( | httprobe -c 50  ) . 
+
+This tool will tell us how many of these subdomains are actually accessible through HTTP or HTTPS.
 
 `-c` is the concurrency flag, and we're setting it to 50. This is going to run every single subdomain in that list with `httprobe` and tell us which ones are available through HTTPS, HTTP, or both.
+
+Final command:-
+curl -s https://crt.sh/\?q=%25.gm.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | httprobe -c 50 
+
+
+```
+This same code is explained below by chatgpt
+
+---
+
+We’re going to extend our command by adding another pipe (`|`) and passing the output into **`httprobe`** with the concurrency flag set to 50:
+
+```bash
+
+curl -s "https://crt.sh/?q=%25.gm.com&output=json" | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | httprobe -c 50
+```
+
+Let me break down what’s happening here:
+
+- We start by running `curl` to fetch JSON data from **crt.sh**, targeting all subdomains of `gm.com`.
+- The output is then piped (`|`) into `jq`, which extracts the `"name_value"` fields from the JSON.
+- Next, we use `sed 's/\*\.//g'` to remove any wildcard characters (`*.`) from the subdomains.
+- The result is sorted and duplicates are removed using `sort -u`.
+- Finally, we pipe the clean list of subdomains into **`httprobe`**, using the `-c 50` flag to set concurrency to 50.
+
+The `httprobe` tool checks which of these subdomains are alive and accessible over HTTP or HTTPS. The `-c` flag ensures 50 requests are sent concurrently, speeding up the process.
+
+**TL;DR:**  
+We chain multiple commands together using pipes (`|`), allowing each command’s output to feed into the next. Ultimately, `httprobe` tells us which of these subdomains are actually reachable.
+
+---
+
+
+
+
+
+
+
 
 So, in this case, you can hit them both ways as protocols, but we can click and open them up for further testing. Now that we know these are done, we can also run another way and go back to the same command.
 
