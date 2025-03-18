@@ -26,6 +26,8 @@ Let this load, and you can see right here, the organization is General Motors an
 Let’s look at _organization_. We’re going to click on this. You can also manually type this in and do _organization_ as "General Motors" — put the organization name in quotation marks. It will bring you all the IP addresses that match all the filters in the search.
 
 For this case, I’m going to take everything out. We’re just going to leave _org_ as General Motors. Also, this is a really, really good way to find domains that belong to another company by putting the organization name based on who owns the actual IP address.
+![[Screenshot From 2025-03-18 20-09-32.png]]
+
 
 In other words, the domain may come back as something else other than _gm.com_, but it’s pointing to an IP address that is owned by GM. In this case, I don’t see any of them, but there are times where they could come up as an internal domain that we didn’t know existed but is hosted on their IP address as well.
 
