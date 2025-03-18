@@ -12,8 +12,7 @@ For example, we’re going to do **gm.com** now. We start looking at every IP ad
 you can apply filters shown on the left, You can look at the tags. You can look at the port number , you can look at Network (AS) it shows who owns this IP. 
  So you can go to **General Motors**, for example, and narrow down your search. This will show you all these domains.![[Screenshot From 2025-03-17 22-27-21.png]]
 
-You can also look for certificates. So, this right here shows **443, 443 certificate paths** where the DNS name matches GM.
-
+You can also look for certificates. So, this right here shows **443, 443 certificate paths** where the DNS name matches gm.com
 We're going to copy this, type it into our search, and we’re going to get **gm.com**.
 
 And that’s also going to bring up all these different certificates that belong to GM. Some of these may be accessible, while others may not be.
@@ -30,7 +29,7 @@ I have personally been able to find some really cool vulnerabilities on assets t
 
 Again, it's a **very, very useful tool**. I highly recommend looking into it.
 
-Their documentation is also very good.
+Their documentation is also very good. (https://docs.censys.com/) (https://academy.censys.io/)
 
 You can type in **443**, for example. Let’s go back to the **IPv4 space** really quickly.
 
