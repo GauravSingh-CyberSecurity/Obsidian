@@ -1,6 +1,63 @@
 
 
+Earlier, I talked about the crt.sh and how we can actually automate this. This is a simple way of automating the crt.sh.
 
+All I'm doing here is making a command. I'm actually switching resources using a command and doing a silent version of it. Right here is where we're going to put our domain name.
+
+For example, when using gm.com, right here, gm.com — using a tool called `jq` — I look for the "name" value. We're going to clean this up and make sure the domains are unique so we don't have any duplications.
+
+Here’s the `curl` command you can use to fetch data from **crt.sh** and parse the `"name_value"` fields using **jq**, ensuring unique subdomains (removing duplicates):
+
+bash
+
+CopyEdit
+
+`curl -s "https://crt.sh/?q=%.gm.com&output=json" | jq -r '.[].name_value' | sort -u`
+
+---
+
+### Explanation:
+
+✅ `curl -s "https://crt.sh/?q=%.gm.com&output=json"`
+
+- `-s`: silent mode (no progress meter)
+- `%.gm.com`: wildcard search for all subdomains of `gm.com`
+- `output=json`: response in JSON format
+
+✅ `| jq -r '.[].name_value'`
+
+- Extracts the `name_value` field from each JSON object
+- `-r`: outputs raw strings instead of JSON quotes
+
+✅ `| sort -u`
+
+- Sorts the output and removes duplicate domain names
+
+==Again, this is something that I’ve learned using Bash. If you’re not familiar with it, I highly recommend learning it. You can also do this with Python, Ruby, Go, or any other programming language you use.==
+
+Typing this will give us a list of domains that are available on gm.com. As it comes back, it gives us a ton of different results. We're going to just go ahead and type in another pipe.
+
+What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command and feeding it into the next one. Then, using another pipe, we're feeding it into another command, and the results of all this get fed to you.
+
+We're also going to feed the results of all of this into another tool that we discussed when setting up our lab, which is `httpx`. This tool will tell us how many of these subdomains are actually accessible through HTTP or HTTPS.
+
+`-c` is the concurrency flag, and we're setting it to 50. This is going to run every single subdomain in that list with `httpx` and tell us which ones are available through HTTPS, HTTP, or both.
+
+So, in this case, you can hit them both ways as protocols, but we can click and open them up for further testing. Now that we know these are done, we can also run another way and go back to the same command.
+
+Not only are we fetching data from Cert.sh, but we're also making it clean by removing duplicates. This tool that we talked about in our setup tells us which sites are open and available.
+
+We can also take screenshots by typing in `aquatone`, and this will give us a list of all the available domains. It will also give us screenshots. For the purpose of this tutorial and to save time, I'm not going to actually run this command and show the results.
+
+Once you run this, I highly recommend creating a folder called `gm.com`, for example, on your machine and then running this. Once you run this, it starts doing its thing and creates folders for screenshots, HTTPS results, HTTP results, or whatever came back as a response from each server.
+
+It will also give you a report that you can look at — all these different assets together with a list of the subdomains and their screenshots. You can do this as a part of your recon to get an overview of every site that’s available and what they look like.
+
+Based on the website’s look or whatever the screenshot is, you can decide which targets you want to go after. Again, this is just an example of how you can chain a ton of different commands to get the results.
+
+Run it one more time, give it a sec, and see if it created those different folders. You can see the headers — this is where it would store the original report with all the screenshots and the subdomains.
+
+The screenshots folder is where you will have the images. Once that's done, you can go to the original folder — there will be a file there. You can open it up on your local machine and see all the images in a nicely written report, and then decide what you want to hack on.
 
 
 

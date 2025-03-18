@@ -1,11 +1,11 @@
-|Feature|**Shodan**|**Censys**|**crt.sh**|
-|---|---|---|---|
-|Data|Devices & services|Devices, services, SSL certificates|Only certificates|
-|Search Type|Banners, ports, CVEs|Banners, ports, certificates, fingerprints|Certificate transparency logs|
-|Real-time?|Close to real-time|Close to real-time|Updates with CT log entries|
-|Main Use|Asset discovery, vulnerability hunting|Deep inspection of hosts & certificates|Find subdomains, SSL misconfigurations|
-|UI/API|Yes, paid API|Yes, paid API|Free, simple web search|
-|Example Use|Exposed cameras, RDP, MongoDB, Elasticsearch|Certificates, server fingerprinting|Subdomain enumeration|
+| Feature     | **Shodan**                                   | **Censys**                                 | **crt.sh**                             |
+| ----------- | -------------------------------------------- | ------------------------------------------ | -------------------------------------- |
+| Data        | Devices & services                           | Devices, services, SSL certificates        | Only certificates                      |
+| Search Type | Banners, ports, CVEs                         | Banners, ports, certificates, fingerprints | Certificate transparency logs          |
+| Real-time?  | Close to real-time                           | Close to real-time                         | Updates with CT log entries            |
+| Main Use    | Asset discovery, vulnerability hunting       | Deep inspection of hosts & certificates    | Find subdomains, SSL misconfigurations |
+| UI/API      | Yes, paid API                                | Yes, paid API                              | Free, simple web search                |
+| Example Use | Exposed cameras, RDP, MongoDB, Elasticsearch | Certificates, server fingerprinting        | Subdomain enumeration                  |
 Now, let's have a look at Censys "Censys.io" is another really great tool to look for further subdomains or assets belonging to a company. You would actually need to register an account for free.
 ![[Screenshot From 2025-03-17 22-12-38 1.png]]
 `--mwR)ix23f!Nu2`
