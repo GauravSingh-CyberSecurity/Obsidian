@@ -1,4 +1,3 @@
-
 1
 00:00:00,060 --> 00:00:05,460
 So before we get started with a lab setting, the first thing I want to do is you want to find a terminal
