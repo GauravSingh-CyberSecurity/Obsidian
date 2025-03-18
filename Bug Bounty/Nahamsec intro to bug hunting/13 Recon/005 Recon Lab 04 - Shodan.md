@@ -21,7 +21,7 @@ So, we're going to pull up one of these. We’ll open this one up just to show w
 You can see that it shows you where it’s hosted, what country, who the ISP is — which is General Motors — the organization is Akami as well. Ports 80 and 443 are also available to this. It could be kind of old; you can rely on it sometimes, but ==I highly recommend doing your own port scanning.==
 
 But again, we can do this by typing _hostname_ and it gives you all this information. On the left side, you can also do it based on the _product_. So, if you want to look for Microsoft IIS, you can click on this. If you’re looking for Apache Tomcat, you can filter by it and it will show you all the applications that are on the domain _gm.com_ that are hosted on Apache Tomcat as well.
-
+![[Screenshot From 2025-03-18 20-16-00.png]]
 
 Let this load, and you can see right here, the organization is General Motors and it shows that it is a Tomcat. It also shows the common name for the certificate, who issued it, and so on.
 
@@ -37,7 +37,7 @@ The other thing you can do is you can type in _SSL_ — which looks for certific
 ![[Screenshot From 2025-03-18 20-11-39.png]]
 
 
-And last but not least, the other cool thing you can do with this is you can actually specify ports, for example, 8443. You can say, "Hey, bring me everything that has SSL, has GM in it, with the open port 8443 where an application could be hosted."
+And last but not least, the other cool thing you can do with this is you can actually specify ports, for example, 8443. You can say, "Hey, bring me everything that has SSL, has GM in it, with the open port 8443 where an application could be hosted." using this ( )
 
 Let’s see if anything comes up for this. It might take a second because of how large that target is. But as you can see, it just came back. We can click on it and go on to the actual results.
 
