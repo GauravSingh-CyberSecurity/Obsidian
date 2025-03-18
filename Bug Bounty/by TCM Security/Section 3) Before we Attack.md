@@ -1,4 +1,5 @@
 # Video 2) understanding Scope , Ethics , Code of Conduct in Bug bounty hunting
+
 ==
 ====**Scope , Ethics , Code of Conduct in Bug bounty hunting**==
 
