@@ -117,12 +117,24 @@ This above command is going to run every single subdomain in that list with `htt
 
 So, in this case, you can hit them both ways as protocols, but we can click and open them up for further testing. Now that we know these are done, we can also run another way and go back to the same command.
 
-Not only are we fetching data from Cert.sh, but we're also making it clean by removing duplicates. This tool that we talked about in our setup tells us which sites are open and available. in this ss we can see htt
+Not only are we fetching data from Cert.sh, but we're also making it clean by removing duplicates. This tool that we talked about in our setup tells us which sites are open and available. in this ss we can see http and https both.
 ![[Screenshot From 2025-03-18 20-58-45.png]]
 
-We can also take screenshots by typing in `aquatone`, and this will give us a list of all the available domains. It will also give us screenshots. For the purpose of this tutorial and to save time, I'm not going to actually run this command and show the results.
 
-Once you run this, I highly recommend creating a folder called `gm.com`, for example, on your machine and then running this. Once you run this, it starts doing its thing and creates folders for screenshots, HTTPS results, HTTP results, or whatever came back as a response from each server.
+
+We can also take screenshots by typing in `aquatone`, and this will give us a list of all the available domains. It will also give us screenshots. (these are the commands for it  )
+```
+curl -s "https://crt.sh/?q=%25.gm.com&output=json" | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | httprobe -c 50 | aquatone
+```
+For the purpose of this tutorial and to save time, I'm not going to actually run this command and show the results.
+
+Once you run this, I highly recommend creating a folder called `gm.com`, for example, on your machine and then running this. (these are the commands for it  )
+```
+~ mkdir gm.com
+~ curl -s "https://crt.sh/?q=%25.gm.com&output=json" | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | httprobe -c 50 | aquatone
+```
+
+Once you run this, it starts doing its thing and creates folders for screenshots, HTTPS results, HTTP results, or whatever came back as a response from each server.
 
 It will also give you a report that you can look at — all these different assets together with a list of the subdomains and their screenshots. You can do this as a part of your recon to get an overview of every site that’s available and what they look like.
 
