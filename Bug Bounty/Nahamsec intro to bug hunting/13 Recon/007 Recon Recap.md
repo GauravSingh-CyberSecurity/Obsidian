@@ -1,5 +1,15 @@
 
 
+So, recon is very, very useful, but it all depends on the program you're talking about. Every program requires the same kind of approach as we have shown in these slides.
+
+For example, if you're hacking on a program that allows you to just look at their main core application, which is [www.example.com](http://www.example.com/), you want to make sure that you change the methodology for recon so that it works with their scope.
+
+First of all, you have to make sure you understand the scope. Look at it. If it says, "Hey, only our main applications," and if you want to do recon based on one single application, dive into JavaScript files, look for those hidden endpoints, and see if you can exploit them.
+
+In cases like Verizon, Media, Google, Facebook — when they tell you, "Hey, everything we own is in scope, every domain and subdomain," for example, facebook.com/* is in scope — then you want to do your content discovery and asset discovery. Look for subdomains, directory brute force, open ports, do some screenshotting, and make sure you have a complete zoomed-out view of this entire organization.
+
+Start picking targets based on the keywords like "staging," "API," or whatever else is intriguing to your interest that you think you may be able to find a vulnerability in by pulling up that website.
+
 
 
 ---
