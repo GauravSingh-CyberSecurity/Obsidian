@@ -9,9 +9,10 @@ We're just going to start by simply type in the hostname. This is the hostname, 
 So, we're going to pull up one of these. We’ll open this one up just to show what kind of information it indexes.
 ![[Pasted image 20250318161248.png]]
 ![[Screenshot From 2025-03-18 16-13-13.png]]
-You can see that it shows you where it’s hosted, what country, who the ISP is — which is General Motors — the organization is Akami as well. Ports 80 and 443 are also available to this. It could be kind of old; you can rely on it sometimes, but I highly recommend doing your own port scanning.
+You can see that it shows you where it’s hosted, what country, who the ISP is — which is General Motors — the organization is Akami as well. Ports 80 and 443 are also available to this. It could be kind of old; you can rely on it sometimes, but ==I highly recommend doing your own port scanning.==
 
 But again, we can do this by typing _hostname_ and it gives you all this information. On the left side, you can also do it based on the _product_. So, if you want to look for Microsoft IIS, you can click on this. If you’re looking for Apache Tomcat, you can filter by it and it will show you all the applications that are on the domain _gm.com_ that are hosted on Apache Tomcat as well.
+
 
 Let this load, and you can see right here, the organization is General Motors and it shows that it is a Tomcat. It also shows the common name for the certificate, who issued it, and so on.
 
