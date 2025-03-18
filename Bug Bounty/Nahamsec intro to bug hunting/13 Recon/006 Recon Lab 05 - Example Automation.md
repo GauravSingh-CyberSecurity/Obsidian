@@ -46,7 +46,12 @@ Let me know if you want to add saving the output to a file or pipe it into anoth
 
 ==Again, this is something that I’ve learned using Bash. If you’re not familiar with it, I highly recommend learning it. You can also do this with Python, Ruby, Go, or any other programming language you use.==
 
-Typing this will give us a list of domains that are available on gm.com. As it comes back, it gives us a ton of different results. We're going to just go ahead and type in another pipe.
+Typing this will give us a list of domains that are available on gm.com. As it comes back, it gives us a ton of different results.
+![[Screenshot From 2025-03-18 20-42-09.png]]
+
+
+ We're going to just go ahead and type in another pipe ( | httprobe -c 50  )  in this 
+ ( curl -s https://crt.sh/\?q=%25.gm.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u  )
 
 What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command and feeding it into the next one. Then, using another pipe, we're feeding it into another command, and the results of all this get fed to you.
 
