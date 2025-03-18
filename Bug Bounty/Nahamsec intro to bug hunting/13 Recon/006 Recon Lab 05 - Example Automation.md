@@ -53,11 +53,14 @@ Typing this will give us a list of domains that are available on gm.com. As it c
  We're going to just go ahead and type in another pipe ( | httprobe -c 50  )  in this 
  ( curl -s https://crt.sh/\?q=%25.gm.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u  )
 
-What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command and feeding it into the next one. Then, using another pipe, we're feeding it into another command, and the results of all this get fed to you.
 
-We're also going to feed the results of all of this into another tool that we discussed when setting up our lab, which is `httpx`. This tool will tell us how many of these subdomains are actually accessible through HTTP or HTTPS.
 
-`-c` is the concurrency flag, and we're setting it to 50. This is going to run every single subdomain in that list with `httpx` and tell us which ones are available through HTTPS, HTTP, or both.
+What I’m doing with the pipe here — if you’re not familiar with Bash — is taking the results of this command  ( curl -s https://crt.sh/\?q=%25.gm.com\&output\=json  | )
+and feeding it into the next one ( | jq -r '.[].name_value' )  . Then, using another pipe, we're feeding it into another command ( sed 's/\*\.//g' | sort -u ) , and the results of all this get fed to you. 
+
+We're also going to feed the results of all of this into another tool that we discussed when setting up our lab, which is `httprope`  ( | httprobe -c 50  ) . This tool will tell us how many of these subdomains are actually accessible through HTTP or HTTPS.
+
+`-c` is the concurrency flag, and we're setting it to 50. This is going to run every single subdomain in that list with `httprobe` and tell us which ones are available through HTTPS, HTTP, or both.
 
 So, in this case, you can hit them both ways as protocols, but we can click and open them up for further testing. Now that we know these are done, we can also run another way and go back to the same command.
 
