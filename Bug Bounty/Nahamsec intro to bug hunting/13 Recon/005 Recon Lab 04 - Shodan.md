@@ -1,17 +1,17 @@
-|Feature|**Shodan**|**Censys**|**crt.sh**|
-|---|---|---|---|
-|Data|Devices & services|Devices, services, SSL certificates|Only certificates|
-|Search Type|Banners, ports, CVEs|Banners, ports, certificates, fingerprints|Certificate transparency logs|
-|Real-time?|Close to real-time|Close to real-time|Updates with CT log entries|
-|Main Use|Asset discovery, vulnerability hunting|Deep inspection of hosts & certificates|Find subdomains, SSL misconfigurations|
-|UI/API|Yes, paid API|Yes, paid API|Free, simple web search|
-|Example Use|Exposed cameras, RDP, MongoDB, Elasticsearch|Certificates, server fingerprinting|Subdomain enumeration|
+| Feature     | **Shodan**                                   | **Censys**                                 | **crt.sh**                             |
+| ----------- | -------------------------------------------- | ------------------------------------------ | -------------------------------------- |
+| Data        | Devices & services                           | Devices, services, SSL certificates        | Only certificates                      |
+| Search Type | Banners, ports, CVEs                         | Banners, ports, certificates, fingerprints | Certificate transparency logs          |
+| Real-time?  | Close to real-time                           | Close to real-time                         | Updates with CT log entries            |
+| Main Use    | Asset discovery, vulnerability hunting       | Deep inspection of hosts & certificates    | Find subdomains, SSL misconfigurations |
+| UI/API      | Yes, paid API                                | Yes, paid API                              | Free, simple web search                |
+| Example Use | Exposed cameras, RDP, MongoDB, Elasticsearch | Certificates, server fingerprinting        | Subdomain enumeration                  |
 
 https://www.shodan.io/
 
 All right, the last tool we're going to talk about is **Shodan**. Shodan(https://www.shodan.io/) is also very, very powerful and can actually be used to identify more assets.
 ![[Screenshot From 2025-03-18 16-08-13.png]]
-We're just going to start by simply type in the hostname. This is the hostname, like `gm.com`, we’re going after. Based on this, it will give us a list of assets that include the IP addresses with the open ports, the headers, and all that information that we need.
+We're just going to start by simply type in the hostname==(hostname:"gm.com")== . This is the hostname, like `gm.com`, we’re going after. Based on this, it will give us a list of assets that include the IP addresses with the open ports, the headers, and all that information that we need.
 ![[Screenshot From 2025-03-18 16-12-07.png]]
 So, we're going to pull up one of these. We’ll open this one up just to show what kind of information it indexes.
 ![[Pasted image 20250318161248.png]]

@@ -1,5 +1,12 @@
 
-
+|Feature|**Shodan**|**Censys**|**crt.sh**|
+|---|---|---|---|
+|Data|Devices & services|Devices, services, SSL certificates|Only certificates|
+|Search Type|Banners, ports, CVEs|Banners, ports, certificates, fingerprints|Certificate transparency logs|
+|Real-time?|Close to real-time|Close to real-time|Updates with CT log entries|
+|Main Use|Asset discovery, vulnerability hunting|Deep inspection of hosts & certificates|Find subdomains, SSL misconfigurations|
+|UI/API|Yes, paid API|Yes, paid API|Free, simple web search|
+|Example Use|Exposed cameras, RDP, MongoDB, Elasticsearch|Certificates, server fingerprinting|Subdomain enumeration|
 
 Now, let's talk about cert transparency. cert.sh(https://crt.sh/) , this is very, very cool.
 it will Index every certificate that's out there, and all you have to do is type in the domain name.
