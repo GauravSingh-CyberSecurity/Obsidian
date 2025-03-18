@@ -6,19 +6,18 @@ All I'm doing here is making a command. I'm actually switching resources using a
 
 For example, when using gm.com, right here, gm.com — using a tool called `jq` — I look for the "name" value. We're going to clean this up and make sure the domains are unique so we don't have any duplications.
 
+---
 Here’s the `curl` command you can use to fetch data from **crt.sh** and parse the `"name_value"` fields using **jq**, ensuring unique subdomains (removing duplicates):
 
-bash
+```bash
 
-CopyEdit
+curl -s https://crt.sh/\?q=%25.gm.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u
+```
 
-`curl -s "https://crt.sh/?q=%.gm.com&output=json" | jq -r '.[].name_value' | sort -u`
-
----
 
 ### Explanation:
 
-✅ `curl -s "https://crt.sh/?q=%.gm.com&output=json"`
+✅ `curl -s https://crt.sh/\?q=%25.gm.com\&output\=json`
 
 - `-s`: silent mode (no progress meter)
 - `%.gm.com`: wildcard search for all subdomains of `gm.com`
@@ -32,6 +31,18 @@ CopyEdit
 ✅ `| sort -u`
 
 - Sorts the output and removes duplicate domain names
+
+
+### Replace `gm.com` with any target domain:
+
+```bash
+curl -s "https://crt.sh/?q=%.targetdomain.com&output=json" | jq -r '.[].name_value' | sort -u
+```
+
+Let me know if you want to add saving the output to a file or pipe it into another tool like `httpx`.
+
+---
+
 
 ==Again, this is something that I’ve learned using Bash. If you’re not familiar with it, I highly recommend learning it. You can also do this with Python, Ruby, Go, or any other programming language you use.==
 
