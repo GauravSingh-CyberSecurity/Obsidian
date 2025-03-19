@@ -7,7 +7,7 @@ FFUF -h
 eg:
 
 ```
-ffuf -w raft
+ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -u 
 ```
 
 ---
