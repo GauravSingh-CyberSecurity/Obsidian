@@ -5,9 +5,9 @@ FFUF -h
 
 
 eg:
-
 ```
-ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -u 
+
+ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -u https://www.nahamsec.com/FUZZ
 ```
 
 ---
