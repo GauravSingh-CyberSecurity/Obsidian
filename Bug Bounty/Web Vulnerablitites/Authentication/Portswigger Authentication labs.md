@@ -383,7 +383,7 @@ step 1 ) burp decoder-  Examine this cookie in the decoder panel and notice tha
 
 step2)Its decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Study the length and character set of this string and notice that it could be an MD5 hash
 
-step 3) then use crackstation to break md5
+step 3) then ==use crackstation to break md5==
 
 process on actual token : 
 
