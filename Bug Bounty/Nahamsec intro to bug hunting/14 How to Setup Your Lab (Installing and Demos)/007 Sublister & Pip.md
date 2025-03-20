@@ -54,7 +54,8 @@ To install **Sublist3r** on a Linux system, you can follow these steps using the
     ```bash
     sudo apt-get install git
     ```
-    
+
+![[Screenshot From 2025-03-20 15-14-12.png]]
     Then, clone the Sublist3r repository from GitHub:
     
     ```bash
@@ -92,10 +93,12 @@ This approach avoids modifying the system Python installation and ensures that t
     
 4. **Run Sublist3r**: After the dependencies are installed, you can run Sublist3r as follows:
     
+    C:\home\kali\Tools\Sublist3r> python sublist3r.py -d example.com
+
     ```bash
     python sublist3r.py -d example.com
     ```
-    
+    C:\home\kali\Tools\Sublist3r>  python sublist3r.py -d example.com
     Replace `example.com` with the domain you want to scan for subdomains.
     
 5. **Deactivate the Virtual Environment** (When you're done): To exit the virtual environment, simply run:
@@ -103,21 +106,6 @@ This approach avoids modifying the system Python installation and ensures that t
     ```bash
     deactivate
     ```
-    
-
-
-
-
-    
-4. **Run Sublist3r:**
-    
-    Once the installation is complete, you can run Sublist3r by executing:
-    
-    ```bash
-    python3 sublist3r.py -d example.com
-    ```
-    
-    Replace `example.com` with the domain you want to search for subdomains.
     
 
 That's it! You've installed and run Sublist3r on your Linux machine.
