@@ -82,8 +82,8 @@ The most basic way of doing it is just typing in nmap and whatever you want to s
 
 10
 00:00:43,000 --> 00:00:48,970
-So in this case, I'm going to just scan for nmap and it should come back fairly quickly
-
+So in this case, I'm going to just scan for `nmap nahamstore.com` and it should come back fairly quickly
+ 
 11
 00:00:49,180 --> 00:00:53,770
 and give us the list of open ports on this particular host.
@@ -103,26 +103,23 @@ We can also go back and specify particular ports that we want this to scan for.
 15
 00:01:06,610 --> 00:01:10,620
 So we're going to set up for port and we're going to give it a port numbers.
-
+![[Screenshot From 2025-03-20 14-32-33.png]]
 16
 00:01:10,640 --> 00:01:17,920
-If I wanted to look for Port 20-20 eighty eighty eight thousand three hundred eighty four for three
-
-17
-00:01:17,920 --> 00:01:23,440
-just in case, 25 and whatever else I want to put on there, I can do this and it will come back as
+If I wanted to look for Port 22, 8080, 8000,80,443,25,10000
+ I can do this and it will come back as
 
 18
 00:01:23,440 --> 00:01:27,380
 soon as it stands for specific ports and tell us what's open and what's not open.
-
+![[Pasted image 20250320143424.png]]
 19
 00:01:27,880 --> 00:01:31,400
 So when it comes down to any map, there are a few things that we need to understand.
 
 20
 00:01:31,420 --> 00:01:37,180
-The first one being open, it means that this port is accessible and MAP has confirmed that that could
+The first one being open, it means that this port is accessible and NMAP has confirmed that that could
 
 21
 00:01:37,180 --> 00:01:40,540
@@ -146,7 +143,7 @@ But EMAP is unable to understand whether or not it's open.
 
 26
 00:01:54,730 --> 00:01:57,130
-And also read all of this on the NASA my website.
+And also read all of this on the Nmap my website.
 
 27
 00:01:57,340 --> 00:02:01,770
@@ -163,7 +160,7 @@ You also have the ability to specify a range of ports.
 30
 00:02:07,340 --> 00:02:13,660
 If you want to scan Port 80 all the way to Port 10000, you can also do that by doing 80, dyche 10000,
-
+![[Screenshot From 2025-03-20 14-35-33.png]]
 31
 00:02:13,870 --> 00:02:14,740
 by pushing enter.
