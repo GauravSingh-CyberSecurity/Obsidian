@@ -54,6 +54,8 @@ Kierkegaard, Nietzsche, Heidegger, and Sartre
 45. David Hume
 46. Schopenhauer
 47. Walt Whitman 
+48. Herman hesse(Siddharth and othe)
+49. 
 
 
 
