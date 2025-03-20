@@ -211,132 +211,100 @@ And it's using Ubuntu.
 
 
 ![[Screenshot From 2025-03-20 14-39-10 1.png]]
-the other thing that we can do here is to give it a dashboard which will come
+The other thing that we can do here is to give it a command to detect the operating system running on this particular host.
 
-43
-00:03:02,800 --> 00:03:08,960
-back and give us the information on the operating system running on this particular host.
+41  
+00:02:54,460 --> 00:02:59,110  
+So right now we're doing an Nmap scan on **hamster.com**, and we're looking for port 80.
 
-44
-00:03:08,980 --> 00:03:11,770
-So right now we're and doing end up on the hamster dot com.
+42  
+00:02:59,110 --> 00:03:02,800  
+We're asking it to give us the version of whatever software is in the backend and also print out the
 
-45
-00:03:11,770 --> 00:03:13,090
-We're looking for Port 80.
-
-46
-00:03:13,300 --> 00:03:17,710
-We're asking it to give us the version for whatever software is in the back end and also print out the
-
-47
-00:03:17,710 --> 00:03:19,060
+43  
+00:03:02,800 --> 00:03:08,960  
 operating system information.
 
-48
-00:03:19,350 --> 00:03:22,000
-As you can see, it's coming back with the operating system right here.
+44  
+00:03:08,980 --> 00:03:11,770  
+As you can see, it's coming back with the operating system information right here.
 
-49
-00:03:22,270 --> 00:03:27,760
-And it's also telling us that, again, it's using Engine X on urban to airport eighty.
+45  
+00:03:11,770 --> 00:03:13,090  
+And it's also telling us that, again, it's using Nginx on Ubuntu for port 80.
 
-50
-00:03:28,030 --> 00:03:31,360
-And again, if the more ports you have in here, the longer it's going to take to come up with this
+46  
+00:03:13,300 --> 00:03:17,710  
+And again, the more ports you have in your scan, the longer it will take to come up with this
 
-51
-00:03:31,360 --> 00:03:31,810
+47  
+00:03:17,710 --> 00:03:19,060  
 result.
 
-52
-00:03:32,090 --> 00:03:37,870
-But again, this is very, very useful to see visually see what software and what things are being ran
+48  
+00:03:19,350 --> 00:03:22,000  
+But again, this is very, very useful to visually see what software and services are running
 
-53
-00:03:37,870 --> 00:03:39,690
-and the back end of a particular site.
+49  
+00:03:22,270 --> 00:03:27,760  
+on the backend of a particular site.
 
-54
-00:03:39,970 --> 00:03:43,560
+50  
+00:03:28,030 --> 00:03:31,360  
 You also have the option to write your output to a file.
 
-55
-00:03:43,810 --> 00:03:50,530
-So, for example, if you want to write this XML, all you had to do was go out and give it the dash
+51  
+00:03:31,360 --> 00:03:31,810  
+So, for example, if you want to write this to XML, all you had to do was go out and give it the -o
 
-56
-00:03:50,890 --> 00:03:51,310
-o.
+52  
+00:03:31,810 --> 00:03:37,860  
+(ensure the "o" is lowercase this time) and specify a filename, and it will output the results to the specified file.
 
-57
-00:03:51,310 --> 00:03:58,000
-But make sure the O is not capital this time and give it A and that will output the file to whatever
+53  
+00:03:37,870 --> 00:03:40,510  
+You can also choose other formats, such as XML, depending on whichever one you want to use.
 
-58
-00:03:58,000 --> 00:03:59,020
-file name we give it.
+54  
+00:03:40,510 --> 00:03:43,660  
+I personally prefer to use the "txt" format and then give it the filename, for example, **hamster.com.txt**,
 
-59
-00:03:59,030 --> 00:04:03,880
-You can also make a critical format or you can do it with XML depending on whichever one you want to
+55  
+00:03:43,660 --> 00:03:49,030  
+and the output of this will be sent into this file. We can then check it out by copying the file and using
 
-60
-00:04:03,880 --> 00:04:04,160
-use.
+56  
+00:03:49,030 --> 00:03:52,720  
+a command to read the content of the file to confirm that it was done properly.
 
-61
-00:04:04,390 --> 00:04:10,570
-I personally like to do for a while and then I'm going to give it the file name the hamster dot com
+57  
+00:03:52,720 --> 00:03:59,020  
+Let's try it out.
 
-62
-00:04:10,930 --> 00:04:17,830
-in my text and the outputs of this will be sent into this file and we can actually check it out by copying
+58  
+00:03:59,030 --> 00:04:03,880  
+As we can see right here, it's giving us the data on this host.
 
-63
-00:04:17,830 --> 00:04:23,320
-it and doing a command to read the content of the file to confirm that it was actually done.
+59  
+00:04:03,880 --> 00:04:04,160  
+It's showing that
 
-64
-00:04:23,330 --> 00:04:24,160
-So let's try it out.
+60  
+00:04:04,160 --> 00:04:07,870  
+it's up and running. It's also showing another line that says, hey, port 80 is open.
 
-65
-00:04:24,460 --> 00:04:28,300
-And as we can see right here, it's giving us the data on this host.
+61  
+00:04:07,870 --> 00:04:08,790  
+So we have multiple ports
 
-66
-00:04:28,540 --> 00:04:29,200
-It's giving us that.
+62  
+00:04:08,790 --> 00:04:13,360  
+listed, with each one showing if it's open or closed, as well as the protocol and version.
 
-67
-00:04:29,200 --> 00:04:30,100
-It's up there.
+63  
+00:04:13,660 --> 00:04:19,030  
+It will list each port and its status if it's TCP, and also, since we did `-sV`, it will tell us the version of the software running
 
-68
-00:04:30,100 --> 00:04:32,650
-It's also getting another line that says, hey, Port Authority is open.
-
-69
-00:04:32,650 --> 00:04:33,850
-So we have multiple ports.
-
-70
-00:04:34,360 --> 00:04:39,370
-It would do multiple lines telling us which ports are open and it would have to separated by spaces
-
-71
-00:04:39,610 --> 00:04:40,510
-and giving us the port.
-
-72
-00:04:40,510 --> 00:04:43,660
-No status for it if it's TCP.
-
-73
-00:04:43,660 --> 00:04:49,030
-And also since we did Ardeche, S.V. is going to tell us the version of software that it's running on
-
-74
-00:04:49,030 --> 00:04:52,720
-that particular host, I'm sorry, on that particular port.
+64  
+00:04:19,030 --> 00:04:22,720  
+on that particular host and port.
