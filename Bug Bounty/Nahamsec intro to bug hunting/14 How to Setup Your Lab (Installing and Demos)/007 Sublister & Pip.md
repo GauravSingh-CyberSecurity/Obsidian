@@ -19,7 +19,7 @@ doing recon.
 
 5  
 00:00:16,090 --> 00:00:18,730  
-So we're going to go ahead and look at some of this on GitHub.
+So we're going to go ahead and look at sublisster(https://github.com/aboul3la/Sublist3r) on GitHub.
 
 6  
 00:00:19,080 --> 00:00:20,040  
@@ -27,16 +27,15 @@ This is an easy one.
 
 7  
 00:00:20,220 --> 00:00:27,930  
-All we have to do is create a tools directory, go to our tools directory, and clone our GitHub repository. Then we are going to install the dependencies.
+All we have to do is create a tools directory (mkdir tools) , go to our tools directory, and clone our GitHub repository. Then we are going to install the dependencies.
 
 8  
 00:00:27,930 --> 00:00:32,990  
 So we're going to go into the Sublist3r folder, and we're going to say `git clone`.
-
 9  
 00:00:44,200 --> 00:00:49,510  
 Now that we have our repository cloned, the next thing we want to do is install the
-
+![[Screenshot From 2025-03-20 15-14-12.png]]
 10  
 00:00:49,510 --> 00:00:50,290  
 dependencies.
