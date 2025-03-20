@@ -44,6 +44,57 @@ dependencies.
 00:00:50,590 --> 00:00:54,050  
 But as soon as I hit enter, it's going to tell us that we don't have `pip` installed.
 
+---
+To install **Sublist3r** on a Linux system, you can follow these steps using the terminal:
+
+1. **Clone the Sublist3r GitHub repository:**
+    
+    First, make sure you have `git` installed. If not, you can install it with:
+    
+    ```bash
+    sudo apt-get install git
+    ```
+    
+    Then, clone the Sublist3r repository from GitHub:
+    
+    ```bash
+    git clone https://github.com/aboul3la/Sublist3r.git
+    ```
+    
+2. **Navigate to the Sublist3r directory:**
+    
+    ```bash
+    cd Sublist3r
+    ```
+    
+3. **Install the required dependencies:**
+    
+    You will need Python 3 and `pip` installed. If you don't have `pip` installed, you can install it by running:
+    
+    ```bash
+    sudo apt-get install python3-pip
+    ```
+    
+    Then, install the required Python dependencies using:
+    
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+    
+4. **Run Sublist3r:**
+    
+    Once the installation is complete, you can run Sublist3r by executing:
+    
+    ```bash
+    python3 sublist3r.py -d example.com
+    ```
+    
+    Replace `example.com` with the domain you want to search for subdomains.
+    
+
+That's it! You've installed and run Sublist3r on your Linux machine.
+
+---
 12  
 00:00:54,070 --> 00:01:01,030  
 So what we're going to do is type in `apt install python3-pip`, and that's going
