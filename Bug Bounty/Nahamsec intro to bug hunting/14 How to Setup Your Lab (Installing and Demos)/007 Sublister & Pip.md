@@ -67,19 +67,47 @@ To install **Sublist3r** on a Linux system, you can follow these steps using the
     cd Sublist3r
     ```
     
-3. **Install the required dependencies:**
-    
-    You will need Python 3 and `pip` installed. If you don't have `pip` installed, you can install it by running:
-    
-    ```bash
-    sudo apt-get install python3-pip
-    ```
-    
-    Then, install the required Python dependencies using:
+
+### Option 1: Using a Virtual Environment (Recommended)
+
+This approach avoids modifying the system Python installation and ensures that the dependencies are isolated.
+
+1. **Create a Virtual Environment**: Run the following command to create a virtual environment for Sublist3r:
     
     ```bash
-    pip3 install -r requirements.txt
+    python3 -m venv sublist3r-venv
     ```
+    
+2. **Activate the Virtual Environment**: To activate the virtual environment, use the following command:
+    
+    ```bash
+    source sublist3r-venv/bin/activate
+    ```
+    
+3. **Install the Dependencies**: Now that you're inside the virtual environment, run the following command to install the required dependencies for Sublist3r:
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+4. **Run Sublist3r**: After the dependencies are installed, you can run Sublist3r as follows:
+    
+    ```bash
+    python sublist3r.py -d example.com
+    ```
+    
+    Replace `example.com` with the domain you want to scan for subdomains.
+    
+5. **Deactivate the Virtual Environment** (When you're done): To exit the virtual environment, simply run:
+    
+    ```bash
+    deactivate
+    ```
+    
+
+
+
+
     
 4. **Run Sublist3r:**
     
