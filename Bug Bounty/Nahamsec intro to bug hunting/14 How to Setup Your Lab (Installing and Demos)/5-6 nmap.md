@@ -89,74 +89,73 @@ and give us the list of open ports on this particular host.
 00:00:54,460 --> 00:00:59,110
 So as we expected, it came back and it said, hey, port 80 and 443 are open.
 
-13
-00:00:59,230 --> 00:01:00,520
+12  
+00:00:54,460 --> 00:00:59,110  
 Those two were expected.
 
-14
-00:01:00,760 --> 00:01:06,590
+13  
+00:00:59,230 --> 00:01:00,520  
 We can also go back and specify particular ports that we want this to scan for.
 
-15
-00:01:06,610 --> 00:01:10,620
-So we're going to set up for port and we're going to give it a port numbers.
+14  
+00:01:00,760 --> 00:01:06,590  
+So we're going to set it up for ports and we're going to give it some port numbers.
 ![[Screenshot From 2025-03-20 14-32-33.png]]
-16
-00:01:10,640 --> 00:01:17,920
-If I wanted to look for Port 22, 8080, 8000,80,443,25,10000
- I can do this and it will come back as
+15  
+00:01:06,610 --> 00:01:10,620  
+If I wanted to look for ports 20, 22, 8080, 8000, 3389, 25, and whatever else I want to put on there, I can do this, and it will come back as
 
-18
-00:01:23,440 --> 00:01:27,380
-soon as it stands for specific ports and tell us what's open and what's not open.
+16  
+00:01:10,640 --> 00:01:17,920  
+soon as it scans for specific ports and tell us what's open and what's not open.
 ![[Pasted image 20250320143424.png]]
-19
-00:01:27,880 --> 00:01:31,400
-So when it comes down to any map, there are a few things that we need to understand.
+17  
+00:01:17,920 --> 00:01:23,440  
+So when it comes down to Nmap, there are a few things that we need to understand.
 
-20
-00:01:31,420 --> 00:01:37,180
-The first one being open, it means that this port is accessible and NMAP has confirmed that that could
+18  
+00:01:23,440 --> 00:01:27,380  
+The first one being "open," which means that this port is accessible and Nmap has confirmed that that could
 
-21
-00:01:37,180 --> 00:01:40,540
-be the term closed, which means that, hey, this port was not open.
+19  
+00:01:27,880 --> 00:01:31,400  
+be the term "closed," which means that, hey, this port was not open.
 
-22
-00:01:40,720 --> 00:01:42,330
+20  
+00:01:31,420 --> 00:01:37,180  
 We can't really access it there.
 
-23
-00:01:42,400 --> 00:01:47,470
-It's filtered, which in my view can determine whether or not the port is open because there's a packet
+21  
+00:01:37,180 --> 00:01:40,540  
+It's "filtered," which means Nmap can't determine whether or not the port is open because there's packet
 
-24
-00:01:47,470 --> 00:01:50,860
-filtering happening and unfiltered mean that the port is accessible.
+22  
+00:01:40,720 --> 00:01:42,330  
+filtering happening, and "unfiltered" means that the port is accessible,
 
-25
-00:01:50,860 --> 00:01:54,580
-But EMAP is unable to understand whether or not it's open.
+23  
+00:01:42,400 --> 00:01:47,470  
+but Nmap is unable to understand whether or not it's open.
 
-26
-00:01:54,730 --> 00:01:57,130
-And also read all of this on the Nmap my website.
+24  
+00:01:47,470 --> 00:01:50,860  
+And also, you can read all of this on the Nmap website.
 
-27
-00:01:57,340 --> 00:02:01,770
-I can link that to it in the resources, but those are the four common words you will see and maybe
+25  
+00:01:50,860 --> 00:01:54,580  
+I can link that to it in the resources, but those are the four common terms you will see and may
 
-28
-00:02:01,780 --> 00:02:03,990
-come back when it comes down to port scanning.
+26  
+00:01:54,730 --> 00:01:57,130  
+come across when it comes down to port scanning.
 
-29
-00:02:04,060 --> 00:02:07,320
+27  
+00:01:57,340 --> 00:02:01,770  
 You also have the ability to specify a range of ports.
 
 30
 00:02:07,340 --> 00:02:13,660
-If you want to ==scan Port 80 all the way to Port 10000==, you can also do that by doing 80, dyche 10000,
+If you want to ==scan Port 80 all the way to Port 10000==, you can also do that by typing 80-10000,
 ![[Screenshot From 2025-03-20 14-35-33.png]]
 
 or  ==`nmap nahamstore.com -p0-65535`==
@@ -182,39 +181,33 @@ that Port 80 and 443 are open, as we expected early on.
 
 
 ![[Pasted image 20250320143712.png]]
-35
-00:02:28,810 --> 00:02:34,540
-You can also use n map to see what version of whatever the version of the software in the back.
+33  
+00:02:18,100 --> 00:02:24,910  
+You can also use Nmap to see what version of software is running on the backend.
 
-36
-00:02:34,540 --> 00:02:40,000
-And so, for example, they could tell us if they're using Apache, what version of a sausage based
+34  
+00:02:24,910 --> 00:02:28,770  
+So, for example, it can tell us if they are using Apache, what version of it, or if it's running a specific software like Nginx or others.
 
-37
-00:02:40,000 --> 00:02:41,860
-on its scripting, that it's been done so well.
+35  
+00:02:28,810 --> 00:02:34,540  
+For example, right now I'm going to look for port 80.
 
-38
-00:02:41,950 --> 00:02:44,740
-For example, right now I'm going to look for Port 80.
-
-39
-00:02:44,950 --> 00:02:48,130
-I'm going to ask it to come back and give us some information about the house.
+36  
+00:02:34,540 --> 00:02:40,000  
+I'm going to ask it to come back and give us some information about the host.
 ![[Pasted image 20250320143802.png]]
-40
-00:02:48,130 --> 00:02:54,430
-As we can see right now, it came back and said, hey, this website is using Port 80 for HTTP,
+37  
+00:02:40,000 --> 00:02:41,860  
+As we can see right now, it came back and said, hey, this website is using port 80 for HTTP,
 
-41
-00:02:54,430 --> 00:02:58,480
-which is open its running engine X one point ten point three.
+38  
+00:02:41,950 --> 00:02:44,740  
+which is open. It's running Nginx 1.10.3.
 
-42
-00:02:58,660 --> 00:03:02,800
-And it's using a boon to 
-
-
+39  
+00:02:44,950 --> 00:02:48,130  
+And it's using Ubuntu.
 
 
 ![[Screenshot From 2025-03-20 14-39-10 1.png]]
