@@ -69,3 +69,14 @@
 17) Jean piagent, endorsed by JB peterson 
 18) JB peterson further works like ==peterson Academy== and book list (https://www.jordanbpeterson.com/blog/book-list/)/(https://www.jordanbpeterson.com/books/)
 19) The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1) by Adam Douglas 
+20) Gita
+21) upnishad
+22) veda(rig veda, sama veda, yajur veda, atharva veda)
+23) puran
+24) Ramayan 
+25) mahabharat 
+26) Ramcharitmanas
+27) siddhartha by Herman hesse 
+28) kabir granthavali
+29) https://en.m.wikipedia.org/wiki/Hindu_texts
+30) 
