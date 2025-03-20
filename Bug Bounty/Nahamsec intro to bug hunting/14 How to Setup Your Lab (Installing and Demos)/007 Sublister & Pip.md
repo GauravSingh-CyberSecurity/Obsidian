@@ -147,7 +147,30 @@ This is going to come back and ask us to give it some arguments.
 20  
 00:01:29,630 --> 00:01:34,020  
 If you're not familiar with Sublist3r, I highly recommend looking at the help documentation.
+```
+C:\home\kali\Tools\Sublist3r> sublist3r -h
 
+usage: sublist3r [-h] -d DOMAIN [-b [BRUTEFORCE]] [-p PORTS] [-v [VERBOSE]] [-t THREADS] [-e ENGINES] [-o OUTPUT] [-n]
+
+OPTIONS:
+  -h, --help            show this help message and exit
+  -d, --domain DOMAIN   Domain name to enumerate it's subdomains
+  -b, --bruteforce [BRUTEFORCE]
+                        Enable the subbrute bruteforce module
+  -p, --ports PORTS     Scan the found subdomains against specified tcp ports
+  -v, --verbose [VERBOSE]
+                        Enable Verbosity and display results in realtime
+  -t, --threads THREADS
+                        Number of threads to use for subbrute bruteforce
+  -e, --engines ENGINES
+                        Specify a comma-separated list of search engines
+  -o, --output OUTPUT   Save the results to text file
+  -n, --no-color        Output without color
+
+Example: python3 /usr/bin/sublist3r -d google.com
+C:\home\kali\Tools\Sublist3r> 
+
+```
 21  
 00:01:34,270 --> 00:01:39,280  
 This will tell you how it's used, but it's pretty basic. If you're doing brute-forcing, which is up
@@ -162,7 +185,7 @@ I personally don't use brute force, but if I have a good dictionary, I'll make s
 
 24  
 00:01:44,470 --> 00:01:48,970  
-lists and dictionary lists in the resources you can use because it's open source.
+lists and dictionary lists in the resources you can use Seclists because it's open source.
 
 25  
 00:01:49,270 --> 00:01:53,440  
