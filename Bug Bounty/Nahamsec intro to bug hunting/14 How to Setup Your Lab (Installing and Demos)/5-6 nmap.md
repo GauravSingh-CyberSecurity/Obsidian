@@ -169,6 +169,7 @@ by pushing enter.
 00:02:14,740 --> 00:02:18,100
 It will scan all those ports and let us know if they're open.
 
+![[Pasted image 20250320143622.png]]
 33
 00:02:18,100 --> 00:02:24,910
 For the sake of this example, I'm just going to do 80 to Port 500, which will result in telling us
@@ -177,9 +178,12 @@ For the sake of this example, I'm just going to do 80 to Port 500, which will re
 00:02:24,910 --> 00:02:28,770
 that Port 80 and 443 are open, as we expected early on.
 
+
+
+![[Pasted image 20250320143712.png]]
 35
 00:02:28,810 --> 00:02:34,540
-You can also use and map to see what version of whatever the version of the software in the back.
+You can also use n map to see what version of whatever the version of the software in the back.
 
 36
 00:02:34,540 --> 00:02:40,000
@@ -196,10 +200,10 @@ For example, right now I'm going to look for Port 80.
 39
 00:02:44,950 --> 00:02:48,130
 I'm going to ask it to come back and give us some information about the house.
-
+![[Pasted image 20250320143802.png]]
 40
 00:02:48,130 --> 00:02:54,430
-As we can see right now, it came back and said, hey, this website is using Port eighty four HTP,
+As we can see right now, it came back and said, hey, this website is using Port 80 for HTTP,
 
 41
 00:02:54,430 --> 00:02:58,480
@@ -207,7 +211,13 @@ which is open its running engine X one point ten point three.
 
 42
 00:02:58,660 --> 00:03:02,800
-And it's using a boon to the other thing that we can do here is to give it a dashboard which will come
+And it's using a boon to 
+
+
+
+
+![[Screenshot From 2025-03-20 14-39-10 1.png]]
+the other thing that we can do here is to give it a dashboard which will come
 
 43
 00:03:02,800 --> 00:03:08,960
