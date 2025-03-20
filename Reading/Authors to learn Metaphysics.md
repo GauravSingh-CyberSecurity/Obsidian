@@ -59,7 +59,7 @@ Kierkegaard, Nietzsche, Heidegger, and Sartre
 
 
 
-
+- Stephen Hawking 
 
 
 

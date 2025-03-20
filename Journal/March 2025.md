@@ -51,3 +51,11 @@ Never to make any single little assumption in an investigation.
 Regardless of the person I am
 
 I act in front of people, as I think they think I am.
+
+
+# 20 march 
+
+1) eternal recurrence and carpe diem 
+2) ubiquitous assimilation 
+3) on the authenticity of my thoughts, that are just my own and no one else's (indifferent to my position, culture, upbringing, circle ), on the mathematical and physical infinites and how there exists a conscious infinity 
+4) emergence morality, how it transformed, how earlier the concept of marriage was frowned upon, in the sense of people owning a person, and then it grew into two people having spiritual connection helping each other to grow together 
