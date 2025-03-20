@@ -158,7 +158,7 @@ You also have the ability to specify a range of ports.
 If you want to ==scan Port 80 all the way to Port 10000==, you can also do that by typing 80-10000,
 ![[Screenshot From 2025-03-20 14-35-33.png]]
 
-or  ==`nmap nahamstore.com -p0-65535`==
+or  ==`nmap nahamstore.com -p0-65535`==  or   `nmap -p 0-10000 digicompany.deriviumcap.com`
 
 
 31
