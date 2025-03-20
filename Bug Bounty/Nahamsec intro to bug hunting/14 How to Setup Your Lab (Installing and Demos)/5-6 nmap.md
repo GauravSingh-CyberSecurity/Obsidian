@@ -46,51 +46,48 @@ And we just typing `sudo apt install  map.`
 
 ---
 ## 6
+1  
+00:00:00,760 --> 00:00:06,580  
+The next thing we're going to look at is how to use Nmap, and Nmap is very, very helpful when it comes
 
-1
-00:00:00,760 --> 00:00:06,580
-The next thing we're going to look at is how to use and nmap and map is very, very helpful when it comes
-
-2
-00:00:06,580 --> 00:00:12,400
+2  
+00:00:06,580 --> 00:00:12,400  
 down to scanning IT infrastructure or a particular domain or list of domains or subdomains to look for
 
-3
-00:00:12,400 --> 00:00:13,200
+3  
+00:00:12,400 --> 00:00:13,200  
 open ports.
 
-4
-00:00:13,240 --> 00:00:19,120
-Most applications are posted on board 80 or 443, but there are a lot of cases you may find other secondary
+4  
+00:00:13,240 --> 00:00:19,120  
+Most applications are hosted on port 80 or 443, but there are a lot of cases where you may find other secondary
 
-5
-00:00:19,120 --> 00:00:26,140
-applications, backends or API being hosted on a different port like 8080, 8000, 10000,
-fand so on.
+5  
+00:00:19,120 --> 00:00:26,140  
+applications, backends, or APIs being hosted on a different port like 8080, 8000, 10000, and so on.
 
-7
-00:00:27,520 --> 00:00:32,710
-You can also see if there is other services running on that host and if those services are vulnerable
+6  
+00:00:26,140 --> 00:00:27,240  
+You can also see if there are other services running on that host and if those services are vulnerable
 
-8
-00:00:32,710 --> 00:00:38,360
-to a particular CV by doing a port scan can do this in a number of different ways.
+7  
+00:00:27,520 --> 00:00:32,710  
+to a particular CVE by doing a port scan. You can do this in a number of different ways.
 
-9
-00:00:38,410 --> 00:00:42,970
-The most basic way of doing it is just typing in nmap and whatever you want to scan for.
+8  
+00:00:32,710 --> 00:00:38,360  
+The most basic way of doing it is just typing in Nmap and whatever you want to scan for.
+
+
 
 10
 00:00:43,000 --> 00:00:48,970
 So in this case, I'm going to just scan for ==`nmap nahamstore.com`== and it should come back fairly quickly
- 
-11
-00:00:49,180 --> 00:00:53,770
 and give us the list of open ports on this particular host.
 
-12
+11
 00:00:54,460 --> 00:00:59,110
-So as we expected, it came back and it said, hey, port eighty and four 443 three are open.
+So as we expected, it came back and it said, hey, port 80 and 443 are open.
 
 13
 00:00:59,230 --> 00:01:00,520
