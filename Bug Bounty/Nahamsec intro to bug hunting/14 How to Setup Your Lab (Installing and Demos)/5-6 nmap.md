@@ -82,7 +82,7 @@ The most basic way of doing it is just typing in nmap and whatever you want to s
 
 10
 00:00:43,000 --> 00:00:48,970
-So in this case, I'm going to just scan for `nmap nahamstore.com` and it should come back fairly quickly
+So in this case, I'm going to just scan for ==`nmap nahamstore.com`== and it should come back fairly quickly
  
 11
 00:00:49,180 --> 00:00:53,770
@@ -159,8 +159,12 @@ You also have the ability to specify a range of ports.
 
 30
 00:02:07,340 --> 00:02:13,660
-If you want to scan Port 80 all the way to Port 10000, you can also do that by doing 80, dyche 10000,
+If you want to ==scan Port 80 all the way to Port 10000==, you can also do that by doing 80, dyche 10000,
 ![[Screenshot From 2025-03-20 14-35-33.png]]
+
+or  ==`nmap nahamstore.com -p0-65535`==
+
+
 31
 00:02:13,870 --> 00:02:14,740
 by pushing enter.
