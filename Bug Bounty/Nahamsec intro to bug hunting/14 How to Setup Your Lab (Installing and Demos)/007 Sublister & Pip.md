@@ -74,7 +74,7 @@ To install **Sublist3r** on a Linux system, you can follow these steps using the
 This approach avoids modifying the system Python installation and ensures that the dependencies are isolated.
 
 1. **Create a Virtual Environment**: Run the following command to create a virtual environment for Sublist3r:
-    
+    C:\home\kali\Tools\Sublist3r>
     ```bash
     python3 -m venv sublist3r-venv
     ```
