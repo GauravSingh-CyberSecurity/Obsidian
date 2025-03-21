@@ -2,13 +2,26 @@ Aquatone repo: [GitHub - michenriksen/aquatone: A Tool for Domain Flyovers](http
 **Aquatone Installation Tutorial** 
 
 The next tool we’re going to install is **Aquatone**, which is a very popular tool among bug bounty hunters. This tool helps collect information on assets, including screenshots, and it also grabs HTTP headers, allowing us to enumerate different components sitting on these assets.
+# AQUATONE
 
+(https://github.com/michenriksen/aquatone?tab=readme-ov-file#aquatone)
+
+Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
+
+## Installation
+
+(https://github.com/michenriksen/aquatone?tab=readme-ov-file#installation)
+
+1. Install [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in _headless_ mode, so it is recommended to install Chromium for the best results.
+2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system.
+3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+```
 ### Installation Steps:
 
 1. **Download Aquatone**  
-    First, let’s download Aquatone. You can grab the executable for it from the official repository. I recommend downloading version 1.4.3, which also has a tutorial available in the GitHub repository.
+    First, let’s download Aquatone. You can grab the executable for it from the official repository. I recommend latest downloading version, which also has a tutorial available in the GitHub repository.
 
-
+```
 ```
 C:\home\kali\Tools> ls
 aquatone_linux_amd64_1.7.0.zip  Sublist3r
