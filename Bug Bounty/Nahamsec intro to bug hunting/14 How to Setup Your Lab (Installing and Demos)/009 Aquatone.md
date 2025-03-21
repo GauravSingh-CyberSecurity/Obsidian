@@ -7,58 +7,23 @@ The next tool we’re going to install is **Aquatone**, which is a very popular 
 
 1. **Download Aquatone**  
     First, let’s download Aquatone. You can grab the executable for it from the official repository. I recommend downloading version 1.4.3, which also has a tutorial available in the GitHub repository.
-    
-2. **Install Unzip (if necessary)**  
-    To unzip the do wnloaded file, you may need to install `unzip` first. You can install it by running: 
-    
-    ```bash
-    sudo apt install unzip
-    ```
-    
-3. **Extract the Files**  
-    Once `unzip` is installed, extract the contents of the downloaded file:
-    
-    ```bash
-    unzip aquatone-1.4.3.zip
-    ```
-    
-4. **Executable Binary**  
-    After extracting the contents, you will have the `aquatone` binary. You can try running it, but if it gives an error saying it's missing a dependency (like `chromium`), don't worry—this is a common requirement.
-    
-5. **Install Chromium**  
-    Aquatone uses Chromium for screenshots, so you will need to install it. You can install Chromium by running:
-    
-    ```bash
-    sudo apt install chromium-browser
-    ```
-    
-6. **Set the Path for Chromium**  
-    After installing Chromium, you need to set the correct path for it so that Aquatone can use it. You can do this by defining the Chrome path:
-    
-    ```bash
-    aquatone --chrome-path /usr/bin/chromium-browser
-    ```
-    
-    If you installed Chromium in a different directory, make sure to provide the correct path.
-    
-7. **Move Aquatone to Executables**  
-    To make it easier to run Aquatone from anywhere, you can move it to the system’s executable directory:
-    
-    ```bash
-    sudo mv aquatone /usr/local/bin/
-    ```
-    
-    This will allow you to call `aquatone` from anywhere in the terminal.
-    
-8. **Verify Installation**  
-    After moving Aquatone to the appropriate directory, you can verify the installation by typing:
-    
-    ```bash
-    aquatone
-    ```
-    
-    If everything is set up correctly, Aquatone should run without issues.
-    
+
+
+```
+C:\home\kali\Tools> ls
+aquatone_linux_amd64_1.7.0.zip  Sublist3r
+
+C:\home\kali\Tools> unzip aquatone*.zip
+Archive:  aquatone_linux_amd64_1.7.0.zip
+  inflating: aquatone                
+  inflating: README.md               
+  inflating: LICENSE.txt   
+            
+C:\home\kali\Tools> ls
+aquatone  aquatone_linux_amd64_1.7.0.zip  LICENSE.txt  README.md  Sublist3r
+C:\home\kali\Tools> sudo mv aquatone /usr/local/bin/
+C:\home\kali\Tools> aquatone --help
+```
 
 ### Conclusion
 
