@@ -114,7 +114,7 @@ Daniel Miessler has written an excellent article on Amass.
 I'll include it in the resources section below as well.
 
 **36**  
-Also, Jeff Foley, the creator of Amass, gave a great talk at NahamCon about using Amass efficiently.
+Also, ==Jeff Foley, the creator of Amass, gave a great talk at NahamCon about using Amass efficiently.==
 
-**37**  
-I’ll make sure to link all these resources below so you can explore and learn from them.
+==**37**==  
+==I’ll make sure to link all these resources below so you can explore and learn from them.==
