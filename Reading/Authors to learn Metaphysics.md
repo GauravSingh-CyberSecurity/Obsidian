@@ -59,6 +59,22 @@ Kierkegaard, Nietzsche, Heidegger, and Sartre
 
 
 ```
+Here are two groups of Western philosophers. We’ll call them Group A and Group B. Here’s 
+
+
+**Group A**: 
+  
+Plato, Epicurus, Plotinus, Aquinas, Duns Scotus, Francis Bacon, Hobbes, Locke, Spinoza, Newton, Leibniz, David Hume, Herbert Spencer, John Stuart Mill, Schopenhauer, Kant, Kierkegaard, Nietzsche, Wittgenstein, Jean-Paul Sartre, Kurt Gödel, Karl Popper, Jeremy Bentham, Alan Turing, Saul Kripke.  
+  
+
+And here’s 
+
+
+**Group B**:  
+
+Aristotle, Socrates, Descartes, Bishop George Berkeley, Rousseau, Heidegger, Hegel, Marx, Frege, Bertrand Russell, John Dewey, Albert Camus, Frantz Fanon, John Rawls, Willard Quine. 
+```
+
 
 
 - Stephen Hawking 
