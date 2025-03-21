@@ -40,6 +40,11 @@ So the first thing we're going to do is we're going to open up a terminal one an
 00:00:29,250 --> 00:00:32,260
 some of our tools that we covered in the recon slides.
 
+
+
+
+https://merch.nahamsec.com/
+![[Screenshot From 2025-03-21 13-23-07.png]]
 11
 00:00:32,280 --> 00:00:37,560
 So the first thing we're going to do is we're going to actually subdomain brute force and look for some
@@ -50,7 +55,7 @@ of the applications that are on here or the other approaches.
 
 13
 00:00:40,290 --> 00:00:44,390
-We can just focus on this main domain, which is the way that we are in the house next door.
+We can just focus on this main domain (https://merch.nahamsec.com/ ), which is the way that we are in the house next door.
 
 14
 00:00:44,430 --> 00:00:47,970
@@ -63,7 +68,7 @@ Let's look around.
 16
 00:00:48,930 --> 00:00:52,260
 There's nothing in the source, nothing of interest just yet.
-
+ 
 17
 00:00:52,270 --> 00:00:55,620
 There are some JavaScript files that's not hosted on the site itself.
