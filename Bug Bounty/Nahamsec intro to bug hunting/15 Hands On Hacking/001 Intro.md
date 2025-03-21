@@ -65,6 +65,7 @@ If we go to it quickly right now, that's going to bring up the same page.
 00:00:48,250 --> 00:00:48,930
 Let's look around.
 
+![[Screenshot From 2025-03-21 13-25-53.png]]
 16
 00:00:48,930 --> 00:00:52,260
 There's nothing in the source, nothing of interest just yet.
