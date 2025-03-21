@@ -67,8 +67,7 @@
 
 ---
 
-✅ **Let me know if you need this in CSV, Excel sheet, or Markdown table format for reporting.**  
-✅ **Would you like a risk summary or a remediation plan section for this report?**
+
  
  
  * Apache Log4j 1.x Multiple Vulnerabilities & Rmote code execution (Severity: CRITICAL)
