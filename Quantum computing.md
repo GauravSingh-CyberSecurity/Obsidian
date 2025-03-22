@@ -15,3 +15,8 @@ Book recommendations (https://youtu.be/V8TIs8Ajx7Q?si=0Ozyeqn-4HwTXB6y)
 2) linear algebra 
 3) qbits
 4) quantum algorithm 
+
+
+
+
+Eg: https://github.com/derek-wang-ibm/coding-with-qiskit/blob/main/episode-3-hello-world.ipynb
