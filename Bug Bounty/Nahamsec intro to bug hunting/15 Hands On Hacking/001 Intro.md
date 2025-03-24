@@ -127,7 +127,9 @@ It looks like something used to be here, but it's unfortunately been removed.
 30
 00:01:32,610 --> 00:01:36,240
 ==So what we're going to do is we're going to actually go ahead and do some recon.==
-
+`amass enum -brute -active -d nahamsec.com -p 80,443,8080,8000`  or use 
+`amass enum -brute -active -d nahamsec.com -o nahamsec.com.txt -p 80,443,8080,8000`
+for adding the results to a txt file 
 
 
 31
