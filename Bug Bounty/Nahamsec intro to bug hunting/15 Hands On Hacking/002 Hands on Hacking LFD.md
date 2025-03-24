@@ -115,7 +115,7 @@ That looks good.
 ==00:01:26,010 --> 00:01:28,870==
 ==few directories by doing that slash.==
 
-././././././././././././././././././././././././././././././etc/passwd
+`././././././././././././././././././././././././././././././etc/passwd`
 
 28
 00:01:29,150 --> 00:01:32,560
@@ -167,7 +167,9 @@ It looks like it's not working.
 
 40
 00:01:58,420 --> 00:02:03,790
-We're going to just give it a root folder, just a root for the other Web server ATC password.
+==We're going to just give it a root folder, just a root for the other Web server etc password.==
+/etc/passwd
+
 
 41
 00:02:03,980 --> 00:02:06,060
@@ -175,15 +177,15 @@ If it works, that doesn't work either.
 
 42
 00:02:06,550 --> 00:02:11,010
-So the other option here is there are a few things where we can do as we can encode our thoughts so
+So the other option here is there are a few things where we can do as we can encode our ././ so
 
 43
 00:02:11,010 --> 00:02:12,810
-we can do so.
+we can do is.
 
 44
 00:02:12,810 --> 00:02:18,220
-We can do percent to eight percent to eight percent to F, which is the same as typing in dot dot such
+We can do f which is the same as typing in dot dot such
 
 45
 00:02:18,730 --> 00:02:20,220
