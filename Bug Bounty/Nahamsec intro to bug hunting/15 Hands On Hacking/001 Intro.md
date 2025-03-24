@@ -84,7 +84,9 @@ But let's go ahead and look into Google, for example.
 
 20
 00:01:03,930 --> 00:01:08,310
-The first thing I always do is I'm going to plug in this thing into a Google search.
+The first thing I always do is I'm going to plug in this thing(https://www.nahamsec.com/) into a Google search.  
+`site:nahamsec.com`
+![[Screenshot From 2025-03-24 14-29-20.png]]
 
 21
 00:01:08,310 --> 00:01:13,860
@@ -124,7 +126,9 @@ It looks like something used to be here, but it's unfortunately been removed.
 
 30
 00:01:32,610 --> 00:01:36,240
-So what we're going to do is we're going to actually go ahead and do some recon.
+==So what we're going to do is we're going to actually go ahead and do some recon.==
+
+
 
 31
 00:01:36,430 --> 00:01:40,410
