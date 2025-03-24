@@ -245,7 +245,10 @@ OK, ==so far we know that the nahamsec Web site has nothing on it, but it doesn'
 
 ==59==
 ==00:02:59,880 --> 00:03:05,640==
-==We can do this using FFUF and we're going to give it== a ``
+==We can do this using FFUF and we're going to give it== a 
+`sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt`
+
+![[Screenshot From 2025-03-24 14-51-01.png]]
 
 60
 00:03:05,640 --> 00:03:11,220
@@ -261,7 +264,7 @@ If you want to use a word list.
 
 63
 00:03:19,530 --> 00:03:21,360
-I highly recommend looking at cyclers.
+I highly recommend looking at seclist.
 
 64
 00:03:21,600 --> 00:03:28,770
