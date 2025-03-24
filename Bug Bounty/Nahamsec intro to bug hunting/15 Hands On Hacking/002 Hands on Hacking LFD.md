@@ -197,7 +197,7 @@ We don't have to always overcomplicated.
 
 49
 00:02:36,030 --> 00:02:39,360
-The next thing we can do is we can assume that the application is filtering out  ././././..
+==The next thing we can do is we can assume that the application is filtering out  ./././././././==
 
 50
 00:02:39,710 --> 00:02:44,450
@@ -209,20 +209,19 @@ So it's going to pretty much be blank.
 
 52
 00:02:46,290 --> 00:02:51,200
-One of the things that we discover in our lab was there are times when you need to be able to escape
+==One of the things that we discover in our lab was there are times when you need to be able to escape==
 
-53
-00:02:51,200 --> 00:02:51,600
-out of this.
+==53==
+==00:02:51,200 --> 00:02:51,600==
+==out of this.==
 
 54
 00:02:51,600 --> 00:02:54,680
-So what I'm going to do is I want to train a dog before a dog.
+==So what I'm going to do is I want to trail a ./././==
 
-55
-00:02:55,400 --> 00:02:59,100
-So it's going to be dot, dot, dot, dot, dot.
-
+==55==
+==00:02:55,400 --> 00:02:59,100==
+==So it's going to be ..././../==
 56
 00:02:59,510 --> 00:03:02,420
 So what happens here is it's going to application is going to take these.
@@ -249,15 +248,14 @@ We're going to add this here.
 
 62
 00:03:23,010 --> 00:03:24,480
-I'm going to add a bunch of these.
+==I'm going to add a bunch of these.==
+==..././../..../../..././..././.../.../.../.../../.../.../../././././etc/passwd==
 
-63
-00:03:24,880 --> 00:03:26,970
-We're going to give an ATC password.
+
 
 64
 00:03:28,690 --> 00:03:30,180
-I'm going to try this on and see if it works.
+I'm going to try this on and see if it works. in the web browser 
 
 65
 00:03:31,770 --> 00:03:34,120
