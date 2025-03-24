@@ -250,9 +250,6 @@ OK, ==so far we know that the nahamsec Web site has nothing on it, but it doesn'
 
 ![[Screenshot From 2025-03-24 14-51-01.png]]
 
-60
-00:03:05,640 --> 00:03:11,220
-You are also going to grab this because your TPS type send, we're going to happen first.
 
 61
 00:03:11,250 --> 00:03:18,240
@@ -268,11 +265,11 @@ I highly recommend looking at seclist.
 
 64
 00:03:21,600 --> 00:03:28,770
-I'm actually going to pull it up really quick and we're going to look for Cycliste on GitHub and we're
+I'm actually going to pull it up really quick and we're going to look for seclist on GitHub and we're
 
 65
 00:03:28,770 --> 00:03:33,090
-going to download if you of these worthless again, if you don't want to use as Australia OK, you can
+going to download seclist again, if you don't want to use as seclist OK, you can
 
 66
 00:03:33,090 --> 00:03:35,430
@@ -280,7 +277,7 @@ actually use whichever one you like.
 
 67
 00:03:35,730 --> 00:03:38,370
-But this has been a very good place to start for worthless.
+But this has been a very good place to start for wordlists
 
 68
 00:03:38,380 --> 00:03:44,130
@@ -296,19 +293,19 @@ file names.
 
 71
 00:03:49,260 --> 00:03:53,460
-The one that I use a lot, it's called the raft rouf large words.
+The one that I use a lot, it's called the ==raft large words==.
 
 72
 00:03:53,460 --> 00:03:59,250
-I think this one has some of the best word that we can use for this example.
+==I think this one has some of the best word that we can use for this example.==
 
-73
-00:03:59,250 --> 00:04:06,390
-We're going to just go ahead and just look for a download and we're going to pull this and we're going
+==73==
+==00:03:59,250 --> 00:04:06,390==
+==We're going to just go ahead and just look for a download and we're going to pull this and we're going==
 
-74
-00:04:06,390 --> 00:04:07,560
-to put to our server.
+==74==
+==00:04:06,390 --> 00:04:07,560==
+==to put to our server(or kali machine that we are using).==
 
 75
 00:04:07,590 --> 00:04:15,810
@@ -320,7 +317,7 @@ we're going to just download this file from GitHub.
 
 77
 00:04:19,440 --> 00:04:26,580
-And then when it's downloaded, we're going to grab this file name and we're going to run our command
+And then when it's downloaded, we're going to grab this file name and we're going to run our FFUF command
 
 78
 00:04:26,580 --> 00:04:32,820
