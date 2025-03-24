@@ -1,4 +1,11 @@
 
+here basically we did intro to google dorking on a target and using amass and ffuf
+
+sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -t 100
+
+amass enum -brute -active -d nahamsec.com -p 80,443,8080,8000
+
+---
 
 1
 00:00:00,410 --> 00:00:04,740
@@ -246,7 +253,8 @@ OK, ==so far we know that the nahamsec Web site has nothing on it, but it doesn'
 ==59==
 ==00:02:59,880 --> 00:03:05,640==
 ==We can do this using FFUF and we're going to give it== a 
-`sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt`
+`sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -t 100
+`
 
 ![[Screenshot From 2025-03-24 14-51-01.png]]
 
@@ -317,15 +325,18 @@ we're going to just download this file from GitHub.
 
 77
 00:04:19,440 --> 00:04:26,580
-And then when it's downloaded, we're going to grab this file name and we're going to run our FFUF command
+And then when it's downloaded, ==we're going to grab this file name and we're going to run our FFUF command==
 
-78
-00:04:26,580 --> 00:04:32,820
-again and we're going to give it the word this we just found and we going to give it about seventy five
+==78==
+==00:04:26,580 --> 00:04:32,820==
+==again and we're going to give it the word this we just found and we going to give it about 100==
 
-79
-00:04:32,820 --> 00:04:33,300
-threads.
+==79==
+==00:04:32,820 --> 00:04:33,300==
+==threads.==
+`sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -t 100
+`
+![[Screenshot From 2025-03-24 14-59-13.png]]
 
 80
 00:04:33,810 --> 00:04:35,180
