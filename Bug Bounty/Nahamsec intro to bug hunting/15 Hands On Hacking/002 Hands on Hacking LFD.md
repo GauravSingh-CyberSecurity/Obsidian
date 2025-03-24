@@ -10,7 +10,7 @@ One of the things that stands out to me here is the image of these products, so 
 
 2
 00:00:05,110 --> 00:00:06,900
-is I'm actually going to open up the source (ctrl u).  view-source:https://merch.nahamsec.com/
+is I'm actually going to ==open up the source== (ctrl u).  view-source:https://merch.nahamsec.com/
 ![[Screenshot From 2025-03-24 15-50-52.png]]
 
 
@@ -29,7 +29,7 @@ I'm going to open this in a new tab featuring an image.
 ![[Screenshot From 2025-03-24 15-53-52.png]]
 6
 00:00:24,580 --> 00:00:27,900
-The first thing I'm going to do here is I'm going to give it a dot slash.
+The first thing I'm going to do here is I'm going to give it a ././
 
 7
 00:00:28,380 --> 00:00:28,980
@@ -61,7 +61,7 @@ It's good if this comes back as a valid image and this video and picture product
 
 14
 00:00:51,930 --> 00:00:54,510
-so I can know what I'm trying to sing in and out of.
+so I can know what I'm trying to send in and out of.
 
 15
 00:00:54,870 --> 00:00:58,950
@@ -177,27 +177,19 @@ If it works, that doesn't work either.
 
 42
 00:02:06,550 --> 00:02:11,010
-So the other option here is there are a few things where we can do as we can encode our ././ so
-
-43
-00:02:11,010 --> 00:02:12,810
-we can do is.
+==So the other option here is there are a few things where we can do as we can encode our ././ so==
+==`%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f`==
+==43==
+==00:02:11,010 --> 00:02:12,810==
+==we can do is.==
 
 44
 00:02:12,810 --> 00:02:18,220
-We can do f which is the same as typing in dot dot such
-
-45
-00:02:18,730 --> 00:02:20,220
-so type of 10 percent to.
-
-46
-00:02:21,020 --> 00:02:28,660
-70 to 80 percent to 80 percent to which is the same as that slash.
+We can do `%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f` which is the same as typing in ./././  such
 
 47
 00:02:29,210 --> 00:02:34,250
-I'm just going to copy it's a bunch of times and see if that works so it doesn't work.
+see if that works so it doesn't work.
 
 48
 00:02:34,280 --> 00:02:36,000
@@ -205,7 +197,7 @@ We don't have to always overcomplicated.
 
 49
 00:02:36,030 --> 00:02:39,360
-The next thing we can do is we can assume that the application is filtering out.
+The next thing we can do is we can assume that the application is filtering out  ././././..
 
 50
 00:02:39,710 --> 00:02:44,450
