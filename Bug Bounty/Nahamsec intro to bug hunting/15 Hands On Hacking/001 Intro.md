@@ -48,7 +48,7 @@ https://merch.nahamsec.com/
 11
 00:00:32,280 --> 00:00:37,560
 So the first thing we're going to do is we're going to actually subdomain brute force and look for some
-
+ 
 12
 00:00:37,560 --> 00:00:40,290
 of the applications that are on here or the other approaches.
