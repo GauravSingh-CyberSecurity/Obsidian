@@ -21,11 +21,12 @@ And I'm going to scroll down and look at how it's loading these images and it lo
 4
 00:00:13,890 --> 00:00:20,140
 product/picture and then the parameter file and then some hash, we're going to click it.
+https://imgproxy.fourthwall.com/cJfCX_GDQONq7Zw81Hc_jqqpXQm5pkSB1olWktXwCUo/w:120/sm:1/enc/YzZhYzc4ZjVlNWJi/MDMyZXQduLlfYdqU/iv1BfyTp5tuFqake/fTbnDyYAjyCz1GVv/jDp1RPGLPS1t5aHA/AUx76Zt3WCvG35g-/IRQzKg0l5v8MOfmH/yUKjfm-KDFXgrHA6/uQkG7aHQtTcnpUmK/Xkx-dod8KY6fo6x3/fj77LIx-EilQFu3Q/lIwRaAVyUZNMWOnD/H-ZE6S_wGW6XtZWd/X2FiRqfrY00yNLCL/6N20AAxq1ROUaAha/oKWD4jXj19EMFkNe.webp
 
 5
 00:00:20,880 --> 00:00:24,270
 I'm going to open this in a new tab featuring an image.
-
+![[Screenshot From 2025-03-24 15-53-52.png]]
 6
 00:00:24,580 --> 00:00:27,900
 The first thing I'm going to do here is I'm going to give it a dot slash.
@@ -108,15 +109,17 @@ That looks good.
 
 26
 00:01:19,770 --> 00:01:26,010
-Now, what we're gonna do is we're going to try and just fetch for a local want to traverse out of a
+==Now, what we're gonna do is we're going to try and just fetch for a local want to traverse out of a==
 
-27
-00:01:26,010 --> 00:01:28,870
-few directories by doing that slash.
+==27==
+==00:01:26,010 --> 00:01:28,870==
+==few directories by doing that slash.==
+
+././././././././././././././././././././././././././././././etc/passwd
 
 28
 00:01:29,150 --> 00:01:32,560
-And then I'm going to look for ETEK password.
+And then I'm going to look for etc password.
 
 29
 00:01:32,590 --> 00:01:33,300
