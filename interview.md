@@ -67,6 +67,7 @@ Certainly! Here's a table comparing Nmap and Nessus:
 | **Output**                   | - Network topology<br>- Open ports<br>- Service versions   | - Detailed vulnerability reports<br>- Risk assessments<br>- Remediation suggestions |
 | **Users**                    | Network administrators, penetration testers, security researchers | Security professionals conducting detailed assessments and compliance checks |
 
+ISO 27001 Governance , risk & compliance
 
 DAST, Web and Network PT
 - phases of VAPT (SRS to retesting report)
@@ -74,4 +75,5 @@ DAST, Web and Network PT
 
 Post quantum cryptography(AES , **CRYSTALS-Kyber:**)
 Multi level encryption, AES, SHA, RSA
-ISO 27001 Governance , risk & compliance
+using Quantum.ibm.com 
+
