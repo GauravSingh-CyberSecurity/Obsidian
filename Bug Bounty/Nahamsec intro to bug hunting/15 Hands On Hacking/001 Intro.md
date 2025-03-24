@@ -201,15 +201,15 @@ So it looks like it came back with some data for us.
 
 48
 00:02:28,170 --> 00:02:30,600
-It looks like it didn't do the port scan, but that's good.
+==It looks like it didn't do the port scan, but that's good.==
 
-49
-00:02:30,840 --> 00:02:37,410
-We can do the additional port scanning with and map, but for now we have a list of domains that we
+==49==
+==00:02:30,840 --> 00:02:37,410==
+==We can do the additional port scanning with nmap, but for now we have a list of domains that we==
 
-50
-00:02:37,410 --> 00:02:37,750
-can use.
+==50==
+==00:02:37,410 --> 00:02:37,750==
+==can use.==
 
 51
 00:02:37,770 --> 00:02:39,390
@@ -237,15 +237,15 @@ So at least we have it written somewhere in case we lose this and want to come b
 
 57
 00:02:53,970 --> 00:02:59,430
-OK, so far we know that the home store Web site has nothing on it, but it doesn't hurt to do a directory
+OK, ==so far we know that the nahamsec Web site has nothing on it, but it doesn't hurt to do a directory==
 
-58
-00:02:59,430 --> 00:02:59,880
-brute force.
+==58==
+==00:02:59,430 --> 00:02:59,880==
+==brute force.==
 
-59
-00:02:59,880 --> 00:03:05,640
-We can do this using stuff and we're going to give it a Dosher, which is after.
+==59==
+==00:02:59,880 --> 00:03:05,640==
+==We can do this using FFUF and we're going to give it== a ``
 
 60
 00:03:05,640 --> 00:03:11,220
