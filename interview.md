@@ -68,9 +68,10 @@ Certainly! Here's a table comparing Nmap and Nessus:
 | **Users**                    | Network administrators, penetration testers, security researchers | Security professionals conducting detailed assessments and compliance checks |
 
 
-
-
+DAST, Web and Network PT
+- phases of VAPT (SRS to retesting report)
 
 
 Post quantum cryptography(AES , **CRYSTALS-Kyber:**)
 Multi level encryption, AES, SHA, RSA
+ISO 27001 Governance , risk & compliance
