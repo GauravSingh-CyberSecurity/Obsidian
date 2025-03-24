@@ -1,9 +1,15 @@
 
-here basically we did intro to google dorking on a target and using amass and ffuf
+here basically we did intro : we started the recon, 
+1) we looked at the target site and looked at source page , to see subdomain, function, endpoints and all other things  of interest
+2) google dorking on a target and finding domains, subdomain, regristaion pages, product pages etc
+3) using amass 
+4) using ffuf
 
+```
 sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -t 100
 
 amass enum -brute -active -d nahamsec.com -p 80,443,8080,8000
+```
 
 ---
 
