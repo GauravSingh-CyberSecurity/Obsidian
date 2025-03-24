@@ -374,4 +374,4 @@ So this there's shop, there's stock marketing and the main site that we already 
 
 87
 00:04:54,840 --> 00:04:56,010
-So let's start off with QOF.
+So let's start off with shop.
