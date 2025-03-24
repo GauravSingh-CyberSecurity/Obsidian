@@ -2,13 +2,17 @@
 
 
 ---
+https://merch.nahamsec.com/
+![[Screenshot From 2025-03-24 15-50-17.png]]
 1
 00:00:00,180 --> 00:00:05,110
 One of the things that stands out to me here is the image of these products, so I'm going to do here
 
 2
 00:00:05,110 --> 00:00:06,900
-is I'm actually going to open up the source.
+is I'm actually going to open up the source (ctrl u).  view-source:https://merch.nahamsec.com/
+![[Screenshot From 2025-03-24 15-50-52.png]]
+
 
 3
 00:00:09,300 --> 00:00:13,890
@@ -16,7 +20,7 @@ And I'm going to scroll down and look at how it's loading these images and it lo
 
 4
 00:00:13,890 --> 00:00:20,140
-product picture and then the parameter file and then some hash, we're going to click it.
+product/picture and then the parameter file and then some hash, we're going to click it.
 
 5
 00:00:20,880 --> 00:00:24,270
