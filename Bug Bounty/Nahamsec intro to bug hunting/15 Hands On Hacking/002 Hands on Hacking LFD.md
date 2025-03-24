@@ -255,27 +255,27 @@ We're going to add this here.
 
 64
 00:03:28,690 --> 00:03:30,180
-I'm going to try this on and see if it works. in the web browser 
+==I'm going to try this on and see if it works. in the web browser== 
 
-65
-00:03:31,770 --> 00:03:34,120
-So it looks like this is actually a valid file.
+==65==
+==00:03:31,770 --> 00:03:34,120==
+==So it looks like this is actually a valid file.==
 
-66
-00:03:34,140 --> 00:03:38,550
-It's coming back as an image and it's not showing me the contents of this file.
+==66==
+==00:03:34,140 --> 00:03:38,550==
+==It's coming back as an image and it's not showing me the contents of this file.==
 
-67
-00:03:38,790 --> 00:03:42,510
-So what we're going to do is we're going to try a new source and see if there's anything in the source
+==67==
+==00:03:38,790 --> 00:03:42,510==
+==So what we're going to do is we're going to try and view source using ctrl+u and see if there's anything in the source==
 
-68
-00:03:42,510 --> 00:03:43,200
-of this image.
+==68==
+==00:03:42,510 --> 00:03:43,200==
+==of this image.==
 
-69
-00:03:43,500 --> 00:03:49,680
-And it looks like, sure enough, there was actually a file on the server, a little file disclosure
+==69==
+==00:03:43,500 --> 00:03:49,680==
+==And it looks like, sure enough, there was actually a file on the server, a little file disclosure==
 
 70
 00:03:49,680 --> 00:03:55,770
