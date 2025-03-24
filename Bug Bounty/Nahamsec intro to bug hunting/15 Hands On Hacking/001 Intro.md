@@ -131,26 +131,25 @@ It looks like something used to be here, but it's unfortunately been removed.
 `amass enum -brute -active -d nahamsec.com -o nahamsec.com.txt -p 80,443,8080,8000`
 for adding the results to a txt file 
 
+![[Screenshot From 2025-03-24 14-37-37.png]]
 
 31
 00:01:36,430 --> 00:01:40,410
-So the first thing we're going to do is we're going to do some subdomain brute focusing on the hampster
+So the first thing we're going to do is we're going to do some subdomain brute focusing on the nahamsec.com
 
-32
-00:01:40,410 --> 00:01:40,950
-dot com.
+
 
 33
 00:01:41,220 --> 00:01:42,630
-I'm going to do this using a mask.
+I'm going to do this using amass.
 
 34
 00:01:42,630 --> 00:01:47,610
-We're going to assume we're going to try to brute force using the domain hampster store dot com.
+We're going to assume we're going to try to brute force using the domain nahamsec.com .
 
 35
 00:01:47,850 --> 00:01:52,650
-It's going to like all the outputs in the house or dot com, which is let's make a text file actually.
+It's going to like all the outputs in the nahamsec.com, which is let's make a text file actually.
 
 36
 00:01:53,460 --> 00:01:56,490
@@ -170,11 +169,11 @@ But for the sake of this example, these are the only commands that I'm going to 
 
 40
 00:02:07,170 --> 00:02:10,050
-And again, you don't have to use a mouse if you like other tools.
+And again, you don't have to use amass if you like other tools.
 
 41
 00:02:10,410 --> 00:02:14,080
-When you stop Feiner, you want to use sublist or you're more than welcome to.
+like subfinder, you want to use sublister or you're more than welcome to.
 
 42
 00:02:14,100 --> 00:02:15,360
