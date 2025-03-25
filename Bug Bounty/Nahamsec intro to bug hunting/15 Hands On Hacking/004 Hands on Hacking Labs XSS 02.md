@@ -24,30 +24,27 @@ So we're going to give it a invalid path.
 00:00:09,580 --> 00:00:10,410
 Let's actually give a test123.
 ![[Screenshot From 2025-03-25 15-21-35.png]]
-
+![[Screenshot From 2025-03-25 15-22-47.png]]
 6
 00:00:11,940 --> 00:00:16,600
 And it looks like it says, hey, we could not find /test123 .
 
 7
 00:00:16,650 --> 00:00:20,070
-This is what we're giving it right now in the address bar to test one, two, three.
+This is what we're giving it right now in the address bar to /test123
 
 8
 00:00:20,430 --> 00:00:22,970
-And we're going to chase it and see where it shows.
-
+And we're going to chase it and see where it shows. in dev tools(elements) 
+![[Screenshot From 2025-03-25 15-24-09.png]]
 9
 00:00:23,010 --> 00:00:25,380
 So it looks like we're in the page not found.
 
 10
 00:00:25,380 --> 00:00:28,350
-We're in a dev P class, blah, blah test.
-
-11
-00:00:28,350 --> 00:00:30,970
-One, two, three, not nowhere else.
+We're in a div class, blah, blah.
+/test123
 
 12
 00:00:30,990 --> 00:00:33,540
@@ -59,23 +56,21 @@ But can we add more characters?
 
 14
 00:00:35,370 --> 00:00:38,670
-So what happens if I add the sign right here.
+So what happens if I add the sign ( < ) right here. /test123<
 
 15
 00:00:39,030 --> 00:00:45,500
-Right click and HTML and it looks like this one is actually getting encoded and that we can't exploit
+in dev tools in elements tab , Right click and HTML and it looks like this one is actually getting encoded and that we can't exploit it
+![[Screenshot From 2025-03-25 15-26-36.png]]
 
-16
-00:00:45,510 --> 00:00:45,640
-it.
 
 17
 00:00:45,660 --> 00:00:50,190
-So it's a good indication that this one is invulnerable, but it's good to know that, hey, they reflect
+So it's a good indication that this one is not invulnerable, but it's good to know that, hey, they reflect
 
 18
 00:00:50,190 --> 00:00:52,940
-text within the for a four page.
+text within the for a  page.
 
 19
 00:00:52,980 --> 00:00:54,030
