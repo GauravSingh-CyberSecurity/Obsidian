@@ -299,7 +299,7 @@ All you have to do is try it out, give as many people as he can think through as
 
 75
 00:04:14,070 --> 00:04:18,300
-OK, if it's taking the downtown stage, I'm assuming that the filtering system on the other end is
+OK, if it's taking the ../,  I'm assuming that the filtering system on the other end is
 
 76
 00:04:18,300 --> 00:04:19,020
@@ -311,11 +311,11 @@ What do I do to fix it?
 
 78
 00:04:22,080 --> 00:04:25,860
-Could it be a encoding like percent to eight percent to eight percent to F?
+Could it be a encoding like %2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f
 
 79
 00:04:26,100 --> 00:04:32,700
-Could it be a trailing dot slash and appending stuff to the dot dot stosz get to work like we did at
+Could it be a trailing .../..././.../.../ and appending stuff to the .../ get to work like we did at
 
 80
 00:04:32,700 --> 00:04:35,250
