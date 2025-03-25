@@ -14,7 +14,7 @@ One of my favorite things to do when it comes out here looking for bugs in the B
 
 2
 00:00:05,040 --> 00:00:06,770
-observing there for full pages.
+observing there for fore pages.
 
 3
 00:00:06,780 --> 00:00:09,000
@@ -70,7 +70,7 @@ So it's a good indication that this one is not invulnerable, but it's good to kn
 
 18
 00:00:50,190 --> 00:00:52,940
-text within the for a  page.
+text within the fore page.
 
 19
 00:00:52,980 --> 00:00:54,030
@@ -82,16 +82,12 @@ You can, you can try adding a random parameter.
 
 21
 00:00:56,340 --> 00:01:00,990
-So I'm going to put in a home homesick param in here and let's just give it a test.
-
-22
-00:01:01,620 --> 00:01:02,490
-Four or five, six.
+So I'm going to put in a   `/test123?nahamsecparam=test456`
 
 23
 00:01:02,490 --> 00:01:05,850
-This time I'm going to let this go when I look for four or five, six.
-
+This time I'm going to let this go when I look test456
+![[Screenshot From 2025-03-25 15-29-46.png]]
 24
 00:01:06,330 --> 00:01:11,790
 So it looks like whatever we put in the address bar, if it's not found, it's reflected within the
