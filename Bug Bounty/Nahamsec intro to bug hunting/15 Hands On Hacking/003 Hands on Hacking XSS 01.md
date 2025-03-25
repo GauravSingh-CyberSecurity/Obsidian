@@ -1,8 +1,193 @@
-Looking for XSS where ever we can find input fields, using basic payload ` ""><U>test123" `
+Looking for XSS where ever we can find input fields, using basic payload 
+` ""><U>test123" `
 if this payload gets executed the result will show test123(as underlined text) 
 
-using browser dev tools>inspect element , and look for input payloads see the input in Js body, script, 
+using browser dev tools>inspect element , and look for input payloads see the input in Js body, script, and all other places where the input ends up, try to manipulate the JS and create a malicious payload with valid syntax of JS :
+`" "><U>test123';alert();//"`
 
+
+
+---
+### Step 1. Preparation and Environment Setup
+
+1. **Open the Target Website:**
+    
+    - Navigate to the website’s public-facing section (e.g., the shop/store area) where functionality such as registration, product search, or ordering is available.
+        
+    - Note that the website displays elements like the home page, registration page, and product search field—all potential injection points.
+        
+2. **Identify Injection Points:**
+    
+    - Look for user-input fields (for example, the product search field) where any text can be entered. These fields are likely candidates for testing cross-site scripting (XSS) vulnerabilities.
+        
+
+---
+
+### Step 2. Initial Payload Injection
+
+1. **Enter a Basic Payload:**
+    
+    - In the search field, input a simple XSS payload to observe if the data is reflected. For example, type:
+        
+        ```
+        <script>alert('Test 1, 2, 3');</script>
+        ```
+        
+    - Observe the page response. If the payload is not executed, it might be filtered or encoded.
+        
+2. **Inspect the Reflected Output:**
+    
+    - Open your browser’s Developer Tools (e.g., right-click → Inspect).
+        
+    - Look at the HTML source where your input appears.
+        
+        - If you see your text within an H3 tag or elsewhere without execution, note the context (e.g., inside a JavaScript variable or within quotes).
+            
+
+---
+
+### Step 3. Analyze the Context
+
+1. **Examine the DOM Structure:**
+    
+    - Determine if your input is being placed inside HTML tags, JavaScript code, or within attributes.
+        
+    - Note if special characters (such as `<`, `>`, `'`, or `;`) are being encoded.
+        
+        - Example: If the payload `<script>alert('XSS');</script>` appears as `&lt;script&gt;alert(&#39;XSS&#39;);&lt;/script&gt;`, it means the application is encoding certain characters.
+            
+2. **Context-Specific Testing:**
+    
+    - If the payload is reflected within single quotes, try adding payloads that exploit that context.
+        
+        - For instance, if it’s inside a JavaScript string, you might try:
+            
+            ```
+            ');alert('XSS');//  
+            ```
+            
+    - Document the output and note which characters are encoded and which are not.
+        
+
+---
+
+### Step 4. Advanced Payload Injection
+
+1. **Test with Variations:**
+    
+    - Try different payloads that target the specific reflection context. Examples include:
+        
+        - **Basic Script Injection:**
+            
+            ```html
+            <script>alert('XSS');</script>
+            ```
+            
+        - **Attribute Injection (if input is within an attribute):**
+            
+            ```html
+            " onmouseover="alert('XSS')
+            ```
+            
+        - **JS Context Breakout:**  
+            If your input is inside single quotes, try:
+            
+            ```
+            ');alert('XSS');//  
+            ```
+            
+        - **SVG-based Payload:**
+            
+            ```html
+            <svg/onload=alert('XSS')>
+            ```
+            
+2. **Observe the Behavior:**
+    
+    - For each payload, inspect the output using the Developer Tools:
+        
+        - If the payload is encoded (e.g., special characters are replaced with HTML entities), note which characters remain unencoded.
+            
+        - If you see any alteration or partial execution, adjust your payload accordingly.
+            
+
+---
+
+### Step 5. Bypass Filtering and Encoding
+
+1. **Isolate the Problematic Context:**
+    
+    - Determine if additional characters such as an extra apostrophe or semicolon are being encoded.
+        
+    - For example, if entering `'test'` results in the apostrophes being encoded, try duplicating the input with variations to see if a syntax error occurs.
+        
+2. **Combine Payload Elements:**
+    
+    - If some characters are encoded while others are not, construct a payload that exploits the unencoded parts.
+        
+    - For instance, if the payload `'test'` shows one set as raw while the added characters are encoded, try:
+        
+        ```
+        ');alert('XSS');//  
+        ```
+        
+    - If needed, comment out the remaining original code by injecting comment syntax (e.g., `//` for JavaScript) to isolate your payload.
+        
+
+---
+
+### Step 6. Confirm Vulnerability Exploitation
+
+1. **Execute a Confirmatory Payload:**
+    
+    - Once you identify that some payloads are partially executing or causing script errors, inject a payload that triggers a clear, visible response (such as an alert box).
+        
+    - Example payload:
+        
+        ```html
+        <script>alert('XSS Vulnerability Confirmed');</script>
+        ```
+        
+    - Verify that the alert appears when the page loads or when an action (such as a mouse hover) occurs.
+        
+2. **Document the Results:**
+    
+    - Record which payloads worked, the context in which they worked, and any differences in behavior (e.g., encoded characters, error messages, or script execution).
+        
+    - Ensure you capture screenshots and note the exact injection point and context for later reporting.
+        
+
+---
+
+### Step 7. Final Documentation and Next Steps
+
+1. **Document the Vulnerability:**
+    
+    - Clearly detail the injection point, the payloads used, and the observed behavior.
+        
+    - Include information about which characters are encoded and which are not.
+        
+2. **Plan Remediation Testing:**
+    
+    - Based on the findings, plan further tests to see if additional payloads or bypass techniques could be applied.
+        
+    - Suggest improvements or additional filtering rules for developers to implement as part of the remediation process.
+        
+3. **Reporting:**
+    
+    - Compile a report that includes all steps, payloads, and results.
+        
+    - Share this report with the appropriate security team or stakeholders for further action.
+        
+
+---
+
+This procedure provides a comprehensive, step-by-step walkthrough for conducting a hands-on XSS demonstration, including testing payloads, analyzing encoding, and documenting findings. Use this as a guide for your practical exercises and vulnerability assessments.
+
+
+---
+
+# Transcript :
 1
 00:00:00,550 --> 00:00:08,250
 I copied out into this and we're going to go to shop and, ahem, store them because there is some functionality
