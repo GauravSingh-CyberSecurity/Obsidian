@@ -1,5 +1,7 @@
-Looking for XSS where ever we can find input fields
+Looking for XSS where ever we can find input fields, using basic payload ` ""><U>test123" `
+if this payload gets executed the result will show test123(as underlined text) 
 
+using browser dev tools>inspect element , and look for input payloads see the input in Js body, script, 
 
 1
 00:00:00,550 --> 00:00:08,250
