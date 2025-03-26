@@ -1,4 +1,4 @@
-DNS gen comes with a default wordlist if you dont have any for permutaions
+DNS gen comes with a default wordlist if you dont have any for permutaions, and you just need to feed it all the domain/subdomain  (eg command:-  dnsgen domain.txt)
 ```
 dnsgen --help
 
@@ -21,6 +21,12 @@ You can either use the one that comes with it by default or you can create your 
 It also takes a file name,That is where you can put all your domains that you have found.
 
 And it will create more permutations of those subdomains based on the list that you give it.
+
+first go to this location for creating wordlist and domain.txt just in this case : 
+```
+cd "/home/kali/Documents/Obsidian Vault/Bug Bounty/Nahamsec intro to bug hunting/15 Hands On Hacking/"
+
+```
 
 
 And I'm going to quickly create a list for ourselves, going to call it wordlist.
@@ -79,6 +85,10 @@ and we want to see how many of these websites are actually available.
 So what I'm going to do here is I'm going to feed this into httprobe : that is in the folder where wordlist and domain.txt is ( dnsgen domain.txt -w wordlist) use this command :
 ```
 dnsgen domain.txt -w wordlist | httprobe -c 25
+
+Also eusecase with ibuild wordlist of dnsgen :
+dnsgen domain.txt | httprobe -c 25
+
 ```
 see which ones are these are accessible with HTTP. that means actually available on internet
 
