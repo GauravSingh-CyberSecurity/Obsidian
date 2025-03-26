@@ -99,6 +99,7 @@ body of this.
 26
 00:01:12,840 --> 00:01:16,260
 So let's add another script tag maybe or something.
+`/test123?nahamsecparam=test456<h1>test123`
 
 27
 00:01:16,740 --> 00:01:18,630
@@ -107,7 +108,7 @@ We just want to see if it's going to render it or not.
 28
 00:01:19,210 --> 00:01:21,810
 And it was like somehow we were able to break the logic.
-
+![[Pasted image 20250326105427.png]]
 29
 00:01:21,810 --> 00:01:27,510
 So it looks like there is some filtering happening, but because of how they are filtering it, it completely
@@ -138,7 +139,9 @@ Can you script whatever one you want to use?
 
 36
 00:01:44,460 --> 00:01:52,320
-My favorite go to is just an image source X on error equals alert, and that should give us an exercise.
+My favorite go to is just an image source X on error equals alert, and that should give us an XSS.
+`/test123?nahamsecparam=test456<img src=x onerror=alert()> 
+also this is the encoded version 
 
 37
 00:01:52,500 --> 00:01:56,400
