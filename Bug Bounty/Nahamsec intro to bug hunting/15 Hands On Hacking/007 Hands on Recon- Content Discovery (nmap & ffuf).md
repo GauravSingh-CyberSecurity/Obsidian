@@ -32,6 +32,10 @@ http://store.nahamstore.com/admin/login  or http://store.nahamstore.com/
 
 and verify if the admin page not available on regular ports but available on 8000, you can brute force for admin credentials on the admin page and you found some vulnerability of open ports & admin id and PW.
 
+then you can login to application,
+there you can find input areas like blog posts, try and find xss in it(eg :-  use onmouse-hover generate alert pop up, XSS script ) . you just chained another exploit.
+
+
 
 ---
 
