@@ -234,24 +234,24 @@ So that was a good one.
 
 47
 00:02:31,670 --> 00:02:33,090
-We know there's two exercises here.
+We know there's two XSS here.
 
 48
 00:02:33,330 --> 00:02:34,370
-We're on fire here.
+==We're on fire here.==
 
-49
-00:02:34,650 --> 00:02:35,510
-This is a good place.
+==49==
+==00:02:34,650 --> 00:02:35,510==
+==This is a good place.==
 
-50
-00:02:35,520 --> 00:02:38,340
-When you build momentum back monies, you want to keep pushing.
+==50==
+==00:02:35,520 --> 00:02:38,340==
+==When you build momentum in bug bounties, you want to keep pushing.==
 
-51
-00:02:38,340 --> 00:02:42,870
-If you see a vulnerability type occurring more than once or twice, you want to keep digging through
+==51==
+==00:02:38,340 --> 00:02:42,870==
+==If you see a vulnerability type occurring more than once or twice, you want to keep digging through==
 
-52
-00:02:42,870 --> 00:02:43,830
-and finding more of those.
+==52==
+==00:02:42,870 --> 00:02:43,830==
+==and finding more of those.==
