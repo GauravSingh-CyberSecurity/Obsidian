@@ -24,7 +24,15 @@ The tasks can be performed in any order but we suggest starting with subdomain e
 Task3
 Using a combination of subdomain enumeration, brute force, content discovery and fuzzing find all the subdomains you can and answer the below questions.
 
- sublist3r -d nahamstore.com  and 
+POC-
+ sublist3r -d nahamstore.com  and  dig any nahamstore.com
+
+
+[-] Total Unique Subdomains Found: 3
+www.nahamstore.com
+nahamstore-2020.nahamstore.com
+shop.nahamstore.com
+
 
 
 
