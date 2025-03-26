@@ -6,9 +6,17 @@ Amass,sublister > Dnsgen,httprobe > nmap(discover open ports) > ffuf (fuzz open 
 Dnsgen(create permutaions of all possible qa,live,staging env for all domain/subdomain that are fed to it ) > httprobe(check which domains actually existing  from wordlist) > Aquatone (visualise the target domains and create mindmaps of target domains) > 
 
 
-FFUF fuzzing apis :- 
 
-fuzz all domains/sub
+FFUF fuzzing apis/paths/urls/parameters POC :- 
+
+fuzz all domains/subdomains at once  ( domain.org/FUZZ )
+         1) o/p  -  found api , login, robots.txt , admin (on all domains, subdomain)
+
+Fuzz all  " 1)o/p "
+			2)o/p -   found `domain(1)/api/customer`
+
+FUZZ all "2)o/p" 
+			3)o/p 
 
 
 
