@@ -1,11 +1,14 @@
 
+amass,sublister > nmap > FFUF > login bruteforce/broken auth > XSS, SSRF, SQLI
 
 Amass,sublister > Dnsgen,httprobe > nmap(discover open ports) > ffuf (fuzz open port)
 
 Dnsgen(create permutaions of all possible qa,live,staging env for all domain/subdomain that are fed to it ) > httprobe(check which domains actually existing  from wordlist) > Aquatone (visualise the target domains and create mindmaps of target domains) > 
 
 
+FFUF fuzzing apis :- 
 
+fuzz all domains/sub
 
 
 
