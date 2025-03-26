@@ -37,6 +37,10 @@ there you can find input areas like blog posts, try and find xss in it(eg :-  us
 
 
 
+the point was to show you how you escalate from finding a random open (here 8000 with admin panel) to 
+finding a credential and brute forcing for it and getting an access to the back end(admin application) of that website and making some changes on the main application and finding XSS or SQLI etc.
+
+
 ---
 
 1
