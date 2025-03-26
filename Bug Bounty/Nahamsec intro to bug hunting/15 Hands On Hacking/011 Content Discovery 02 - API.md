@@ -1,5 +1,5 @@
 
-amass,sublister > nmap > FFUF > login bruteforce/broken auth > XSS, SSRF, SQLI
+amass,sublister(domain, subdomain) > nmap(open ports on domain, subdomains) > FFUF(fuzz all open ports) > login bruteforce/broken auth(found on the open ports) > XSS, SSRF, SQLI (found after bypassing auth/login and gaining access of application)
 
 Amass,sublister > Dnsgen,httprobe > nmap(discover open ports) > ffuf (fuzz open port)
 
@@ -7,16 +7,17 @@ Dnsgen(create permutaions of all possible qa,live,staging env for all domain/sub
 
 
 
-FFUF fuzzing apis/paths/urls/parameters POC :- 
+**FFUF fuzzing apis/paths/urls/parameters POC :-** 
 
 fuzz all domains/subdomains at once  ( domain.org/FUZZ )
          1) o/p  -  found api , login, robots.txt , admin (on all domains, subdomain)
 
-Fuzz all  " 1)o/p "
-			2)o/p -   found `domain(1)/api/customer`
+Fuzz all  " 1)o/p "  (api , login, robots.txt , admin for all domain, subdoamins)
+			2)o/p -   found `domain(1)/api/customer`  ,  `domain(2)/api/customer`
 
-FUZZ all "2)o/p" 
-			3)o/p 
+FUZZ all "2)o/p"  (`domain(1)/api/customer`  ,  `domain(2)/api/customer`)
+			3)o/p  --> domain(1)/api/customer/1, domain(1)/api/customer/2 ,
+			 domain(2)/api/customer_id=1 , domain(2)/api/customer_id=4
 
 
 
