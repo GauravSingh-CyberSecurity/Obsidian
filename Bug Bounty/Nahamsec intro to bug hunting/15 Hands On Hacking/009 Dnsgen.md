@@ -1,7 +1,7 @@
 
 DNSgen: https://github.com/AlephNullSK/dnsgen
 
-
+==DNS gen comes with a default wordlist if you dont have any for permutaions==
 # DNSGen 2.0 - Advanced DNS Name Permutation Engine 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

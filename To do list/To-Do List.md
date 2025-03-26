@@ -53,3 +53,5 @@ Bike servicing, wash bag,crocs,shoes.
 
 
 Create our own llm without any constraints and sell on dark web
+
+complete try hack me nahamstore lab, upload the lap completion and course completion on the linkedin

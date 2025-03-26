@@ -1,4 +1,4 @@
-
+DNS gen comes with a default wordlist if you dont have any for permutaions
 ```
 dnsgen --help
 
