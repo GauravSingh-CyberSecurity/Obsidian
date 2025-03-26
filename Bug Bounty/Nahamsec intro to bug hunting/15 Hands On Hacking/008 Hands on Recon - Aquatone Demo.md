@@ -19,12 +19,14 @@ then we also use ==dnsgen tool==, it makes diffrent permutations on the dns like
 
 then next 
 ![[Screenshot From 2025-03-26 13-16-59.png]]
-
+```
 cat  subdoamin-found-on-target.txt | httprobe -c 20 | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
+```
 
 
-
-
+And once this is done, we're going to actually go ahead and look at the outputs of the Aquatone report. So we're going to do is we're going to actually run a Python3 and using Python3, we're going to run an HTTP server on Port 8000(or any other that is available)
+This will allow us to open up the content of this folder(path-to-the-folder/where-want-to-store-target-websites-screenshots) in our browser and be able to see that HTML file 
+![[Screenshot From 2025-03-26 13-22-16.png]]
 
 
 
