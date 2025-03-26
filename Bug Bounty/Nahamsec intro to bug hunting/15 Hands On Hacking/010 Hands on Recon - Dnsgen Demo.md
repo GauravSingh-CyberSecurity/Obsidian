@@ -1,10 +1,32 @@
 
+```
 dnsgen --help
 
+Usage: dnsgen [OPTIONS] FILENAME
+
+Options:
+  -l, --wordlen INTEGER RANGE  Min length of custom words extracted from
+                               domains.  [1<=x<=100]
+  -w, --wordlist PATH          Path to custom wordlist.
+  -f, --fast                   Fast generation.
+  --help                       Show this message and exit.
 
 
+```
 
 
+Now, let's have a look at the so what the dnsgen does, as I explained earlier, it will take a word list.
+You can either use the one that comes with it by default or you can create your own.
+
+It also takes a file name,That is where you can put all your domains that you have found.
+
+And it will create more permutations of those subdomains based on the list that you give it.
+
+
+And I'm going to quickly create a list for ourselves, going to call it wordlist.
+
+
+I'm going to put Dev Keyway stage and those are the only three that I want to try.
 
 
 
@@ -21,32 +43,6 @@ dnsgen --help
 # Transcript :
 
 1
-00:00:00,120 --> 00:00:06,180
-Now, let's have a look at the so what the NSA does, as I explained earlier, it will take a wait list.
-
-2
-00:00:06,710 --> 00:00:10,530
-You can either use the one that comes with it by default or you can create your own.
-
-3
-00:00:10,950 --> 00:00:12,540
-It also takes a file name.
-
-4
-00:00:13,140 --> 00:00:16,920
-That is where you can put all your domains that you have found.
-
-5
-00:00:17,130 --> 00:00:22,130
-And it will create more permutations of those subdomains based on the list that you give it.
-
-6
-00:00:22,260 --> 00:00:26,710
-And I'm going to quickly create a list for ourselves, going to call it worthless.
-
-7
-00:00:27,030 --> 00:00:33,840
-I'm going to put Dev Keyway stage and those are the only three that I want to try.
 
 8
 00:00:33,870 --> 00:00:39,030
