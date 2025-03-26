@@ -1,4 +1,6 @@
 
+The labs used for Hands on hacking : https://tryhackme.com/room/nahamstore
+
 here basically we did intro : we started the recon, 
 1) we looked at the target site and looked at source page , to see subdomain, function, endpoints and all other things  of interest
 2) google dorking on a target and finding domains, subdomain, regristaion pages, product pages etc
