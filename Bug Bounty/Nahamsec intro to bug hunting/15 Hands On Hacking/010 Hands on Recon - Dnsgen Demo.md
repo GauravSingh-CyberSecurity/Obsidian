@@ -24,10 +24,21 @@ And it will create more permutations of those subdomains based on the list that 
 
 
 And I'm going to quickly create a list for ourselves, going to call it wordlist.
+```
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\15 Hands On Hacking> nano wordlist
+
+and in wordlist put in :
+dev
+qa
+stage
 
 
-I'm going to put Dev Keyway stage and those are the only three that I want to try.
+```
 
+I'm going to put Dev, qa, stage and those are the only three that I want to try.
+
+
+So what I'm going to do now is I'm going to do dnsgen on the target website and I want to use the wordlist
 
 
 
@@ -46,7 +57,7 @@ I'm going to put Dev Keyway stage and those are the only three that I want to tr
 
 8
 00:00:33,870 --> 00:00:39,030
-So what I'm going to do now is I'm going to do DNS Gen on the Homosex Store and I want to use the word
+
 
 9
 00:00:39,030 --> 00:00:40,710
