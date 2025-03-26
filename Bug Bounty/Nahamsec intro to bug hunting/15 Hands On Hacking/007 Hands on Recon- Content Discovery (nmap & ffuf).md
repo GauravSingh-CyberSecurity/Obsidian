@@ -15,9 +15,15 @@ nmap -iL subdomains.txt -p 80,443,8000,8443,10000,8080
 - `-p 80,443,8000,8443,10000`: Scans the specified ports on each subdomain.
 
 
+**==after finding all the open ports on the list of domains/subdomains**==
+==**run FFUF on all of them using desired wordlist to find more stuff.==**
 
- 
+ eg : 
+```
+ ffuf -w /wordlist   -u http://store.nahamstore.com:8080/FUZZ   -t 100  -ac -c
+```
 
+here:  the 8080 is port that was found open so i used FFUF to fuzz and find contents on the port 8080.
 
 ---
 
