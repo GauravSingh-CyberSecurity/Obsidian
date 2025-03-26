@@ -3,6 +3,49 @@ The labs used for Hands on hacking : https://tryhackme.com/room/nahamstore
 the walk-through of THM Lab : https://medium.com/@sodahack/tryhackme-walkthrough-nahamstore-sodatex-bcffc17d8fda | https://github.com/jesusgavancho/TryHackMe_and_HackTheBox/blob/master/NahamStore.md |
 YT wlakthrough : https://youtu.be/989i4ZiIw6k?si=t7j0yS5VD6Pz16Eb
 
+
+
+
+
+
+
+To access the subdomains in your own browser (on your local machine) rather than on the TryHackMe machine, you need to update your local hosts file with the proper mappings. Here’s how you can do it:
+
+---
+
+##### For Linux (/etc/hosts)
+
+1. **Open the hosts file:**
+    
+    ```bash
+    sudo nano /etc/hosts
+    ```
+    
+2. **Add the base domain entry:**
+    ---
+    ```
+    MACHINE_IP    nahamstore.thm
+    ```
+    
+3. **Add each discovered subdomain entry, replacing “.com” with “.thm”:** For example, if you discover `whatever.nahamstore.com`, add:
+    
+    ```
+    MACHINE_IP    whatever.nahamstore.thm
+    ```
+    
+4. **Save and exit:**
+    
+    - Press `Ctrl+O` to write the file, then `Ctrl+X` to exit.
+        
+5. **Access in your browser:**
+    
+    - Now open your local browser and navigate to `http://whatever.nahamstore.thm`.
+        
+
+
+
+---
+
 here basically we did intro : we started the recon, 
 1) we looked at the target site and looked at source page , to see subdomain, function, endpoints and all other things  of interest
 2) google dorking on a target and finding domains, subdomain, regristaion pages, product pages etc
@@ -14,6 +57,59 @@ sudo ffuf -u https://www.nahamsec.com/FUZZ -w /usr/share/wordlists/seclists/Disc
 
 amass enum -brute -active -d nahamsec.com -p 80,443,8080,8000
 ```
+
+---
+==start THM LAb:==  https://tryhackme.com/room/nahamstore
+
+==Task1==
+NahamStore has been created to test what you've learnt with [NahamSec's](https://twitter.com/nahamsec) "Intro to Bug Bounty Hunting and Web Application Hacking" [Udemy Course](http://bugbounty.nahamsec.training). Deploy the machine and once you've got an IP address move onto the next step!
+
+
+==Task 2==
+To start the challenge you'll need to add an entry into your  /etc/hosts or c:\windows\system32\drivers\etc\hosts file pointing to your deployed TryHackMe box.
+
+For Example:  
+
+`10.10.196.42                  nahamstore.thm`  
+
+When enumerating subdomains you should perform it against the **nahamstore.com** domain. When you find a subdomain you'll need to add an entry into your /etc/hosts or c:\windows\system32\drivers\etc\hosts file pointing towards your deployed TryHackMe box IP address and substitute .com for .thm . For example if you discover the subdomain whatever.nahamstore.com you would add the following entry:
+
+`10.10.196.42          something.nahamstore.thm`
+
+You'll now be able to view [http://something.nahamstore.thm](http://something.nahamstore.thm) in your browser.
+
+The tasks can be performed in any order but we suggest starting with subdomain enumeration.
+
+
+
+
+==Task3==
+Using a combination of subdomain enumeration, brute force, content discovery and fuzzing find all the subdomains you can and answer the below questions.
+
+POC-
+ sublist3r -d nahamstore.com  and  dig any nahamstore.com
+
+
+[-] Total Unique Subdomains Found: 3
+www.nahamstore.com
+nahamstore-2020.nahamstore.com
+shop.nahamstore.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 

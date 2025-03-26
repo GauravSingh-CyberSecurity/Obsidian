@@ -1,9 +1,12 @@
+https://tryhackme.com/room/nahamstore
+
 Looking for XSS where ever we can find input fields, using basic payload 
 ` ""><U>test123" `
 if this payload gets executed the result will show test123(as underlined text) 
 
 using browser dev tools>inspect element , and look for input payloads see the input in Js body, script, and all other places where the input ends up, try to manipulate the JS and create a malicious payload with valid syntax of JS :
 `" "><U>test123';alert();//"`
+
 
 
 
