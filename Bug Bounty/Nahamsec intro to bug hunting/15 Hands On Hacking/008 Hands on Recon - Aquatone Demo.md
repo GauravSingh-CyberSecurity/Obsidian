@@ -1,5 +1,5 @@
 
- we're going to look at is how to use Accattone
+ we're going to look at is how to use Aquatone, this tool is used to create a visualisation of target application, like you can host the folder where you put Aquatone results locally , and visit it in browser and view the aquatone contents in html format that is visually appealing and gives a better overview and mindmap
 
 ![[Screenshot From 2025-03-26 13-10-10.png]]
 ```
@@ -38,7 +38,7 @@ This is very helpful when you have hundreds of subdomains, but you want to get a
 
 
 ---
-
+# Transcript :
 
 1
 00:00:00,180 --> 00:00:05,190
