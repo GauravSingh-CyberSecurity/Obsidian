@@ -47,12 +47,40 @@ C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\1
 ```
 and then pass that file to dnsgen
 
-Now run dns gen in the folder where wordlist and domain.txt is :
 
- dnsgen domain.txt -w wordlist
+Now run dns gen in the folder where wordlist and domain.txt is ( dnsgen domain.txt -w wordlist) use this command :
+**`dnsgen domain.txt -w wordlist`**
+output:
+```
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\15 Hands On Hacking> dnsgen domain.txt -w wordlist
+stage..bnhs.org
+.stage.bnhs.org
+dev..bnhs.org
+.dev.bnhs.org
+qa..bnhs.org
+.qa.bnhs.org
+stage.bnhs.org
+stage-.bnhs.org
+dev.bnhs.org
+dev-.bnhs.org
+qa.bnhs.org
+qa-.bnhs.org
+stage.bnhs.org
+-stage.bnhs.org
+dev.bnhs.org
+-dev.bnhs.org
+qa.bnhs.org
+-qa.bnhs.org
+```
 
+we're going to take the outputs of this
+and we want to see how many of these websites are actually available.
 
-
+So what I'm going to do here is I'm going to feed this into httprobe : that is in the folder where wordlist and domain.txt is ( dnsgen domain.txt -w wordlist) use this command :
+```
+dnsgen domain.txt -w wordlist | httprobe -c 25
+```
+see which ones are these are accessible with HTP.
 
 
 
