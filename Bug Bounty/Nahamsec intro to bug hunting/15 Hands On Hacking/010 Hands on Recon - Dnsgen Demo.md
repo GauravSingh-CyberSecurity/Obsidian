@@ -42,7 +42,7 @@ So what I'm going to do now is I'm going to do dnsgen on the target website and 
 
 **dnsgen** expects a file name as input rather than a domain string. So create a file containing the domain 
 ```
-C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\15 Hands On Hacking> echo "bnhs.org" > domain.txt
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\15 Hands On Hacking>   echo "bnhs.org" > domain.txt
 
 ```
 and then pass that file to dnsgen
@@ -80,9 +80,11 @@ So what I'm going to do here is I'm going to feed this into httprobe : that is i
 ```
 dnsgen domain.txt -w wordlist | httprobe -c 25
 ```
-see which ones are these are accessible with HTP.
+see which ones are these are accessible with HTTP. that means actually available on internet
 
+for this case none of the websites are available
 
+we can take all the HTTProbe outputed website and enumerate them on https://crt.sh
 
 
 ---
@@ -91,10 +93,36 @@ see which ones are these are accessible with HTP.
 # Transcript :
 
 1
+00:00:00,120 --> 00:00:06,180
+Now, let's have a look at the so what the NSA does, as I explained earlier, it will take a wait list.
+
+2
+00:00:06,710 --> 00:00:10,530
+You can either use the one that comes with it by default or you can create your own.
+
+3
+00:00:10,950 --> 00:00:12,540
+It also takes a file name.
+
+4
+00:00:13,140 --> 00:00:16,920
+That is where you can put all your domains that you have found.
+
+5
+00:00:17,130 --> 00:00:22,130
+And it will create more permutations of those subdomains based on the list that you give it.
+
+6
+00:00:22,260 --> 00:00:26,710
+And I'm going to quickly create a list for ourselves, going to call it worthless.
+
+7
+00:00:27,030 --> 00:00:33,840
+I'm going to put Dev Keyway stage and those are the only three that I want to try.
 
 8
 00:00:33,870 --> 00:00:39,030
-
+So what I'm going to do now is I'm going to do DNS Gen on the Homosex Store and I want to use the word
 
 9
 00:00:39,030 --> 00:00:40,710
