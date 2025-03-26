@@ -40,7 +40,16 @@ I'm going to put Dev, qa, stage and those are the only three that I want to try.
 
 So what I'm going to do now is I'm going to do dnsgen on the target website and I want to use the wordlist
 
+**dnsgen** expects a file name as input rather than a domain string. So create a file containing the domain 
+```
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\Nahamsec intro to bug hunting\15 Hands On Hacking> echo "bnhs.org" > domain.txt
 
+```
+and then pass that file to dnsgen
+
+Now run dns gen in the folder where wordlist and domain.txt is :
+
+ dnsgen domain.txt -w wordlist
 
 
 
