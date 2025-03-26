@@ -1,7 +1,7 @@
 
  we're going to look at is how to use Accattone
 
-
+subdoamin-found-on-target.txt | dnsge -w wordlist-name | httprobe | aquatone  path-to-the-folder/where
 
 
 
