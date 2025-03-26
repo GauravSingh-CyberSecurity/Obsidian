@@ -1,8 +1,8 @@
 
 
-Amass,sublister > Dnsgen,
+Amass,sublister > Dnsgen,httprobe > nmap(discover open ports) > ffuf (fuzz open port)
 
-
+Dnsgen(create permutaions of all possible qa,live,staging env for all domain/subdomain wordlist to find ) > httprobe(check) > Aquatone (visualise target and create mindmaps of target) > 
 
 
 
