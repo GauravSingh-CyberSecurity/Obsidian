@@ -1,6 +1,6 @@
 
 The labs used for Hands on hacking : https://tryhackme.com/room/nahamstore
-the walk-through of THM Lab : https://medium.com/@sodahack/tryhackme-walkthrough-nahamstore-sodatex-bcffc17d8fda
+the walk-through of THM Lab : https://medium.com/@sodahack/tryhackme-walkthrough-nahamstore-sodatex-bcffc17d8fda | https://github.com/jesusgavancho/TryHackMe_and_HackTheBox/blob/master/NahamStore.md |
 YT wlakthrough : https://youtu.be/989i4ZiIw6k?si=t7j0yS5VD6Pz16Eb
 
 here basically we did intro : we started the recon, 
