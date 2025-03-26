@@ -1,7 +1,12 @@
 
  we're going to look at is how to use Accattone
 
-subdoamin-found-on-target.txt | dnsge -w wordlist-name | httprobe | aquatone  path-to-the-folder/where
+![[Screenshot From 2025-03-26 13-10-10.png]]
+
+after above , then we also use dnsgen tool, it makes diffrent permutations on the dns like it will permute QA, Staging, Live (any dns that we feed to it via a wordlist)
+
+
+subdoamin-found-on-target.txt | dnsge -w  wordlist  su | httprobe | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
 
 
 
