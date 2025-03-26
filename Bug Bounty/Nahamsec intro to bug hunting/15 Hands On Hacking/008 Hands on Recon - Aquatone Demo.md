@@ -2,17 +2,25 @@
  we're going to look at is how to use Accattone
 
 ![[Screenshot From 2025-03-26 13-10-10.png]]
-
-after above , then we also use dnsgen tool, it makes diffrent permutations on the dns like it will permute QA, Staging, Live (any dns that we feed to it via a wordlist)
-
-
-subdoamin-found-on-target.txt | dnsge -w  wordlist  su | httprobe | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
+```
+subdoamin-found-on-target.txt | httprobe | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
+```
 
 
+after above , 
+then we also use ==dnsgen tool==, it makes diffrent permutations on the dns like it will permute QA, Staging, Live (any dns that we feed to it via a wordlist)
+
+![[Screenshot From 2025-03-26 13-15-05.png]]
+```
+ dnsge -w  wordlist  subdoamin-found-on-target.txt | httprobe | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
+
+```
 
 
+then next 
+![[Screenshot From 2025-03-26 13-16-59.png]]
 
-
+cat  subdoamin-found-on-target.txt | httprobe -c 20 | aquatone  path-to-the-folder/where-want-to-store-target-websites-screenshots
 
 
 
