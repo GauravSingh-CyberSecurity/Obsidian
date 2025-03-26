@@ -86,7 +86,11 @@ So what I'm going to do here is I'm going to feed this into httprobe : that is i
 ```
 dnsgen domain.txt -w wordlist | httprobe -c 25
 
-Also eusecase with ibuild wordlist of dnsgen :
+
+
+
+Also eg for usecase with ibuild wordlist of dnsgen :
+
 dnsgen domain.txt | httprobe -c 25
 
 ```
