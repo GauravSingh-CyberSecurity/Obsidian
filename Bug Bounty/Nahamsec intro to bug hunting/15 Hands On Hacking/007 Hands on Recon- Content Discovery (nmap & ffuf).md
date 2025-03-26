@@ -20,10 +20,18 @@ nmap -iL subdomains.txt -p 80,443,8000,8443,10000,8080
 
  eg : 
 ```
- ffuf -w /wordlist   -u http://store.nahamstore.com:8080/FUZZ   -t 100  -ac -c
+ ffuf -w /wordlist   -u http://store.nahamstore.com:8000/FUZZ   -t 100  -ac -c
 ```
 
-here:  the 8080 is port that was found open so i used FFUF to fuzz and find contents on the port 8080.
+here:  the 8000 is port that was found open so i used FFUF to fuzz and find contents on the port 8000.
+
+suppose you found http://store.nahamstore.com:8000/admin/login
+
+Now to verify this is not available on port 80,443 just visit 
+http://store.nahamstore.com/admin/login  or http://store.nahamstore.com/
+
+and verify if the admin page not available on regular ports but available on 8000, you can brute force for admin credentials on the admin page and you found some vulnerability of open ports & admin id and PW.
+
 
 ---
 
