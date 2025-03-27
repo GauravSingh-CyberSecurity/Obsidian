@@ -35,36 +35,46 @@ Ensure that you select the correct category, and if needed, go back to adjust it
 
 ### 3. **Set the Severity Level** 
 
-**Severity** determines how critical the vulnerability is. The **Common Vulnerability Scoring System (CVSS)** is used to score vulnerabilities based on factors like: (there is a ? symbol next to all below parameters in hackerone that shows the description for them.)
+==**Severity** determines how critical the vulnerability is. The **Common Vulnerability Scoring System (CVSS)** is used to score vulnerabilities based on factors like: (there is a ? symbol next to all below parameters in hackerone that shows the description for them.)==
 
-- **Attack Vector**: Is it exploitable over the internet, local network, or does it require physical access?
-	1) Network - using the internet
-	2) Adjacent- need to be close to router/network or target
-	3) Local - need to have access of local server/machine
-	4) Physical - need physical access to exploit
-- **Attack Complexity**: How difficult is the attack? Is it blocked by a web application firewall or requires a unique setup?
-	1) Low
-	2) High
+- ==**Attack Vector**: Is it exploitable over the internet, local network, or does it require physical access?==
+	1) ==Network - using the internet==
+	2) ==Adjacent- need to be close to router/network or target==
+	3) ==Local - need to have access of local server/machine==
+	4) ==Physical - need physical access to exploit==
+- ==**Attack Complexity**: How difficult is the attack? Is it blocked by a web application firewall or requires a unique setup?==
+	1) ==Low==
+	2) ==High==
     
-- **Privileges Required**: What kind of access does the attacker need? Are they an admin, or can anyone exploit it?
-	1) None(no id require)
-	2) Low(self register or signup)
-	3) High(eg: admin access required)
+- ==**Privileges Required**: What kind of access does the attacker need? Are they an admin, or can anyone exploit it?==
+	1) ==None(no id require)==
+	2) ==Low(self register or signup)==
+	3) ==High(eg: admin access required)==
     
-- **User Interaction**: Does the attacker require the victim to click something or visit a page?
-	    1) None
-	    2) Required
+- ==**User Interaction**: Does the attacker require the victim to click something or visit a page?==
+	    ==1) None==
+	    ==2) Required==
 
-For example, if the vulnerability is easily exploited with no user interaction, you’d mark it as low in complexity.
+==For example, if the vulnerability is easily exploited with no user interaction, you’d mark it as low in complexity.==
 
-- **Scope:**  can I change the scope?Can I pivot into the network, can access internal resources, can access things outside of that particular domain .
-		1) changed (if this vulnerability can be used to pivot to next , like ssrf to RCE)
-		2) Unchanged (eg: data leak through idor, no rate limiting)
+- ==**Scope:**  can I change the scope?Can I pivot into the network, can access internal resources, can access things outside of that particular domain .==
+		==1) changed (if this vulnerability can be used to pivot to next , like ssrf to RCE)==
+		==2) Unchanged (eg: data leak through idor, no rate limiting)==
 
-- **confidentiality:** How confidential data can you access using the vulnerablity(is it PII, user id or nothing)
-	1) None
-	2) Low (user ids , etc)
-	3) High (PII)
+- ==**Confidentiality:** How confidential data can you access using the vulnerablity(is it PII, user id or nothing)==
+	1) ==None==
+	2) ==Low (user ids , etc)==
+	3) ==High (PII)==
+
+ - ==**Integrity:** Are you able to modify data, on what scale like how much of data can be modified==
+	 1) ==None==
+	 2) ==Low(most vulnerablity are low integrity)==
+	 3) ==High (eg: can modify the price of a product to 0 and purchase it for free or ship someone else product to your address)==
+
+- ==**Availablity:** can you do DOS or DDOS, and on what level==
+		==1) None==
+		==2) Low==
+		==3) High==
 ---
 
 ### 4. **Provide a Clear and Concise Report Title**
