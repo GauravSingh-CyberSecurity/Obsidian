@@ -31,7 +31,7 @@ You want to make sure you're selecting the right domain.
 
 5
 00:00:12,540 --> 00:00:15,480
-If your domain is under Nahamstoref, you want to click on this.
+If your domain is under Nahamstore, you want to click on this.
 
 6
 00:00:15,750 --> 00:00:18,060
