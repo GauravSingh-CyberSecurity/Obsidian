@@ -7,7 +7,67 @@
 
 Hacker Dashboard (https://hackerone.com/hacker_dashboard/overview)
  - view your private programs
- - 
+
+
+**Step 1: Navigating the Bug Bounty Directory** (https://hackerone.com/directory/programs)
+
+1. **Access the Directory:** 
+    
+    - _Visual:_ Imagine a webpage listing multiple bug bounty programs.
+        
+    - **Explanation:** The directory is a comprehensive list of programs available on HackerOne. It’s an excellent starting point for finding a program to target.
+        
+2. **Select “Offer Bounties”:**
+    
+    - _Visual:_ A clickable button labeled “Offer Bounties” on the directory page.
+        
+    - **Explanation:** Click on “Offer Bounties” to filter programs that actively provide monetary rewards. Some programs may only offer platform points or non-monetary incentives, so this helps focus on those with cash bounties.
+        
+
+---
+
+**Step 2: Analyzing Program Details**
+
+1. **Examine the Average Bounty:**
+    
+    - _Visual:_ A sortable table showing programs with columns such as "Average Bounty."
+        
+    - **Explanation:** You can sort programs by the average bounty amount. For example, some programs might offer an average bounty of $1,000, while others might offer less. This helps in prioritizing which programs to target.
+        
+2. **Review Managed Tags:**
+    
+    - _Visual:_ A label or tag on each program listing that indicates whether it’s managed directly by HackerOne or by a third party.
+        
+    - **Explanation:** Managed tags indicate how the program is administered. Programs managed directly by HackerOne may offer more streamlined communication for reporting, whereas those managed by third parties might follow a different process.
+        
+3. **Check the Minimum Bounty:**
+    
+    - _Visual:_ A filter or column showing “Bounty Minimum” values.
+        
+    - **Explanation:** This shows the minimum payout for a vulnerability. For instance, GitHub might have a minimum bounty of $617, while another might pay $500. Understanding these figures helps set your expectations and focus on programs that meet your targets.
+        
+
+---
+
+**Step 3: Utilizing the Hacker Dashboard** (https://hackerone.com/hacker_dashboard/overview)
+
+1. **Explore the Hacker Dashboard:**
+    
+    - _Visual:_ A personal dashboard with tabs like “My Programs,” “Pending Invitations,” and “Recent Launches.”
+        
+    - **Explanation:** The dashboard provides a different view from the directory. It includes your private programs (invited ones) and lets you see details like launch dates, resolved reports, and other statistics.
+        
+2. **Sort and Filter Programs:**
+    
+    - _Visual:_ Dropdown menus or sorting buttons on the dashboard.
+        
+    - **Explanation:** You can sort your programs by various criteria, such as launch date or invitation acceptance. This helps you track which programs are recent or pending, and manage your workflow efficiently.
+        
+3. **Set Invitation Preferences:**
+    
+    - _Visual:_ A settings page where you can toggle options such as “Receive Private Program Invitations” or “Exclude Certain Program Types.”
+        
+    - **Explanation:** Customize your invitation preferences based on the type of programs you’re interested in (e.g., cryptocurrency-related). This allows you
 
 
 
