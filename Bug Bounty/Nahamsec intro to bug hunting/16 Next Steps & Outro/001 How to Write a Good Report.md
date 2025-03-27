@@ -1,5 +1,5 @@
-
-**How to Write a Great Report on HackerOne**
+Article: https://docs.hackerone.com/en/articles/8473994-submitting-reports | https://docs.hackerone.com/en/articles/8496338-report-templates
+**How to Write a Great Report on HackerOne** (https://hackerone.com/security)
 
 Writing a clear and effective vulnerability report is essential for getting your findings recognized and addressed. Follow this guide to create structured, detailed reports that help program owners understand your findings and prioritize them.
 
