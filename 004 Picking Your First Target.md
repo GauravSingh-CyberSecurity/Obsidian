@@ -1,24 +1,18 @@
 
 **BBP(bug bounty programs) & VDP(vulnerability disclosure programs) : 
 (find programs with very big attack surface as a beginner)** 
-DOD(Department of defense, of any country), IBM, Ford, Gm , 
+DOD(Department of defense, of any country), IBM, Ford, Gm , Ver
 
 Hackerone programs: https://hackerone.com/directory/programs 
 
 VDP: are good for beginners as a playground because its not paying so top hackers don't work there
 They're really, really good playground for you to learn and also understand what vulnerability types
-
-30
-00:01:47,280 --> 00:01:49,110
 are more of your interests.
-
-31
-00:01:49,200 --> 00:01:54,360
 You can also use this to get better on certain topics or subjects that you may be struggling with.
-
-32
-00:01:54,570 --> 00:01:57,210
 So I highly recommend finding these and looking at them.
+
+Platforms : Hackerone, BugCrowd
+Independent programs : facebook whitehat(https://bugbounty.meta.com/) , 
 
 ---
 
