@@ -33,9 +33,9 @@ Ensure that you select the correct category, and if needed, go back to adjust it
 
 ---
 
-### 3. **Set the Severity Level** (there is a ? symbol next to)
+### 3. **Set the Severity Level** 
 
-**Severity** determines how critical the vulnerability is. The **Common Vulnerability Scoring System (CVSS)** is used to score vulnerabilities based on factors like:
+**Severity** determines how critical the vulnerability is. The **Common Vulnerability Scoring System (CVSS)** is used to score vulnerabilities based on factors like: (there is a ? symbol next to all below parameters in hackerone that shows the description for them.)
 
 - **Attack Vector**: Is it exploitable over the internet, local network, or does it require physical access?
 	1) Network - using the internet
@@ -47,9 +47,13 @@ Ensure that you select the correct category, and if needed, go back to adjust it
 	2) High
     
 - **Privileges Required**: What kind of access does the attacker need? Are they an admin, or can anyone exploit it?
+	1) None(no id require)
+	2) Low(self register or signup)
+	3) High(eg: admin access required)
     
 - **User Interaction**: Does the attacker require the victim to click something or visit a page?
-    
+	    1) None
+	    2) Required
 
 For example, if the vulnerability is easily exploited with no user interaction, you’d mark it as low in complexity.
 
