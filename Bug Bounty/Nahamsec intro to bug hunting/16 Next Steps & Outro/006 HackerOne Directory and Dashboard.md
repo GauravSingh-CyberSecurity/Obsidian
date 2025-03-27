@@ -1,13 +1,13 @@
 
 
-The next thing is the directory(https://hackerone.com/directory/programs)
-It's a really good place to find a program to hack on.
-
-Bounties minimum : show min bounties payout by the program
+ the directory(https://hackerone.com/directory/programs)
+- It's a really good place to find a program to hack on. its list of programs on the platform
+- Bounties minimum filter : show min bounties payout by the program
 
 
 Hacker Dashboard (https://hackerone.com/hacker_dashboard/overview)
-
+ - view your private programs
+ - 
 
 
 
