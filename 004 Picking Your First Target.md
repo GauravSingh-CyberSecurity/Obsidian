@@ -11,8 +11,13 @@ are more of your interests.
 You can also use this to get better on certain topics or subjects that you may be struggling with.
 So I highly recommend finding these and looking at them.
 
-Platforms : Hackerone, BugCrowd
-Independent programs : facebook whitehat(https://bugbounty.meta.com/) , 
+**Platforms :** Hackerone, BugCrowd
+
+**Independent programs :** 
+- facebook whitehat(https://bugbounty.meta.com/) ,  
+- Google (https://bughunters.google.com/), 
+- Apple (https://security.apple.com/bounty/), 
+- Microsoft  (https://www.microsoft.com/en-us/msrc/bounty)
 
 ---
 
