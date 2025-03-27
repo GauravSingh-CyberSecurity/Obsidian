@@ -1,12 +1,14 @@
 
+**BBP & VDP : (find programs with very big attack surface as a beginner)** 
+DOD(Department of defense, of any country), IBM, Ford, Gm , 
 
-
+Hackerone programs: https://hackerone.com/directory/programs 
 
 
 
 ---
 
-Transcript :
+# Transcript :
 
 1
 00:00:00,300 --> 00:00:05,550
