@@ -108,6 +108,7 @@ The description should be:
 ### 6. **Step-by-Step Reproduction Guide**
 
 Provide a **step-by-step** guide to reproduce the vulnerability. This is critical for program owners to verify the issue.
+Tip: start reproducing the vulnerability on a screen and writing the guide here.
 
 - **Steps to Reproduce**: Clearly explain what to do, what URL to visit, and any specific interactions needed.
     
