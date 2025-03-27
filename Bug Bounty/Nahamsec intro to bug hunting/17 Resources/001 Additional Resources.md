@@ -27,6 +27,10 @@ OWASP juice shop -
 - https://owasp.org/
 - https://owasp.org/www-project-top-ten/
 
+PICO CTF -
+- Pico Ctf (https://picoctf.org/)
+- Pico ctf (https://github.com/picoctf)
+
 Pentester lab - (paid)
 - paid(https://pentesterlab.com/)
 
