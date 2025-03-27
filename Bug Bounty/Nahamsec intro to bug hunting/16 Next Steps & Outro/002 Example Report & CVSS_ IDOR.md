@@ -1,4 +1,4 @@
-Always reproduce the bug in 1st window, when writing the report in 2nd window simultane
+==Always reproduce the bug in 1st window, when writing the report in 2nd window simultaneously== specifically when writing the POC steps.
 ### Example Report: CVSS_IDOR Vulnerability
 
 ---
