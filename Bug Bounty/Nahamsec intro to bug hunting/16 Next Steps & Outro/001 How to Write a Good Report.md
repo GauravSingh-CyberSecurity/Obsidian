@@ -1,5 +1,165 @@
 
+**How to Write a Great Report on HackerOne**
 
+Writing a clear and effective vulnerability report is essential for getting your findings recognized and addressed. Follow this guide to create structured, detailed reports that help program owners understand your findings and prioritize them.
+
+---
+
+### 1. **Select the Right Domain & Asset**
+
+Before you start writing your report, make sure you’ve selected the right **domain** and **asset**:
+
+- **Domain**: Choose the appropriate domain you’re targeting, such as "Nahamstore" or a marketing site.
+    
+- **Asset**: Clearly define which part of the website or application you're working on, ensuring you are reporting the vulnerability for the correct asset.
+    
+
+**Example**: If you're reporting on Nahamstore, select the Nahamstore domain.
+
+---
+
+### 2. **Choose the Vulnerability Type**
+
+Next, identify the **vulnerability type** you're working with. Common examples include:
+
+- **Reflected vs. Stored Cross-Site Scripting (XSS)**
+    
+- **SQL Injection (SQLi)**
+    
+- **Authentication Bypass**
+    
+
+Ensure that you select the correct category, and if needed, go back to adjust it if you realize a mistake was made.
+
+---
+
+### 3. **Set the Severity Level** (there is a ? symbol next to)
+
+**Severity** determines how critical the vulnerability is. The **Common Vulnerability Scoring System (CVSS)** is used to score vulnerabilities based on factors like:
+
+- **Attack Vector**: Is it exploitable over the internet, local network, or does it require physical access?
+	1) Network - using the internet
+	2) Adjacent- need to be close to router/network or target
+	3) Local - need to have access of local server/machine
+	4) Physical - need physical access to exploit
+- **Attack Complexity**: How difficult is the attack? Is it blocked by a web application firewall or requires a unique setup?
+	1) Low
+	2) High
+    
+- **Privileges Required**: What kind of access does the attacker need? Are they an admin, or can anyone exploit it?
+    
+- **User Interaction**: Does the attacker require the victim to click something or visit a page?
+    
+
+For example, if the vulnerability is easily exploited with no user interaction, you’d mark it as low in complexity.
+
+---
+
+### 4. **Provide a Clear and Concise Report Title**
+
+The title should include:
+
+- **Vulnerability Type** (e.g., XSS, SQLi)
+    
+- **Specific Details**: Reflect or stored type, URL, parameter, etc.
+    
+
+**Example**:  
+"Reflected XSS on Nahamstore.com in search parameter."
+
+---
+
+### 5. **Write a Strong Description**
+
+The description should be:
+
+- **Brief & To the Point**: Summarize the issue in a few sentences, explaining what the vulnerability is and why it matters.
+    
+- **Explain the Impact**: Describe what can happen if this vulnerability is exploited.
+    
+
+**Example**:  
+"This reflected XSS vulnerability allows attackers to inject JavaScript into the search parameter, leading to the execution of arbitrary scripts in the user’s browser."
+
+---
+
+### 6. **Step-by-Step Reproduction Guide**
+
+Provide a **step-by-step** guide to reproduce the vulnerability. This is critical for program owners to verify the issue.
+
+- **Steps to Reproduce**: Clearly explain what to do, what URL to visit, and any specific interactions needed.
+    
+- **Screenshots or Screencasts**: Include visuals to help explain each step.
+    
+- **Additional Details**: Include any necessary HTTP headers or source code snippets if applicable.
+    
+
+**Example**:
+
+1. Navigate to `https://nahamstore.com/search?query=`.
+    
+2. Input `<script>alert('XSS')</script>` into the search field.
+    
+3. Observe the alert popup that shows up on the page.
+    
+
+---
+
+### 7. **Supporting Materials**
+
+- **Attachments**: Add any relevant **screenshots**, **videos**, or **HTTP headers**.
+    
+- **Source Code**: If applicable, include a snippet of the vulnerable code or input that causes the vulnerability.
+    
+- **External References**: Include links to related documentation or other resources that can support your finding.
+    
+
+---
+
+### 8. **Impact Statement**
+
+Explain the **potential impact** of the vulnerability:
+
+- **What can an attacker do with it?**  
+    For example, "An attacker can steal session cookies or execute malicious code on the user's browser."
+    
+- **Justification for Severity**:  
+    Link the impact to the **CVSS score** to help the program owner understand the seriousness of the vulnerability.
+    
+
+**Example**:  
+"This vulnerability could lead to account takeover by executing malicious scripts in the victim's browser."
+
+---
+
+### 9. **Review Your Report Before Submitting**
+
+- **Preview** your report to ensure clarity and accuracy.
+    
+- Make sure your **steps to reproduce** are clear and that all information is well-organized.
+    
+- **Double-check** all visuals and examples.
+    
+
+Once everything looks good, submit your report to the program owner.
+
+---
+
+### 10. **Summary**
+
+**Title**: Choose an informative title that captures the vulnerability and its location.  
+**Description**: Clearly explain the issue and its impact.  
+**Reproduction Steps**: Provide precise instructions for replicating the issue.  
+**Supporting Materials**: Attach screenshots, HTTP headers, or code snippets.  
+**Impact Statement**: Justify the severity based on potential damage or exploitation.
+
+---
+
+### Final Tip:
+
+While screenshots and videos can enhance the report, they aren't necessary for every vulnerability. If the issue is simple, a well-written report with clear reproduction steps and a description will suffice.
+
+By following this structure, you can create effective, clear reports that are easy for program owners to review and act upon.
 
 
 
