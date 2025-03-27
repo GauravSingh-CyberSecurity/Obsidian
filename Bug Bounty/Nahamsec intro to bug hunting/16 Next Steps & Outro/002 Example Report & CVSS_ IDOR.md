@@ -1,4 +1,154 @@
+Always reproduce the bug in 1st window, when writing the report in 2nd window simultane
+### Example Report: CVSS_IDOR Vulnerability
 
+---
+
+#### **Vulnerability Type**: Insecure Direct Object Reference (IDOR)
+
+**Affected Domain**: shop.com **Endpoint**: /shipping-address/basket
+
+---
+
+#### **Vulnerability Description**:
+
+An IDOR vulnerability exists in the shopping cart page of shop.com, which allows an attacker to access and retrieve Personally Identifiable Information (PII) of other users. This includes full names, addresses, phone numbers, and other sensitive details associated with users of the website.
+
+---
+
+#### **Steps to Reproduce the Vulnerability**:
+
+1. **Step 1**: Go to the shopping page of shop.com.
+    
+2. **Step 2**: Click on the **Basket** logo in the top-right corner to go to your cart.
+    
+3. **Step 3**: If you don’t already have an address created, add a new address.
+    
+4. **Step 4**: After creating an address, use a proxy tool like Burp Suite to intercept the request.
+    
+
+---
+
+#### **Exploit**:
+
+Once you've intercepted the request, you’ll see the following:
+
+- The request made contains a **shipping address ID** parameter.
+    
+- Modify the **address ID** to correspond to another user’s ID (e.g., change the ID to 3, belonging to a test account).
+    
+- Send the request and the basket will update, now displaying the victim's address and other sensitive details such as:
+    
+    - Name
+        
+    - Address
+        
+    - Zip code
+        
+    - Phone number
+        
+
+This is a direct result of the **IDOR vulnerability** that allows unauthorized access to another user's information.
+
+---
+
+#### **Visual Guide for Exploitation**:
+
+- **Step 1**: Add an address to your account.
+    
+- **Step 2**: Intercept the request using your proxy tool (e.g., Burp Suite).
+    
+- **Step 3**: Modify the **address ID** field to the ID of another user (e.g., `address_id=3`).
+    
+- **Step 4**: Send the modified request, which will update the shopping cart with the unauthorized user’s address.
+    
+
+---
+
+#### **Vulnerability Impact**:
+
+This vulnerability has severe consequences, as an attacker can easily harvest sensitive information for all users on the site, including their:
+
+- **Full name**
+    
+- **Address**
+    
+- **Phone number**
+    
+- **Email** (if available)
+    
+
+This can lead to various malicious activities such as **identity theft**, **fraud**, or **targeted attacks**.
+
+---
+
+#### **CVSS Score Calculation**:
+
+- **Severity**: Critical (9.3)
+    
+- **Vector**: Remote (network-based attack)
+    
+- **Complexity**: Low (simple to exploit)
+    
+- **Privileges Required**: None (any user can perform the attack)
+    
+- **Scope**: Unchanged (no impact on system behavior or availability)
+    
+- **Confidentiality**: High (access to PII of other users)
+    
+- **Integrity**: Low (the attacker cannot modify data, just retrieve it)
+    
+- **Availability**: Low (no direct impact on availability)
+    
+
+#### **Suggested Fixes**:
+
+- Ensure that the application correctly verifies ownership of sensitive data, such as addresses.
+    
+- Implement proper access control mechanisms to prevent unauthorized access to data belonging to other users.
+    
+
+---
+
+#### **Impact Statement**:
+
+This vulnerability allows an attacker to harvest sensitive data on every user on the website, including their address, name, and other personally identifiable information.
+
+---
+
+#### **Conclusion**:
+
+This IDOR vulnerability poses a significant risk to the confidentiality of user data on the site. It is recommended that the development team urgently addresses this issue by implementing proper authorization checks for user-specific resources.
+
+---
+
+#### **Attachments**:
+
+- **Request Example**:
+    
+
+```
+POST /shipping-address/basket HTTP/1.1
+Host: shop.com
+Content-Type: application/json
+Authorization: Bearer {token}
+
+{
+  "address_id": "3", // Modify this to target another user's address
+  "basket_id": "12345"
+}
+```
+
+---
+
+#### **Final Steps**:
+
+Once the report is ready and you are satisfied with the content, submit it to the relevant program or bug bounty platform for further review.
+
+---
+
+### Final Thoughts:
+
+This structured approach, with clear headings and a visual flow, will help make the report more accessible and easy to understand for both technical and non-technical reviewers.
 
 
 
