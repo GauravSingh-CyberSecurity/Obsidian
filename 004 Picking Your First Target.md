@@ -11,13 +11,17 @@ are more of your interests.
 You can also use this to get better on certain topics or subjects that you may be struggling with.
 So I highly recommend finding these and looking at them.
 
-**Platforms :** Hackerone, BugCrowd
+**Platforms :** Hackerone, BugCrowd, yeswehack, intigriti , syna
 
 **Independent programs :** 
 - facebook whitehat(https://bugbounty.meta.com/) ,  
 - Google (https://bughunters.google.com/), 
 - Apple (https://security.apple.com/bounty/), 
 - Microsoft  (https://www.microsoft.com/en-us/msrc/bounty)
+massive applications and massive companies and why they're a better choice for starting hackers.This is for multiple reasons:
+1) massive company, they're shipping code regularly  for companies like Facebook, Google, Apple, they're constantly creating new products, new functionality for their websites, and they're pushing these codes every week. There's always room for more mistake on the developer ends where bug bounty hunters could be able to identify those and get some bounties or find vulnerabilities to report to.
+2) And it's also very, very important to find a program that you really become familiar with.  And you also continuously Hack on , as you get better, this helps you focus on different vulnerability types.
+3) 
 
 ---
 
