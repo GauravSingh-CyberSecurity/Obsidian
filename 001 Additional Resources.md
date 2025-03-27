@@ -15,7 +15,16 @@ DVWA -
 - Damm vulnerable web app(https://github.com/digininja/DVWA)
 - https://www.vulnhub.com/entry/damn-vulnerable-web-application-dvwa-107,43/
 
+OWASP juice shop -
+-  OWASP juice shop(https://owasp.org/www-project-juice-shop/)
+- https://owasp.org/
+- https://owasp.org/www-project-top-ten/
 
+Pentester lab - (paid)
+- paid(https://pentesterlab.com/)
+
+==Bug Bounty hunter.com -== (paid & free both)
+- bugbountyhunter.com(https://www.bugbountyhunter.com/)
 
 
 
