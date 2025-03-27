@@ -3,6 +3,8 @@ Article: https://docs.hackerone.com/en/articles/8473994-submitting-reports | htt
 
 Writing a clear and effective vulnerability report is essential for getting your findings recognized and addressed. Follow this guide to create structured, detailed reports that help program owners understand your findings and prioritize them.
 
+Sample report : https://hackerone.com/reports/867513
+
 ---
 
 ### 1. **Select the Right Domain & Asset**

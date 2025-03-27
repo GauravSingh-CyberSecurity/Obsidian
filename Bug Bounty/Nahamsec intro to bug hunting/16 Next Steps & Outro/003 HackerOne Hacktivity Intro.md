@@ -1,5 +1,7 @@
+This is one of the most valuable assets you could ever come across when it comes down to learning and getting better at hacking:
+https://hackerone.com/hacktivity/overview
 
-
+Sample report on hackerone hactivity: https://hackerone.com/reports/867513
 
 
 
