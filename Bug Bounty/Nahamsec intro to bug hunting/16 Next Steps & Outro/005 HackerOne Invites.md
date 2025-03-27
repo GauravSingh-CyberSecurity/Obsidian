@@ -63,39 +63,39 @@ So if you look at a program, you don't like it, you can decline it.
 
 14
 00:00:45,720 --> 00:00:51,540
-But I highly suggest accepting every single invite you get, giving it a try and then leaving the program,
+But ==I highly suggest accepting every single invite you get, giving it a try and then leaving the program,==
 
-15
-00:00:51,540 --> 00:00:56,190
-because leaving a program also gives you the opportunity to do the same thing, getting a replacement
+==15==
+==00:00:51,540 --> 00:00:56,190==
+==because leaving a program also gives you the opportunity to do the same thing, getting a replacement==
 
-16
-00:00:56,190 --> 00:00:58,120
-invitation by filling out the form.
+==16==
+==00:00:56,190 --> 00:00:58,120==
+==invitation by filling out the form.==
 
-17
-00:00:58,160 --> 00:01:02,280
-So in other words, if you hire on a program for three or four or five days, you're not enjoying it.
+==17==
+==00:00:58,160 --> 00:01:02,280==
+==So in other words, if you hire on a program for three or four or five days, you're not enjoying it.==
 
-18
-00:01:02,400 --> 00:01:07,320
-We you can do is go down to the right bottom corner, say leave program, fill out the form the same
+==18==
+==00:01:02,400 --> 00:01:07,320==
+==We you can do is go down to the right bottom corner, say leave program, fill out the form the same==
 
-19
-00:01:07,320 --> 00:01:11,730
-way you would do it if you want to decline an invite and you would get a replacement for it within 24
+==19==
+==00:01:07,320 --> 00:01:11,730==
+==way you would do it if you want to decline an invite and you would get a replacement for it within 24==
 
-20
-00:01:11,730 --> 00:01:12,690
-to 48 hours.
+==20==
+==00:01:11,730 --> 00:01:12,690==
+==to 48 hours.==
 
-21
-00:01:12,900 --> 00:01:17,460
-So I highly recommend doing that cycle through your invites, find a program that you like and they
+==21==
+==00:01:12,900 --> 00:01:17,460==
+==So I highly recommend doing that cycle through your invites, find a program that you like and they==
 
-22
-00:01:17,470 --> 00:01:18,270
-keep hocking on it.
+==22==
+==00:01:17,470 --> 00:01:18,270==
+==keep hocking on it.==
 
 
 
