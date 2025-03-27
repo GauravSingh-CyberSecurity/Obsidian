@@ -1,12 +1,19 @@
-Hackerone - Hactivity, Hacker101
+Hackerone - 
+- Hactivity, 
+- Hacker101(https://ctf.hacker101.com/) private invite by solving ctf
 
 Nahamsec - 
 - Nahamstore(https://tryhackme.com/room/nahamstore) , 
-- https://www.nahamsec.com/posts, twitch (https://twitch.tv/nahamsec) discord(https://discord.com/servers/nahamsec-598608711186907146)
+- https://www.nahamsec.com/posts, 
+- twitch (https://twitch.tv/nahamsec) 
+- discord(https://discord.com/servers/nahamsec-598608711186907146)
 
+Portswigger -
+- web security academy (https://portswigger.net/web-security)
 
-
-
+DVWA - 
+- Damm vulnerable web app(https://github.com/digininja/DVWA)
+- https://www.vulnhub.com/entry/damn-vulnerable-web-application-dvwa-107,43/
 
 
 
