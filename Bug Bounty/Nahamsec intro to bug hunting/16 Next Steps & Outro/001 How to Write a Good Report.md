@@ -57,6 +57,14 @@ Ensure that you select the correct category, and if needed, go back to adjust it
 
 For example, if the vulnerability is easily exploited with no user interaction, you’d mark it as low in complexity.
 
+- **Scope:**  can I change the scope?Can I pivot into the network, can access internal resources, can access things outside of that particular domain .
+		1) changed (if this vulnerability can be used to pivot to next , like ssrf to RCE)
+		2) Unchanged (eg: data leak through idor, no rate limiting)
+
+- **confidentiality:** How confidential data can you access using the vulnerablity(is it PII, user id or nothing)
+	1) None
+	2) Low (user ids , etc)
+	3) High (PII)
 ---
 
 ### 4. **Provide a Clear and Concise Report Title**
