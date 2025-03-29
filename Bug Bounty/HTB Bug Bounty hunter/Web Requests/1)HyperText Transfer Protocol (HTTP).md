@@ -118,6 +118,85 @@ Target(s): 94.237.55.61:42983 
 
 Life Left: 90 minute(s)
 
-Cheat Sheet
 
 + 1  To get the flag, start the above exercise, then use cURL to download the file returned by '/download.php' in the server shown above.
+
+#### Answer: 
+To solve this exercise, you need to use **cURL** to interact with the server and retrieve the file from the `/download.php` endpoint.
+
+
+### ✅ **Solution:**
+
+1. **Open your terminal (Linux/Kali/WSL/Command Prompt with curl enabled).**
+    
+2. Run the following command:
+    
+
+```bash
+curl http://94.237.55.61:42983/download.php -o downloaded_file
+```
+
+### 🔍 **Explanation:**
+
+- `curl`: Command-line tool for making web requests.
+    
+- `http://94.237.55.61:42983/download.php`: Target server and endpoint.
+    
+- `-o downloaded_file`: Saves the response to a file named `downloaded_file` (you can name it anything).
+    
+
+### ✅ **Check the File for the Flag:**
+
+After downloading, inspect the file to find the flag:
+
+```bash
+cat downloaded_file
+```
+
+👉 The flag should be inside the file ( ==HTB{64$!c_cURL_u$3r}== ) . Copy it to complete the exercise!
+
+
+
+---
+
+# Cheat Sheet
+
+The cheat sheet is a useful command reference for this module.
+
+## cURL
+
+|**Command**|**Description**|
+|---|---|
+|`curl -h`|cURL help menu|
+|`curl inlanefreight.com`|Basic GET request|
+|`curl -s -O inlanefreight.com/index.html`|Download file|
+|`curl -k https://inlanefreight.com`|Skip HTTPS (SSL) certificate validation|
+|`curl inlanefreight.com -v`|Print full HTTP request/response details|
+|`curl -I https://www.inlanefreight.com`|Send HEAD request (only prints response headers)|
+|`curl -i https://www.inlanefreight.com`|Print response headers and response body|
+|`curl https://www.inlanefreight.com -A 'Mozilla/5.0'`|Set User-Agent header|
+|`curl -u admin:admin http://<SERVER_IP>:<PORT>/`|Set HTTP basic authorization credentials|
+|`curl http://admin:admin@<SERVER_IP>:<PORT>/`|Pass HTTP basic authorization credentials in the URL|
+|`curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SERVER_IP>:<PORT>/`|Set request header|
+|`curl 'http://<SERVER_IP>:<PORT>/search.php?search=le'`|Pass GET parameters|
+|`curl -X POST -d 'username=admin&password=admin' http://<SERVER_IP>:<PORT>/`|Send POST request with POST data|
+|`curl -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/`|Set request cookies|
+|`curl -X POST -d '{"search":"london"}' -H 'Content-Type: application/json' http://<SERVER_IP>:<PORT>/search.php`|Send POST request with JSON data|
+
+## APIs
+
+|**Command**|**Description**|
+|---|---|
+|`curl http://<SERVER_IP>:<PORT>/api.php/city/london`|Read entry|
+|`curl -s http://<SERVER_IP>:<PORT>/api.php/city/ \| jq`|Read all entries|
+|`curl -X POST http://<SERVER_IP>:<PORT>/api.php/city/ -d '{"city_name":"HTB_City", "country_name":"HTB"}' -H 'Content-Type: application/json'`|Create (add) entry|
+|`curl -X PUT http://<SERVER_IP>:<PORT>/api.php/city/london -d '{"city_name":"New_HTB_City", "country_name":"HTB"}' -H 'Content-Type: application/json'`|Update (modify) entry|
+|`curl -X DELETE http://<SERVER_IP>:<PORT>/api.php/city/New_HTB_City`|Delete entry|
+
+## Browser DevTools
+
+| **Shortcut**                | **Description**  |
+| --------------------------- | ---------------- |
+| [`CTRL+SHIFT+I`] or [`F12`] | Show devtools    |
+| [`CTRL+SHIFT+E`]            | Show Network tab |
+| [`CTRL+SHIFT+K`]            | Show Console tab |
