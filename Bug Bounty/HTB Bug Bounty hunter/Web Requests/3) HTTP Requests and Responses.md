@@ -97,3 +97,77 @@ As we can see, the devtools show us at a glance the response status (i.e. respon
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.55.61:42983   
+
+Life Left: 69 minute(s)
+
+
+1)  What is the HTTP method used while intercepting the request? (case-sensitive)
+Ans : ==GET==
+
+2) Send a GET request to the above server, and read the response headers to find the version of Apache running on the server, then submit it as the answer. (answer format: X.Y.ZZ)
+Ans : ==2.4.41==
+
+
+
+
+### ✅ **Solution POC is like this :**
+
+1. **Use cURL or Burp Suite to Intercept the Request**
+    
+
+#### 👉 **Option 1: Using cURL**
+
+Run the following command to make a request and view the method used:
+
+```bash
+curl -v http://94.237.55.61:42983/download.php
+```
+
+- The `-v` flag enables verbose output, showing request and response headers.
+    
+- The first line of the request will indicate the HTTP method, usually `GET` or `POST`.
+    
+- Example Output:
+    
+    ```
+    > GET /download.php HTTP/1.1
+    > Host: 94.237.55.61:42983
+    ...
+    ```
+    
+- ✅ **Answer:** The method is `GET` (case-sensitive).
+    
+
+---
+
+#### 👉 **Option 2: Using Burp Suite or a Proxy Tool**
+
+1. Open **Burp Suite** and set up the proxy to intercept traffic.
+    
+2. Access the target URL in your browser:
+    
+    ```
+    http://94.237.55.61:42983/download.php
+    ```
+    
+3. Check the intercepted request:
+    
+    - The method (e.g., `GET`, `POST`) will be visible at the top of the request.
+        
+
+---
+
+✅ The HTTP method used is **likely "GET"** unless specified otherwise. Use this answer to complete the exercise. Let me know if you need more assistance!
+
+
+
+```
+
+
+
+```
