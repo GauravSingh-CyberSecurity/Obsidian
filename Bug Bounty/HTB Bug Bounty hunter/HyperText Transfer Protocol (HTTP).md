@@ -104,3 +104,20 @@ Use the user manual `man curl` or the "--help all" flag for all options.
 As the above message mentions, we may use `--help all` to print a more detailed help menu, or `--help category` (e.g. `-h http`) to print the detailed help of a specific flag. If we ever need to read more detailed documentation, we can use `man curl` to view the full cURL manual page.
 
 In the upcoming sections, we will cover most of the above flags and see where we should use each of them.
+
+
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.55.61:42983   
+
+Life Left: 90 minute(s)
+
+Cheat Sheet
+
++ 1  To get the flag, start the above exercise, then use cURL to download the file returned by '/download.php' in the server shown above.
