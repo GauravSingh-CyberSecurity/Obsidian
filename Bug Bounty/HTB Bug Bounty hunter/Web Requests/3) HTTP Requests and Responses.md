@@ -117,9 +117,6 @@ Ans : ==2.4.41==
 
 ### ✅ **Solution POC is like this :**
 
-1. **Use cURL or Burp Suite to Intercept the Request**
-    
-
 #### 👉 **Option 1: Using cURL**
 
 Run the following command to make a request and view the method used:
@@ -132,42 +129,37 @@ curl -v http://94.237.55.61:42983/download.php
     
 - The first line of the request will indicate the HTTP method, usually `GET` or `POST`.
     
-- Example Output:
-    
-    ```
-    > GET /download.php HTTP/1.1
-    > Host: 94.237.55.61:42983
-    ...
-    ```
-    
-- ✅ **Answer:** The method is `GET` (case-sensitive).
-    
 
 ---
 
-#### 👉 **Option 2: Using Burp Suite or a Proxy Tool**
 
-1. Open **Burp Suite** and set up the proxy to intercept traffic.
-    
-2. Access the target URL in your browser:
-    
-    ```
-    http://94.237.55.61:42983/download.php
-    ```
-    
-3. Check the intercepted request:
-    
-    - The method (e.g., `GET`, `POST`) will be visible at the top of the request.
-        
+**The Actual Output of above command was this :-** 
 
----
+`[eu-academy-2]─[10.10.14.177]─[htb-ac-1695351@htb-cupt777w21]─[~]`
+`└──╼ [★]$ curl -v http://94.237.55.61:42983/download.php`
+*   `Trying 94.237.55.61:42983...`
+* `Connected to 94.237.55.61 (94.237.55.61) port 42983 (#0)`
+> ==**GET**== `/download.php HTTP/1.1`
+> `Host: 94.237.55.61:42983`
+> `User-Agent: curl/7.88.1`
+> `Accept: */*`
+> 
+`< HTTP/1.1 200 OK`
+`< Date: Sat, 29 Mar 2025 11:27:20 GMT`
+`< Server: Apache/` ==**2.4.41**== `(Ubuntu)`
+`< Content-Description: File Transfer`
+`< Cache-Control: no-cache, must-revalidate`
+`< Expires: 0`
+`< Content-Disposition: attachment; filename="flag.txt"`
+`< Content-Length: 20`
+`< Pragma: public`
+`< Content-Type: text`
+`<` 
+* `Connection #0 to host 94.237.55.61 left intact`
+`HTB{64$!c_cURL_u$3r}┌─[eu-academy-2]─[10.10.14.177]─[htb-ac-1695351@htb-cupt777w21]─[~]`
+`└──╼ [★]$ ^C`
+`┌─[eu-academy-2]─[10.10.14.177]─[htb-ac-1695351@htb-cupt777w21]─[~]`
+`└──╼ [★]$` 
 
-✅ The HTTP method used is **likely "GET"** unless specified otherwise. Use this answer to complete the exercise. Let me know if you need more assistance!
 
 
-
-```
-
-
-
-```
