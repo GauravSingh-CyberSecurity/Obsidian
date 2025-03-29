@@ -11,9 +11,11 @@ First get HTB CBBH cert
 
 ==Certification sequence:==
 ==First get HTB CBBH cert== 
-==OSWA==
-==OSCP==
-==OSWE==
+OSWE
+
+==OSWA== (optional , it's discontinued)
+==OSCP==(optional )
+BSCP(burp suite)
 
 
 

@@ -3,7 +3,7 @@ Bug bounty hunting itself is usually freelance-based, but if you want a 9-to-5 c
 
 🔍 Job Titles Equivalent to a Bug Bounty Hunter (Corporate Jobs)
 
-1. Application Security Engineer (Most common role for bug hunters)
+1. ==**Application Security**== Engineer (Most common role for bug hunters)
 
 
 2. Web Security Engineer

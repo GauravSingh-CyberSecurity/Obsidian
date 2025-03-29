@@ -1,4 +1,54 @@
 
+definition of DOM, Stored, and Reflected XSS
+
+
+1. DOM-based XSS (Document Object Model-based XSS)
+
+Definition:
+DOM-based XSS occurs when the malicious payload is executed as a result of modifying the DOM (Document Object Model) environment in the browser. The vulnerability exists entirely on the client-side and the server doesn't see or process the payload.
+
+Example:
+
+var userInput = location.hash.substring(1);
+document.getElementById("output").innerHTML = userInput;
+
+If the user visits: http://example.com/#<script>alert('XSS')</script>, the script will execute.
+
+
+---
+
+2. Stored XSS (Persistent XSS)
+
+Definition:
+Stored XSS happens when a malicious script is permanently stored on the target server (e.g., in a database, comment field, or forum post) and gets executed whenever the stored data is retrieved and rendered on the page.
+
+Example:
+A user submits the following comment:
+
+<script>alert('Stored XSS')</script>
+
+Every visitor who views the comment section will trigger the alert.
+
+
+---
+
+3. Reflected XSS (Non-Persistent XSS)
+
+Definition:
+Reflected XSS occurs when user input is immediately returned by the web server in the HTTP response without proper sanitization. It typically happens via URL parameters, form submissions, or any input directly echoed back.
+
+Example:
+Visiting a crafted URL like:
+
+http://example.com/search?q=<script>alert('Reflected XSS')</script>
+
+If the server directly reflects the q parameter in the response, the script executes.
+
+
+
+
+
+---
 
 ![[Screenshot From 2025-02-27 12-12-16.png]]
 1

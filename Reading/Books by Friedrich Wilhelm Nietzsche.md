@@ -9,7 +9,7 @@ Reading order:-
 
 1. [x] the Genealogy of Morals
 2. [x] Twilight of the Idols
-3. [ ] The Antichrist
+3. [x] The Antichrist
 4. [ ] Human, All-Too Human
 5. [ ] Daybreak
 6. [ ] The Gay Science
