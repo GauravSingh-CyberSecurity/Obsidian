@@ -223,7 +223,9 @@ Content-Type: text/html; charset=UTF-8
 ```
 hence the curl command worked with auth cookie
 
-now we try to get the flag using curl command:
+
+
+now we try to get the flag using curl command: (using curl -s )
 
 ```
 curl  -s  "http://94.237.58.86:55186/search.php?search=flag" -X POST -H "Content-Type: application/json" -b "PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1" --data '{"search":"flag"}'
