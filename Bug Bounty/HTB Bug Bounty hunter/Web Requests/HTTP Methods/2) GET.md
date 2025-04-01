@@ -185,3 +185,56 @@ Soln :
 2) Use Burp suite to capture the incorrect functionality req (i.e the search functionality req) .
 3) in response(in burp repeater) for incorrect functionality req, it says **use curl**
 4) open terminal and use below curl command 
+
+curl command
+```
+curl -v "http://94.237.58.78:40426/search.php?search=flag" \
+-u admin:admin \
+-H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0" \
+-H "Accept: */*" \
+-H "Accept-Language: en-US,en;q=0.5" \
+-H "Accept-Encoding: gzip, deflate, br" \
+-H "Referer: http://94.237.58.78:40426/" \
+-H "DNT: 1" \
+-H "Connection: keep-alive" \
+-H "Sec-GPC: 1" \
+-H "Priority: u=0"
+
+```
+
+Output of this :
+```
+  Trying 94.237.58.78:40426...
+* Connected to 94.237.58.78 (94.237.58.78) port 40426 (#0)
+* Server auth using Basic with user 'admin'
+> GET /search.php?search=flag HTTP/1.1
+> Host: 94.237.58.78:40426
+> Authorization: Basic YWRtaW46YWRtaW4=
+> User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+> Accept: */*
+> Accept-Language: en-US,en;q=0.5
+> Accept-Encoding: gzip, deflate, br
+> Referer: http://94.237.58.78:40426/
+> DNT: 1
+> Connection: keep-alive
+> Sec-GPC: 1
+> Priority: u=0
+> 
+< HTTP/1.1 200 OK
+< Date: Tue, 01 Apr 2025 07:02:57 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Content-Length: 15
+< Keep-Alive: timeout=5, max=100
+< Connection: Keep-Alive
+< Content-Type: text/html; charset=UTF-8
+< 
+* Connection #0 to host 94.237.58.78 left intact
+
+```
+
+so, Your cURL command returned a 200 OK response with a Content-Length of 15 bytes, which suggests the flag is 15 characters long. However, the flag itself isn’t visible in the verbose output. To see just the response body (i.e. the flag), try running the command without the verbose flag. For example: instead of using ==curl -v==  use ==curl -s==
+
+curl command :
+```
+curl -s "http://94.237.58.78:40426/search.php?search=flag" -u admin:admin
+```
