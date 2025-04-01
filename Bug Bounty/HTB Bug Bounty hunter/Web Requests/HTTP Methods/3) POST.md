@@ -167,3 +167,7 @@ Target(s): 94.237.58.86:55186 
  Q) Authenticate to 94.237.58.86:55186 with user "admin" and password "admin"
 
 + 2  Obtain a session cookie through a valid login, and then use the cookie with cURL to search for the flag through a JSON POST request to '/search.php'
+#####  Hint
+###### You may login through a browser and collect the cookie from the Storage tab. You may also use the '-i' or '-v' flags with cURL to view the response header and get the cookie.
+
+Solution : 
