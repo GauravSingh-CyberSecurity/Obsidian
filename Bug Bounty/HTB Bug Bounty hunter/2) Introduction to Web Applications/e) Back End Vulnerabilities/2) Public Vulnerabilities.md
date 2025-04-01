@@ -78,14 +78,14 @@ Answer the question(s) below to complete this Section and earn cubes!
 #####   Hint
 ###### Use CVSS v2.0 score, not CVSS v3.X
 
-
 Ans) 9.3 (according to CVSS v2.0 )
 
+
 ---
-basically i got it from chatgpt : its much quicker and easy using AI for these :
+==basically i got it from chatgpt :== its much quicker and easy using AI for finding CVSS scores :
+
 
 The **CVSS score** for **CVE-2017-0144** (commonly known as the **EternalBlue** vulnerability) is:
-
 ### ✅ **CVE-2017-0144 (EternalBlue) - CVSS Score:**
 
 - **CVSS v3.0 Base Score:** **8.1 (High)**
