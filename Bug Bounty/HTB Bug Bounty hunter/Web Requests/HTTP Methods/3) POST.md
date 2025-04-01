@@ -170,13 +170,13 @@ Target(s): 94.237.58.86:55186 
 #####  Hint
 ###### You may login through a browser and collect the cookie from the Storage tab. You may also use the '-i' or '-v' flags with cURL to view the response header and get the cookie.
 
-Solution : 
 
-Soln :
+
+Solution : 
 
 1) search this http://94.237.58.86:55186/- login page comes up> admin/admin ,then you find search functionality after getting logged in,
 2) Use Burp suite to capture the  functionality req (i.e the search functionality req) .
-3) in req and response(in burp repeater) for search functionality search req, it shows auth cookies 
+3) in req and response(in burp repeater) for search functionality search req, it shows auth cookies (i.e id/pw is not there, auth cookie are being used for validation from now on)
 (Cookie: PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1)
 ```
 POST /search.php HTTP/1.1
@@ -221,5 +221,15 @@ Connection: Keep-Alive
 Content-Type: text/html; charset=UTF-8
 
 ```
+hence the curl command worked with auth cookie
 
-hence the curl command worked with the 
+now we try to get the flag using curl command:
+
+```
+curl  -s  "http://94.237.58.86:55186/search.php?search=flag" -X POST -H "Content-Type: application/json" -b "PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1" --data '{"search":"flag"}'
+```
+
+output:
+==["flag: HTB{p0$t_r3p34t3r}"]==
+
+
