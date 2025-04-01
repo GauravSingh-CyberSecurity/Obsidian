@@ -127,6 +127,15 @@ rtt min/avg/max/mdev = 0.038/0.038/0.038/0.000 ms
 
 now ctrl+r this request in  http history (this will send this request from http history to repeater )
 
-now try to find the flag as said in 
+now try to find the flag as said in Question, the hint is , the flag for this lab is not in the same directory (i.e its not here  /var/www/html/ )
+
+so as shown in these SS we can try different commands to traverse through directories and cat files and try to find flag (i spent over an hour) 
 ![[Screenshot From 2025-04-02 00-25-15.png]]
 ![[Screenshot From 2025-04-02 00-25-49.png]]
+
+
+and then i found a solution here in the HTB forum of this lab (https://forum.hackthebox.com/t/repeating-web-requests/249865/8)
+
+so what we do is 
+
+ip= 
