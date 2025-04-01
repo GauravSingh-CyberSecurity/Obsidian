@@ -265,7 +265,7 @@ Content-Length: 42
 
 ```
 
-searched for  name flag, to see if update was successful :
+searched for  name "flag", to see if update was successful :
 ```
 GET /api.php/city/flag HTTP/1.1
 Host: 94.237.52.195:45002
@@ -278,5 +278,79 @@ Connection: keep-alive
 Upgrade-Insecure-Requests: 1
 Sec-GPC: 1
 Priority: u=0, i
+
+```
+it was succssful, and i got the city name,
+
+now next part of the problem,  delete any city. Once done, search for a city named 'flag' to get the flag
+
+so we called all city , 
+```
+GET /api.php/city/ HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+
+```
+from reponse, i picked city "London" to delete 
+
+using this req to delete london
+```
+DELETE /api.php/city/London HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+
+```
+response came "200 ok" , means city deleted
+
+to verify if deleted lets try to fetch it
+```
+GET /api.php/city/london HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+
+```
+response came empty, hence london deleted
+
+Now, lets search flag again, to find the flag for solving lab
+```
+GET /api.php/city/flag HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
 
 ```
