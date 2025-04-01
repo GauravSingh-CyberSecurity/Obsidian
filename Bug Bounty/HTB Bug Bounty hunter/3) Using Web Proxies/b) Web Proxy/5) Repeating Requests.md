@@ -120,16 +120,14 @@ rtt min/avg/max/mdev = 0.038/0.038/0.038/0.000 ms
 ![[Pasted image 20250401234305.png]]
 
 
+Now,
+	ctrl+r this request in  http history (this will send this request from http history to repeater )
 
 
-
-
-
-now ctrl+r this request in  http history (this will send this request from http history to repeater )
 
 now try to find the flag as said in Question, the hint is , the flag for this lab is not in the same directory (i.e its not here  /var/www/html/ )
 
-so as shown in these SS we can try different commands(ip= 1  ; cd /var/ ; pwd ; ls ) (ip= 1  ; cd /var/www/html ; pwd ; ls ; )  (we can use pwd, cat, cd, ls all commands of linux) to traverse through directories and cat files and try to find flag (i spent over an hour) 
+so as shown in these SS we can try different commands in request (ip= 1  ; cd /var/ ; pwd ; ls )  (ip= 1  ; cd /var/www/html ; pwd ; ls ; )  (we can use pwd, cat, cd, ls . all commands of linux) to traverse through directories and cat files and try to find flag (i spent over an hour) 
 ![[Screenshot From 2025-04-02 00-25-15.png]]
 ![[Screenshot From 2025-04-02 00-25-49.png]]
 
@@ -141,7 +139,7 @@ and then i found a solution here in the HTB forum of this lab (https://forum.hac
 so what we do is :
 ==ip= 1  ; find /* -name flag.txt==
 
- (  ; find /* -name flag.txt ) what this command does is find all files named "flag.txt"  in all the available paths and directories
+ (  ; find /* -name flag.txt ) what this linux terminal command does is find all files named "flag.txt"  in all the available paths and directories
 
 request
 ```
@@ -168,7 +166,11 @@ response
 
 ```
 
-so there are 2  "flag.txt" ,  /var/www/html/flag.txt(we already found this), next one  "/flag.txt" is the correct one and we found it
+so there are 2  "flag.txt" ,  /var/www/html/flag.txt(we already found this), next one  "/flag.txt" is the correct one and now we found it as well
+
+
+
+
 
 Now
 just cat   "/flag.txt"
