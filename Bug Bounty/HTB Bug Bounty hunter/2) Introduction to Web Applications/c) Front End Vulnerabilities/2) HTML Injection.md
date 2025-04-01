@@ -80,17 +80,3 @@ Solution :
 4) the HTML injection was successfull and we got a " Your name is <a href="http://www.hackthebox.com">Click Me</a> "  on the web page 
 5) submit the "Your name is Click Me" in the solution and lab is solved
 
-
----
-
-#### Questions
-
-Answer the question(s) below to complete this Section and earn cubes!
-
-Target(s): 83.136.253.25:51662   
-
-Life Left: 78 minute(s)
-
-+ Q)   Try to use XSS to get the cookie value in the above page
-
-Solution

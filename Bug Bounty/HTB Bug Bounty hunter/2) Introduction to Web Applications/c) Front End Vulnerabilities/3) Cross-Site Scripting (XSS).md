@@ -29,3 +29,25 @@ An attacker can leverage this to steal cookie sessions and send them to themselv
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.253.25:51662   
+
+Life Left: 78 minute(s)
+
++ Q)   Try to use XSS to get the cookie value in the above page
+
+#####   Hint
+###### You can borrow the XSS payload we used earlier in this section. Enter the cookie value as the answer, without 'cookie='.
+
+
+Solution: 
+
+1) start the machine and go to the ip(83.136.253.25:51662) , there you'll see a button "click to enter your name" - click the button
+2) an input field pops up , saying enter your name 
+3) in input field enter the XSS injection payload  
+==` #"><img src=/ onerror=alert(document.cookie)> `==  and hit "ok"   
+4) 4) the XSS injection was successfull and we got an alert popup "cookie=XSSisFun"  on the web page 
+5) submit the value of cookie in
