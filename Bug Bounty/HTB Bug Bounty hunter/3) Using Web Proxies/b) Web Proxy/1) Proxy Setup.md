@@ -73,6 +73,18 @@ Once we install the certificate and configure the Firefox proxy, all Firefox web
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 # Cheat Sheet
