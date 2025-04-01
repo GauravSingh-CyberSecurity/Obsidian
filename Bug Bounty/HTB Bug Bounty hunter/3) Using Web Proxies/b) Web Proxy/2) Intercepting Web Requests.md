@@ -122,6 +122,9 @@ Life Left: 89 minute(s)
 Cheat Sheet
 
 + Q)  Try intercepting the ping request on the server shown above, and change the post data similarly to what we did in this section. Change the command to read 'flag.txt'
+#####   Hint
+###### You can inject the 'cat flag.txt' command.
+
 
 Solution:- 
  

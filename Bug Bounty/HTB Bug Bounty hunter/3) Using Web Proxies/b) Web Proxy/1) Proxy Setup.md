@@ -75,7 +75,7 @@ Once we install the certificate and configure the Firefox proxy, all Firefox web
 
 ---
 
-##### Cheat Sheet
+# Cheat Sheet
 
 The cheat sheet is a useful command reference for this module.
 
