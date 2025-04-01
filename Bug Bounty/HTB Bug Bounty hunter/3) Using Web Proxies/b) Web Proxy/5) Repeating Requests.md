@@ -71,7 +71,8 @@ Answer the question(s) below to complete this Section and earn cubes!
 
 Target(s): 94.237.55.61:50073   
 
-Life Left: 35 minute(s)
+#####   Hint
+###### It's not in the same directory!
 
 
 + Q)  Try using request repeating to be able to quickly test commands. With that, try looking for the other flag.
@@ -118,5 +119,14 @@ rtt min/avg/max/mdev = 0.038/0.038/0.038/0.000 ms
 ```
 ![[Pasted image 20250401234305.png]]
 
+
+
+
+
+
+
 now ctrl+r this request in  http history (this will send this request from http history to repeater )
 
+now try to find the flag as said in 
+![[Screenshot From 2025-04-02 00-25-15.png]]
+![[Screenshot From 2025-04-02 00-25-49.png]]
