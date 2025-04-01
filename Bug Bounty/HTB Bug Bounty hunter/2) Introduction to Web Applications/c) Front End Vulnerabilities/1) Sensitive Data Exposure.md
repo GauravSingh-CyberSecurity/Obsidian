@@ -80,4 +80,9 @@ Target(s): 83.136.251.19:43141 
 Q)   Check the above login form for exposed passwords. Submit the password as the answer.
 
 Solution :
-1) start the machine and go to 
+1) start the machine and go to the ip(83.136.251.19:43141) , youll land on a login page
+2) you dont have any credentials, what to do
+3) click "ctrl + u"  to review websites source code.
+4) there you found this comment   
+<!-- TODO: remove test credentials admin:HiddenInPlainSight --> that was left by devlopers by mistake.  And it contains admin id and pw.
+5) submit the PW as solution :  ==HiddenInPlainSight==
