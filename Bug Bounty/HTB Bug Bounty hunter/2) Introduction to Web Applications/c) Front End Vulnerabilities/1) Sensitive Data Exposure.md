@@ -1,4 +1,3 @@
-# Sensitive Data Exposure
 
 ---
 
@@ -68,3 +67,17 @@ Leveraging these types of information can give us further access to the web appl
 Ideally, the front end source code should only contain the code necessary to run all of the web applications functions, without any extra code or comments that are not necessary for the web application to function properly. It is always important to review the code that will be visible to end-users through the page source or run it through tools to check for exposed information.
 
 It is also important to classify data types within the source code and apply controls on what can or cannot be exposed on the client-side. Developers should also review client-side code to ensure that no unnecessary comments or hidden links are left behind. Furthermore, front end developers may want to use `JavaScript` code packing or obfuscation to reduce the chances of exposing sensitive data through `JavaScript code`. These techniques may prevent automated tools from locating these types of data.
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.251.19:43141   
+
+Q)   Check the above login form for exposed passwords. Submit the password as the answer.
+
+Solution :
+1) start the machine and go to 
