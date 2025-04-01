@@ -63,4 +63,4 @@ We will see these vulnerabilities again and again in our learning journey and re
 Answer the question(s) below to complete this Section and earn cubes!
 
 + Q)  To which of the above categories does public vulnerability 'CVE-2014-6271' belongs to?
-Ans) Command Injection (simply search )
+Ans) Command Injection (simply search CVE-2014-6271 on google or chatgpt, it will tell you that cve belonged to Command Injection / Remote Code Execution (RCE) )
