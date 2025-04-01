@@ -232,7 +232,7 @@ Output of this :
 
 ```
 
-so, Your cURL command returned a 200 OK response with a Content-Length of 15 bytes, which suggests the flag is 15 characters long. However, the flag itself isn’t visible in the verbose output. To see just the response body (i.e. the flag), try running the command without the verbose flag. For example: instead of using ==curl -v==  use ==curl -s==
+so, Your cURL command returned a 200 OK response with a Content-Length of 15 bytes, which suggests the flag is 15 characters long. However, the flag itself isn’t visible in the verbose output. To see just the response body (i.e. the flag), try running the command without the verbose flag. For example: instead of using ==curl -v==  use ==curl -s ( Silent mode)== The `-s` flag in curl stands for "silent." It suppresses the progress meter and error messages, so ==only the output of the request (the response body) is displayed. This is useful when you only want to see the actual response data without additional details.==
 
 curl command :
 ```
