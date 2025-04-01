@@ -119,3 +119,16 @@ Code: json
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.253.40:39409   
+
+Life Left: 74 minute(s)
+
++ Q)  Use GET request '/index.php?id=0' to search for the name of the user with id number 1?
+
+Solution:
+
+1) start the machine , go to the target 
