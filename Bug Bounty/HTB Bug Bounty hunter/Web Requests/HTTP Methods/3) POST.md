@@ -171,3 +171,31 @@ Target(s): 94.237.58.86:55186 
 ###### You may login through a browser and collect the cookie from the Storage tab. You may also use the '-i' or '-v' flags with cURL to view the response header and get the cookie.
 
 Solution : 
+
+Soln :
+
+1) search this http://94.237.58.86:55186/- login page comes up> admin/admin ,then you find search functionality after getting logged in,
+2) Use Burp suite to capture the  functionality req (i.e the search functionality req) .
+3) in response(in burp repeater) for functionality req, it shows auth cookies 
+(Cookie: PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1)
+```
+POST /search.php HTTP/1.1
+Host: 94.237.58.86:55186
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://94.237.58.86:55186/index.php
+Content-Type: application/json
+Content-Length: 18
+Origin: http://94.237.58.86:55186
+DNT: 1
+Connection: keep-alive
+Cookie: PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1
+Sec-GPC: 1
+Priority: u=0
+
+{"search":"vgjhg"}
+```
+
+4) open terminal and use below curl command 
