@@ -115,4 +115,7 @@ Aside from these 3 web servers, there are many other commonly used web servers, 
 Answer the question(s) below to complete this Section and earn cubes!
 
 + Q)  If a web server returns an HTTP code 201, what does it stand for?
-Ans) 
+**Hint** :Submit just the code name, without the code number. For example, for the code (200 OK), the answer would be just 'OK'.
+
+Ans)  Created
+
