@@ -73,4 +73,9 @@ Life Left: 89 minute(s)
 
 Solution :
 
-1) start the machine and go to the ip(83.136.253.25:51662 ) ,
+1) start the machine and go to the ip(83.136.253.25:51662 ) , there you'll see a button "click to enter your name" - click the button
+2) an input field pops up , saying enter your name 
+3) in input field enter the HTML injection payload  
+`<a href="http://www.hackthebox.com">Click Me</a>`  and hit "ok" 
+4) the HTML injection was successfull and we got a " Your name is <a href="http://www.hackthebox.com">Click Me</a> "  on the web page 
+5) submit the "Your name is Click Me" in the solution and lab is solved
