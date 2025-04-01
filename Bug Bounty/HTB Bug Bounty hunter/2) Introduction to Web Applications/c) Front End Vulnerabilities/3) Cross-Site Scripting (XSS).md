@@ -50,4 +50,4 @@ Solution:
 3) in input field enter the XSS injection payload  
 ==` #"><img src=/ onerror=alert(document.cookie)> `==  and hit "ok"   
 4) 4) the XSS injection was successfull and we got an alert popup "cookie=XSSisFun"  on the web page 
-5) submit the value of cookie in
+5) submit the value of cookie= ( ==XSSisFun== ) and the lab is solved
