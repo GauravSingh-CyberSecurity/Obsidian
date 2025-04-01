@@ -80,4 +80,43 @@ Solution:
 
 1) copy the target ip 94.237.55.61:50073   > paste in another tab (since Connect HTB Lab via VPN on your own machine is setup from now on  )
 2) ![[Pasted image 20250401233422.png]] this is the application
-3) open burp>foxyproxy is on in browser> ping 127.0.0.1 from this website> 
+3) open burp>foxyproxy is on in browser> ping 127.0.0.1 from this website
+4) go to burp>proxy>http history> and view this request and response
+request
+```
+POST /ping HTTP/1.1
+Host: 94.237.55.61:50073
+Content-Length: 4
+Cache-Control: max-age=0
+Origin: http://94.237.55.61:50073
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://94.237.55.61:50073/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+ip=1
+```
+response
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Date: Tue, 01 Apr 2025 18:07:28 GMT
+Connection: keep-alive
+Content-Length: 251
+
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.038 ms
+
+--- 127.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.038/0.038/0.038/0.000 ms
+
+```
+![[Pasted image 20250401234305.png]]
+
+now ctrl+r this request in  http history (this will send this request from http history to repeater )
+
