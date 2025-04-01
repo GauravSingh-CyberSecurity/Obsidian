@@ -129,8 +129,8 @@ Life Left: 74 minute(s)
 
 + Q)  Use GET request '/index.php?id=0' to search for the name of the user with id number 1?
 
-Solution:
 
+Solution:
 1) start the machine , go to the target site (83.136.253.40:39409 )
 2) go to burp suite , check the request when you go to(83.136.253.40:39409 )
 this is the request when going to target(83.136.253.40:39409 )
@@ -194,4 +194,6 @@ Sec-GPC: 1
 Priority: u=0, i
 ```
 
-in response 
+in response we get usename :  superadmin
+
+submit ==superadmin== and lab is solved
