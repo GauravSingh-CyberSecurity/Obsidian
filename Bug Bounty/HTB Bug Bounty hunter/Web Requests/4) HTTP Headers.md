@@ -132,3 +132,24 @@ In addition to viewing headers, cURL also allows us to set request headers with 
 Finally, let's see how we can preview the HTTP headers using the browser devtools. Just as we did in the previous section, we can go to the `Network` tab to view the different requests made by the page. We can click on any of the requests to view its details: ![Network tab showing two GET requests to 188.166.146.97:31122. Status 304 for '/' with headers displayed, and 404 for 'favicon.ico'.](https://academy.hackthebox.com/storage/modules/35/devtools_network_requests_details.jpg)
 
 In the first `Headers` tab, we see both the HTTP request and HTTP response headers. The devtools automatically arrange the headers into sections, but we can click on the `Raw` button to view their details in their raw format. Furthermore, we can check the `Cookies` tab to see any cookies used by the request, as discussed in an upcoming section.
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): ==94.237.63.241:56578==   (enter this in search , and then use dev tools as said in below question)
+
+Life Left: 88 minute(s)
+
+
+
++ ==Q)  The server above loads the flag after the page is loaded. Use the Network tab in the browser devtools to see what requests are made by the page, and find the request to the flag.==
+
+ ==Submit solution:== 
+				 ==HTB{p493_r3qu3$t$_m0n!t0r}==
+
+
+
