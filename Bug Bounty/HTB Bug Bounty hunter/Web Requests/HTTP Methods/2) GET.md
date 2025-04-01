@@ -238,3 +238,10 @@ curl command :
 ```
 curl -s "http://94.237.58.78:40426/search.php?search=flag" -u admin:admin
 ```
+
+output of this: 
+==`flag: HTB{curl_g3773r}`==
+
+
+The problem we solved in this lab was that the initial browser login wasn't returning the expected results when trying to retrieve the flag. We used the browser's developer tools and burp suite to inspect the actual HTTP request being sent when a search is performed. Then, by replicating that request accurately using cURL—including the proper headers and Basic Authentication—we were able to successfully retrieve the flag from the vulnerable endpoint. Essentially, ==we identified and corrected the discrepancy in the request format that was preventing the correct flag from being returned.==
+
