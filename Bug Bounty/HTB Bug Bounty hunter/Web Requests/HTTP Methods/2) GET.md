@@ -163,3 +163,23 @@ We can also repeat the exact request right within the browser devtools, by selec
 
 As we see, the browser sent our request, and we can see the response returned after it. We can click on the response to view its details, expand various details, and read them.
 
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.58.78:40426   
+
+Life Left: 84 minute(s)
+
+
+
+ Authenticate to 94.237.58.78:40426 with user "admin" and password "admin"
+
++ Q)  The exercise above seems to be broken, as it returns incorrect results. Use the browser devtools to see what is the request it is sending when we search, and use cURL to search for 'flag' and obtain the flag.
+
+Soln :
+
+1) search this 94.237.58.78:40426, find incorrect result(search functionality comes up instead of getting log in),
+2) Use Burp suite to capture the incorrect functionality req
