@@ -70,3 +70,38 @@ After that, we can select the `Authorities` tab, and then click on `import`, 
 Finally, we must select `Trust this CA to identify websites` and `Trust this CA to identify email users`, and then click OK: ![Trust Firefox Cert](https://academy.hackthebox.com/storage/modules/110/firefox_trust_cert.jpg)
 
 Once we install the certificate and configure the Firefox proxy, all Firefox web traffic will start routing through our web proxy.
+
+
+
+---
+
+##### Cheat Sheet
+
+The cheat sheet is a useful command reference for this module.
+
+# Burp Shortcuts
+
+|**Shortcut**|**Description**|
+|---|---|
+|[`CTRL+R`]|Send to repeater|
+|[`CTRL+SHIFT+R`]|Go to repeater|
+|[`CTRL+I`]|Send to intruder|
+|[`CTRL+SHIFT+I`]|Go to intruder|
+|[`CTRL+U`]|URL encode|
+|[`CTRL+SHIFT+U`]|URL decode|
+
+# ZAP Shortcuts
+
+|**Shortcut**|**Description**|
+|---|---|
+|[`CTRL+B`]|Toggle intercept on/off|
+|[`CTRL+R`]|Go to replacer|
+|[`CTRL+E`]|Go to encode/decode/hash|
+
+# Firefox Shortcuts
+
+|**Shortcut**|**Description**|
+|---|---|
+|[`CTRL+SHIFT+R`]|Force Refresh Page|
+
+[Download Cheatsheet](https://academy.hackthebox.com/module/cheatsheet/110)

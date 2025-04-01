@@ -84,7 +84,7 @@ Vulnerability List for Android application:
  * Absence of SSL Pinning in the Application (Severity: High)
  * Account Activation Code Bypass (Severity: Critical)
  * Email Flooding (No Rate Limit) (Severity: Medium)
- * SSL Pinning Bypass (Severity: Medium)
+ * SSL Pinning Bypass (Severity: Medium) https://medium.com/globant/testing-ssl-pinning-in-a-mobile-application-44e0175f9244
  * Root Detection Not Implemented (Severity: Medium)
  * Hardcoded Email Address (Severity: Medium)
 

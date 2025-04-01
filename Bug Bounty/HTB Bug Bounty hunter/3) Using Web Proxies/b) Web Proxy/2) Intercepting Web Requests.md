@@ -107,3 +107,21 @@ Once we click continue/forward, we will see that the response changed from the d
 This demonstrates a basic example of how request interception and manipulation can help with testing web applications for various vulnerabilities, which is considered an essential tool to be able to test different web applications effectively.
 
 Note: As previously mentioned, we will not be covering specific web attacks in this module, but rather how Web Proxies can facilitate various types of attacks. Other web modules in HTB Academy cover these types of attacks in depth.
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.55.61:50073   
+
+Life Left: 89 minute(s)
+
+Cheat Sheet
+
++ Q)  Try intercepting the ping request on the server shown above, and change the post data similarly to what we did in this section. Change the command to read 'flag.txt'
+
+Solution:- 
+ 
