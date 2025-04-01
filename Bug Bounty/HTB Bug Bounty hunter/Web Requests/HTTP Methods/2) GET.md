@@ -182,4 +182,6 @@ Life Left: 84 minute(s)
 Soln :
 
 1) search this 94.237.58.78:40426, find incorrect result(search functionality comes up instead of getting log in),
-2) Use Burp suite to capture the incorrect functionality req
+2) Use Burp suite to capture the incorrect functionality req.
+3) in response(in burp repeater) for incorrect functionality req, it says use curl
+4) 
