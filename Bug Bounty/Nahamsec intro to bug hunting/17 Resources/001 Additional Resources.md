@@ -1,6 +1,7 @@
 Hackerone - 
 - Hactivity, 
 - Hacker101(https://ctf.hacker101.com/) private invite by solving ctf
+- https://www.hackerone.com/blog/100-hacking-tools-and-resources
 
 TryHackMe-
 - https://tryhackme.com/
