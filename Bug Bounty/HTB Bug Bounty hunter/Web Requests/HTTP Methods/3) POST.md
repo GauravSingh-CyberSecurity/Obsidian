@@ -176,7 +176,7 @@ Soln :
 
 1) search this http://94.237.58.86:55186/- login page comes up> admin/admin ,then you find search functionality after getting logged in,
 2) Use Burp suite to capture the  functionality req (i.e the search functionality req) .
-3) in response(in burp repeater) for functionality req, it shows auth cookies 
+3) in req and response(in burp repeater) for search functionality search req, it shows auth cookies 
 (Cookie: PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1)
 ```
 POST /search.php HTTP/1.1
@@ -195,7 +195,31 @@ Cookie: PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1
 Sec-GPC: 1
 Priority: u=0
 
-{"search":"vgjhg"}
+{"search":"flag"}
 ```
+copy the above burp request(that has auth cookies) , copy it as curl command
 
 4) open terminal and use below curl command 
+```
+curl --path-as-is -i -s -k -X $'POST' \
+    -H $'Host: 94.237.58.86:55186' -H $'User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0' -H $'Accept: */*' -H $'Accept-Language: en-US,en;q=0.5' -H $'Accept-Encoding: gzip, deflate, br' -H $'Referer: http://94.237.58.86:55186/index.php' -H $'Content-Type: application/json' -H $'Content-Length: 18' -H $'Origin: http://94.237.58.86:55186' -H $'DNT: 1' -H $'Connection: keep-alive' -H $'Sec-GPC: 1' -H $'Priority: u=0' \
+    -b $'PHPSESSID=q4pq5j5d1onnt1pi85l3j5edu1' \
+    --data-binary $'{\"search\":\"vgjhg\"}' \
+    $'http://94.237.58.86:55186/search.php'
+```
+output
+```
+HTTP/1.1 200 OK
+Date: Tue, 01 Apr 2025 07:58:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 2
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+```
+
+hence the curl command worked with the 
