@@ -69,13 +69,28 @@ Target(s): 83.136.253.25:51662 
 
 Life Left: 89 minute(s)
 
-+ Q)   What text would be displayed on the page if we use the following payload as our input: <a href="http://www.hackthebox.com">Click Me</a>
++ Q)   What text would be displayed on the page if we use the following payload as our input: 
+==`<a href="http://www.hackthebox.com">Click Me</a>`==
 
 Solution :
-
 1) start the machine and go to the ip(83.136.253.25:51662 ) , there you'll see a button "click to enter your name" - click the button
 2) an input field pops up , saying enter your name 
 3) in input field enter the HTML injection payload  
-`<a href="http://www.hackthebox.com">Click Me</a>`  and hit "ok" 
+==`<a href="http://www.hackthebox.com">Click Me</a>`==  and hit "ok" 
 4) the HTML injection was successfull and we got a " Your name is <a href="http://www.hackthebox.com">Click Me</a> "  on the web page 
 5) submit the "Your name is Click Me" in the solution and lab is solved
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.253.25:51662   
+
+Life Left: 78 minute(s)
+
++ Q)   Try to use XSS to get the cookie value in the above page
+
+Solution
