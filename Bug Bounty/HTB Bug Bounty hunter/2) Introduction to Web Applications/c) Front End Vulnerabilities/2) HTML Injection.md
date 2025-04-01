@@ -57,3 +57,20 @@ Once we input it, we see that the web page's background image changes instantly:
 ![Button labeled 'Click to enter your name' and text 'Your name is' next to 'ACADEMY' logo.](https://academy.hackthebox.com/storage/modules/75/web_apps_html_injection_6.jpg)
 
 In this example, as everything is being carried out on the front end, refreshing the web page would reset everything back to normal.
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.253.25:51662   
+
+Life Left: 89 minute(s)
+
++ Q)   What text would be displayed on the page if we use the following payload as our input: <a href="http://www.hackthebox.com">Click Me</a>
+
+Solution :
+
+1) start the machine and go to the ip(83.136.253.25:51662 ) ,
