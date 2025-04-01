@@ -79,4 +79,5 @@ Life Left: 35 minute(s)
 Solution: 
 
 1) copy the target ip 94.237.55.61:50073   > paste in another tab (since Connect HTB Lab via VPN on your own machine is setup from now on  )
-2) ![[Pasted image 20250401233418.png]]![[Pasted image 20250401233422.png]]![[Screenshot From 2025-04-01 23-34-11.png]]
+2) ![[Pasted image 20250401233422.png]] this is the application
+3) open burp>foxyproxy is on in browser> ping 127.0.0.1 from this website> 
