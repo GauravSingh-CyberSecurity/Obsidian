@@ -31,6 +31,10 @@ PICO CTF -
 - Pico Ctf (https://picoctf.org/)
 - Pico ctf (https://github.com/picoctf)
 
+- Labs Link : go to ==XSS rats== website --> ==hackxpert labs== by google search or visit below link
+- https://labs.hackxpert.com/
+- https://labs.hackxpert.com/RXSS/
+
 Pentester lab - (paid)
 - paid(https://pentesterlab.com/)
 

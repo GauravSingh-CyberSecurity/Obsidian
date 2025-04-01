@@ -162,3 +162,4 @@ Leicester (UK)
 We can also repeat the exact request right within the browser devtools, by selecting `Copy>Copy as Fetch`. This will copy the same HTTP request using the JavaScript Fetch library. Then, we can go to the JavaScript console tab by clicking [`CTRL+SHIFT+K`], paste our Fetch command and hit enter to send the request: ![Console showing a fetch request to 'http://127.0.0.1/search.php?search=lel' with headers including user-agent and authorization. Network tab displays a successful GET request with status 200.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_search.jpg)
 
 As we see, the browser sent our request, and we can see the response returned after it. We can click on the response to view its details, expand various details, and read them.
+
