@@ -219,6 +219,9 @@ Cheat Sheet
 
 + Q)  First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
 
+**first part** : to update any city's name to be 'flag'
+
+get all city name first
 ```
 GET /api.php/city/ HTTP/1.1
 Host: 94.237.52.195:45002
@@ -234,7 +237,7 @@ Priority: u=0, i
 
 ```
 from the above requests o/p
-took city cardiff from the output and used in next req
+we took city "cardiff" from the output and used in next req
 
 
 ```
@@ -254,7 +257,6 @@ Priority: u=0, i
 city details came successfully in response, 
 
 now created an update req , to update city name - cardiff to flag
-
 ```
 PUT /api.php/city/Cardiff HTTP/1.1
 Host: 94.237.52.195:45002
@@ -264,6 +266,7 @@ Content-Length: 42
 {"city_name":"flag","country_name":"UK"}
 
 ```
+
 
 searched for  name "flag", to see if update was successful :
 ```
@@ -280,11 +283,11 @@ Sec-GPC: 1
 Priority: u=0, i
 
 ```
-it was succssful, and i got the city name,
+it was succssful, and i got the city name in response
 
-now next part of the problem,  delete any city. Once done, search for a city named 'flag' to get the flag
+now **next part** of the problem,  delete any city. Once done, search for a city named 'flag' to get the flag
 
-so we called all city , 
+so we fetch all city , 
 ```
 GET /api.php/city/ HTTP/1.1
 Host: 94.237.52.195:45002
@@ -336,7 +339,7 @@ Priority: u=0, i
 
 
 ```
-response came empty, hence london deleted
+response came with empty data(payloads), hence london deleted
 
 Now, lets search flag again, to find the flag for solving lab
 ```
@@ -353,4 +356,17 @@ Sec-GPC: 1
 Priority: u=0, i
 
 
+```
+
+output came with the flag in response, for completing the lab
+```
+HTTP/1.1 200 OK
+Date: Tue, 01 Apr 2025 08:54:42 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Length: 65
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+[{"city_name":"flag","country_name":"HTB{crud_4p!_m4n!pul4t0r}"}]
 ```
