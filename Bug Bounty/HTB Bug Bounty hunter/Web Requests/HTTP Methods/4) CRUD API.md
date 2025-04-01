@@ -207,3 +207,76 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.52.195:45002   
+
+Life Left: 72 minute(s)
+
+Cheat Sheet
+
++ Q)  First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
+
+```
+GET /api.php/city/ HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+```
+from the above requests o/p
+took city cardiff from the output and used in next req
+
+
+```
+GET /api.php/city/cardiff HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+```
+city details came successfully in response, 
+
+now created an update req , to update city name - cardiff to flag
+
+```
+PUT /api.php/city/Cardiff HTTP/1.1
+Host: 94.237.52.195:45002
+Content-Type: application/json
+Content-Length: 42
+
+{"city_name":"flag","country_name":"UK"}
+
+```
+
+searched for  name flag, to see if update was successful :
+```
+GET /api.php/city/flag HTTP/1.1
+Host: 94.237.52.195:45002
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+
+```
