@@ -74,4 +74,5 @@ Furthermore, these frameworks are optimized for web application usage. They are 
 
 Answer the question(s) below to complete this Section and earn cubes!
 
-+ 1  What is the CSS "property: value" used to make an HTML element's text aligned to the left?
++ Q)  What is the CSS "property: value" used to make an HTML element's text aligned to the left?
+Ans)  text-align: left;
