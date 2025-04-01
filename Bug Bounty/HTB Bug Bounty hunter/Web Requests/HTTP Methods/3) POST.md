@@ -151,3 +151,19 @@ As we can see, we were able to interact with the search function directly withou
 Finally, let's try to repeat the same above request by using `Fetch`, as we did in the previous section. We can right-click on the request and select `Copy>Copy as Fetch`, and then go to the `Console` tab and execute our code there: ![Console showing a fetch request to 'http://server_ip/search.php' with credentials included. Headers specify user-agent and accept-language. JSON response contains 'London (UK)'.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_post.jpg)
 
 Our request successfully returns the same data we got with cURL. `Try to search for different cities by directly interacting with the search.php through Fetch or cURL.`
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.58.86:55186   
+
+
+
+
+ Q) Authenticate to 94.237.58.86:55186 with user "admin" and password "admin"
+
++ 2  Obtain a session cookie through a valid login, and then use the cookie with cURL to search for the flag through a JSON POST request to '/search.php'
