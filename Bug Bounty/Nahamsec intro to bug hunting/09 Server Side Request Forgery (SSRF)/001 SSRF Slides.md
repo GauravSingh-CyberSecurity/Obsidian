@@ -1,4 +1,10 @@
+```
 
+SSRF might exist on a server if:
+1) the application request has servers ip in it
+2) after analysis and testing you found an internal path/dir that is accessible to you , that should be restricted to you.(eg: localhost)
+3) you are able to connect to that (localhost) via different ports(80, 22,443) and even able to execute something on the server(remote code execution)
+```
 
 026 URI-Schemes
 https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml

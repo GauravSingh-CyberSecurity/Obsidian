@@ -9,3 +9,9 @@ What holds more truth, history or prophecy?
 
 
 Man with no purpose devices only mischief.
+
+Lying, do you know what that makes a man..
+A criminal ?
+A sociopath ?
+
+A survivor.
