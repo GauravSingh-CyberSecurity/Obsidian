@@ -132,6 +132,36 @@ Similarly, we can use `Burp Intruder` to do any type of web fuzzing and brute-
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 83.136.253.40:36496   
 
 
-hint : to find .html file use  $ $.html , to create payloads 
++ Q)  Use Burp Intruder to fuzz for '.html' files under the ==/admin== directory, to find a file containing the flag.
+
+
+hint : to find .html file use  `$ $.html` , to find a .html file using the contents(payloads) of wordlist  /seclists/Discovery/Web-Content/common.txt
+
+Solution: 
+1) search target 83.136.253.40:36496    in the web browser > use foxy proxy to proxy this request sent to target.
+request:
+```
+GET / HTTP/1.1
+Host: 83.136.253.40:36496
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Wed, 14 Oct 2020 19:34:03 GMT
+If-None-Match: "0-5b1a69d29c0c0"
+Priority: u=0, i
+
+
+```
+
+
+as told in question we need to find .htm
