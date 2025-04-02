@@ -37,4 +37,29 @@ All of them are signs that we work to perceive truth saying.
 
 
 
-I am a man of focus, commitment and shear fucking will.
+
+
+
+
+
+
+He is a man of focus, commitment and shear fucking will.
+
+
+
+
+Humans are odd,
+They think order and chaos are somehow opposites, and try to control what won't be.
+But there is grace in their failings,
+I think they missed that .
+They are doomed, but a thing isn't beautiful because it lasts .
+It's a privilege to be among them.
+
+
+
+
+I won't overlook their transgressions anymore.
+
+
+
+People a
