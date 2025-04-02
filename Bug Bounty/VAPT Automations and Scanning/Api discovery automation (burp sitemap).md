@@ -11,7 +11,7 @@ Burp Suite Proxy:
 
 Intercept and log all API calls while navigating through the application.
 
-Use the "Target" → "Site Map" and "HTTP History" to extract API endpoints.
+==Use the "Target" → "Site Map" and "HTTP History" to extract API endpoints.==
 
 Automate using the Burp Suite API to export API requests.
 

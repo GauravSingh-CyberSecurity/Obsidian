@@ -1,3 +1,7 @@
+Use Nuclei for CVE scanning, use template that comes with nuclei for scanning a target with all CVE for each year that you want (there are different templates in nuclei for each years CVE)
+Go to /templates/CVES/
+
+
 Your **Nuclei scan is stopping at 21%** due to a high number of **errors (1044+)**, which might be causing the process to halt or slow down. Here’s how you can troubleshoot and ensure it runs **100%**:
 
 ---
