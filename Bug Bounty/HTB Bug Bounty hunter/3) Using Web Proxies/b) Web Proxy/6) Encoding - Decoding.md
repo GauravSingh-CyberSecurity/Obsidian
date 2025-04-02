@@ -71,3 +71,16 @@ Cheat Sheet
 #####   Hint
 ###### Use base64 and url-encoding.
 
+encoded_flag  :
+```
+
+VTJ4U1VrNUZjRlZXVkVKTFZrWkdOVk5zVW10aFZYQlZWRmh3UzFaR2NITlRiRkphWld0d1ZWUllaRXRXUm10M1UyeFNUbVZGY0ZWWGJYaExWa1V3ZVZOc1VsZGlWWEJWVjIxNFMxWkZNVFJUYkZKaFlrVndWVmR0YUV0V1JUQjNVMnhTYTJGM1BUMD0=
+
+```
+we need to decode this flag, take help of hint
+
+Solution:
+1) take the encoded_flag > put it in burp decoder.
+2) Now we know to decode it, we need to decode it as base64 and then url
+
+![[Screenshot From 2025-04-02 11-39-39.png]]
