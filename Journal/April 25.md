@@ -30,4 +30,11 @@ Lying is among the most sophisticated task our brain can perform.
 
 Because for most of us, we don't like to lie, 
 body rejects it. How does it do tha?
-Pupils dilate, changes in breathing, expression on 
+
+Pupils dilate, changes in breathing, expression on eyebrows.
+
+All of them are signs that we work to perceive truth saying.
+
+
+
+I am a man of focus, commitment and shear fucking will.
