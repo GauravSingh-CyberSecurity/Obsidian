@@ -1,5 +1,5 @@
-Common linux terminal/bash fork bomb
 
+**Common linux-terminal/bash fork bomb** :-
 - :(){ :|:& };:
 - sudo rm -rf --no-preserve-root /
 
