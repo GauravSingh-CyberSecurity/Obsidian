@@ -128,3 +128,12 @@ We can similarly use our web proxies with other tools and applications, includin
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+
++ Q)  Try running 'auxiliary/scanner/http/http_put' in Metasploit on any website, while routing the traffic through Burp. Once you view the requests sent, what is the last line in the request?
+
+solution:  msf test file
+
