@@ -132,3 +132,6 @@ Similarly, we can use `Burp Intruder` to do any type of web fuzzing and brute-
 
 ---
 
+
+
+hint : to find .html file use  $ $.html , to create payloads 
