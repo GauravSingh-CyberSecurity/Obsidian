@@ -79,10 +79,12 @@ VTJ4U1VrNUZjRlZXVkVKTFZrWkdOVk5zVW10aFZYQlZWRmh3UzFaR2NITlRiRkphWld0d1ZWUllaRXRX
 ```
 we need to decode this flag, take help of hint
 
+
+
+
 Solution:
 1) take the encoded_flag > put it in burp decoder.
 2) Now we know to decode it, we need to decode it as "base64" and then decode it as                     "url-encoding" when we find the url-encoded format
 3) paste encoded_flag  in burp decoder
-4) (1st decode) select decode as base64 > again decode as base64 > again decode as base64 > again decode as base64 > found a url-encoded format, now decode as URL > found the flag "HTB{3nc0d1n6_n1nj4}"
-
+4) (1st decode) select decode as base64 > (2nd decode) again decode as base64 >                  (3rd decode)again decode as base64 > (4th decode)again decode as base64 >                   found a url-encoded format, now (5th decode) decode as URL > found the flag "HTB{3nc0d1n6_n1nj4}"
 ![[Screenshot From 2025-04-02 11-39-39.png]]
