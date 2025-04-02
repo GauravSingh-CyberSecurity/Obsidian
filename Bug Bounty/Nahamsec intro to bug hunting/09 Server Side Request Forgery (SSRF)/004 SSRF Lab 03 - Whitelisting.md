@@ -1,5 +1,75 @@
 
+Analysis of SSRF lab:- ( http://ssrf4.naham.sec:8081/ )
 
+![[Pasted image 20250306123054.png]]
+this example is another website that says check whether a website is up.
+
+
+So whatever I.P. address we give it, it's going to tell us if there is a response for it, whether
+if or not, if the website is up.
+As always, we're going to type in **Google.com**. This comes back and says, "Hey, the website is up."
+
+![[Screenshot From 2025-03-06 12-42-12.png]]
+Obviously, we can't use a file:///etc/passwd because it's being filtered. But this is a blind SSRF, so whatever IP address we provide, it will check if there is a response, indicating whether the website is up or not.
+
+
+In this case, if we get a **404**, we know that the **metadata IP address** for https://example.com/nonexistentpage returns a **404**.
+![[Screenshot From 2025-03-06 12-44-21.png]]
+ If I enter this IP address and it says "Invalid," it means there should be a response.
+
+
+
+Now, let's try giving it an **invalid IP address**—one that is not available. It should come back with a **request failed** message.
+![[Screenshot From 2025-03-06 12-45-52.png]]
+When dealing with a **blind SSRF**, it's important to observe how the application behaves. In some cases, the application may return different responses depending on the request. For example, in this case, the server responds with **"Request Failed"** when attempting to connect.
+
+
+
+
+
+![[Screenshot From 2025-03-06 12-52-00.png]]
+Now, let's try scanning different ports (for this target http://localhost ). I'll start with **port 10000**(http://localhost:10000 ). As you can see, it's taking a little longer to load before returning a response. Now, let's try **port 80**, which is typically used for HTTP.
+
+
+http://localhost:80
+For this one, I'm going to try **localhost on port 80**. It comes back and confirms that we have access to **localhost**, proving that an SSRF vulnerability exists. We are able to access the local network.
+![[Screenshot From 2025-03-06 12-52-58.png]]
+
+
+
+
+
+
+
+
+
+![[Screenshot From 2025-03-06 12-54-20.png]]
+Now, let's try the same request but using an **IP address ( http://127.0.0.1 ) instead of localhost**. You'll notice that some blind SSRF protections exist, but there are restrictions we might need to bypass. 
+
+
+
+Now,
+Since we were able to access **localhost** (http://localhost ), let's try scanning another port.
+I'll attempt to connect to another **port on localhost** (http://localhost:8080). This time, the response is **"Request Failed"**, and it returned fairly quickly. Now, let's try another port (http://localhost:10000) and observe the response time.
+
+
+
+The goal here is to scan as many ports as possible to determine whether the SSRF vulnerability grants access to an **internal network**. This allows us to enumerate the internal infrastructure and identify **open ports** that could be further explored .
+
+
+
+Always pay close attention to responses. In some cases, the application may not return **verbose error messages,** but a noticeable **delay** can indicate whether a port is open or closed.
+
+
+For example, if the response takes significantly longer, it suggests that the request was processed but the port might be closed. If a response comes back very quickly l, we know that we have access to it,   versus giving it something that doesn't exist at all.
+
+Summary :- 
+In this case (SSRF Lab 03 - Whitelisting) , So for this instance, 
+if I would giving it a little bit of a different IP address (http://127.0.0.9) .
+It takes a little bit longer than something that is available(http://127.0.0.1:80) and comes back fairly quickly.
+
+
+So, from this example, remember that **blind SSRFs** can be tricky. You need to experiment and analyze how the application behaves. Pay close attention to **response times, error messages, and unusual behaviors** to identify potential vulnerabilities.
 
 
 
