@@ -165,9 +165,9 @@ Priority: u=0, i
 
 
 as told in question we need to find .html file under /admin/ directory,   
-the request to fuzz in admin /admin/ 
+So the request to fuzz in  /admin/ directory look like this : 
 ```
-GET /admin/  HTTP/1.1
+GET /admin/ HTTP/1.1
 Host: 83.136.253.40:36496
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
@@ -178,12 +178,29 @@ Upgrade-Insecure-Requests: 1
 If-Modified-Since: Wed, 14 Oct 2020 19:34:03 GMT
 If-None-Match: "0-5b1a69d29c0c0"
 Priority: u=0, i
-Referer: http://83.136.253.40:36496/admin
-```
-
-
-
-so craft the request for it in intruder
-```
 
 ```
+
+
+
+so craft the request for fuzzing admin directory  in intruder to find .html file with a  flag
+```
+GET /admin/$$.html HTTP/1.1
+Host: 83.136.253.40:36496
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Wed, 14 Oct 2020 19:34:03 GMT
+If-None-Match: "0-5b1a69d29c0c0"
+Priority: u=0, i
+
+
+```
+
+Note: in intruder set
+Attack type  : sniper attack
+Payload type : simple list
+load wordlist: /usr/share/seclists/Discovery/Web-Content/common.txt
