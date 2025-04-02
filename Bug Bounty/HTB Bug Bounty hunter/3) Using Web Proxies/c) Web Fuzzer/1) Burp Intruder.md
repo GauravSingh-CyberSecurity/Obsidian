@@ -183,7 +183,7 @@ Priority: u=0, i
 
 
 
-so craft the request for fuzzing admin directory  in intruder to find .html file with a  flag
+so craft this request for fuzzing admin directory  in intruder to find .html file with a  flag.
 ```
 GET /admin/$$.html HTTP/1.1
 Host: 83.136.253.40:36496
@@ -200,7 +200,17 @@ Priority: u=0, i
 
 ```
 
-Note: in intruder set
+**Note: in intruder set**
 Attack type  : sniper attack
 Payload type : simple list
-load wordlist: /usr/share/seclists/Discovery/Web-Content/common.txt
+load wordlist : /usr/share/seclists/Discovery/Web-Content/common.txt
+
+Resource pool>create new resource pool> maximum concurrent request : 995
+
+then start the intruder attack:
+	then filter the intruder attack with "status code : 200"
+
+we found a "200 ok" 
+![[Screenshot From 2025-04-02 18-34-27.png]]
+![[Screenshot From 2025-04-02 18-34-55.png]]
+and in response we can see the flag
