@@ -144,7 +144,7 @@ Target(s): 83.136.253.40:36496 
 
 hint : to find .html file use  `$ $.html` , to find a .html file using the contents(payloads) of wordlist  /seclists/Discovery/Web-Content/common.txt
 
-Solution: 
+**Solution:** 
 1) search target 83.136.253.40:36496    in the web browser > use foxy proxy to proxy this request sent to target.
 request:
 ```
@@ -165,7 +165,7 @@ Priority: u=0, i
 
 
 as told in question we need to find .html file under /admin/ directory,   
-So the request to fuzz in  /admin/ directory look like this : 
+So the request to fuzz the  /admin/ directory look like this : 
 ```
 GET /admin/ HTTP/1.1
 Host: 83.136.253.40:36496
@@ -200,7 +200,7 @@ Priority: u=0, i
 
 ```
 
-**Note: in intruder set**
+**Note: in intruder set  payloads ($ $)**
 Attack type  : sniper attack
 Payload type : simple list
 load wordlist : /usr/share/seclists/Discovery/Web-Content/common.txt
