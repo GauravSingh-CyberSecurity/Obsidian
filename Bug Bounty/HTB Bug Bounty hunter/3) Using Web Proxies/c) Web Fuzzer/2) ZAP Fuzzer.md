@@ -1,4 +1,3 @@
-# 
 
 ---
 
@@ -94,3 +93,20 @@ With all of our options configured, we can finally click on the `Start Fuzzer`�
 As we can see, we got one hit with code `200` with the `skills` payload, meaning that the `/skills/` directory exists on the server and is accessible. We can click on the request in the results window to view its details: ![payload processing](https://academy.hackthebox.com/storage/modules/110/zap_fuzzer_dir.jpg)
 
 We can see from the response that this page is indeed accessible by us. There are other fields that may indicate a successful hit depending on the attack scenario, like `Size Resp. Body` which may indicate that we got a different page if its size was different than other responses, or `RTT` for attacks like `time-based SQL injections`, which are detected by a time delay in the server response.
+
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.51.14:52260   
+
+
++ Q)   The directory we found above sets the cookie to the md5 hash of the username, as we can see the md5 cookie in the request for the (guest) user. Visit '/skills/' to get a request with a cookie, then try to use ZAP Fuzzer to fuzz the cookie for different md5 hashed usernames to get the flag. Use the "top-usernames-shortlist.txt" wordlist from Seclists.
+
+Hint: Use the 'MD5 Hash' processor and look for the page with a different content-length.
+
+
+Solution :
