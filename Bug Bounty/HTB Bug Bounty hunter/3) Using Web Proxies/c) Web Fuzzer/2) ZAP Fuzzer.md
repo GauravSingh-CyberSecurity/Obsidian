@@ -110,3 +110,51 @@ Hint: Use the 'MD5 Hash' processor and look for the page with a different conten
 
 
 Solution :
+
+```
+GET /skills/ HTTP/1.1
+Host: 94.237.51.14:52260
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-GPC: 1
+Priority: u=0, i
+Referer: http://94.237.51.14:52260/skills
+
+
+```
+
+```
+HTTP/1.1 200 OK
+Date: Thu, 03 Apr 2025 07:16:19 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Set-Cookie: cookie=084e0343a0486ff05530df6c705c8bb4
+Vary: Accept-Encoding
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+</head>
+
+<body style="background-color: #141d2b; font-family: sans-serif; color: white;">
+    <center>
+                    </center>
+</body>
+
+</html>
+```
+
+084e0343a0486ff05530df6c705c8bb4
