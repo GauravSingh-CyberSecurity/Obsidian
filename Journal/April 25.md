@@ -62,4 +62,4 @@ I won't overlook their transgressions anymore.
 
 
 
-People a
+People act like these thinking machines are something different than us. They are us
