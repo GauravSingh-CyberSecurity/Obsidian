@@ -73,3 +73,10 @@ Target(s): 94.237.61.133:39523 
 
 
 + Q)  Run ZAP Scanner on the target above to identify directories and potential vulnerabilities. Once you find the high-level vulnerability, try to use it to read the flag at '/flag.txt'
+
+Solution:  
+
+1) take target link http://94.237.61.133:39523 put it in OWASP ZAP automated scan
+2) start scan in "Attack mode" > let the Active scan, spider crawl , etc finish
+3) go to "Alerts" to check vulnerabilities found after scan
+4) Two high level vulnerabilities found "Remote OS Command Injection" ,  "SQL Injection"/""
