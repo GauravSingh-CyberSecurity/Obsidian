@@ -62,3 +62,14 @@ Finally, we can generate a report with all of the findings identified by ZAP thr
 ![ZAP Spider](https://academy.hackthebox.com/storage/modules/110/zap_report.jpg)
 
 As we can see, the report shows all identified details in an organized manner, which may be helpful to keep as a log for various web applications we run our scans on during a penetration test.
+
+---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 94.237.61.133:39523   
+
+
++ Q)  Run ZAP Scanner on the target above to identify directories and potential vulnerabilities. Once you find the high-level vulnerability, try to use it to read the flag at '/flag.txt'
