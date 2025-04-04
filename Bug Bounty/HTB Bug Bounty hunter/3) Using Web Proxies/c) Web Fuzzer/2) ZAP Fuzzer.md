@@ -158,3 +158,40 @@ Content-Type: text/html; charset=UTF-8
 ```
 
 084e0343a0486ff05530df6c705c8bb4  use hashcat to crack this
+
+```
+C:\home\kali> sudo su
+[sudo] password for kali: 
+┌──(root㉿RandomHost19348)-[/home/kali]
+└─# find /* -name top-usernames-shortlist.txt
+find: ‘/run/user/1000/doc’: Permission denied
+find: ‘/run/user/1000/gvfs’: Permission denied
+find: ‘/tmp/.mount_ObsidifS2488’: Permission denied
+/usr/share/seclists/Usernames/top-usernames-shortlist.txt
+                                            
+```
+
+```
+C:\home\kali> sudo cat /usr/share/seclists/Usernames/top-usernames-shortlist.txt 
+ 
+[sudo] password for kali: 
+root
+admin
+test
+guest
+info
+adm
+mysql
+user
+administrator
+oracle
+ftp
+pi
+puppet
+ansible
+ec2-user
+vagrant
+azureuser
+C:\home\kali> 
+
+```
