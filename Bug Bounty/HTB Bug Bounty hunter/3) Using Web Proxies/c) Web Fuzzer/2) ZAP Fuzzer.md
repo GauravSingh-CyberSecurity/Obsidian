@@ -172,6 +172,7 @@ find: ‘/tmp/.mount_ObsidifS2488’: Permission denied
 ```
 
 ```
+
 C:\home\kali> sudo cat /usr/share/seclists/Usernames/top-usernames-shortlist.txt 
  
 [sudo] password for kali: 
