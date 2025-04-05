@@ -24,6 +24,10 @@ sudo openvpn --config /path/to/HTB-username.ovpn
 
 actual command that i used :  got to this folder C:\home\kali\Documents\Obsidian Vault\Bug Bounty\HTB Bug Bounty hunter and click "open in terminal" :
 ```
+
+cd "/home/kali/Documents/Obsidian Vault/Bug Bounty/HTB Bug Bounty hunter"
+
+
 C:\home\kali\Documents\Obsidian Vault\Bug Bounty\HTB Bug Bounty hunter> sudo openvpn --config academy-regular.ovpn
 
 ```
