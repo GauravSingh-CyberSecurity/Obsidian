@@ -82,3 +82,12 @@ cookie=3dac93b8cd250aa8c1a36fffc79a17a in intruder we need to add a last charact
 Burp Intruder automates fuzzing the last MD5 character by applying payload processing rules to replicate the cookie encoding steps (prefix + payload → Base64 → Hex). The correct payload triggers a distinct response containing the flag.
 
 
+so after the intruder attack finished ,  we found a request with larger size of "response recived" the size was 1615.  and in the response we found the flag
+![[Screenshot From 2025-04-05 19-21-23.png]]
+![[Screenshot From 2025-04-05 19-23-01.png]]
+the flag : HTB{burp_1n7rud3r_n1nj4!}
+
+---
+-  ==Q4)== 
+
+
