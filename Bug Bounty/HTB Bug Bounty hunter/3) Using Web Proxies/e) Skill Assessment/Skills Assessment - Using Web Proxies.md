@@ -29,3 +29,6 @@ submit this flag : HTB{d154bl3d_bu770n5_w0n7_570p_m3}
 ###### For the first value try multiple encoders until you get a clear text value.
 
 solution : 
+1) turn on openvpn and connect to HTb , then search http://94.237.55.234:47257/admin.php
+2) youll see a login page.![[Screenshot From 2025-04-05 18-37-38.png]]
+3) send a login request > capture it using burp suite > in burp suite review the request >  you'll find a cookie 
