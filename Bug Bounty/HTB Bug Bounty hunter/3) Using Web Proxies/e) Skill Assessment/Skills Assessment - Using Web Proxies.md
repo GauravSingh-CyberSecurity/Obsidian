@@ -77,6 +77,8 @@ cookie=3dac93b8cd250aa8c1a36fffc79a17a in intruder we need to add a last charact
 
 7. **Identify the Successful Payload:**
    - Look for a response with a significantly larger size (~1,900 bytes). This response contains the flag.
+![[Screenshot From 2025-04-05 19-28-04.png]]
+![[Screenshot From 2025-04-05 19-27-41.png]]
 
 **Summary:**  
 Burp Intruder automates fuzzing the last MD5 character by applying payload processing rules to replicate the cookie encoding steps (prefix + payload → Base64 → Hex). The correct payload triggers a distinct response containing the flag.
@@ -88,6 +90,13 @@ so after the intruder attack finished ,  we found a request with larger size of 
 the flag : HTB{burp_1n7rud3r_n1nj4!}
 
 ---
--  ==Q4)== 
+
+-  ==Q4)==   You are using the 'auxiliary/scanner/http/coldfusion_locale_traversal' tool within Metasploit, but it is not working properly for you. You decide to capture the request sent by Metasploit so you can manually verify it and repeat it. Once you capture the request, what is the 'XXXXX' directory being called in '/XXXXX/administrator/..'? 
+#####   Hint
+###### You may set any website as your RHOST.
+
+Solution : 
+
+
 
 
