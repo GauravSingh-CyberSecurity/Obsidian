@@ -55,7 +55,8 @@ Kierkegaard, Nietzsche, Heidegger, and Sartre
 46. Schopenhauer
 47. Walt Whitman 
 48. Herman hesse(Siddharth and othe)
-49. 
+49. Mircea Eliade(the sacred and the profane)
+50. Do
 
 
 ```

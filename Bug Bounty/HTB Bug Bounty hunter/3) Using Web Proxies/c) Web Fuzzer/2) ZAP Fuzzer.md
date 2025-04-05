@@ -96,7 +96,7 @@ We can see from the response that this page is indeed accessible by us. There ar
 
 
 ---
-==Not solved yet:== 
+
 #### Questions
 
 Answer the question(s) below to complete this Section and earn cubes!
@@ -172,7 +172,6 @@ find: ‘/tmp/.mount_ObsidifS2488’: Permission denied
 ```
 
 ```
-
 C:\home\kali> sudo cat /usr/share/seclists/Usernames/top-usernames-shortlist.txt 
  
 [sudo] password for kali: 
