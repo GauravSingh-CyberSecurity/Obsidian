@@ -25,6 +25,7 @@ submit this flag : HTB{d154bl3d_bu770n5_w0n7_570p_m3}
 ---
 
 -  ==Q2)== The /admin.php page uses a cookie that has been encoded multiple times. Try to decode the cookie until you get a value with 31-characters. Submit the value as the answer.
+#####  Hint
+###### For the first value try multiple encoders until you get a clear text value.
 
 solution : 
-
