@@ -45,3 +45,4 @@ solution :
 
 solution:
 1) this is continuation of Q2 , now the encoding method we identified was aschii hex > base 64
+2) find the "alphanum-case.txt" wordlist in /usr/share/seclists/Fuzzing/alphanum-case.txt
