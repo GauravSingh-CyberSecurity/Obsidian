@@ -31,4 +31,12 @@ submit this flag : HTB{d154bl3d_bu770n5_w0n7_570p_m3}
 solution : 
 1) turn on openvpn and connect to HTb , then search http://94.237.55.234:47257/admin.php
 2) youll see a login page.![[Screenshot From 2025-04-05 18-37-38.png]]
-3) send a login request > capture it using burp suite > in burp suite review the request >  you'll find a cookie 
+3) send a login request > capture it using burp suite > in burp suite review the request >  you'll find a cookie being used :  Cookie: PHPSESSID=bsfrplsh8qd2jga27kvj3hrqdf; cookie=4d325268597a6b7a596a686a5a4449314d4746684f474d7859544d325a6d5a6d597a63355954453359513d3d,   
+4) from this take this cookie :     cookie=4d325268597a6b7a596a686a5a4449314d4746684f474d7859544d325a6d5a6d597a63355954453359513d3d
+5) 4d325268597a6b7a596a686a5a4449314d4746684f474d7859544d325a6d5a6d597a63355954453359513d3d    put this  in burp decoder
+6) ![[Screenshot From 2025-04-05 18-42-25.png]] Decode with ascii hex > Decode with base 64 > 3dac93b8cd250aa8c1a36fffc79a17a 
+7) submit 3dac93b8cd250aa8c1a36fffc79a17a and solved this.
+
+---
+
+Q3)
