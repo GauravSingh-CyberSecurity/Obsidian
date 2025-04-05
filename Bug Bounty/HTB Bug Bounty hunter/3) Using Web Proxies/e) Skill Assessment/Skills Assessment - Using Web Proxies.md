@@ -46,3 +46,4 @@ solution :
 solution:
 1) this is continuation of Q2 , now the encoding method we identified was aschii hex > base 64
 2) find the "alphanum-case.txt" wordlist in /usr/share/seclists/Fuzzing/alphanum-case.txt
+cookie=3dac93b8cd250aa8c1a36fffc79a17a in intruder how to add a last character at this using a word list, then md5 hash that , after that base64 whole thing and above it aschii hexx encode whole thing
