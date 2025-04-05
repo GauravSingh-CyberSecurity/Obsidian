@@ -39,4 +39,9 @@ solution :
 
 ---
 
-Q3)
+- ==Q3)== Once you decode the cookie, you will notice that it is only 31 characters long, which appears to be an md5 hash missing its last character. So, try to fuzz the last character of the decoded md5 cookie with all alpha-numeric characters, while encoding each request with the encoding methods you identified above. (You may use the "alphanum-case.txt" wordlist from Seclist for the payload)
+#####   Hint
+###### With payload processing in Burp Intruder, first add the decoded cookie as a prefix to the payload, then encode the entire payload with the same encoding methods you identified earlier (in reverse order). The final payload should be 88 characters long, similar to the one from the previous question.
+
+solution:
+1) this is continuation of Q2 , now the encoding method we identified was aschii hex > base 64
