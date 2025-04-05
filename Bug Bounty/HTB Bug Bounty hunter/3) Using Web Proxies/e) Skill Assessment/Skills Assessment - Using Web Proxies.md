@@ -46,4 +46,39 @@ solution :
 solution:
 1) this is continuation of Q2 , now the encoding method we identified was aschii hex > base 64
 2) find the "alphanum-case.txt" wordlist in /usr/share/seclists/Fuzzing/alphanum-case.txt
-cookie=3dac93b8cd250aa8c1a36fffc79a17a in intruder how to add a last character at this using a word list, then md5 hash that , after that base64 whole thing and above it aschii hexx encode whole thing
+cookie=3dac93b8cd250aa8c1a36fffc79a17a in intruder we need to add a last character at this using a word list, then md5 hash that , after that base64 whole thing and above it aschii hexx encode whole thing
+
+==To perform this attack using Burp Intruder, follow these steps:==
+
+1. **Capture the Request:**
+   - Open Burp Suite and navigate to the target site.
+   - Access `/admin.php` to capture the request in Burp's Proxy.
+
+2. **Send to Intruder:**
+   - Right-click the captured request and select **Send to Intruder**.
+
+3. **Configure Positions:**
+   - In the **Positions** tab, clear all default payload positions.
+   - Highlight the cookie value and set it as the payload position by clicking **Add §** (e.g., `cookie=§value§;`).
+
+4. **Set Payload Type:**
+   - Go to the **Payloads** tab.
+   - Under **Payload Options**, load the `alphanum-case.txt` wordlist from SecLists.
+
+5. **Payload Processing:**
+   - In the **Payload Processing** section, add the following rules in **exact order**:
+     1. **Add Prefix**: Enter the prefix `3dac93b8cd250aa8c1a36fffc79a17a`.
+     2. **Base64-encode**: Encode the entire string (prefix + payload).
+     3. **Encode as... Hex**: Convert each character of the Base64 string to its two-digit hex representation.
+
+6. **Start the Attack:**
+   - Launch the attack by clicking **Start Attack**.
+   - Burp will generate payloads by appending each alphanumeric character to the prefix, Base64 encoding, then hex encoding.
+
+7. **Identify the Successful Payload:**
+   - Look for a response with a significantly larger size (~1,900 bytes). This response contains the flag.
+
+**Summary:**  
+Burp Intruder automates fuzzing the last MD5 character by applying payload processing rules to replicate the cookie encoding steps (prefix + payload → Base64 → Hex). The correct payload triggers a distinct response containing the flag.
+
+
