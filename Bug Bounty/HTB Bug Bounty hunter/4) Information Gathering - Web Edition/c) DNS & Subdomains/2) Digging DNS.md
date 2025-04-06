@@ -123,11 +123,56 @@ Answer the question(s) below to complete this Section and earn cubes!
 
 
 
-+ Q1)  Which IP address maps to inlanefreight.com?
++ ==Q1)==  Which IP address maps to inlanefreight.com?
 Ans) 134.209.24.248
 
-just chatgpt the question and 
+just chatgpt the question and i got this Ans: -
 ​The domain `inlanefreight.com` resolves to the following IP addresses:​
 - **IPv4 Address**: 134.209.24.248
 - **IPv6 Address**: 2a03:b0c0:1:e0::32c:b001
 These addresses are associated with servers located in Slough, United Kingdom.
+
+
+- ==Q2)==  Which domain is returned when querying the PTR record for 134.209.24.248?
+Ans) inlanefreight.com.
+
+steps: chat gpt the question , then chatgpt says :
+- ​To determine the domain name associated with the IP address **134.209.24.248** through a PTR (Pointer) record lookup, you can use the `dig` command-line tool:
+```
+dig -x 134.209.24.248
+
+```
+This command performs a reverse DNS lookup, querying the PTR record for the specified IP address. The response will include the domain name mapped to that IP address.​
+
+If you don't have access to the `dig` tool, you can use online services such as [MXToolbox](https://mxtoolbox.com/ReverseLookup.aspx) or [WhatIsMyIPAddress.com](https://www.whatismyipaddress.com/ip-lookup) to perform reverse DNS lookups.​
+
+Please note that not all IP addresses have an associated PTR record. If no PTR record is configured for 134.209.24.248, the reverse lookup will not return a domain name.
+
+Then i run the command : dig -x 134.209.24.248 .
+output:
+```
+C:\home\kali> dig -x 134.209.24.248
+
+; <<>> DiG 9.20.7-1-Debian <<>> -x 134.209.24.248
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33532
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;248.24.209.134.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+248.24.209.134.in-addr.arpa. 1800 IN	PTR	inlanefreight.com.
+
+;; Query time: 503 msec
+;; SERVER: 192.168.212.253#53(192.168.212.253) (UDP)
+;; WHEN: Sun Apr 06 14:52:31 IST 2025
+;; MSG SIZE  rcvd: 87
+
+
+```
+therefore ans is 	inlanefreight.com.
+
