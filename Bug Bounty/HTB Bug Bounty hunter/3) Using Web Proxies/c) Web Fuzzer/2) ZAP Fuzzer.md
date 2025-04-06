@@ -361,9 +361,14 @@ now set this encoding/hashing syntax  in burp intruder
 ![[Screenshot From 2025-04-06 14-22-49.png]]
 ![[Screenshot From 2025-04-06 12-33-21.png]]
 
+then start the attack ,
 
+Note :
+you can click on "View filter" and type in 'HTB' , to find which request have the flag : HTB{fuzz1n6_my_f1r57_c00k13} ![[Screenshot From 2025-04-06 14-25-43.png]]
+ 
+ this cookie `cookie=ee11cbb19052e40b07aac0ca060c23ee` will get the flag
+![[Screenshot From 2025-04-06 14-18-15.png]]
 
-start the attack , this cookie `cookie=ee11cbb19052e40b07aac0ca060c23ee` will get the flag
 
 ```
 GET /skills/ HTTP/1.1
@@ -416,5 +421,5 @@ Content-Type: text/html; charset=UTF-8
 </html>
 ```
 
-Note :
-you can click on "View filter" and  ![[Screenshot From 2025-04-06 14-25-43.png]]
+
+submit the flag  HTB{fuzz1n6_my_f1r57_c00k13}
