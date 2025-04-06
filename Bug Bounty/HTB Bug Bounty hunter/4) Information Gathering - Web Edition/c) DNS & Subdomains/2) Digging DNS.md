@@ -133,10 +133,16 @@ just chatgpt the question and i got this Ans: -
 These addresses are associated with servers located in Slough, United Kingdom.
 
 
+
+
+
+
+
 - ==Q2)==  Which domain is returned when querying the PTR record for 134.209.24.248?
 Ans) inlanefreight.com.
 
-steps: chat gpt the question , then chatgpt says :
+steps: 
+1) chat gpt the question , then chatgpt says :
 - ​To determine the domain name associated with the IP address **134.209.24.248** through a PTR (Pointer) record lookup, you can use the `dig` command-line tool:
 ```
 dig -x 134.209.24.248
@@ -148,7 +154,7 @@ If you don't have access to the `dig` tool, you can use online services such as 
 
 Please note that not all IP addresses have an associated PTR record. If no PTR record is configured for 134.209.24.248, the reverse lookup will not return a domain name.
 
-Then i run the command : dig -x 134.209.24.248 .
+2) Then i run the command : dig -x 134.209.24.248 .
 output:
 ```
 C:\home\kali> dig -x 134.209.24.248
@@ -176,3 +182,46 @@ C:\home\kali> dig -x 134.209.24.248
 ```
 therefore ans is 	inlanefreight.com.
 
+
+
+
+
+
+- ==Q3)== What is the full domain returned when you query the mail records for facebook.com?
+Ans) smtpin.vvv.facebook.com.
+
+steps : 
+1) give chatgpt the question , chat gpt reply :
+- To query the Mail Exchange (MX) records for the domain `facebook.com` using the command line, you can use the `dig` tool with the following command:
+```
+dig facebook.com MX
+
+```
+
+2) run the command , the output is 
+```
+C:\home\kali> dig facebook.com MX
+
+; <<>> DiG 9.20.7-1-Debian <<>> facebook.com MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8350
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;facebook.com.			IN	MX
+
+;; ANSWER SECTION:
+facebook.com.		3600	IN	MX	10 smtpin.vvv.facebook.com.
+
+;; Query time: 359 msec
+;; SERVER: 192.168.212.253#53(192.168.212.253) (UDP)
+;; WHEN: Sun Apr 06 14:56:43 IST 2025
+;; MSG SIZE  rcvd: 68
+
+C:\home\kali> 
+
+```
+3) therefor and is   smtpin.vvv.facebook.com.
