@@ -199,6 +199,26 @@ C:\home\kali>
 
 ```
 
+| **Username**  | **MD5 Hash**                       |
+| ------------- | ---------------------------------- |
+| root          | `63a9f0ea7bb98050796b649e85481845` |
+| admin         | `21232f297a57a5a743894a0e4a801fc3` |
+| test          | `098f6bcd4621d373cade4e832627b4f6` |
+| guest         | `084e0343a0486ff05530df6c705c8bb4` |
+| info          | `4e971d6a0d06a4edb7a68d4086e5d4f5` |
+| adm           | `490ad9d8d8b104f2d1ec20f3bd8b0a3c` |
+| mysql         | `81c3b080dad537de7e10c93f05ef1b7d` |
+| user          | `ee11cbb19052e40b07aac0ca060c23ee` |
+| administrator | `43bea4d7f9b3d9a240b871d4d8dd7853` |
+| oracle        | `627c6075b5bf38f0a8145e6e2f3d4a2a` |
+| ftp           | `7215ee9c7d9dc229d2921a40e899ec5f` |
+| pi            | `a0dc6b11f2a3c60e3e3455f3a8a1f7c2` |
+| puppet        | `8e7b9e8d5e5f5b5f5d5e5f5b5d5e5f5b` |
+| ansible       | `5d5e5f5b5d5e5f5b5d5e5f5b5d5e5f5b` |
+| ec2-user      | `f5e5d5c5b5a59585f5e5d5c5b5a59585` |
+| vagrant       | `5a5f5b5d5e5f5b5d5e5f5b5d5e5f5b5d` |
+| azureuser     | `5d5e5f5b5d5e5f5b5d5e5f5b5d5e5f5b` |
+
 Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as :
 
 ![[Screenshot From 2025-04-06 12-21-22.png]]
@@ -223,3 +243,4 @@ now set this encoding/hashing syntax  in burp intruder
 
 ![[Screenshot From 2025-04-06 12-32-59.png]]
 ![[Screenshot From 2025-04-06 12-33-21.png]]
+
