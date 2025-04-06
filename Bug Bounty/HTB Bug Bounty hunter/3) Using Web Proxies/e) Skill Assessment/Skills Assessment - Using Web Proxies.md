@@ -97,6 +97,9 @@ the flag : HTB{burp_1n7rud3r_n1nj4!}
 
 Solution : 
 
-
-
+1) search metasploit and open it , once it turns on .
+2) ![[Screenshot From 2025-04-06 11-34-38.png]]
+you'll see this,  msf6 >
+3) now turn on burpsuite , on the side.  Make sure its running and configured to listen on `127.0.0.1:8080`  , like this so that your burp can intercept the metasploit requests ![[Screenshot From 2025-04-06 11-36-54.png]]
+4) 
 
