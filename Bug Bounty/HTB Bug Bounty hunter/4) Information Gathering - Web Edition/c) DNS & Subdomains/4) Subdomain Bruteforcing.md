@@ -91,8 +91,12 @@ Cheat Sheet
 
 + Q  Using the known subdomains for inlanefreight.com (www, ns1, ns2, ns3, blog, support, customer), find any missing subdomains by brute-forcing possible domain names. Provide your answer with the complete subdomain, e.g., www.inlanefreight.com.
 
-Ans)
+Ans) my.inlanefreight.com
 
 steps: 
 1) give chatgpt the question and ask it to use amass tool for giving solution
 2) chatgpt give this command to run : `amass enum -d inlanefreight.com -brute`  also another command `dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt` 
+
+3) ==Using tool dnsenum== , and for this command  `dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt` we get a missing subdomain at the end of the scanning results :   **my.inlanefreight.com**
+![[Screenshot From 2025-04-06 15-33-02.png]]
+
