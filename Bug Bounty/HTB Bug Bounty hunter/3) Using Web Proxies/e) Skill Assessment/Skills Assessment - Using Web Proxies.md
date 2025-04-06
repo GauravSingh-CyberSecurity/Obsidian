@@ -100,6 +100,19 @@ Solution :
 1) search metasploit and open it , once it turns on .
 2) ![[Screenshot From 2025-04-06 11-34-38.png]]
 you'll see this,  msf6 >
-3) now turn on burpsuite , on the side.  Make sure its running and configured to listen on `127.0.0.1:8080`  , like this so that your burp can intercept the metasploit requests ![[Screenshot From 2025-04-06 11-36-54.png]]
-4) 
+3) now turn on burpsuite , on the side.  Make sure its running and configured to listen on `127.0.0.1:8080`  , so that your burp can intercept the metasploit requests when running on your local machine, since we will need it in this lab.  ![[Screenshot From 2025-04-06 11-36-54.png]]
+4) now go back to metaspoit  and input these commands ,
 
+```
+
+Metasploit Documentation: https://docs.metasploit.com/
+
+msf6 > 
+msf6 > use auxiliary/scanner/http/coldfusion_locale_traversal
+
+msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > 
+msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set RHOST google.com
+msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set RPORT 80
+msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set PROXIES HTTP:127.0.0.1:8080
+```
+after running these commands , go to burpsuite and turn interceptor on
