@@ -114,4 +114,9 @@ Would you like quotes from his books that show this in action?
 
 
 
-If you foll
+If you follow the voice of adventure, 
+You'll become a blessing to yourself.
+That's a good deal, because people usually live at odds with themselves.
+
+You should attend to the spirit of adventure that calls you out of your comfort zone. If you do that and make necessary sacrifices to follow that path, then the following things will happen to you;-
+1) 
