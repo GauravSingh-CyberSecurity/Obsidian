@@ -218,3 +218,5 @@ now set this encoding/hashing syntax  in burp intruder
 3) load '/usr/share/seclists/Usernames/top-usernames-shortlist.txt'
 4) in payload processing set this flow ==string > MD5 Hash > ASCII HEX encoding > cookie=== 
 
+![[Screenshot From 2025-04-06 12-32-59.png]]
+![[Screenshot From 2025-04-06 12-33-21.png]]
