@@ -63,3 +63,55 @@ I won't overlook their transgressions anymore.
 
 
 People act like these thinking machines are something different than us. They are us
+
+
+# **6 April** 
+
+A master has failed more than an amature ever tried.
+
+
+
+
+
+Fyodor Dostoevsky, through his works—especially Notes from Underground, The Brothers Karamazov, and Crime and Punishment—presents a profound and often unsettling view of human nature.
+
+He challenges the Enlightenment idea that human beings primarily desire a rational, comfortable, and fulfilled life. Instead, Dostoevsky argues that man is not simply a creature of reason, but of irrationality, contradiction, and spiritual struggle.
+
+On Fulfillment and Comfort:
+
+In Notes from Underground, the narrator mockingly critiques the idea that if all human needs were met—if people lived in a “crystal palace” of logic and comfort—they would be satisfied. Dostoevsky writes:
+
+> "Man is sometimes extraordinarily, passionately, in love with suffering... Man likes to make roads, but he also likes to break them down."
+
+
+
+In other words, even when offered a fulfilled life—peace, comfort, pleasure—humans often rebel. Why? Because we crave freedom, even if it leads to chaos or destruction. We don’t want to be predictable machines; we want to feel we choose our path, even if it’s irrational.
+
+What Are Humans Actually Pursuing?
+
+Dostoevsky suggests that what humans truly pursue is meaning, even at the cost of comfort or rationality. We seek:
+
+Moral freedom, even if it brings suffering.
+
+Transcendence through faith, love, or sacrifice.
+
+Rebellion against systems that strip us of individuality.
+
+Suffering, not masochistically, but because it can lead to insight, redemption, or self-awareness.
+
+
+He believed that without spiritual depth, man becomes bored and self-destructive—even in paradise. In essence, Dostoevsky sees humans as souls in search of something eternal, not merely bodies craving ease.
+
+Would you like quotes from his books that show this in action?
+
+
+
+
+
+
+
+
+
+
+
+If you foll
