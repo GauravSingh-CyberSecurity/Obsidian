@@ -157,8 +157,8 @@ Content-Type: text/html; charset=UTF-8
 </html>
 ```
 
-084e0343a0486ff05530df6c705c8bb4  use hashcat to crack this, and youll find its 'guest'
-
+Note: for the cookie 084e0343a0486ff05530df6c705c8bb4  use hashcat to crack this, and youll find its MD5 hashing and string is : 'guest'
+in hashcat use this "top-usernames-shortlist.txt" wordlist, as shown below we were able to find it at  /usr/share/seclists/Usernames/top-usernames-shortlist.txt
 ```
 C:\home\kali> sudo su
 [sudo] password for kali: 
@@ -196,3 +196,4 @@ C:\home\kali>
 
 ```
 
+Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as 
