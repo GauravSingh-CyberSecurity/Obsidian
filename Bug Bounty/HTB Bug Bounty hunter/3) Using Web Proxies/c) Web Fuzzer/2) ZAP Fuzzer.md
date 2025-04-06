@@ -198,10 +198,16 @@ C:\home\kali>
 
 Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as :
 
-084e0343a0486ff05530df6c705c8bb4  (decode as ASCII HEX) > ` NC HoðU0ßlp\´ `  (i am not able to decode this further to get an actual string)![[Screenshot From 2025-04-06 12-21-22.png]]
-
+![[Screenshot From 2025-04-06 12-21-22.png]]
+084e0343a0486ff05530df6c705c8bb4  (decode as ASCII HEX) > ` NC HoðU0ßlp\´ `  
+(i am not able to decode this further to get an actual string)
 
 
 so i take the string 'guest' as i found it using hachcat , and try encode it to get the cookie exact format 084e0343a0486ff05530df6c705c8bb4  : (so i can determine the encoding/hashing syntax/format here)
 
-guest 
+guest (Hash MD5) >  ` NC HoðU0ßlp\´ `  (encode as ASCII HEX) >  084e0343a0486ff05530df6c705c8bb4 (we got the exact cookie)
+
+therefore the syntax is :  ==string > MD5 Hash > ASCII HEX encoding > cookie=== 
+
+
+now set this encoding/hashing syntax in burp intruder 'payload processing', on the cookie parameter while using this '/usr/share/seclists/Usernames/top-usernames-shortlist.txt'  wordlist for trying to fuzz the cookie parameter as asked in the question.
