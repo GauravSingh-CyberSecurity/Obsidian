@@ -115,4 +115,26 @@ msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set RHOST google.com
 msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set RPORT 80
 msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > set PROXIES HTTP:127.0.0.1:8080
 ```
-after running these commands , go to burpsuite and turn interceptor on
+after running these commands , go to burpsuite and turn intercept on :
+come back in metasploit cli  , and type the command ; run :
+```
+msf6 auxiliary(scanner/http/coldfusion_locale_traversal) > run
+```
+
+the SS for above commands :
+![[Screenshot From 2025-04-06 11-44-24.png]]
+
+
+now , Go to Burpsuite and in intercept , view that this run request has been captured : 
+![[Screenshot From 2025-04-06 11-46-15.png]]
+
+```
+GET /CFIDE/administrator/index.cfm HTTP/1.1
+Host: google.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: keep-alive
+```
+
+now according to the lab question,  what is the 'XXXXX' directory being called in '/XXXXX/administrator/..'? 
+
+so here in this requests path  
