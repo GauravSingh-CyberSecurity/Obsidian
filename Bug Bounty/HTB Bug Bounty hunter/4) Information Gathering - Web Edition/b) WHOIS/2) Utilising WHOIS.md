@@ -135,7 +135,8 @@ Answer the question(s) below to complete this Section and earn cubes!
 
 
 + Q1)  Perform a WHOIS lookup against the paypal.com domain. What is the registrar Internet Assigned Numbers Authority (IANA) ID number?
-Ans) 
+Ans) 292
+
 ​To perform a WHOIS lookup for the domain `paypal.com` and retrieve the registrar's Internet Assigned Numbers Authority (IANA) ID number, you can use the `whois` command-line tool followed by the domain name:​
 ```
 whois paypal.com
@@ -143,6 +144,29 @@ whois paypal.com
 ```
 In the WHOIS response, look for the "Registrar IANA ID" field to find the registrar's IANA ID number. For `paypal.com`, the registrar is MarkMonitor, Inc., 
 
-in terminal after running above command click on search option and 
-and its IANA ID is **292** 
+in terminal after running above command click on search option and type in "IANA ID" and youll find its  IANA ID is ==**292**== 
+
+
+ - Q2) What is the admin email contact for the tesla.com domain (also in-scope for the Tesla bug bounty program)?
+Ans) admin@dnstinations.com
+
+steps:
+1) in terminal > whois tesla.com
+2) click search option in terminal > search : admin
+3) youll find 
+```
+Tech Name: Domain Administrator
+Tech Organization: DNStination Inc.
+Tech Street: 3450 Sacramento Street, Suite 405
+Tech City: San Francisco
+Tech State/Province: CA
+Tech Postal Code: 94118
+Tech Country: US
+Tech Phone: +1.4155319335
+Tech Phone Ext: 
+Tech Fax: +1.4155319336
+Tech Fax Ext: 
+Tech Email: admin@dnstinations.com
+
+```
 
