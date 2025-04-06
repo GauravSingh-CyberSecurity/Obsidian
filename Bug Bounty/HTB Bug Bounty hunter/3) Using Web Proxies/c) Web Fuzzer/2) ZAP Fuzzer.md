@@ -157,7 +157,7 @@ Content-Type: text/html; charset=UTF-8
 </html>
 ```
 
-084e0343a0486ff05530df6c705c8bb4  use hashcat to crack this
+084e0343a0486ff05530df6c705c8bb4  use hashcat to crack this, and youll find its 'guest'
 
 ```
 C:\home\kali> sudo su
