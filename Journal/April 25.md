@@ -124,4 +124,9 @@ You should attend to the spirit of the most true adventure that calls you out of
 3) you'll establish something of permenent value 
 4) and you'll do all of it in a way that is maximally beneficial to everyone else 
 
-There is no dis
+
+
+So what is the most true adventure?
+
+- Ans) There is no distinction between the most true adventure of life and taking on the pathway of maximal responsibility and burden.
+- the hardest possible available adventure voluntarily understand 
