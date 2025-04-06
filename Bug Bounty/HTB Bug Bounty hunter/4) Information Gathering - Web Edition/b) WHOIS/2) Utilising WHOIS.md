@@ -128,3 +128,21 @@ Overall, the WHOIS output for `facebook.com` aligns with expectations for a we
 While the WHOIS record provides contact information for domain-related issues, it might not be directly helpful in identifying individual employees or specific vulnerabilities. This highlights the need to combine WHOIS data with other reconnaissance techniques to understand the target's digital footprint comprehensively.
 
 ---
+
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+
++ Q1)  Perform a WHOIS lookup against the paypal.com domain. What is the registrar Internet Assigned Numbers Authority (IANA) ID number?
+Ans) 
+​To perform a WHOIS lookup for the domain `paypal.com` and retrieve the registrar's Internet Assigned Numbers Authority (IANA) ID number, you can use the `whois` command-line tool followed by the domain name:​
+```
+whois paypal.com
+
+```
+In the WHOIS response, look for the "Registrar IANA ID" field to find the registrar's IANA ID number. For `paypal.com`, the registrar is MarkMonitor, Inc., 
+
+in terminal after running above command click on search option and 
+and its IANA ID is **292** 
+
