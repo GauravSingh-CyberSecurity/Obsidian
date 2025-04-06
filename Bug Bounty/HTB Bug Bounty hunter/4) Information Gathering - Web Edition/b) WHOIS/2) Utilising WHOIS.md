@@ -153,7 +153,7 @@ Ans) admin@dnstinations.com
 steps:
 1) in terminal > whois tesla.com
 2) click search option in terminal > search : admin
-3) youll find 
+3) youll find  the email 
 ```
 Tech Name: Domain Administrator
 Tech Organization: DNStination Inc.
@@ -170,3 +170,4 @@ Tech Email: admin@dnstinations.com
 
 ```
 
+![[Screenshot From 2025-04-06 14-47-18.png]]
