@@ -111,6 +111,103 @@ Hint: Use the 'MD5 Hash' processor and look for the page with a different conten
 
 Solution :
 
+# HTB Using Web Proxies — ZAP Fuzzer: **Exploring Alternatives to ZAP Fuzzer: When Fuzzing with ZAP Falls Short**
+
+
+![](https://miro.medium.com/v2/resize:fit:875/1*_RkA5ZcBhVHA3qMPHgKKLQ.png)
+
+ZAP Fuzzer is a fantastic tool for fuzz testing, but there are times when it crashes during the process. This can be frustrating, especially when you’re relying on it for critical tasks. So, what do you do if ZAP Fuzzer isn’t meeting your expectations?
+
+Although the goal here is to learn specifically about ZAP Fuzzer, it’s important to step outside the box and explore other options. By doing this, you’ll not only complete the task but also gain valuable alternatives to ZAP for fuzzing.
+
+In this post, we’ll explore some effective fuzzing tools you can use when ZAP Fuzzer isn’t delivering the results you’re looking for.
+
+**Resources:** Here is the resources need to complete this task.
+
+- Burp Suite(Intruder)
+- [SecList](https://github.com/danielmiessler/SecLists)(top-usernames-shortlist.txt)
+- hash-identifier
+
+![](https://miro.medium.com/v2/resize:fit:875/1*SUhkjIVHA2AxqWcUtWAkCQ.png)
+
+Resources to start the Task for this task we only need the IP
+
+Question: The directory we found above sets the cookie to the md5 hash of the username, as we can see the md5 cookie in the request for the (guest) user. Visit ‘/skills/’ to get a request with a cookie, then try to use ZAP Fuzzer to fuzz the cookie for different md5 hashed usernames to get the flag. Use the “top-usernames-shortlist.txt” wordlist from Seclists.
+
+**Answers:**
+
+**Step 1:** We start by looking the website and see which part the website should we start fuzzing.
+
+**Link:** [http://94.237.63.1:52690/skills/](http://94.237.63.1:52690/skills/)(IP can change)
+
+![](https://miro.medium.com/v2/resize:fit:875/1*ZE5hGOQu6yaNmWKMMxtLww.png)
+
+We can see that its a simple website with nothing in the website.
+
+**Step 2: N**ow we can just look through burp suite proxy and see if we can find something.
+
+![](https://miro.medium.com/v2/resize:fit:875/1*a9EIySS8J4cf2f6oxdFv1g.png)
+
+We can see that there is cookie stored in this page, so now we can look through options to found our flag, Task asks us to use the **top-usernames-shortlist.txt** for fuzzing but in this file all of the users are in string and plaintext so we can’t use the usernames.
+
+**Step 3:** We need to figure out what kind of hash is our cookie so we can change our usernames to that hash and for that to happen we use hash-identifier
+
+hash-identifier 084e0343a0486ff05530df6c705c8bb4
+
+![](https://miro.medium.com/v2/resize:fit:783/1*-955wbXsNdfaIiniy_XrzQ.png)
+
+For alternative we can just ask Chatgpt it will give us the which hash it is :))
+
+Now we need to change the users to MD5 and for that don’t make your life miserable just ask ChatGPT to do it for you.
+
+**Step 4:** We are going to use hashes that we have in intruder and see what results we get.
+
+![](https://miro.medium.com/v2/resize:fit:783/1*DyDpasRAsaqR-x3ZnyQyrQ.png)
+
+After choosing Intruder we are going to paste the MD5 hashes hashes inside payload
+63a9f0ea7bb98050796b649e85481845
+21232f297a57a5a743894a0e4a801fc3
+098f6bcd4621d373cade4e832627b4f6
+084e0343a0486ff05530df6c705c8bb4
+caf9b6b99962bf5c2264824231d7a40c
+b09c600fddc573f117449b3723f23d64
+81c3b080dad537de7e10e0987a4bf52e
+==ee11cbb19052e40b07aac0ca060c23ee== (this Hash value in cookie will give the Flag)
+200ceb26807d6bf99fd6f4f0d1ca54d4
+a189c633d9995e11bf8607170ec9a4b8
+ff104b2dfab9fe8c0676587292a636d3
+72ab8af56bddab33b269c5964b26620a
+768747907b90c39ab6f16fcb3320897a
+640c8a5376aa12fa15cf02130ce239a6
+23b0749d7d3a9ee3c0b024a86fe3e1c2
+63623900c8bbf21c706c45dcb7a2c083
+
+
+![](https://miro.medium.com/v2/resize:fit:874/1*pZlmPxQ5b77CXTv1Fef6oQ.png)
+
+After that we are going to choose the positions that we are going to fuzz and that will be the cookies.
+
+![](https://miro.medium.com/v2/resize:fit:875/1*hnu1yWMgH_3JoXan8SbWXw.png)
+
+and at last we are going to start the attack.
+
+**Step 5:** After the scan is finished we can look through every response to and we can find our flag there.
+
+![](https://miro.medium.com/v2/resize:fit:875/1*_RkA5ZcBhVHA3qMPHgKKLQ.png)
+
+![](https://miro.medium.com/v2/resize:fit:875/1*-wIPxdrlM9e4-BSZHhAAcQ.png)
+
+this is the solution SS, with the Flag![[Screenshot From 2025-04-06 14-18-15.png]]
+Good Luck!
+
+
+
+
+
+---
+
+My Analysis :
+
 ```
 GET /skills/ HTTP/1.1
 Host: 94.237.51.14:52260
@@ -218,6 +315,7 @@ C:\home\kali>
 | ec2-user      | `f5e5d5c5b5a59585f5e5d5c5b5a59585` |
 | vagrant       | `5a5f5b5d5e5f5b5d5e5f5b5d5e5f5b5d` |
 | azureuser     | `5d5e5f5b5d5e5f5b5d5e5f5b5d5e5f5b` |
+```
 63a9f0ea7bb98050796b649e85481845
 21232f297a57a5a743894a0e4a801fc3
 098f6bcd4621d373cade4e832627b4f6
@@ -235,6 +333,7 @@ ff104b2dfab9fe8c0676587292a636d3
 23b0749d7d3a9ee3c0b024a86fe3e1c2
 63623900c8bbf21c706c45dcb7a2c083
 
+```
 
 
 Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as :
@@ -261,4 +360,6 @@ now set this encoding/hashing syntax  in burp intruder
 
 ![[Screenshot From 2025-04-06 12-32-59.png]]
 ![[Screenshot From 2025-04-06 12-33-21.png]]
+
+----
 
