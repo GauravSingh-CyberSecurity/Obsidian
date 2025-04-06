@@ -210,4 +210,11 @@ guest (Hash MD5) >  ` NC HoðU0ßlp\´ `  (encode as ASCII HEX) >  084e0343
 therefore the syntax is :  ==string > MD5 Hash > ASCII HEX encoding > cookie=== 
 
 
-now set this encoding/hashing syntax in burp intruder 'payload processing', on the cookie parameter while using this '/usr/share/seclists/Usernames/top-usernames-shortlist.txt'  wordlist for trying to fuzz the cookie parameter as asked in the question.
+now set this encoding/hashing syntax  in burp intruder 
+'payload processing'  , on the cookie parameter(payload) while using this =='/usr/share/seclists/Usernames/top-usernames-shortlist.txt'==  wordlist for trying to fuzz the cookie parameter as asked in the question.
+
+1) add cookie parameter as payload  (cookie=$ $ )
+2) select attack: sniper attack , payload type: simple list
+3) load '/usr/share/seclists/Usernames/top-usernames-shortlist.txt'
+4) in payload processing set this flow ==string > MD5 Hash > ASCII HEX encoding > cookie=== 
+
