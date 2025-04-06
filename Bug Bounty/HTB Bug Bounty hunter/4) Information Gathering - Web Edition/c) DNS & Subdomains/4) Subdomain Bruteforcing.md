@@ -50,8 +50,10 @@ In this command:
 - `-f /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt`: We indicate the path to the SecLists wordlist we'll use for brute-forcing. Adjust the path if your SecLists installation is different.
 - `-r`: This option enables recursive subdomain brute-forcing, meaning that if `dnsenum` finds a subdomain, it will then try to enumerate subdomains of that subdomain.
 
-  Subdomain Bruteforcing
 
+
+
+  **Subdomain Bruteforcing**
 ```shell-session
 Gauravsingh2452@htb[/htb]$ dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt 
 
@@ -93,3 +95,4 @@ Ans)
 
 steps: 
 1) give chatgpt the question and ask it to use amass tool for giving solution
+2) chatgpt give this command to run : `amass enum -d inlanefreight.com -brute`  also another command `dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt` 
