@@ -88,3 +88,8 @@ Answer the question(s) below to complete this Section and earn cubes!
 Cheat Sheet
 
 + Q  Using the known subdomains for inlanefreight.com (www, ns1, ns2, ns3, blog, support, customer), find any missing subdomains by brute-forcing possible domain names. Provide your answer with the complete subdomain, e.g., www.inlanefreight.com.
+
+Ans)
+
+steps: 
+1) give chatgpt the question and ask it to use amass tool for giving solution
