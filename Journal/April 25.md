@@ -135,3 +135,9 @@ So I say to life, bring it on. Welcome all the struggle the whole way, never shr
 
 
 You can't blame your misery on your failure, you can only learn from your failure.
+If you blame your misery on your failures then you invite envy and resentment in your heart .
+
+So practice gratitude and humility in face of failure. For adversaries are always in the path of advancement.
+
+Discriminating between a challenge and an opportunity is very very difficult.
+And learning to se
