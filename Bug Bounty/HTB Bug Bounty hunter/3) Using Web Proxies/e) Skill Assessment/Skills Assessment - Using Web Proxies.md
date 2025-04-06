@@ -137,4 +137,5 @@ Connection: keep-alive
 
 now according to the lab question,  what is the 'XXXXX' directory being called in '/XXXXX/administrator/..'? 
 
-so here in this requests path  
+so here in this requests path  : GET /==CFIDE==/administrator/index.cfm
+we can see that  'XXXX'
