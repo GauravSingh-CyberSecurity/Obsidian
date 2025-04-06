@@ -129,4 +129,9 @@ You should attend to the spirit of the most true adventure that calls you out of
 So what is the most true adventure?
 
 - Ans) There is no distinction between the most true adventure of life and taking on the pathway of maximal responsibility and burden.
-- the hardest possible available adventure voluntarily understand 
+- it is the hardest possible available adventure voluntarily understand 
+
+So I say to life, bring it on. Welcome all the struggle the whole way, never shrinking away.
+
+
+You can't blame your misery on your failure, you can only learn from your failure.
