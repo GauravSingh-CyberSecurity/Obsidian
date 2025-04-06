@@ -114,9 +114,14 @@ Would you like quotes from his books that show this in action?
 
 
 
-If you follow the voice of adventure, 
+If you follow the voice of the most true adventure, 
 You'll become a blessing to yourself.
 That's a good deal, because people usually live at odds with themselves.
 
-You should attend to the spirit of adventure that calls you out of your comfort zone. If you do that and make necessary sacrifices to follow that path, then the following things will happen to you;-
-1) 
+You should attend to the spirit of the most true adventure that calls you out of your comfort zone. If you do that and make necessary sacrifices to follow that path, then the following things will occur to you;-
+1) your life will be a blessing to yourself , because you will not be living at odds with yourself anymore 
+2) everyone will hold you in high esteem 
+3) you'll establish something of permenent value 
+4) and you'll do all of it in a way that is maximally beneficial to everyone else 
+
+There is no dis
