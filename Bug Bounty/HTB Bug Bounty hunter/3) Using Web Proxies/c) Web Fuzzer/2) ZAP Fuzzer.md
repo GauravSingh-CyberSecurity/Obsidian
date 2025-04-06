@@ -196,4 +196,12 @@ C:\home\kali>
 
 ```
 
-Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as 
+Now lets find out the encoding/hashing syntax of the cookie 084e0343a0486ff05530df6c705c8bb4 , so i put it in decoder and try decode as :
+
+084e0343a0486ff05530df6c705c8bb4  (decode as ASCII HEX) > ` NC HoðU0ßlp\´ `  (i am not able to decode this further to get an actual string)![[Screenshot From 2025-04-06 12-21-22.png]]
+
+
+
+so i take the string 'guest' as i found it using hachcat , and try encode it to get the cookie exact format 084e0343a0486ff05530df6c705c8bb4  : (so i can determine the encoding/hashing syntax/format here)
+
+guest 
