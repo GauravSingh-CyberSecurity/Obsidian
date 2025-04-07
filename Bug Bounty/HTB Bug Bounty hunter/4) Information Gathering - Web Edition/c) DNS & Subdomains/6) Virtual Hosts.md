@@ -229,9 +229,19 @@ Explanation:
 - `-w`: Wordlist (same as FFUF).
 - `--append-domain`: Appends `.inlanefreight.htb` to each word.
 - `-t 100`: Number of concurrent threads.
-- ⚠️ **Important:** Gobuster assumes the base domain (like `inlanefreight.htb`) is in the URL you give. So you must **edit your `/etc/hosts`** to map `inlanefreight.htb` to `94.237.61.28` like this: `94.237.61.28 inlanefreight.htb`  (as we did in step 1)
 
-This way it(gobuster) tries `web.inlanefreight.htb`, `admin.inlanefreight.htb`, etc., as virtual hosts via the `Host:` header.  i.e it mapps the  domain in above command http://inlanefreight.htb:48868/  with the ip 94.237.61.28 and uses the given port in the link as it is
+- ⚠️ **Important:** When you run this above command: Gobuster will try to find subdomains (like `web.inlanefreight.htb`, `admin.inlanefreight.htb`, etc.) by sending requests with different `Host:` headers.
+- But for this to work, your system needs to know that `inlanefreight.htb` should go to the IP `94.237.61.28`. 
+- That’s why you must add this line to your `/etc/hosts` file: 
+		`94.237.61.28 inlanefreight.htb` 
+That way:
+- `inlanefreight.htb` points to `94.237.61.28`
+- Gobuster sends requests to port `48868`(http://inlanefreight.htb:48868/) on that IP
+- It tests different subdomains by modifying the `Host:` header (like `Host: web.inlanefreight.htb`)
+This lets you discover which subdomains (vhosts) actually exist on the target server.
+
+
+
 
 output of the command :
 ```
@@ -267,3 +277,8 @@ Finished
 C:\home\kali> 
 
 ```
+
+for answering this question : What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"  , from above output 
+the answer is :
+
+ web17611.inlanefreight.htb
