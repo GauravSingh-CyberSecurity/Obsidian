@@ -229,6 +229,9 @@ Explanation:
 - `-w`: Wordlist (same as FFUF).
 - `--append-domain`: Appends `.inlanefreight.htb` to each word.
 - `-t 100`: Number of concurrent threads.
+- ⚠️ **Important:** Gobuster assumes the base domain (like `inlanefreight.htb`) is in the URL you give. So you must **edit your `/etc/hosts`** to map `inlanefreight.htb` to `94.237.61.28` like this: `94.237.61.28 inlanefreight.htb`  (as we did in step 1)
+
+This way it(gobuster) tries `web.inlanefreight.htb`, `admin.inlanefreight.htb`, etc., as virtual hosts via the `Host:` header.  i.e it mapps the  domain in above command http://inlanefreight.htb:48868/  with the ip 94.237.61.28 and uses the given port in the link as it is
 
 output of the command :
 ```
