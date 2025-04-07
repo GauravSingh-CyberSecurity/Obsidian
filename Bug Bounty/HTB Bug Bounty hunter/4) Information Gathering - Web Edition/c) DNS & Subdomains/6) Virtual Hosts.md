@@ -148,18 +148,41 @@ vHosts needed for these questions:
 
 Cheat Sheet
 
-+ 1  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"
++ ==Q1)==   Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"
 
 Ans)
 
 steps for solution :-
 
 ### 1: Identify the Target
-
 You are given the following:
-
 - **Target IP**: `94.237.61.28`
-    
 - **Port**: `48868`
-    
 - **Base Domain**: `inlanefreight.htb`
+
+### 2: Choose a Wordlist
+Use a solid subdomain wordlist like:
+```
+/usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+```
+This list contains commonly used subdomains and is great for virtual host enumeration.
+
+### 3: Run Gobuster
+Use the following command (replace if your path or wordlist is different):
+```
+gobuster vhost -u http://94.237.61.28:48868 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain -t 50 -o gobuster_output.txt -H "Host: inlanefreight.htb"
+
+```
+
+Explanation:
+- `-u`: Target URL with IP and port
+- `-w`: Wordlist path
+- `--append-domain`: Appends `.inlanefreight.htb` to each word
+- `-t 50`: Increase threads for speed
+- `-o gobuster_output.txt`: Save output to a file
+- `-H "Host: inlanefreight.htb"`: Optional — sets a baseline Host header if needed (depends on server behavior)
+
+output of the command :
+```
+
+```
