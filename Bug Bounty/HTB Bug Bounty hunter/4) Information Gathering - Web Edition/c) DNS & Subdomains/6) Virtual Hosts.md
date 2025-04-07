@@ -143,18 +143,45 @@ Answer the question(s) below to complete this Section and earn cubes!
 Target(s): 94.237.61.28:48868   
 
 vHosts needed for these questions:
-
 - `inlanefreight.htb`
 
 Cheat Sheet
 
 + ==Q1)==   Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"
 
-Ans)
+Ans) web17611.inlanefreight.htb
 
 steps for solution :-
 
-### 1: Identify the Target
+a) make sure you are connected to HTB with openvpn to solve lab using your l
+### 1: Add the domain to `/etc/hosts`
+You need to tell your machine that `inlanefreight.htb` points to `94.237.61.28`.
+1. Open the hosts file:
+```
+sudo nano /etc/hosts
+```
+
+2. Add this line at the bottom of file:
+```
+94.237.61.28 inlanefreight.htb
+```
+Save and exit (`Ctrl + O`, `Enter`, then `Ctrl + X` in nano).
+
+
+### 2: Check `/etc/hosts` Entry
+
+Open your terminal and run:
+```
+cat /etc/hosts
+```
+You should see a line like this in end of the file:
+```
+94.237.61.28 inlanefreight.htb
+```
+✅ This tells your system to resolve `inlanefreight.htb` to the target IP. hence vHosts needed for these questions: `inlanefreight.htb` is set properly in our system
+
+
+### : Identify the Target
 You are given the following:
 - **Target IP**: `94.237.61.28`
 - **Port**: `48868`
@@ -184,5 +211,5 @@ Explanation:
 
 output of the command :
 ```
-
+web17611.inlanefreight.htb
 ```
