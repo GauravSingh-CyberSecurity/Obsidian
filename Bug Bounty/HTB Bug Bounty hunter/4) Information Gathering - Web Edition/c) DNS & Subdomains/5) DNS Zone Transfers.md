@@ -88,11 +88,13 @@ Target(s): 
 
 
 
-+ Q1)  After performing a zone transfer for the domain inlanefreight.htb on the target system, how many DNS records are retrieved from the target system's name server? Provide your answer as an integer, e.g, 123.
++ ==Q1)==  After performing a zone transfer for the domain inlanefreight.htb on the target system, how many DNS records are retrieved from the target system's name server? Provide your answer as an integer, e.g, 123.
 
 Target(s): 10.129.158.36 (ACADEMY-INFOGATH-WEB-DNS)
 
-solution)
+Ans) 22
+
+steps for solution: -
 a) connect to lab using openvpn  to access lab throught your local machiine
 
 1) To determine the number of DNS records retrieved from the name server of 'inlanefreight.htb' via a zone transfer, follow these steps:
@@ -127,8 +129,8 @@ C:\home\kali> dig ns inlanefreight.htb
 
 ```
 
-2) **Perform the Zone Transfer:**
 
+2) **Perform the Zone Transfer:**
 - Execute the following command, replacing `[NameServer_IP]` with the IP address obtained in the previous step ==(here the NameServer_IP = 10.129.158.36 (the target ip) )== :  
 ```
 dig axfr inlanefreight.htb @10.129.158.36
@@ -171,10 +173,28 @@ C:\home\kali>
 
 ```
 
+
 3) Analyze the Output: The command will return all DNS records for the domain. At the end of the output, look for a line similar to:
 ```
 ;; XFR size: [Number] records (messages [MessageCount], bytes [ByteSize])
 ```
 The `[Number]` indicates the total count of DNS records retrieved.
 
-Our ac
+Hence Our actual output according to above:   
+```
+;; XFR size: 22 records (messages 1, bytes 594)
+```
+
+So, 22 DNS records were retrieved from the name server.
+subimt '22' in solution.
+
+
+
+
++ ==Q2)== Within the zone record transferred above, find the ip address for ftp.admin.inlanefreight.htb. Respond only with the IP address, eg 127.0.0.1
+
+Ans) 
+
+steps for solution: -
+
+1) 
