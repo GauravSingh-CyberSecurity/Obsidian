@@ -197,4 +197,52 @@ Ans)
 
 steps for solution: -
 
-1) 
+1) to solve this just take this step from ==Q1)== :- 2) **Perform the Zone Transfer:**
+- Execute the following command, replacing `[NameServer_IP]` with the IP address obtained in the previous step ==(here the NameServer_IP = 10.129.158.36 (the target ip) )== :  
+```
+dig axfr inlanefreight.htb @10.129.158.36
+
+```
+output for this command :
+```
+C:\home\kali> dig axfr inlanefreight.htb @10.129.158.36
+
+; <<>> DiG 9.20.7-1-Debian <<>> axfr inlanefreight.htb @10.129.158.36
+;; global options: +cmd
+inlanefreight.htb.	604800	IN	SOA	inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800
+inlanefreight.htb.	604800	IN	NS	ns.inlanefreight.htb.
+admin.inlanefreight.htb. 604800	IN	A	10.10.34.2
+ftp.admin.inlanefreight.htb. 604800 IN	A	10.10.34.2
+careers.inlanefreight.htb. 604800 IN	A	10.10.34.50
+dc1.inlanefreight.htb.	604800	IN	A	10.10.34.16
+dc2.inlanefreight.htb.	604800	IN	A	10.10.34.11
+internal.inlanefreight.htb. 604800 IN	A	127.0.0.1
+admin.internal.inlanefreight.htb. 604800 IN A	10.10.1.11
+wsus.internal.inlanefreight.htb. 604800	IN A	10.10.1.240
+ir.inlanefreight.htb.	604800	IN	A	10.10.45.5
+dev.ir.inlanefreight.htb. 604800 IN	A	10.10.45.6
+ns.inlanefreight.htb.	604800	IN	A	127.0.0.1
+resources.inlanefreight.htb. 604800 IN	A	10.10.34.100
+securemessaging.inlanefreight.htb. 604800 IN A	10.10.34.52
+test1.inlanefreight.htb. 604800	IN	A	10.10.34.101
+us.inlanefreight.htb.	604800	IN	A	10.10.200.5
+cluster14.us.inlanefreight.htb.	604800 IN A	10.10.200.14
+messagecenter.us.inlanefreight.htb. 604800 IN A	10.10.200.10
+ww02.inlanefreight.htb.	604800	IN	A	10.10.34.112
+www1.inlanefreight.htb.	604800	IN	A	10.10.34.111
+inlanefreight.htb.	604800	IN	SOA	inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800
+;; Query time: 516 msec
+;; SERVER: 10.129.158.36#53(10.129.158.36) (TCP)
+;; WHEN: Mon Apr 07 12:06:55 IST 2025
+;; XFR size: 22 records (messages 1, bytes 594)
+
+C:\home\kali> 
+
+```
+
+
+2) **Extract the IP Address:**
+
+- Search through the above zone transfer output for the , `A` record corresponding to `ftp.admin.inlanefreight.htb`
+
+and in above output of the zone transfer  this is the A record :
