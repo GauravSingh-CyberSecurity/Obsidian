@@ -280,5 +280,4 @@ C:\home\kali>
 
 for answering this question : What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"  , from above output 
 the answer is :
-
- web17611.inlanefreight.htb
+ ==web17611.inlanefreight.htb==
