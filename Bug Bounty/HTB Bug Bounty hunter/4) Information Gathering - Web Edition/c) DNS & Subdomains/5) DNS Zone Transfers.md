@@ -193,7 +193,7 @@ subimt '22' in solution.
 
 + ==Q2)== Within the zone record transferred above, find the ip address for ftp.admin.inlanefreight.htb. Respond only with the IP address, eg 127.0.0.1
 
-Ans) 
+Ans) 10.10.34.2
 
 steps for solution: -
 
@@ -245,4 +245,42 @@ C:\home\kali>
 
 - Search through the above zone transfer output for the , `A` record corresponding to `ftp.admin.inlanefreight.htb`
 
-and in above output of the zone transfer  this is the A record :
+and in above output of the zone transfer  this is the `A` record corresponding to `ftp.admin.inlanefreight.htb` :
+
+```
+ftp.admin.inlanefreight.htb. 604800 IN	A	10.10.34.2
+```
+
+so the the IP address is ==10.10.34.2== ,submit this in the solution .
+
+
+
+
+
+
+
+
+
+
+
+ - ==Q3)== Within the same zone record, identify the largest IP address allocated within the 10.10.200 IP range. Respond with the full IP address, eg 10.10.200.1
+
+Ans) 10.10.200.14
+
+steps for solution: -
+
+1) take the above zone record itself  and give it to chatgpt
+2) the prompt i gave to chatgpt is:
+```
+Within the same zone record, identify the largest IP address allocated within the 10.10.200 IP range. Respond with the full IP address, eg 10.10.200.1 ; <<>> DiG 9.20.7-1-Debian <<>> axfr inlanefreight.htb @10.129.158.36 ;; global options: +cmd inlanefreight.htb. 604800 IN SOA inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800 inlanefreight.htb. 604800 IN NS ns.inlanefreight.htb. admin.inlanefreight.htb. 604800 IN A 10.10.34.2 ftp.admin.inlanefreight.htb. 604800 IN A 10.10.34.2 careers.inlanefreight.htb. 604800 IN A 10.10.34.50 dc1.inlanefreight.htb. 604800 IN A 10.10.34.16 dc2.inlanefreight.htb. 604800 IN A 10.10.34.11 internal.inlanefreight.htb. 604800 IN A 127.0.0.1 admin.internal.inlanefreight.htb. 604800 IN A 10.10.1.11 wsus.internal.inlanefreight.htb. 604800 IN A 10.10.1.240 ir.inlanefreight.htb. 604800 IN A 10.10.45.5 dev.ir.inlanefreight.htb. 604800 IN A 10.10.45.6 ns.inlanefreight.htb. 604800 IN A 127.0.0.1 resources.inlanefreight.htb. 604800 IN A 10.10.34.100 securemessaging.inlanefreight.htb. 604800 IN A 10.10.34.52 test1.inlanefreight.htb. 604800 IN A 10.10.34.101 us.inlanefreight.htb. 604800 IN A 10.10.200.5 cluster14.us.inlanefreight.htb. 604800 IN A 10.10.200.14 messagecenter.us.inlanefreight.htb. 604800 IN A 10.10.200.10 ww02.inlanefreight.htb. 604800 IN A 10.10.34.112 www1.inlanefreight.htb. 604800 IN A 10.10.34.111 inlanefreight.htb. 604800 IN SOA inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800 ;; Query time: 516 msec ;; SERVER: 10.129.158.36#53(10.129.158.36) (TCP) ;; WHEN: Mon Apr 07 12:06:55 IST 2025 ;; XFR size: 22 records (messages 1, bytes 594)
+```
+
+3) chatgpt replied : 
+	From the AXFR zone transfer data, the IP addresses in the `10.10.200.*` range are:
+	- `10.10.200.5`
+	- `10.10.200.14`
+	- `10.10.200.10`
+	Among these, the largest IP address is:
+	**`10.10.200.14`** ✅
+
+so s
