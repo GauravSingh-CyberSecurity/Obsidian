@@ -80,3 +80,12 @@ canberra-office.zonetransfer.me. 7200 IN A	202.14.81.230
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+Target(s): 
+
+
+
++ 1  After performing a zone transfer for the domain inlanefreight.htb on the target system, how many DNS records are retrieved from the target system's name server? Provide your answer as an integer, e.g, 123.
