@@ -90,4 +90,8 @@ Target(s): 
 
 + Q1)  After performing a zone transfer for the domain inlanefreight.htb on the target system, how many DNS records are retrieved from the target system's name server? Provide your answer as an integer, e.g, 123.
 
+Target(s): 10.129.158.36 (ACADEMY-INFOGATH-WEB-DNS)
+
 solution)
+1) connect to lab using openvpn  to access lab throught your local machiine
+2) 
