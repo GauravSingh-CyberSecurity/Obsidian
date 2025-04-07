@@ -93,5 +93,88 @@ Target(s): 
 Target(s): 10.129.158.36 (ACADEMY-INFOGATH-WEB-DNS)
 
 solution)
-1) connect to lab using openvpn  to access lab throught your local machiine
-2) 
+a) connect to lab using openvpn  to access lab throught your local machiine
+
+1) To determine the number of DNS records retrieved from the name server of 'inlanefreight.htb' via a zone transfer, follow these steps:
+	. **Identify the Domain's Name Server:**
+    - Use the `dig` command to find the authoritative name server for 'inlanefreight.htb':
+```
+    dig ns inlanefreight.htb
+```
+
+output for this command 
+```
+C:\home\kali> dig ns inlanefreight.htb
+
+; <<>> DiG 9.20.7-1-Debian <<>> ns inlanefreight.htb
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16187
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;inlanefreight.htb.		IN	NS
+
+;; AUTHORITY SECTION:
+.			900	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2025040700 1800 900 604800 86400
+
+;; Query time: 40 msec
+;; SERVER: 192.168.212.253#53(192.168.212.253) (UDP)
+;; WHEN: Mon Apr 07 12:04:07 IST 2025
+;; MSG SIZE  rcvd: 121
+
+```
+
+2) **Perform the Zone Transfer:**
+
+- Execute the following command, replacing `[NameServer_IP]` with the IP address obtained in the previous step ==(here the NameServer_IP = 10.129.158.36 (the target ip) )== :  
+```
+dig axfr inlanefreight.htb @10.129.158.36
+
+```
+output for this command :
+```
+C:\home\kali> dig axfr inlanefreight.htb @10.129.158.36
+
+; <<>> DiG 9.20.7-1-Debian <<>> axfr inlanefreight.htb @10.129.158.36
+;; global options: +cmd
+inlanefreight.htb.	604800	IN	SOA	inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800
+inlanefreight.htb.	604800	IN	NS	ns.inlanefreight.htb.
+admin.inlanefreight.htb. 604800	IN	A	10.10.34.2
+ftp.admin.inlanefreight.htb. 604800 IN	A	10.10.34.2
+careers.inlanefreight.htb. 604800 IN	A	10.10.34.50
+dc1.inlanefreight.htb.	604800	IN	A	10.10.34.16
+dc2.inlanefreight.htb.	604800	IN	A	10.10.34.11
+internal.inlanefreight.htb. 604800 IN	A	127.0.0.1
+admin.internal.inlanefreight.htb. 604800 IN A	10.10.1.11
+wsus.internal.inlanefreight.htb. 604800	IN A	10.10.1.240
+ir.inlanefreight.htb.	604800	IN	A	10.10.45.5
+dev.ir.inlanefreight.htb. 604800 IN	A	10.10.45.6
+ns.inlanefreight.htb.	604800	IN	A	127.0.0.1
+resources.inlanefreight.htb. 604800 IN	A	10.10.34.100
+securemessaging.inlanefreight.htb. 604800 IN A	10.10.34.52
+test1.inlanefreight.htb. 604800	IN	A	10.10.34.101
+us.inlanefreight.htb.	604800	IN	A	10.10.200.5
+cluster14.us.inlanefreight.htb.	604800 IN A	10.10.200.14
+messagecenter.us.inlanefreight.htb. 604800 IN A	10.10.200.10
+ww02.inlanefreight.htb.	604800	IN	A	10.10.34.112
+www1.inlanefreight.htb.	604800	IN	A	10.10.34.111
+inlanefreight.htb.	604800	IN	SOA	inlanefreight.htb. root.inlanefreight.htb. 2 604800 86400 2419200 604800
+;; Query time: 516 msec
+;; SERVER: 10.129.158.36#53(10.129.158.36) (TCP)
+;; WHEN: Mon Apr 07 12:06:55 IST 2025
+;; XFR size: 22 records (messages 1, bytes 594)
+
+C:\home\kali> 
+
+```
+
+3) Analyze the Output: The command will return all DNS records for the domain. At the end of the output, look for a line similar to:
+```
+;; XFR size: [Number] records (messages [MessageCount], bytes [ByteSize])
+```
+The `[Number]` indicates the total count of DNS records retrieved.
+
+Our ac
