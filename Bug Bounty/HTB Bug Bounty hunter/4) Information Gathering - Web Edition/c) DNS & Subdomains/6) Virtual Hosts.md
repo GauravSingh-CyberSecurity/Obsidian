@@ -179,10 +179,32 @@ Explanation:
 - `-w`: Wordlist path
 - `--append-domain`: Appends `.inlanefreight.htb` to each word
 - `-t 50`: Increase threads for speed
-- `-o gobuster_output.txt`: Save output to a file
+- `-o gobuster_output.txt`: Save output to a file (not needed for me, directly view on terminal)
 - `-H "Host: inlanefreight.htb"`: Optional — sets a baseline Host header if needed (depends on server behavior)
 
 output of the command :
 ```
+C:\home\kali> gobuster vhost -u http://94.237.61.28:48868 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain -t 50 -o gobuster_output.txt -H "Host: inlanefreight.htb"
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://94.237.61.28:48868
+[+] Method:          GET
+[+] Threads:         50
+[+] Wordlist:        /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:      gobuster/3.6
+[+] Timeout:         10s
+[+] Append Domain:   true
+===============================================================
+Starting gobuster in VHOST enumeration mode
+===============================================================
+Progress: 114441 / 114442 (100.00%)
+===============================================================
+Finished
+===============================================================
+C:\home\kali> 
+
+
 
 ```
