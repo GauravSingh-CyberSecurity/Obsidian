@@ -153,7 +153,15 @@ Ans) web17611.inlanefreight.htb
 
 steps for solution :-
 
-a) make sure you are connected to HTB with openvpn to solve lab using your l
+==Note)== make sure you are connected to HTB with openvpn to solve lab using your local machine
+
+### 0: Identify the Target
+You are given the following:
+- **Target IP**: `94.237.61.28`
+- **Port**: `48868`
+- **Base Domain**: `inlanefreight.htb`
+
+
 ### 1: Add the domain to `/etc/hosts`
 You need to tell your machine that `inlanefreight.htb` points to `94.237.61.28`.
 1. Open the hosts file:
@@ -178,38 +186,81 @@ You should see a line like this in end of the file:
 ```
 94.237.61.28 inlanefreight.htb
 ```
-✅ This tells your system to resolve `inlanefreight.htb` to the target IP. hence vHosts needed for these questions: `inlanefreight.htb` is set properly in our system
+✅ This tells your system to resolve `inlanefreight.htb` to the target IP.
+hence vHosts needed for these questions: `inlanefreight.htb`  ,  is set properly in our system
+
+### 3: Test in Browser
+
+1. Open your browser.
+2. Visit:
+```
+http://inlanefreight.htb:48868
+
+or try
+
+http://inlanefreight.htb
+```
+If your `/etc/hosts` is correctly configured, one of these should load the page from the IP `94.237.61.28`.   like this :![[Screenshot From 2025-04-07 13-35-13.png]]
 
 
-### : Identify the Target
-You are given the following:
-- **Target IP**: `94.237.61.28`
-- **Port**: `48868`
-- **Base Domain**: `inlanefreight.htb`
 
-### 2: Choose a Wordlist
+
+
+### 4: Choose a Wordlist
 Use a solid subdomain wordlist like:
 ```
 /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
 ```
 This list contains commonly used subdomains and is great for virtual host enumeration.
 
-### 3: Run Gobuster
+### 5: Run Gobuster
 Use the following command (replace if your path or wordlist is different):
 ```
-
+gobuster vhost -u http://inlanefreight.htb:48868/  \
+-w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt \
+--append-domain \
+-t 500
 
 ```
 
 Explanation:
-- `-u`: Target URL with IP and port
-- `-w`: Wordlist path
-- `--append-domain`: Appends `.inlanefreight.htb` to each word
-- `-t 50`: Increase threads for speed
-- `-o gobuster_output.txt`: Save output to a file ==(not needed for me, directly view on terminal)==
-- `-H "Host: inlanefreight.htb"`: Optional — sets a baseline Host header if needed (depends on server behavior)
+- - `vhost`: Mode for virtual host discovery.
+- `-u`: Target URL.
+- `-w`: Wordlist (same as FFUF).
+- `--append-domain`: Appends `.inlanefreight.htb` to each word.
+- `-t 100`: Number of concurrent threads.
 
 output of the command :
 ```
-web17611.inlanefreight.htb
+C:\home\kali> gobuster vhost -u http://inlanefreight.htb:48868/  \
+-w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt \
+--append-domain \
+-t 500
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://inlanefreight.htb:48868/
+[+] Method:          GET
+[+] Threads:         500
+[+] Wordlist:        /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:      gobuster/3.6
+[+] Timeout:         10s
+[+] Append Domain:   true
+===============================================================
+Starting gobuster in VHOST enumeration mode
+===============================================================
+Found: forum.inlanefreight.htb:48868 Status: 200 [Size: 100]
+Found: admin.inlanefreight.htb:48868 Status: 200 [Size: 100]
+Found: blog.inlanefreight.htb:48868 Status: 200 [Size: 98]
+Found: support.inlanefreight.htb:48868 Status: 200 [Size: 104]
+Found: vm5.inlanefreight.htb:48868 Status: 200 [Size: 96]
+Found: browse.inlanefreight.htb:48868 Status: 200 [Size: 102]
+Found: web17611.inlanefreight.htb:48868 Status: 200 [Size: 106]
+Progress: 114441 / 114442 (100.00%)
+===============================================================
+Finished
+===============================================================
+C:\home\kali> 
+
 ```
