@@ -170,7 +170,7 @@ This list contains commonly used subdomains and is great for virtual host enumer
 ### 3: Run Gobuster
 Use the following command (replace if your path or wordlist is different):
 ```
-gobuster vhost -u http://94.237.61.28:48868 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain -t 50 -o gobuster_output.txt -H "Host: inlanefreight.htb"
+
 
 ```
 
