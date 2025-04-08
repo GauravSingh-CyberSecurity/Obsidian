@@ -283,7 +283,14 @@ the answer is :
  ==web17611.inlanefreight.htb==
 
 
-- Q2)  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "vm"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+- ==Q2)==  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "vm"? Answer using the full domain, e.g. "x.inlanefreight.htb"
 Ans)  vm5.inlanefreight.htb ( use **==output of the final command==** )  
 
-- Q3) Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "br"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+- ==Q3)== Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "br"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+Ans) browse.inlanefreight.htb  ( use **==output of the final command==** )  
+
+-  ==Q4)== Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "a"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+Ans) admin.inlanefreight.htb ( use **==output of the final command==** )  
+
+- ==Q5)==  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "su"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+Ans) support.inlanefreight.htb ( use **==output of the final command==** )  
