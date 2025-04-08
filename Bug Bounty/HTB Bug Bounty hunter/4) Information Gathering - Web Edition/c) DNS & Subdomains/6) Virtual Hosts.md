@@ -286,4 +286,4 @@ the answer is :
 - Q2)  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "vm"? Answer using the full domain, e.g. "x.inlanefreight.htb"
 Ans)  vm5.inlanefreight.htb ( use **==output of the final command==** )  
 
-- 
+- Q3) Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "br"? Answer using the full domain, e.g. "x.inlanefreight.htb"
