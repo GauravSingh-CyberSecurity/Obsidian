@@ -243,7 +243,7 @@ This lets you discover which subdomains (vhosts) actually exist on the target se
 
 
 
-output of the command :
+**==output of the final command==** :
 ```
 C:\home\kali> gobuster vhost -u http://inlanefreight.htb:48868/  \
 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt \
@@ -281,3 +281,9 @@ C:\home\kali>
 for answering this question : What is the full subdomain that is prefixed with "web"? Answer using the full domain, e.g. "x.inlanefreight.htb"  , from above output 
 the answer is :
  ==web17611.inlanefreight.htb==
+
+
+- Q2)  Brute-force vhosts on the target system. What is the full subdomain that is prefixed with "vm"? Answer using the full domain, e.g. "x.inlanefreight.htb"
+Ans)  vm5.inlanefreight.htb ( use **==output of the final command==** )  
+
+- 
