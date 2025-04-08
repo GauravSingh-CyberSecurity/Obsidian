@@ -272,6 +272,21 @@ http://app.inlanefreight.local
 
 or try
 
-http://inlanefreight.htb
+http://dev.inlanefreight.local
 ```
-If your `/etc/hosts` is correctly configured, one of these should load the page from the IP `94.237.61.28`.   like this :
+If your `/etc/hosts` is correctly configured, both of these should load the page from the IP `10.129.122.125`.   
+
+
+
+
+
+
+- Q1) Determine the Apache version running on app.inlanefreight.local on the target system. (Format: 0.0.0)
+Ans) 2.4.41
+
+Steps for solution: 
+1) once the app.inlanefreight.local is reachable via browser :![[Screenshot From 2025-04-08 14-50-47.png]]
+2) capture the http://app.inlanefreight.local/ request in burp interceptor > send to repeater .
+3) in repeater send the request and review the response 
+![[Screenshot From 2025-04-08 14-52-21.png]]
+here we can see Apache/2.4.41 . hence we found the apache version.
