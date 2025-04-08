@@ -240,8 +240,8 @@ sudo nano /etc/hosts
 
 2. Add this line at the bottom of file:
 ```
-10.129.122.125 app.inlanefreight.local`
-10.129.122.125 dev.inlanefreight.local`
+10.129.122.125 app.inlanefreight.local
+10.129.122.125 dev.inlanefreight.local
 ```
 Save and exit (`Ctrl + O`, `Enter`, then `Ctrl + X` in nano).
 
@@ -254,17 +254,18 @@ cat /etc/hosts
 ```
 You should see a line like this in end of the file:
 ```
-94.237.61.28 inlanefreight.htb
+10.129.122.125 app.inlanefreight.local
+10.129.122.125 dev.inlanefreight.local
 ```
-✅ This tells your system to resolve `inlanefreight.htb` to the target IP.
-hence vHosts needed for these questions: `inlanefreight.htb`  ,  is set properly in our system
+✅ This tells your system to resolve `app.inlanefreight.local , dev.inlanefreight.local` to the target IP.
+hence vHosts needed for these questions: `app.inlanefreight.local , dev.inlanefreight.local`  ,  is set properly in our system
 
 ### 3: Test in Browser
 
 1. Open your browser.
 2. Visit:
 ```
-http://inlanefreight.htb:48868
+http://app.inlanefreight.local
 
 or try
 
