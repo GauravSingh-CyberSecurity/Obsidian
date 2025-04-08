@@ -224,10 +224,13 @@ vHosts needed for these questions:
 - `app.inlanefreight.local`
 - `dev.inlanefreight.local`
 
+
+setting up these pre-requisites :- 
+==First connect using openvpn to HTB== 
+
 ### 0: Identify the Target
 You are given the following:
 - **Target IP**: `10.129.122.125`
-
 - **Base Domain**: `app.inlanefreight.local`  `dev.inlanefreight.local`
 
 
