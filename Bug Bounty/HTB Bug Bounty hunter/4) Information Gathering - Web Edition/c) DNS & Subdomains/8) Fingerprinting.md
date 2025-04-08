@@ -290,3 +290,18 @@ Steps for solution:
 3) in repeater send the request and review the response 
 ![[Screenshot From 2025-04-08 14-52-21.png]]
 here we can see Apache/2.4.41 . hence we found the apache version.
+
+
+
+- Q2) Which CMS is used on app.inlanefreight.local on the target system? Respond with the name only, e.g., WordPress.
+Ans) Joomla
+
+Steps for solution: 
+1) search the app.inlanefreight.local in browser
+2) use wappalyzer extension and view the details
+3) here we can see CMS: Joomla
+![[Pasted image 20250408145648.png]]
+
+
+
+- Q3) 
