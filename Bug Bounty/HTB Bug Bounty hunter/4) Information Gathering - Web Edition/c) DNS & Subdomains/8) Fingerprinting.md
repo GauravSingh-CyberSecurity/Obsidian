@@ -281,7 +281,7 @@ If your `/etc/hosts` is correctly configured, both of these should load the page
 
 
 
-- Q1) Determine the Apache version running on app.inlanefreight.local on the target system. (Format: 0.0.0)
+- ==Q1)== Determine the Apache version running on app.inlanefreight.local on the target system. (Format: 0.0.0)
 Ans) 2.4.41
 
 Steps for solution: 
@@ -289,11 +289,11 @@ Steps for solution:
 2) capture the http://app.inlanefreight.local/ request in burp interceptor > send to repeater .
 3) in repeater send the request and review the response 
 ![[Screenshot From 2025-04-08 14-52-21.png]]
-here we can see Apache/2.4.41 . hence we found the apache version.
+here we can see  ; Server: Apache/2.4.41 (Ubuntu) . hence we found the apache version.
 
 
 
-- Q2) Which CMS is used on app.inlanefreight.local on the target system? Respond with the name only, e.g., WordPress.
+- ==Q2)== Which CMS is used on app.inlanefreight.local on the target system? Respond with the name only, e.g., WordPress.
 Ans) Joomla
 
 Steps for solution: 
@@ -304,4 +304,13 @@ Steps for solution:
 
 
 
-- Q3) 
+- ==Q3)== On which operating system is the dev.inlanefreight.local webserver running in the target system? Respond with the name only, e.g., Debian.
+Ans) Ubuntu
+
+Steps for solution: 
+1) once the dev.inlanefreight.local  is reachable via browser 
+2) 2) capture the http://dev.inlanefreight.local/ request in burp interceptor > send to repeater .
+3) in repeater send the request and review the response 
+![[Pasted image 20250408150112.png]]
+here we can see  ;     Server: Apache/2.4.41 (Ubuntu)
+ - hence OS : Ubuntu
