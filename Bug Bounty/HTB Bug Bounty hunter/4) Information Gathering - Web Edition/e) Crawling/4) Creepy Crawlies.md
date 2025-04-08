@@ -110,3 +110,37 @@ By exploring this JSON structure, you can gain valuable insights into the web ap
 
 ---
 
+#### Questions
+
+Answer the question(s) below to complete this Section and earn cubes!
+
+
+
++ ==Q1)==  After spidering inlanefreight.com, identify the location where future reports will be stored. Respond with the full domain, e.g., files.inlanefreight.com.
+#####  Hint
+###### Maybe there is a comment about it
+
+Ans) 
+
+
+```
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\HTB Bug Bounty hunter>  wget -O ReconSpider.zip https://academy.hackthebox.com/storage/modules/144/ReconSpider.v1.2.zip
+--2025-04-08 15:12:27--  https://academy.hackthebox.com/storage/modules/144/ReconSpider.v1.2.zip
+Resolving academy.hackthebox.com (academy.hackthebox.com)... 109.176.239.69, 109.176.239.70
+Connecting to academy.hackthebox.com (academy.hackthebox.com)|109.176.239.69|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1706 (1.7K) [application/zip]
+Saving to: ‘ReconSpider.zip’
+
+ReconSpider.zip                     100%[=================================================================>]   1.67K  --.-KB/s    in 0s      
+
+2025-04-08 15:12:28 (13.2 MB/s) - ‘ReconSpider.zip’ saved [1706/1706]
+
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\HTB Bug Bounty hunter> ls
+'0) Connect HTB Lab via VPN on your own machine.md'  '3) Using Web Proxies'                    'HTB Id.md'
+'1) Web Requests'                                    '4) Information Gathering - Web Edition'   ReconSpider.zip
+'2) Introduction to Web Applications'                 academy-regular.ovpn
+C:\home\kali\Documents\Obsidian Vault\Bug Bounty\HTB Bug Bounty hunter> unzip ReconSpider.zip 
+Archive:  ReconSpider.zip
+  inflating: ReconSpider.py   
+```
