@@ -140,4 +140,4 @@ If you blame your misery on your failures then you invite envy and resentment in
 So practice gratitude and humility in face of failure. For adversaries are always in the path of advancement.
 
 Discriminating between a challenge and an opportunity is very very difficult.
-And learning to se
+And learning to see a challenge as an opportunity, that's the beginning of wisdom.
