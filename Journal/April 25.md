@@ -162,3 +162,7 @@ Abide by your conscience, put your self together and you'll become attractive.
 9) one must still have chaos in one, to give birth to a dancing star.
 10) he who is not an eagle should not camp above abysses.
 11) the dream tends to inhabit the edge of the knowable.
+12) if something remains standing after rigorous criticism, thats an indication of its integrity 
+13) on what basis should we erect our morality?
+14) the ego is not master in its own house 
+15) life consists in the att
