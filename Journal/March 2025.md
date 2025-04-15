@@ -55,9 +55,11 @@ I act in front of people, as I think they think I am.
 
 # 20 march 
 
+Concepts to think on
 1) eternal recurrence and carpe diem 
 2) ubiquitous assimilation 
 3) on the authenticity of my thoughts, that are just my own and no one else's (indifferent to my position, culture, upbringing, circle ), on the mathematical and physical infinites and how there exists a conscious infinity of thouths inside us( the plane inwards and outward infinity)
 4) emergence morality, how it transformed, how earlier the concept of marriage was frowned upon, in the sense of people owning a person, and then it grew into two people having spiritual connection helping each other to grow together 
 5) alexander Solzhenitsyn line that divides good and evil cuts through every human heart and who wants to loose a piece of their own heart 
 6) in me I see and found an abyss, I gaze into it long enough, now i see that abyss is an essence of divine in me , for what lies in me is not cold unending uncertainty but an infinity that is the bridge between me and the divine. For my god the dancer shiv is the infinite and thus he lies within me, like him I am infinite like him with the depth of my thoughts and with the strength of my conscience. Thus now I see light in that abyss for now i have gazed deep enough to see the infinity that I share with the divine.
+7) the concept of creative destruction, like Nietzsche destroyed the concept of slave morality in institutional christianity and in process created the concept of Übermensch 
