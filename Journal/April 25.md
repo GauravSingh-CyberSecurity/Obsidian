@@ -141,3 +141,24 @@ So practice gratitude and humility in face of failure. For adversaries are alway
 
 Discriminating between a challenge and an opportunity is very very difficult.
 And learning to see a challenge as an opportunity, that's the beginning of wisdom.
+
+
+
+# 15 april 
+
+Get your self together, stand up straight with your shoulders back.
+Take on some true adventure , find your calling.
+Abide by your conscience, put your self together and you'll become attractive.
+
+
+1) Wonder is beginning of wisdom
+2) He whose life has a why can bear almost any how
+3) To find yourself, think for yourself.
+4) We cannot live better than in seeking to become better.
+5) What we do in life echoes in eternity
+6) Those who dance appear insane to those who cannot hear the music
+7) Behind every great human destiny echoes as refrain an even greater “in vain!”
+8) The line dividing good and evil cuts through the heart of every human being.
+9) one must still have chaos in one, to give birth to a dancing star.
+10) he who is not an eagle should not camp above abysses.
+11) the dream tends to inhabit the edge of the knowable.
