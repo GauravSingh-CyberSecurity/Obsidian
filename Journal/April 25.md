@@ -165,4 +165,7 @@ Abide by your conscience, put your self together and you'll become attractive.
 12) if something remains standing after rigorous criticism, thats an indication of its integrity 
 13) on what basis should we erect our morality?
 14) the ego is not master in its own house 
-15) life consists in the att
+15) life consists in: the attempt to expend ourselves in life.
+16) the road of excess leads the place of wisdom. So it's better to through yourself at excess in a young age, then you understand boundaries, good, evil.
+17) many people who never break rules are not moral, they are just cowardly 
+18) Are you intimidated into obidence or are you a moral a
