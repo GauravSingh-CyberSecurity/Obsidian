@@ -168,4 +168,7 @@ Abide by your conscience, put your self together and you'll become attractive.
 15) life consists in: the attempt to expend ourselves in life.
 16) the road of excess leads the place of wisdom. So it's better to through yourself at excess in a young age, then you understand boundaries, good, evil.
 17) many people who never break rules are not moral, they are just cowardly 
-18) Are you intimidated into obidence or are you a moral a
+18) Are you intimidated into obedience or are you a moral agent.
+19) Nietzsche will to power is not at all the Marxist ideology of trying to attain power just for the sake of exploiting it. Instead Nietzsche will to power is the implicit desire to manifest the full range of your abilities.
+20) intitutions move increma
+

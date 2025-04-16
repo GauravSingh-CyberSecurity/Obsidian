@@ -54,3 +54,5 @@ iso meet with tibdiwal sir this week
 Risk register update, sec training, 5.12 control sop, first serve report .
 
 MFA in vpn, SP access, 
+
+Dashboard for security training , security training motion ppt on the dashboard, sec headers- cryptography etc sec awareness training.
