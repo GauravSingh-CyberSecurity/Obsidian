@@ -170,5 +170,8 @@ Abide by your conscience, put your self together and you'll become attractive.
 17) many people who never break rules are not moral, they are just cowardly 
 18) Are you intimidated into obedience or are you a moral agent.
 19) Nietzsche will to power is not at all the Marxist ideology of trying to attain power just for the sake of exploiting it. Instead Nietzsche will to power is the implicit desire to manifest the full range of your abilities.
-20) intitutions move increma
+20) institutions move incrementally at best, it cannot identify or reward the creative genius.
+21) when the world around me is irredeemable, I am a righteous man.
+22) you can't step in the same river twice. But we walk on bridges and not usually step in rivers so for our perspective the river looks same enough from 
+23) you wanna  match yourself in game with someone who is 
 
