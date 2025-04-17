@@ -207,3 +207,5 @@ The human being—our thoughts, our feelings, our very sense of self—is no les
 But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only be witnessed in motion.
 
 And like a river you will never meet the same person twice.
+
+When you think of this, then the next question arises. If this is the truth of our human nature then why and how would you expect yourself to live someone else's story, life , destiny.
