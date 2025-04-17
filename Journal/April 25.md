@@ -181,5 +181,6 @@ Abide by your conscience, put your self together and you'll become attractive.
 28) you are a whole community of people, whom you must serve your whole life. The you today, Tommorow, next week, next month , next year , next decade , after 50 years all of them. Serving that whole community will be indistinguishable from acting in the best intrest of the people around you.
 29) Nothing is more valuable then your reputation.
 30) What do you need to ally yourself with so you can prevail? you need truth by your side and reality behind you having your back instead of confronting you.
-31) Maybe you want a problem that is exactly matched for you, and maybe in attempt to solve that problem com
+31) Maybe you want a problem that is exactly matched for you, and maybe the meaning of your life would be found in attempt to solve that problem.
+32) Aren't you happier if you just don't look at the terrors of life.
 
