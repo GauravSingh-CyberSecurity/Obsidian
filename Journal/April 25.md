@@ -182,5 +182,6 @@ Abide by your conscience, put your self together and you'll become attractive.
 29) Nothing is more valuable then your reputation.
 30) What do you need to ally yourself with so you can prevail? you need truth by your side and reality behind you having your back instead of confronting you.
 31) Maybe you want a problem that is exactly matched for you, and maybe the meaning of your life would be found in attempt to solve that problem.
-32) Aren't you happier if you just don't look at the terrors of life.
+32) Aren't you happier if you just don't look at the terrors of life? Well maybe for a short term you may avoid suffering but it will only make you emptier with time, if you don't try to provide answers to that what in you asks for the truth.
+33) there are things that we take for granted, then there are things that we don't even know we take for 
 
