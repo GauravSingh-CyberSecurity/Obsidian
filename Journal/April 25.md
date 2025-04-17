@@ -187,4 +187,6 @@ Abide by your conscience, put your self together and you'll become attractive.
 34) The pathway to virtue is not necessarily just seperation from darkness.
 35) On the uniqueness of individuals and even in every individual the uniqueness among themselves across time:-                                                                                       you can't step in the same river twice. But we walk on bridges and not usually step in rivers , so for our perspective the river looks same enough .
 
-    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way, but thats not the 
+    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way in order for you to narrow it down for putting it in a category, but thats not the Actual Truth of the river.         If you look closely into the r
+     For every drop flowing through that river is unique in the space-time forever, in every way.
+     And you will never be able to touch the same river twice at the exact same space-time.
