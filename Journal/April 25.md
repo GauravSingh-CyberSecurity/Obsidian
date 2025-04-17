@@ -205,7 +205,9 @@ we form an idea of what the river is, and in doing so, we simplify it. We name i
 Look closer, and the illusion of permanence dissolves. Every drop that flows past is distinct—never to return, never to be touched again in the same place or time. The river is a process, not a thing. It is becoming, always.
 
 So, too, are we.
+Humans—and their consciousness—are like that river, too.
 
-The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, nor who we will be the next. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
+
+The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, we are different. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
 
 But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only be witnessed in motion.
