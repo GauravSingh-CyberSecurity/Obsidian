@@ -187,6 +187,28 @@ Abide by your conscience, put your self together and you'll become attractive.
 34) The pathway to virtue is not necessarily just seperation from darkness.
 35) On the uniqueness of individuals and even in every individual the uniqueness among themselves across time:-                                                                                       you can't step in the same river twice. But we walk on bridges and not usually step in rivers , so for our perspective the river looks same enough .
 
-    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way in order for you to narrow it down for putting it in a category, but thats not the Actual Truth of the river.         If you look closely into the r
-     For every drop flowing through that river is unique in the space-time forever, in every way.
-     And you will never be able to touch the same river twice at the exact same space-time.
+    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way in order for you to narrow it down for putting it in a category, but thats not the Actual Truth of the river.         If you look closely into the river you will see that every drop flowing through that river is unique in the space-time forever, in every way.
+    And you will never be able to touch the same river twice at the exact same space-time.
+
+     For humans and there conscience are also a river.
+
+
+
+==Here's a more philosophical and contemplative version of above passage:==
+
+---
+
+On the Uniqueness of Individuals—and the Ever-Changing Self Within:
+
+They say you can't step into the same river twice. Yet, we rarely step into rivers at all—we cross them, watching from the safety of bridges. From that vantage point, the river appears constant, familiar, even still. To the casual observer, it is the same river each day.
+
+But for the one who returns often, who watches with intention, subtleties begin to emerge—the shifting hue of the water, the deepening or shallowing of its bed, the changing rhythm of its current. And so, we form an idea of what the river is, and in doing so, we simplify it. We name it, define it, place it in a category. And while this helps us make sense of it, it is not the whole truth.
+
+Look closer, and the illusion of permanence dissolves. Every drop that flows past is distinct—never to return, never to be touched again in the same place or time. The river is a process, not a thing. It is becoming, always.
+
+So, too, are we.
+
+The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, nor who we will be the next. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
+
+But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only
+
