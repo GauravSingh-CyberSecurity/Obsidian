@@ -192,17 +192,15 @@ Abide by your conscience, put your self together and you'll become attractive.
 
      For humans and there conscience are also a river.
 
-
-
-==Here's a more philosophical and contemplative version of above passage:==
-
 ---
 
 On the Uniqueness of Individuals—and the Ever-Changing Self Within:
 
-They say you can't step into the same river twice. Yet, we rarely step into rivers at all—we cross them, watching from the safety of bridges. From that vantage point, the river appears constant, familiar, even still. To the casual observer, it is the same river each day.
+You can't step into the same river twice. But we usually walk on bridges rather than stepping into rivers, so from our perspective, the river appears to remain the same.
 
-But for the one who returns often, who watches with intention, subtleties begin to emerge—the shifting hue of the water, the deepening or shallowing of its bed, the changing rhythm of its current. And so, we form an idea of what the river is, and in doing so, we simplify it. We name it, define it, place it in a category. And while this helps us make sense of it, it is not the whole truth.
+However, if you are a regular observer, watching the river from a distance while standing on the bridge, you might notice the color of the water, the depth of the river, and the speed of its flow. You might conclude that this is what the river is. And in some sense, that's true—at least enough for you to put it in some category. But that is not the actual truth of the river.
+
+we form an idea of what the river is, and in doing so, we simplify it. We name it, define it, place it in a category. And while this helps us make sense of it, it is not the whole truth.
 
 Look closer, and the illusion of permanence dissolves. Every drop that flows past is distinct—never to return, never to be touched again in the same place or time. The river is a process, not a thing. It is becoming, always.
 
@@ -210,5 +208,4 @@ So, too, are we.
 
 The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, nor who we will be the next. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
 
-But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only
-
+But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only be witnessed in motion.
