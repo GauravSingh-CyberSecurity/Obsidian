@@ -185,16 +185,10 @@ Abide by your conscience, put your self together and you'll become attractive.
 32) Aren't you happier if you just don't look at the terrors of life? Well maybe for a short term you may avoid suffering but it will only make you emptier with time, if you don't try to provide answers to that what in you asks for the truth.
 33) there are things that we take for granted, then there are things that we don't even know we take for granted , if pursuit of truth is worthwhile for you maybe you will become aware of these things that you might rather take for granted. and maybe you shouldn't if for you the ignorance is bliss.
 34) The pathway to virtue is not necessarily just seperation from darkness.
-35) On the uniqueness of individuals and even in every individual the uniqueness among themselves across time:-                                                                                       you can't step in the same river twice. But we walk on bridges and not usually step in rivers , so for our perspective the river looks same enough .
-
-    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way in order for you to narrow it down for putting it in a category, but thats not the Actual Truth of the river.         If you look closely into the river you will see that every drop flowing through that river is unique in the space-time forever, in every way.
-    And you will never be able to touch the same river twice at the exact same space-time.
-
-     For humans and there conscience are also a river.
 
 ---
 
-On the Uniqueness of Individuals—and the Ever-Changing Self Within:
+**On the Uniqueness of Individuals—and the Ever-Changing Self Within:**
 
 You can't step into the same river twice. But we usually walk on bridges rather than stepping into rivers, so from our perspective, the river appears to remain the same.
 
@@ -208,6 +202,8 @@ So, too, are we.
 Humans—and their consciousness—are like that river, too.
 
 
-The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, we are different. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
+The human being—our thoughts, our feelings, our very sense of self—is no less a river. We are not who we were a moment ago, we are different people in today, tomorrow, next week, next year, next decade, in next 50 years. And yet, we construct the illusion of a stable "I" in order to walk our bridges—to navigate life.
 
 But if we dare to look within, with the same depth of observation, we find a current ever-shifting, never still. The true self, like the river, eludes capture. It can only be witnessed in motion.
+
+And like a river you will never meet the same person twice.
