@@ -185,9 +185,6 @@ Abide by your conscience, put your self together and you'll become attractive.
 32) Aren't you happier if you just don't look at the terrors of life? Well maybe for a short term you may avoid suffering but it will only make you emptier with time, if you don't try to provide answers to that what in you asks for the truth.
 33) there are things that we take for granted, then there are things that we don't even know we take for granted , if pursuit of truth is worthwhile for you maybe you will become aware of these things that you might rather take for granted. and maybe you shouldn't if for you the ignorance is bliss.
 34) The pathway to virtue is not necessarily just seperation from darkness.
+35) On the uniqueness of individuals and even in every individual the uniqueness among themselves across time:-                                                                                       you can't step in the same river twice. But we walk on bridges and not usually step in rivers , so for our perspective the river looks same enough .
 
-On the uniqueness of individuals and even in every individual the uniqueness among themselves across time:-
-
-you can't step in the same river twice. But we walk on bridges and not usually step in rivers , so for our perspective the river looks same enough .
-
-And if you are a regular observer you may observe the river while standing on the bridge from a distance the colour of the rivers water, depth of the river, speed of its flow . 
+    And if you are a regular observer you may observe the river from a distance while standing on the bridge, you would notice the colour of the rivers water, depth of the river, speed of its flow . And conclude that is what the river is, and it is true in some way, but thats not the 
