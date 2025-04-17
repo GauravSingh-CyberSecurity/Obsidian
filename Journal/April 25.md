@@ -176,5 +176,7 @@ Abide by your conscience, put your self together and you'll become attractive.
 23) you wanna  match yourself in game with someone who is as skilled as you or slightly better. To have optimized adversarial combat that will even help you push your skill level upwards. And it's same in life.
 24) do not do anything for anyone else, that they can do for themselves.
 25) abundance does not drives people towards each other to work, live and co operate together, desperation does
-26) Questioning Truth using aphorisms(little words of wisdom)
+26) Questioning Truth with the aphorisms(little words of wisdom)
+27) people who are incapable of bonding with others, who are incapable of reciprocal interactions they are psychopaths
+28) you are a whole community of people, whom you must serve your whole life. The you today, Tommorow, next wee, next mont , next year next decade ,
 

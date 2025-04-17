@@ -12,6 +12,7 @@ Official Recommended books by Jordan b Peterson: https://www.jordanbpeterson.com
 - Affective Neuroscience,
    The Foundations of Human and Animal Emotions
    ,Jaak Panksepp
+   - devil's dictionary (a dictionary for each words ironical meaning)
 
 
 
