@@ -173,5 +173,5 @@ Abide by your conscience, put your self together and you'll become attractive.
 20) institutions move incrementally at best, it cannot identify or reward the creative genius.
 21) when the world around me is irredeemable, I am a righteous man.
 22) you can't step in the same river twice. But we walk on bridges and not usually step in rivers so for our perspective the river looks same enough from 
-23) you wanna  match yourself in game with someone who is 
+23) you wanna  match yourself in game with someone who is as skilled as you or slightly better. To have optimized adversarial combat that will. And it's same in life.
 
