@@ -172,11 +172,13 @@ Abide by your conscience, put your self together and you'll become attractive.
 19) Nietzsche will to power is not at all the Marxist ideology of trying to attain power just for the sake of exploiting it. Instead Nietzsche will to power is the implicit desire to manifest the full range of your abilities.
 20) institutions move incrementally at best, it cannot identify or reward the creative genius.
 21) when the world around me is irredeemable, I am a righteous man.
-22) you can't step in the same river twice. But we walk on bridges and not usually step in rivers so for our perspective the river looks same enough from 
+22) you can't step in the same river twice. But we walk on bridges and not usually step in rivers so for our perspective the river looks same enough 
 23) you wanna  match yourself in game with someone who is as skilled as you or slightly better. To have optimized adversarial combat that will even help you push your skill level upwards. And it's same in life.
 24) do not do anything for anyone else, that they can do for themselves.
 25) abundance does not drives people towards each other to work, live and co operate together, desperation does
 26) Questioning Truth with the aphorisms(little words of wisdom)
 27) people who are incapable of bonding with others, who are incapable of reciprocal interactions they are psychopaths
-28) you are a whole community of people, whom you must serve your whole life. The you today, Tommorow, next wee, next mont , next year next decade ,
+28) you are a whole community of people, whom you must serve your whole life. The you today, Tommorow, next week, next month , next year , next decade , after 50 years all of them. Serving that whole community will be indistinguishable from acting in the best intrest of the people around you.
+29) Nothing is more valuable then your reputation.
+30) What do you need to ally yourself with so you can prevail? you n
 
