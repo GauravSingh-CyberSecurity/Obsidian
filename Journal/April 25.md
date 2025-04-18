@@ -185,6 +185,7 @@ Abide by your conscience, put your self together and you'll become attractive.
 32) Aren't you happier if you just don't look at the terrors of life? Well maybe for a short term you may avoid suffering but it will only make you emptier with time, if you don't try to provide answers to that what in you asks for the truth.
 33) there are things that we take for granted, then there are things that we don't even know we take for granted , if pursuit of truth is worthwhile for you maybe you will become aware of these things that you might rather take for granted. and maybe you shouldn't if for you the ignorance is bliss.
 34) The pathway to virtue is not necessarily just seperation from darkness.
+35) If you are a productive and generous person, people around you will see it and it will become your reputation. And more and more people around you would want to work and trade with you once your reputation is set as someone who is fairly generous in sharing what he have, and efficient in his work so he has much to share. Then more and more people would want to align themselves with you and as a result more and more opportunities will come your way.
 
 ---
 
