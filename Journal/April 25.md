@@ -231,3 +231,7 @@ Indeed we came to a long halt at the question about the cause of this will-until
 The fundamental faith of the metaphysicians is the faith in opposite values. It has not even occurred to the most cautious among them that one might have a doubt right here at the threshold where it was surely most necessary-even if they vowed to themselves, 'de omnibus dubitandum.'
 
 For all the value that the true, the truthful, the selfless may deserve, it would still be possible that a higher and more fundamental value for life might have to be ascribed to deception, selfishness, and lust.
+
+"GREAT MEN ARE SELDOM CREDITED FOR THEIR STUPIDITY"
+
+ARE YOU SURE YOU WOULD RID THE PEOPLE YOU LOVE OF THEIR WEAKNESSES?  ; you can't, even if you think you can . All you can do is provide them with enough opposition/adversary that may help them develop their skill and grow stronger in time. Just like a coach helping  getting better at the game they play by slightly increasing the strength of thier adversary 
