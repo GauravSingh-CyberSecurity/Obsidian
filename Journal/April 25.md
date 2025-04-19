@@ -210,3 +210,24 @@ But if we dare to look within, with the same depth of observation, we find a cur
 And like a river you will never meet the same person twice.
 
 When you think of this, then the next question arises. If this is the truth of our human nature then why and how would you expect yourself to live someone else's story, life , destiny.
+
+
+---
+
+The will to truth which will still tempt us to many a venture, that famous truthfulness of which all philosophers so far have spoken with respect- what questions has this will to truth not laid before us! What strange, wicked, questionable questions! That is a long story even now-and yet it seems as if it had scarcely begun.
+
+Is it any wonder that we should finally become suspicious, lose patience, and turn away impatiently?
+
+That we should finally learn from this Sphinx to ask questions, too? Who is it really that puts questions to us here? **What in us really wants 'truth'?**
+
+**THE SPIRIT OF TRUTH-SEEKING IS THE SPIRIT THAT HAS ANIMATED ALL PHILOSOPHERS**
+
+THE AIM OF **THE QUESTION** IS THE FACILITATION OF **THE SEARCH FOR TRUTH**
+
+IF YOU ATTEND TO YOUR SHORTCOMINGS AND MAKE A PUBLIC ACCOUNT OF THEM THEN FORMULATE YOUR INTENT TO RECTIFY THEM THAT WOULD BE REDEMPTIVE
+
+Indeed we came to a long halt at the question about the cause of this will-until we finally came to a complete stop before a still more basic question, We asked about the value of this will. **Suppose we want truth: why not rather untruth? and uncertainty? even ignorance? The problem of the value of truth.**
+
+The fundamental faith of the metaphysicians is the faith in opposite values. It has not even occurred to the most cautious among them that one might have a doubt right here at the threshold where it was surely most necessary-even if they vowed to themselves, 'de omnibus dubitandum.'
+
+For all the value that the true, the truthful, the selfless may deserve, it would still be possible that a higher and more fundamental value for life might have to be ascribed to deception, selfishness, and lust.
