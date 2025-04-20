@@ -234,4 +234,38 @@ For all the value that the true, the truthful, the selfless may deserve, it woul
 
 "GREAT MEN ARE SELDOM CREDITED FOR THEIR STUPIDITY"
 
-ARE YOU SURE YOU WOULD RID THE PEOPLE YOU LOVE OF THEIR WEAKNESSES?  ; you can't, even if you think you can . All you can do is provide them with enough opposition/adversary that may help them develop their skill and grow stronger in time. Just like a coach helping  getting better at the game they play by slightly increasing the strength of thier adversary 
+ARE YOU SURE YOU WOULD RID THE PEOPLE YOU LOVE OF THEIR WEAKNESSES?  ; you can't, even if you think you can . All you can do is provide them with enough opposition/adversary that may help them develop their skill and grow stronger in time. Just like a coach helping a player getting better at the game they play by slightly increasing the strength of the player's adversary, slightly increasing the competition all the time.
+
+NIETZSCHE PUTS PHILOSOPHY FORWARD AS A CALL TO ROMANTIC ADVENTURE , to seek out beauty, truth and truest form of life's adventure.
+
+
+IS THERE SUCH A THING AS THE PURSUIT OF TRUTH THAT ISN'T ACCOMPANIED BY THE SPIRIT OF ADVENTURE?
+
+THE VOLUNTARY CONFRONTATION WITH THE CATASTROPHE OF YOUR LIFE IS PREFERRED OVER MINDLESS INFANTILE SECURITY
+
+PEOPLE WHO CLAIM THAT THEY JUST WANT TO BE HAPPY ARE WAY MORE INTERESTED IN NOT SUFFERING
+
+**HAPPINESS**:- ENGAGED EXCITEMENT
+
+DO YOU WANT TO BE HAPPY OR HAVE A WORTHWHILE ADVENTURE?
+
+IT COULD EASILY BE THAT MOST THINKING IS INSTINCTIVE
+
+After having looked long enough between the philosopher's lines and fingers, I say to myself: by far the greater part of conscious thinking must still be included among instinctive activities, and that goes even for philosophical thinking.
+
+WHAT YOU REGARD AS SELF-EVIDENT ABOUT TRUTH IS NOT SO SELF-EVIDENT
+
+IF YOU CONDUCT YOURSELF IN A WAY THAT OTHERS TAKE ADVANTAGE OF YOU, IT MIGHT BE A MORAL FAILING; 
+ENABLING EXPLOITATIVE PEOPLE HINDERS YOUR LIGHT FROM SHINING
+
+THE REASON WE VALUE STORIES IS BECAUSE YOU NEED TO KNOW WHAT TO LOOK AT
+
+Accordingly, I do not believe that a 'drive to knowledge' is the father of philosophy; but rather that another drive has, here as elsewhere, employed understanding (and misunderstanding) as a mere instrument.
+
+THE IDEA THAT WE SEEK A SECURE BALANCE PRESUMES AN OPTIMAL NORMALITY;
+THAT NOTION DOESN'T ACCOUNT FOR TRANSFORMATION AND GROWTH
+
+
+
+
+
