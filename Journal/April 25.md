@@ -265,7 +265,13 @@ Accordingly, I do not believe that a 'drive to knowledge' is the father of philo
 THE IDEA THAT WE SEEK A SECURE BALANCE PRESUMES AN OPTIMAL NORMALITY;
 THAT NOTION DOESN'T ACCOUNT FOR TRANSFORMATION AND GROWTH
 
+CONSCIOUSNESS FUNCTIONS AND INTENSIFIES ON THE DEVELOPMENTAL EDGE, it grows when you live and work on the edge of your comfort bubble trying to always move forward.
 
+Physiologists should think before putting down the instinct of self-preservation as the cardinal instinct of an organic being. A living thing seeks above all to discharge its strength-life itself is will to power; self-preservation is only one of the indirect and most frequent results.
+
+
+
+IT MIGHT BE THE EMERGENT WILL TO UNIFY & DOMINATE THAT'S THE WILL TO POWER
 
 
 
