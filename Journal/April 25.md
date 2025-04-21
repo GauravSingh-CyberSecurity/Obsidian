@@ -275,3 +275,29 @@ IT MIGHT BE THE EMERGENT WILL TO UNIFY & DOMINATE THAT'S THE WILL TO POWER
 
 
 
+# 21 April
+
+There are usually men who create for themselves a very narrow view of what is masculine, who usually believe everything that is creative, like singing, make-up/art , and other forms of creativity are feminine.
+Some of them who then go into transitioning as a women, who call themselves drag queen's usually dressing as women, and they get an element of sexual kick from it , and dressing like the feminine is interpreted by them as creative and that they think is how they feel.
+Where the bottom line is they are creative men who regard all the creativity is feminine so they try to become a women.
+The drive to creativity in them is so intense that it incorporates sexuality, and usually that is the case for any creative endeavours but it is not just limited to the feminine.
+You can think about this behaviour as a psycho drama, it doesn't mean that they are women.
+
+Masculinity also include: kindness, pity, sympathy and creativity .
+
+Femininity also include: intimidating, physically strong, competitive in play/sports , fierce.
+
+Even though people usually exclude these above features for both respective genders
+These lines of featuristic division are not much clear for women, these days then they are for men. Because women are allowed to be more like what was considered masculine, then men are allowed to be like what was considered feminine.
+
+
+
+If someone(even yourself) poses a question to you, the question begs the answer.
+There is a hint in the question about what you are required to accept as a certainty before you move ahead with its discussion.
+One of the dangers of that is, 
+if you answer a question without questioning the question , then you accept the frame of reference that the question places on your actions of responses.
+And since you don't have a whole wide view of the argument, and just a little frame of reference that was provided to you initially, you would loose the argument/answer even before it gets off of the ground.
+
+
+
+Everything is always only 'true enough', because you are ignorant 
