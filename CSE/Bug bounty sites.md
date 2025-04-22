@@ -199,5 +199,7 @@ Here is a list of top places to practice and learn bug bounty without descriptio
 6. Bugcrowd University
 7. Intro to Bug Bounty Hunting and Web Application Hacking
 8. TryHackMe
-9. HackingHub
+9. HackingHub.io
+10. Hack the box(imp)
+11. 
 

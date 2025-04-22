@@ -300,4 +300,35 @@ And since you don't have a whole wide view of the argument, and just a little fr
 
 
 
-Everything is always only 'true enough', because you are ignorant 
+
+
+
+
+
+
+
+
+Where does thoughts come from, we think that "I think" , that is every thought that I have I created it. But it's not true because if you could create your thoughts, you wouldn't need to think to find it in your mind, it won't come to you. 
+And if you could create your thoughts than you would know what you would think 50 years from now or what you thought 10 years ago that you right now do not remember.
+And so if we do not know how we think than "everything is questionable"
+That's a lot of uncertainty and doubt that is very anxiety provoking .
+But it also is rife with possibilities.
+
+So the pragmatic engineers definition of truth will be :-
+As long as your simplification Of truth works for the purpose of your current operation it's sufficient 
+
+in essence this is the conception of human beings for "the truth" as engineers, we presume that something is true if it works well enough for now.
+
+Like if a code works well enough for now and application doesn't have error, so it's a bug free system. Good enough then we move onto the next Question.
+
+But since we are ignorant that's why in future or present at some point the system will fail. So we make an expiry date for everything we create, since "The Truth" can never be changed or expire. We know we do not have "The Truth". So there can't be "The Bug free system" .
+
+Everything is always only 'true enough', nothing can ever be the truth because you are ignorant and your knowledge is bounded by it, the best you can have is a fragmentry truth that has a bounded range of applicability.
+
+
+So testing an engineered system/structure, inherently means searching for truth(i.e we are searching for the truth of the engineered structure) . But we limit that search of "the truth" to the extent that is , for the purpose of your current operation is the structure/system sufficient (if it works well enough for now) .
+
+But the theory behind any engineering can never be correct in an infinite sense, because it's bounded by ignorance (i.e we are ignorant for even how our thoughts originated).
+
+So the question while testing is reduced to something very practical from that to "finding what is the truth of the engineered structure":- to this
+"Does it serves the purpose for intended period of time".

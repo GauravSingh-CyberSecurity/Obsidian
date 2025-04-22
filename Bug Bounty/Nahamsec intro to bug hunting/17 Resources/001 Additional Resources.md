@@ -16,6 +16,9 @@ Nahamsec -
 - twitch (https://twitch.tv/nahamsec) 
 - discord(https://discord.com/servers/nahamsec-598608711186907146)
 
+Hackinghub.io -
+- https://www.hackinghub.io/
+
 Portswigger -
 - web security academy (https://portswigger.net/web-security)
 
@@ -32,7 +35,7 @@ PICO CTF -
 - Pico Ctf (https://picoctf.org/)
 - Pico ctf (https://github.com/picoctf)
 
-- Labs Link : go to ==XSS rats== website --> ==hackxpert labs== by google search or visit below link
+**XSS RAT** Labs Link : go to ==XSS rats== website --> ==hackxpert labs== by google search or visit below link
 - https://labs.hackxpert.com/
 - https://labs.hackxpert.com/RXSS/
 
@@ -42,9 +45,12 @@ Pentester lab - (paid)
 ==Bug Bounty hunter.com -== (paid & free both)
 - bugbountyhunter.com(https://www.bugbountyhunter.com/)
 
+Google gruyere
+- https://google-gruyere.appspot.com/
 
 
-
+Damn-Vulnerable-RESTaurant-API-Game
+- https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game
 
 ---
 
