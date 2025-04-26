@@ -332,3 +332,87 @@ But the theory behind any engineering can never be correct in an infinite sense,
 
 So the question while testing is reduced to something very practical from that to "finding what is the truth of the engineered structure":- to this
 "Does it serves the purpose for intended period of time".
+
+
+----
+
+Certainty is the biggest disease of our time.
+The need to know everything for sure , being binary, either it is a 0 or 1 nothing else in between. This idea is corrupting us from the inside, we need to let go of this obsession of having control over everything we touch.
+
+
+
+Don't edit when you are writing and producing thoughts, 
+Write down everything you think about the topic.
+If you don't have anything to think, pick a different topic that you might be interested in.
+And write down everything you can think about it, if you still don't have any thoughts on the topic.
+Read about the subject, study it and then start producing your own work.
+Don't think about what you are thinking when writing and producing thoughts, let it flow by itself.
+Get all the types of ideas written down, anything and everything.
+
+Then Take a break come back and do the editing, separating the weed from the chaff. 
+
+This works neurotically because the part of our brain that produces thoughts and the part that refines things are different and they can't work to there full potential if you are running them against each other during the writing and producing flow .
+
+
+Give your self a moral freedom from perfection, whatever you try do in life and then fail miserably, allow your self to do that thing stupidly 50 times before you get it right. After that you become good at it and with enough repetition you may achieve mystery and excellence in it.
+
+You repat 80% of what you do everyday for the rest of your life. Think about how you can optimise all of that 80% so you do it better, and make even the things that you think are dull, boring and mundane as intresting and fun to you as you would like.
+
+
+
+Naive -->encounter malevolence --> devlope cynicism --> then the cynic grows and mature --> devlope the capability of courageous trust, that is to believe there is good in everyone they encounter and they can try and bring it out in people while simultaneously those people do the same for them.
+
+Note:- even though we may think cynicism is an evil emotion , it's a devlopment from the naivete.
+For now the person can see the malevolence in the world and see the good and evil. But the cynics are more tilted towards the criticism end of the world view and that may even degenerate into paranoid world view.
+
+
+# 25-4-25
+
+Philosophy is a systematic inquiry into fundamental questions about existence, knowledge, ethics, and reality.
+Even in the world of fast science and tech advancements, philosophy is important because philosophy is open-ended, skeptical, and not confined to just the materialistic questions science addresses. Unlike science, which disrupts false beliefs through experimentation, philosophy explores possibilities and their implications through reflective inquiry.
+
+Philosophy is needed to bring in the perspectives of these fast paced  materialistic changes on our civilization and discuss its direction. Philosophers are vital to society because they challenge assumptions, clarify values, and guide ethical decision-making in a complex world. By debating questions of morality, justice, and meaning, they provide frameworks to navigate issues like AI ethics, climate responsibility, or social inequality, areas where science alone falls short.
+
+
+
+-----
+
+# 26-4-24
+
+A blanket ingratitude about the past and a blanket condemnation of what went before us, it's ungrateful in the extreme.
+The people who think that, also simultaneously think that somehow merely standing as critics they are morally superior than everyone who went before them in the past .
+
+
+An easier life for everyone, is that really what anyone wants. I don't think so and Certainly not the philosopher's 
+We rather are searching something Nobel, something beyond infantilised heard like desire for comfort and an easier life.
+To live a great life you must always strive for an optimised difficulty , rather than ease.
+
+
+----
+
+Like the ideal of beauty, if you can't match the ideal , and are not beautiful enough according to those standard. Doesn't mean you have to end the ideal of beauty, you should rather try to become beautiful by exercising, or be greatful of other ideals that you have like maybe you are more intelligent, wiser, have love,
+
+All our inadequacy gives us pain in relation to the ideals,
+But that doesn't mean you get rid of the ideals, 
+It means you try to get rid of those inadequacy  or be greatful or be humble.
+
+Also without an ideal nothing unites us humans, because then we don't have a purpose or a goal to strive for, there is no scale that will indicate your inadequacy and you won't bother trying to grow and become better in order to surpass the criteria to be included in that ideal .
+
+(eg: ideal of beauty, people exercising together to become beautiful and strong. ; ideal of love: people going out on dates and creating different ways to find and meet people who they might be intrested in whom they might find beautiful whom they believe they may fall in love with, ideal of wisdom: community coming together studying, teaching, sharing knowledge and information in order to help eachother become more wiser and help their fellows become wiser along with them)
+
+Without an ideal nothing unites us, because you have no purpose to strive for and unite your will behind it. You have no hope because hope comes from you striving for an ideal and following your will to the ideals of your choice, and that brings you hope for in future when you achieve that ideal you will be a better , stronger, happier human being.
+
+Same theory applies not only on unity of human society but also on the unity of our mind. If a person doesn't have an ideal to follow, doesn't have a will to an ideal they say "I don't know what to do with my life". Because you are not United in your self since you don't have an aim to move unitedly towards at. So different parts of you fall into Chaos going in different direction that is when you call a person "purposeless".
+
+the purpose is the only thing each human wants to keep on living . And the purpose comes from will of the person, wanting to achieve an ideal in this life, that is how humans keep on moving forward and keep growing.
+
+Therefore embracing struggle means finding what is your "will to an ideal", which ideal are you willing to aim at, strive for and achieve in your life.
+Once you have that , every thing in you and out you is united for moving you towards that ideal. That brings purpose to your life. 
+
+No ideals mean no purpose, it means you are lost and doomed to anxiety and hopeless and to the judgement of society.
+
+Following an ideal mean , having an inner voice that feels like judgement telling you, you are not good enough , since it's comparing you to that ideal you want to achieve.
+But it also means you are embracing struggle to get better and grow continuously to achieve that ideal.
+
+So you may choose which struggle and suffering you may adopt in your life. 
+The suffering of a li

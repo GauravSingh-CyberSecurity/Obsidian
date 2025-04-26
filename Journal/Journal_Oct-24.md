@@ -648,6 +648,46 @@ It's the courage to continue that counts."
 -**Winston Churchill** 
 
 
-Certainty is the biggest disease of our time.
-The need to know everything for sure , being binary, either it is a 0 or 1 nothing else in between. This idea is corrupting us from the inside, we need to let go of this obsession of having control over everything we touch.
+------
+-----
+-----
+
+
+
+
+
+# I Think, Therefore I Am: Why Philosophy Matters in the Age of AI
+Pooja Mishra
+
+I Think, Therefore I Am: Why Philosophy Matters in the Age of AI
+One of the most electrifying philosophical declarations of all time comes from René Descartes: “I think, therefore I am,” a bold assertion that anchors human existence in the act of conscious thought. But in an age where artificial intelligence and chatbots mimic thinking, even at times outpacing human capacity, are we on the brink of redefining what it means to be? Who gets to define this?
+
+The diminishing landscape of philosophy
+
+“Philosophy,” which was once regarded as the cornerstone for understanding the function of society, humanity, science, and everything in between, has become a subject of the past. For a species that centers its existence around its consciousness and thoughts, the gradual decline of philosophical thought from everyday discourse should be seen as an important phenomenon. In 2014, according to the QS World University Rankings, the United States boasted eight of the top college philosophy departments in the world. A decade later, that number has been halved, with only four U.S. institutions remaining in the top 10. Some names, like Slavoj Žižek, Helen Nissenbaum and Peter Singer, do remain influential in niche circles, with their ideas or observations remaining far away from public discourse. It has been years since a philosopher has risen to popularity like Nietzsche, Popper, or Kant. Even in regions of Asia, where multiple philosophical traditions were founded, few have produced philosophy giants in current times. Amidst all this, the question arises: where did our philosophers go?
+
+What is philosophy, and what is believed to have reduced its impact?
+
+Philosophy is often defined as a systematic inquiry into fundamental questions about existence, knowledge, ethics, and reality. A popular narrative attributes its declining impact to scientific advancements answering questions once reserved for philosophers. This view is flawed: philosophy is open-ended, skeptical, and not confined to material questions science addresses. Unlike science, which disrupts false beliefs through experimentation, philosophy explores possibilities and their implications through reflective inquiry.
+
+Another misconception is that philosophy has been overtaken by dogmatic ideologies, which assert absolute truths, unlike philosophy’s nuanced questioning. While some philosophical ideas have shaped ideologies, reducing philosophy to ideological debates is simplistic. Additionally, increased specialization has fragmented philosophy’s broad scope, and the fast-paced, consumption-driven economy prioritizes instant, material value over reflective thought. Yet, at the center of this lie the ideas and philosophical inquiry that remain vital. It is this that shapes societal values and guides ethical decisions in ways science and ideology cannot.
+
+Why are philosophers important in a society, and how does the changing technological landscape bring it back in focus?
+
+We are witnessing a revolution; technological advancements are shaping the future at a pace never before seen. The time of innovation that has been witnessed by human civilization has reduced from thousands of years to a mere couple of years. In fact, the number of transistors on computer chips doubles approximately every two years, known as Moore’s Law. Philosophy is needed to bring in the perspectives of these changes on our civilization and discuss its direction. Philosophers are vital to society because they challenge assumptions, clarify values, and guide ethical decision-making in a complex world. By debating questions of morality, justice, and meaning, they provide frameworks to navigate issues like AI ethics, climate responsibility, or social inequality, areas where science alone falls short.
+
+Thinkers shape debates on a wide range of topics from animal rights to cultural identity, ensuring society reflects on its priorities. Philosophers also foster critical thinking, helping individuals and institutions question dogma and resist manipulation in an era of misinformation. Without philosophers, societies risk losing the tools to balance technological progress with human values, making their quiet work in academia and public discourse essential for a thoughtful, equitable future. It was Socrates’ method of relentless questioning that exposed contradictions in Athenian society, a practice still essential for scrutinizing modern power structures or cultural norms. It was Wittgenstein who emphasized the importance of precise language, which remains critical in an era of polarized public discourse. As technology accelerates, philosophy’s role becomes indispensable. By tackling social dilemmas like epistemological challenges of misinformation, AI, and societal impacts of automation, philosophers’ role today is beyond ensuring innovation aligns with justice and truth. It is to provoke thought, encourage critical thinking, and discuss advancement of society with its new, wireless, forever-connected facade.
+
+A Beacon for Humanity’s Future
+
+In an era where artificial intelligence challenges our understanding of thought and knowledge, philosophy shines as a guiding light. Far from a relic, it empowers us to navigate ethical dilemmas and shape technology to reflect societal values. From tackling AI ethics to addressing climate justice, philosophers provide the tools to balance innovation with meaning. As the pace of change accelerates, their role grows ever more crucial, fostering critical thinking and ensuring progress serves humanity, not just algorithms. By embracing philosophical inquiry, we can forge a future where technology enhances our existence, not defines it. It thus becomes important to celebrate philosophy’s enduring power to inspire, challenge, and unite in building a society that is thoughtful and equitable.
+
+(Pooja Mishra is a Content Researcher at DD India)
+
+-----
+
+
+
+-----
+
 
