@@ -415,4 +415,49 @@ Following an ideal mean , having an inner voice that feels like judgement tellin
 But it also means you are embracing struggle to get better and grow continuously to achieve that ideal.
 
 So you may choose which struggle and suffering you may adopt in your life. 
-The suffering of a li
+The suffering of a life without purpose or 
+The suffering of continuous overcoming in order to achieve the ideal. That is very possible you may never will.
+
+---
+
+You don't want to protect people from suffering and struggle.
+You want to encourage them to be that sort of people who can voluntarily take on their suffering.
+
+That helps them to become brave. Rather than feeling secure. 
+
+----
+
+Learning is taking the fraction of infinite that we haven't yet mastered.
+Reducing it to the point where it's still a challenge, but not an overwhelming challenge and then voluntarily facing it.
+That is the process of adaptation of struggle, of embracing struggle.
+
+You have to very careful calibrate the rate at which you expose yourself the people you are in a relationship with to the terror of the world . And for each individual it's going to be different. You understand yourself and your people to know where their edge is, and then you put them on that edge every time or as much as they can manage to help them grow with you.
+
+This also helps see what's actually dangerous and what's just frightening.
+
+This act helps us to manifest the capacity of adapting change as rapidly as possible.
+
+We must strive to "suffer in such a noble way that it may even justify suffering". That is the ideal I want to achieve.
+Because 
+I can't accept that because there is intolerable suffering in this world. The compassionate thing to do is just stop the being.
+These kind of excessive compassion is more than murderous, it's anti-being.
+
+And these excessive situations arises because Compassion as become the single unquestionable virtue .
+
+But there is something better a virtue, 
+Encouragement; even though it's looks harsh in the sense , the one who is encouraging has to use the force to help the other person push themselves and grow.
+Encouragement has a meta-compassion embedded in it.
+It's like I know what you could be and I am on the side of that. 
+
+Eg: the patriarchal encouragement, like the stance of a father towards their Son, a father doesn't have that maternal love of "I love you the way you are", it says,  I can see around 5 place where you are lacking right now and I know you are capable of becoming better, so get the hell out there work hard , even struggle if you have to. But come back a better man.
+
+That patriarchal encouragement is better than the protective compassion , which degenerates into excessive compassion.
+
+
+Make a contract with people, A condition before helping them,
+That I am on the side of you that wants to be better for yourself and everyone else.
+
+ The unconditional can be
+ "I will listen to everything you have to say, that you can express a"
+
+But the best in me will be serving the best in you .
