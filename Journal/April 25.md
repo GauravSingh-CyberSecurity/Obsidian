@@ -453,11 +453,31 @@ Eg: the patriarchal encouragement, like the stance of a father towards their Son
 
 That patriarchal encouragement is better than the protective compassion , which degenerates into excessive compassion.
 
+-----
 
 Make a contract with people, A condition before helping them,
-That I am on the side of you that wants to be better for yourself and everyone else.
+That I am on the side of you that wants to be better for you and everyone else.
 
  The unconditional can be
- "I will listen to everything you have to say, that you can express a"
+ "I will listen to everything you have to say and you can express everything"
 
-But the best in me will be serving the best in you .
+But the condition here is that "The best in me will be serving the best in you" .
+
+Because there is going to be a lot in you that doesn't want to be better, doesn't want to adopt the struggle, responsibility and suffering to be better. And I won't be aiding to that part of you.
+
+That way of helping is not the abolition of suffering, it's forming a motive being rooted in Nobel suffering .
+
+-----
+
+
+If you conduct yourself impeccably , you'll devlop a storehouse of reputation that'll withstand all catastrophe.
+
+
+----
+Immanuel Kant's views on the nature of creativity in Critique of Judgement in this context are quite insightful.
+
+He defines genius as the "talent that gives rules to art".
+https://www.indiatoday.in/technology/talking-points/story/artificial-intelligence-chat-gpt-replace-humans-here-is-how-computer-technology-new-machine-different-2716896-2025-04-30
+
+----
+
