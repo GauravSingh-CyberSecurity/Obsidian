@@ -11,6 +11,7 @@
 6) Think like a monk by jay shetty 
 7) on the genealogy of morals by Friedrich Nietzsche 
 8) The Twilight of the idols by Friedrich Nietzsche 
+9) the antichrist 
 
 
 
