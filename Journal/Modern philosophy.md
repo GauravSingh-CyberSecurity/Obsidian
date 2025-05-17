@@ -314,4 +314,20 @@ There is an I , and as long as that I is thinking ; it exists.
 
 If I think therefore I am, but if I don't know where my thoughts actually come from , then even though I know I am; how do I know who I am?.
 
-Here I challenge Descartes notion that God exists because I am an imperfect being and a
+Here I challenge Descartes notion that God exists because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
+So it means that the perfect being god exists and he created me the imperfect being.
+
+But I challenge this notion by saying, how do you define the perfect being all knowing all good, how do you say that is perfect?
+What if I argue that multiple imperfect being existing in the space-time, created in the the notion of a perfect being by combining all the perfection from their own community and created a singularity that is a reflection of all the perfection or opposite of their imperfections.
+For eg: they took the best physical body that ever existed in space-time that we could ever experience in existence, then they took the most intelligent mind, then they took all the known knowledge across the whole civilization, then they took the imperfections that are truly imperfections or maybe some of those they believe to be imperfections then they said the reverse of this is the part of perfection. And we accumulated all of this across civilization across the whole space-time of existence of us thinking being and combined all of the what we consider perfection into one singularity and we called that singularity a being. A singular being a God.
+
+Because we know that first came the polyethic (multiple gods system) 
+then followed the 
+monolithic(single god system)
+
+It's is probably because first us humans create multiple symbols of perfection for every aspect of reality.
+Eg: god of knowledge - a being with all the knowledge there is, god of power - a being with all the power there is, god of elements - a being that has control of all the elements there is.
+
+Then later on we used all these multiple perfections (Gods); and combined all of them in a singularity again; hence creating a singular perfect being - The monolithic God.
+
+Multiple aspects of reality > humans created a single perfection for each aspect that they called god of that aspect of reality > then we had a pool of all the perfect beings of different aspects of reality (The polyethic God system) > Then we combine all of the "pool of all the perfect beings of different aspects of reality " and called it a singular being 
