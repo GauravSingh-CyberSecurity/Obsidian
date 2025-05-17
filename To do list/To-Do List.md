@@ -1,8 +1,8 @@
 
 - [ ] to make roadmaps use roadmaps.sh
-- [ ] update resume and start looking for new job
+- [x] update resume and start looking for new job
 - [ ] Start bug hunting 
-- [ ] make a list stating where , where I have cyber security learning material.
+- [x] make a list stating where , where I have cyber security learning material.
 - [ ] python for penitration testers On try hack me.
 - [ ] setup GitHub large projects upload, GitHub.io for portfolio,gitbook.io for notes,
 - [ ] setup vscode for coding and use the free GitHub copilot 
@@ -44,3 +44,6 @@ Bike servicing, wash bag,crocs,shoes.
 Create our own llm without any constraints and sell on dark web
 
 complete try hack me nahamstore lab, upload the lap completion and course completion on the linkedin
+
+
+  [-]Backup this week
