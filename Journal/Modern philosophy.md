@@ -314,7 +314,9 @@ There is an I , and as long as that I is thinking ; it exists.
 
 If I think therefore I am, but if I don't know where my thoughts actually come from , then even though I know I am; how do I know who I am?.
 
-Here I challenge Descartes notion that God exists because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
+---
+
+Here I challenge Descartes notion that God exists, he says because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
 So it means that the perfect being god exists and he created me the imperfect being.
 
 But I challenge this notion by saying, how do you define the perfect being all knowing all good, how do you say that is perfect?
@@ -330,4 +332,11 @@ Eg: god of knowledge - a being with all the knowledge there is, god of power - a
 
 Then later on we used all these multiple perfections (Gods); and combined all of them in a singularity again; hence creating a singular perfect being - The monolithic God.
 
-Multiple aspects of reality > humans created a single perfection for each aspect that they called god of that aspect of reality > then we had a pool of all the perfect beings of different aspects of reality (The polyethic God system) > Then we combine all of the "pool of all the perfect beings of different aspects of reality " and called it a singular being 
+
+Summary :-
+→ Humans saw multiple aspects of reality, each with a spectrum from perfection to imperfection
+→ For each aspect, they imagined the most perfect form and called it the god of that aspect
+→ This led to a collection of perfect beings across all aspects (Polytheistic God system)
+→ Eventually, they merged this pool of perfect beings into one singular, all-encompassing being (Monotheistic God system)
+
+---
