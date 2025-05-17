@@ -133,9 +133,6 @@ FRANCIS BACON'S THE GREAT INSTAURATION PROPOSES A REVOLUTIONARY METHOD FOR SCIEN
 "THE ENTIRE FABRIC OF HUMAN REASON WHICH WE EMPLOY IN THE INQUISITION OF NATURE IS BADLY PUT TOGETHER AND BUILT UP, AND LIKE SOME MAGNIFICENT STRUCTURE WITHOUT ANY FOUNDATION."
 
 
-"THE ENTIRE FABRIC OF HUMAN REASON WHICH WE EMPLOY IN THE INQUISITION OF NATURE IS BADLY PUT TOGETHER AND BUILT UP, AND LIKE SOME MAGNIFICENT STRUCTURE WITHOUT ANY FOUNDATION."
-
-
 "THERE WAS BUT ONE COURSE LEFT, THEREFORE TO TRY THE WHOLE THING ANEW UPON A BETTER PLAN"
 
 "AND TO COMMENCE A TOTAL RECONSTRUCTION OF SCIENCES, ARTS, AND ALL HUMAN KNOWLEDGE, RAISED UPON THE PROPER FOUNDATIONS."
@@ -283,5 +280,38 @@ INDUCTION IS A METHOD OF REASONING DERIVED FROM SPECIFIC OBSERVATIONS TO FORM GE
 
 -----
 
+Here we discuss concepts of
+==**Francis bacon (empiricists) 
+Vs 
+Rene Descartes (Rationalist)**==
+
+![[Pasted image 20250517224025.jpg]]
+
+| **Aspect**                  | **Rationalism**                                                     | **Empiricism**                                                   |
+| --------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Source of Knowledge**     | Reason and logic                                                    | Sense experience and observation                                 |
+| **Key Belief**              | Certain knowledge is innate or can be deduced through reason        | All knowledge originates from sensory experiences                |
+| **Method of Understanding** | Deductive reasoning                                                 | Inductive reasoning                                              |
+| **View on Innate Ideas**    | Believes in innate ideas                                            | Rejects innate ideas                                             |
+| **Example of Knowledge**    | Mathematics, logic (e.g., 2 + 2 = 4 is known without sensory input) | Science, empirical data (e.g., fire is hot based on experience)  |
+| **Key Philosophers**        | René Descartes, Baruch Spinoza, Gottfried Leibniz                   | John Locke, George Berkeley, David Hume                          |
+| **Role of the Senses**      | Senses can deceive; reason is more reliable                         | Senses are the primary and most reliable source of knowledge     |
+| **Truth Verification**      | Through intellectual insight and logical consistency                | Through empirical testing and observation                        |
+| **Preferred Disciplines**   | Mathematics, metaphysics                                            | Natural sciences, psychology                                     |
+| **Criticism of Other View** | Empirical knowledge lacks certainty and universality                | Rationalist knowledge is disconnected from real-world experience |
+# 2_Radical Doubt 
 
 
+Senses have decived us, yeah sometimes they give us good information but other times they bite.
+So we cannot fully rely on senses.
+ -The Rationalist argument against the emperiocists.
+
+
+There is an I , and as long as that I is thinking ; it exists.
+
+**Cogito ergo sum** 
+(I think therefore I am)
+
+If I think therefore I am, but if I don't know where my thoughts actually come from , then even though I know I am; how do I know who I am?.
+
+Here I challenge Descartes notion that God exists because I am an imperfect being and a
