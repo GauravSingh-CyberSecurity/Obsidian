@@ -377,4 +377,19 @@ But we are in that circumstances and we don't know what the right thing to do is
 
 It is nowhere written that the good exists. Not in the mind of God, not in platonic forms, not built into the structure of nature. There is no True standards of Good and Bad.
 
-So even if God exists or does not exists. Everything is 
+So even if God exists or does not exists. Everything is permitted.
+
+Even if God told you to do something, you still have choice to do it or not. And if he doesn't exists then there is no one to obey anyways.
+So whatever you choose it's totally your responsibility and no one else's.
+That is why:-
+"...man is free, man is freedom. Thus we have neither behind us, nor before us in a luminous realm of values, any means of justification or excuse. - We are left alone, without excuse. That is what I mean when I say that **man is condemned to be free**."
+
+
+That is the wonderful , rhetorical , paradoxical Truth of human beings:
+"We are free, and we cannot escape the fact that we are free." That is what it is to be a human being, a choosing being.
+A pure potential that can go anywhere, and any attempts to escape that is an irresponsiblity, you have to accept it.
+
+The absurdity of existence is there lies no inherent meaning to life. The meaning of life lies in what we give to it.
+So you can't find purpose or meaning of life, you have to create it in life.
+
+And you give meaning to life by taking the fate that you were given and making it your fate, you g
