@@ -314,23 +314,33 @@ There is an I , and as long as that I is thinking ; it exists.
 
 If I think therefore I am, but if I don't know where my thoughts actually come from , then even though I know I am; how do I know who I am?.
 
+
 ---
 
 Here I challenge Descartes notion that God exists, he says because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
+Eg:- a painting of Sunflower can not create the sunflower; the sunflower needs to exist for there to be an imperfect depiction of sunflower in form of the "painting of sunflower".
 So it means that the perfect being god exists and he created me the imperfect being.
 
 But I challenge this notion by saying, how do you define the perfect being all knowing all good, how do you say that is perfect?
 What if I argue that multiple imperfect being existing in the space-time, created in the the notion of a perfect being by combining all the perfection from their own community and created a singularity that is a reflection of all the perfection or opposite of their imperfections.
-For eg: they took the best physical body that ever existed in space-time that we could ever experience in existence, then they took the most intelligent mind, then they took all the known knowledge across the whole civilization, then they took the imperfections that are truly imperfections or maybe some of those they believe to be imperfections then they said the reverse of this is the part of perfection. And we accumulated all of this across civilization across the whole space-time of existence of us thinking being and combined all of the what we consider perfection into one singularity and we called that singularity a being. A singular being a God.
+
+For eg: they took the best physical body that ever existed in space-time that we could ever experience in existence, then they took the most intelligent mind, then they took all the known knowledge across the whole civilization, 
+then they took the imperfections that are truly imperfections or maybe some of those they believe to be imperfections then they said the reverse of this is the part of perfection. 
+And we accumulated all of this across civilization across the whole space-time of existence of us thinking beings and combined all of that what we consider perfection into one singularity and we called that a singularity a being. A singular being a God.
 
 Because we know that first came the polyethic (multiple gods system) 
 then followed the 
 monolithic(single god system)
 
-It's is probably because first us humans create multiple symbols of perfection for every aspect of reality.
-Eg: god of knowledge - a being with all the knowledge there is, god of power - a being with all the power there is, god of elements - a being that has control of all the elements there is.
+It is probably because first us humans created multiple symbols of perfection for every aspect of reality.
 
-Then later on we used all these multiple perfections (Gods); and combined all of them in a singularity again; hence creating a singular perfect being - The monolithic God.
+Eg: god of knowledge - a being with all the knowledge there is, 
+god of power - a being with all the power there is, 
+god of elements - a being that has control of all the elements there is.
+
+Then later on we used all these multiple perfections (Gods); 
+and combined all of them in a singularity again; 
+hence creating a singular perfect being - The monolithic God.
 
 
 Summary :-
@@ -339,4 +349,32 @@ Summary :-
 → This led to a collection of perfect beings across all aspects (Polytheistic God system)
 → Eventually, they merged this pool of perfect beings into one singular, all-encompassing being (Monotheistic God system)
 
+
+
+So even though Rene Descartes claim that he threw all that is known out and starts from zero, he says that in first inquiry of method of Doubt "I think therefore I am" , and establishes the first truth that "There is an I , and as long as that I is thinking ; it exists."
+
+But after that very quickly he fails in trying establish the second truth on top of his first truth using his method of Doubt. He tries to prove that God exists as discussed above.
+
+But for his attempt to prove that God exists, We can clearly see him using a lot of pre-supposition and axioms as he moves forward in his Questioning and method of Doubt.
+
 ---
+
+
+==**Being willing to accept full responsibility for who you are , that is what an authentic human being will do.**==
+
+But what most of the human beings do is want to shift that responsibility elsewhere, saying and even believing things like"God made me this way!" ; "society made me this way" ; I couldn't help it , my wrong doings are not because of me it's because so and so made me do it.
+
+For **Exesitentialism** This is like it's first commandment: "you are responsible, and you step up to that responsibility or you don't "
+
+
+How do you know the voice you think you hearing is the voice of God? And not of your own paranoid self or even the voices of bad spirits?
+
+And then why should you not Questions these voices in your head , that are asking you to make the greatest sacrifices, why should you obey these voices if you do not know for sure it's the voice of God?
+
+If I just obey without asking questions and not knowing the reason for the action I am doing or am supposed to do, I shift responsibility to someone else, "someone told me to do it, someone else made me do it"
+
+But we are in that circumstances and we don't know what the right thing to do is, But we have to do something and we have to take full responsibility for it.
+
+It is nowhere written that the good exists. Not in the mind of God, not in platonic forms, not built into the structure of nature. There is no True standards of Good and Bad.
+
+So even if God exists or does not exists. Everything is 
