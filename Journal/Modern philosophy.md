@@ -388,11 +388,11 @@ GALILEO'S DISCOVERY OF JUPITER'S MOONS IN 1610 REVOLUTIONIZED OUR UNDERSTANDING 
 "THAT THE SUN IS IMMOVABLE AT THE CENTER OF THE HEAVEN; THAT THE EARTH IS NOT AT THE CENTER OF THE HEAVEN, AND IS NOT IMMOVABLE; BUT MOVES BY A DOUBLE MOTION."
 
 
-**RENE DESCARTES**
+## RENE DESCARTES 
 (1596-1650)
 A PIONEERING FRENCH PHILOSOPHER, MATHEMATICIAN, AND SCIENTIST KNOWN FOR HIS FOUNDATIONAL CONTRIBUTIONS TO MODERN PHILOSOPHY.
 
-# MEDITATION I
+# MEDITATION I (by Rene Descartes )
 
 OF THE THINGS OF WHICH WE MAY DOUBT
 
@@ -443,10 +443,11 @@ OF THE THINGS OF WHICH WE MAY DOUBT
 "TO THESE REASONINGS I HAVE ASSUREDLY NOTHING TO REPLY, BUT AM CONSTRAINED AT LAST TO AVOW THAT THERE IS NOTHING OF ALL THAT I FORMERLY BELIEVED TO BE TRUE OF WHICH IT IS IMPOSSIBLE TO DOUBT"
 
 
-
+Now, This is Rene Descartes famous 
 # METHOD OF DOUBT
 
-## MEDITATION II
+
+## MEDITATION II (by Rene Descartes )
 
 OF THE NATURE OF THE HUMAN MIND; AND THAT IT IS MORE EASILY KNOWN THAN THE BODY
 
@@ -474,12 +475,13 @@ OF THE NATURE OF THE HUMAN MIND; AND THAT IT IS MORE EASILY KNOWN THAN THE BODY
 
 
 # (WE KNOW WE EXIST WHEN WE ARE THINKING)
+==Cogito ergo sum== 
 
 "A THINKING THING, IT HAS BEEN SAID. BUT WHAT IS A THINKING THING? IT IS A THING THAT DOUBTS, UNDERSTANDS, CONCEIVES, AFFIRMS, DENIES, WILLS, REFUSES; THAT IMAGINES ALSO, AND PERCEIVES."
 
 **HOW CAN I VALIDATE THE TRUSTWORTHINESS OF MY MIND?**
 
-## MEDITATION III OF GOD: THAT HE EXISTS
+## MEDITATION III OF GOD: THAT HE EXISTS (by Rene Descartes )
 
 EMPIRICISM: THE PHILOSOPHICAL
 
@@ -521,6 +523,51 @@ WITH DESCARTES, WE ARE STARTING WITH THE SELF.
 # MEDITATIONS ON FIRST PHILOSOPHY
 (PUBLISHED 1641)
 
+---
+
+Now, after studying the works of Rene Descartes:
+
+Here I challenge Descartes notion that God exists, he says because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
+Eg:- a painting of Sunflower can not create the sunflower; the sunflower needs to exist for there to be an imperfect depiction of sunflower in form of the "painting of sunflower".
+So it means that the perfect being god exists and he created me the imperfect being.
+
+But I challenge this notion by saying, how do you define the perfect being all knowing all good, how do you say that is perfect?
+What if I argue that multiple imperfect being existing in the space-time, created in the the notion of a perfect being by combining all the perfection from their own community and created a singularity that is a reflection of all the perfection or opposite of their imperfections.
+
+For eg: they took the best physical body that ever existed in space-time that we could ever experience in existence, then they took the most intelligent mind, then they took all the known knowledge across the whole civilization, 
+then they took the imperfections that are truly imperfections or maybe some of those they believe to be imperfections then they said the reverse of this is the part of perfection. 
+And we accumulated all of this across civilization across the whole space-time of existence of us thinking beings and combined all of that what we consider perfection into one singularity and we called that a singularity a being. A singular being a God.
+
+Because we know that first came the polyethic (multiple gods system) 
+then followed the 
+monolithic(single god system)
+
+It is probably because first us humans created multiple symbols of perfection for every aspect of reality.
+
+Eg: god of knowledge - a being with all the knowledge there is, 
+god of power - a being with all the power there is, 
+god of elements - a being that has control of all the elements there is.
+
+Then later on we used all these multiple perfections (Gods); 
+and combined all of them in a singularity again; 
+hence creating a singular perfect being - The monolithic God.
+
+Summary :-
+→ Humans saw multiple aspects of reality, each with a spectrum from perfection to imperfection
+→ For each aspect, they imagined the most perfect form and called it the god of that aspect
+→ This led to a collection of perfect beings across all aspects (Polytheistic God system)
+→ Eventually, they merged this pool of perfect beings into one singular, all-encompassing being (Monotheistic God system)
+
+
+
+So even though Rene Descartes claim that he threw all that is known out and starts from zero, he says that in first inquiry of method of Doubt "I think therefore I am" , and establishes the first truth that "There is an I , and as long as that I is thinking ; it exists."
+
+But after that very quickly he fails in trying establish the second truth on top of his first truth using his method of Doubt. He tries to prove that God exists as discussed above.
+
+But for his attempt to prove that God exists, We can clearly see him using a lot of pre-supposition and axioms as he moves forward in his Questioning and method of Doubt.
+
+PS: I accept the first deduction that Rene Descartes does using the "Method of Doubt "
+
 ----
 
 ----
@@ -552,56 +599,108 @@ A book by French philosopher Jean-Paul Sartre that explores existentialism, cons
 -**Martin Heidegger**
 
 
-## EXISTENTIALISM IS A HUMANISM
-(An Essay by Jean-Paul Sartre)
+## EXISTENTIALISM IS A HUMANISM.                   (An Essay by Jean-Paul Sartre)
 
 
 **EXISTENTIALISM**
 A philosophical movement that explores the meaning, purpose, and value of human existence.
 
+"My purpose here is to offer a defence of existentialism against several reproaches that have been laid against it. First, it has been reproached as an invitation to people to dwell in quietism of despair."
+
+"From another quarter we are reproached for having underlined all that is ignominious in the human situation..."
+
+"For since we ignore the commandments of God and all values prescribed as eternal, nothing remains but what is strictly voluntary. Everyone can do what he likes, and will be incapable, from such a point of view, of condemning either the point of view or the action of anyone else."
+
+
+**DOGMATISM**
+An expression of a belief or opinion as if it were a fact.
+Often compared to stubbornness or narrow mindedness.
+
+"What they have in common is simply the fact that they believe that existence comes before essence - or, if you will, that we must begin from the subjective."
+
+
+The conception in the mind of the artisan, the paperknife maker, is the essence of what is to be a paperknife.
+
+
+# ( Essence precedes existence. )
+In essence, anything that exists, the essence of that thing was conceptualized before it came into existence.
+Eg: A bulb, before even a bulb was created, it's essence was conceptualized by its creator. The creator first conceptualized that they want to bring in existence an electrical tool that can emit light, which must help humans to see at night. Then the engineering of the Bulb started and it was bought into existence.
+
+
+
+"Atheistic existentialism, of which I am a representative, declares with greater consistency that if God does not exist there is at least one being whose existence comes before its essence, a being which exists before it can be defined by any conception of it...If man as the existentialist sees him is not definable, it is because to begin with he is nothing."
+
+
+"Thus, there is no human nature, because there is no God to have a conception of it. Man simply is. Not that he is simply what he conceives himself to be, but he is what he wills, and as he conceives himself after already existing - as he wills to be after that leap towards existence. Man is nothing else but that which he makes of himself."
+
+"Man is nothing else but that which he makes of himself. That is the first principle of existentialism."
+
+"Thus, the first effect of existentialism is that it puts every man in possession of himself as he is, and places the entire responsibility for his existence squarely upon his own shoulders."
+
+"And, when we say that man is responsible for himself, we do not mean that he is responsible only for his own individuality, but that he is responsible for all men."
+
+"Subjectivism means, on the one hand, the freedom of the individual subject and, on the other, that man cannot pass beyond human subjectivity.
+
+It is the latter which is the deeper meaning of existentialism. When we say that man chooses himself, we do mean that every one of us must choose himself; but by that we also mean that in choosing for himself he chooses for all men."
+
+"All the actions a man may take in order to create himself as he wills to be, there is not one which is not creative, at the same time, of an image of man such as he believes he ought to be... Our responsibility is thus much greater than we had supposed, for it concerns mankind as a whole."
+
+"When a man commits himself to anything, fully realising that he is not only choosing what he will be, but is thereby at the same time a legislator deciding for the whole of mankind - in such a moment a man cannot escape from the sense of complete and profound responsibility. There are many, indeed, who show no such anxiety. But we affirm that they are merely disguising their anguish or are in flight from it."
+
+
+**ABRAHAM AND ISAAC**
+The story of Abraham and Isaac appears in Genesis 22, where God tests Abraham's faith by commanding him to sacrifice his only son, Isaac, at Moriah.
+
+In the Bible, Abraham is portrayed as a righteous man who is committed to God, compassionate, hospitable, and a man of peace. But In reality he is not righteous because he shifts responsibility of his actions on God and says God asked me to give the most unspeakable sacrifice, and he doesn't even question it. And How does he even know that the voice he heard is of God?
+
+
+"And when we speak of "abandonment" - a favorite word of Heidegger - we only mean to say that God does not exist...There can no longer be any good a priori, since there is no infinite and perfect consciousness to think it. It is nowhere written that 'the good' exists, that one must be honest or must not lie, since we are now upon the plane where there are only men. Dostoevsky once wrote: 'If God did not exist, everything would be permitted'..."
+
+
+"...man is free, man is freedom. Thus we have neither behind us, nor before us in a luminous realm of values, any means of justification or excuse. - We are left alone, without excuse. That is what I mean when I say that man is condemned to be free."
+
+## THE MYTH OF SISYPHUS                         [A philosophical essay by Albert Camus ]
+(published in 1942)
+
+**SISYPHUS**
+A figure from Greek mythology who is condemned for all eternity to roll a boulder up a mountain, only to watch it roll back down again as soon as he reaches the peak.
+
+
+"The gods had condemned Sisyphus to ceaselessly rolling a rock to the top of a mountain, whence the stone would fall back of its own weight. They had thought with some reason that there is no more dreadful punishment than futile and hopeless labor."
+
+"This is the price that must be paid for the passions of this earth. ...one sees merely the whole effort of a body straining to raise the huge stone, to roll it, and push it up a slope a hundred times over; one sees the face screwed up, the cheek tight against the stone...the purpose is achieved. Then Sisyphus watches the stone rush down..."
+
+## "... he is superior to his fate. He is stronger than his rock."
+
+
+"If this myth is tragic, that is because its hero is conscious."
+
+"The workman of today works everyday in his life at the same tasks, and his fate is no less absurd."
+
+"If the descent is thus sometimes performed in sorrow, it can also take place in joy...There is but one world, however. Happiness and the absurd are two sons of the same earth."
+
+"All Sisyphus' silent joy is contained therein. His fate belongs to him... **==One must imagine Sisyphus happy.==** "
+
+
+"There is but one truly serious philosophical problem, and that is suicide."
+
+To ask ;
+**Why Live? | Why not commit suicide?** Same thing.
+They both are the same Question, but just with a shift in perspective!
+
+**Why live?** : takes you towards creating your own meaning, purpose and commitment. It moves you towards taking the Fate you were given, and committing to that fate. Calling it "My fate"; "My carrer"; "My family" ; "My life"
+
+**Why not commit suicide?** Takes you towards, nihilism, what is the meaning, saying the existence and life in itself is meaningless so everything that is, was and ever will be is all totally absurd. Because one day all will be dead and gone and forgotten.
+
+
+Jean-Paul Sartre and Albert Camus were both leftists and existentialists.
+
+
 
 
 ---
 
-Here I challenge Descartes notion that God exists, he says because I am an imperfect being and so I cannot create a perfect being myself, in essence He is saying that if there exists something imperfect, that imperfect thing can not generate the perfect thing.
-Eg:- a painting of Sunflower can not create the sunflower; the sunflower needs to exist for there to be an imperfect depiction of sunflower in form of the "painting of sunflower".
-So it means that the perfect being god exists and he created me the imperfect being.
 
-But I challenge this notion by saying, how do you define the perfect being all knowing all good, how do you say that is perfect?
-What if I argue that multiple imperfect being existing in the space-time, created in the the notion of a perfect being by combining all the perfection from their own community and created a singularity that is a reflection of all the perfection or opposite of their imperfections.
-
-For eg: they took the best physical body that ever existed in space-time that we could ever experience in existence, then they took the most intelligent mind, then they took all the known knowledge across the whole civilization, 
-then they took the imperfections that are truly imperfections or maybe some of those they believe to be imperfections then they said the reverse of this is the part of perfection. 
-And we accumulated all of this across civilization across the whole space-time of existence of us thinking beings and combined all of that what we consider perfection into one singularity and we called that a singularity a being. A singular being a God.
-
-Because we know that first came the polyethic (multiple gods system) 
-then followed the 
-monolithic(single god system)
-
-It is probably because first us humans created multiple symbols of perfection for every aspect of reality.
-
-Eg: god of knowledge - a being with all the knowledge there is, 
-god of power - a being with all the power there is, 
-god of elements - a being that has control of all the elements there is.
-
-Then later on we used all these multiple perfections (Gods); 
-and combined all of them in a singularity again; 
-hence creating a singular perfect being - The monolithic God.
-
-
-Summary :-
-→ Humans saw multiple aspects of reality, each with a spectrum from perfection to imperfection
-→ For each aspect, they imagined the most perfect form and called it the god of that aspect
-→ This led to a collection of perfect beings across all aspects (Polytheistic God system)
-→ Eventually, they merged this pool of perfect beings into one singular, all-encompassing being (Monotheistic God system)
-
-
-
-So even though Rene Descartes claim that he threw all that is known out and starts from zero, he says that in first inquiry of method of Doubt "I think therefore I am" , and establishes the first truth that "There is an I , and as long as that I is thinking ; it exists."
-
-But after that very quickly he fails in trying establish the second truth on top of his first truth using his method of Doubt. He tries to prove that God exists as discussed above.
-
-But for his attempt to prove that God exists, We can clearly see him using a lot of pre-supposition and axioms as he moves forward in his Questioning and method of Doubt.
 
 ---
 
