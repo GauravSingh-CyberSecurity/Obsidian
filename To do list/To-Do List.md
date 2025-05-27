@@ -45,5 +45,4 @@ Create our own llm without any constraints and sell on dark web
 
 complete try hack me nahamstore lab, upload the lap completion and course completion on the linkedin
 
-
-  [-]Backup this week
+ []Backup this week of college notes
