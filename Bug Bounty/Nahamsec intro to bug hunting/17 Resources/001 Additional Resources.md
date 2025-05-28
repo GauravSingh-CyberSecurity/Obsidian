@@ -53,7 +53,9 @@ Damn-Vulnerable-RESTaurant-API-Game
 - https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game
 
 
-obsidian://open?vault=Obsidian%20mobile&file=Screenshot_2025-04-22-20-02-56-55_f9ee0578fe1cc94de7482bd41accb329.jpg
+
+
+![[Additional resources SS.jpg]]
 
 
 ---
