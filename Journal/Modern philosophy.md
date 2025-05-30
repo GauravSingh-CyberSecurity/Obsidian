@@ -741,3 +741,8 @@ So you can't find purpose or meaning of life, you have to create it in life.
  
 **==You have to will yourself into joy.==**
 
+
+
+
+
+.
