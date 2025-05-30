@@ -5,13 +5,6 @@ Q) Write name of all 48 course of Peterson academy on basis of release date
 
 Chatgpt:-
 
-Peterson Academy does not publicly publish the exact day-by-day release dates for each of its 48 eight-hour courses. However, they launch in monthly cohorts (initial public beta in September 2024, then four new courses every month thereafter). Below is the approximate ordering of all 48 courses by release cohort—i.e. the month when each batch went live. (Where exact dates aren’t available, I’ve grouped by the month of release.)
-
-> Note:
-
-Cohort 1 (September 2024) was the public beta launch with 18 courses .
-
-From October 2024 onward, PA committed to releasing 4 new courses each month .
 
 
 
@@ -198,3 +191,9 @@ Peterson Academy lists many courses on their site, but doesn’t attach specific
 
 If you need the precise release day for any particular course, the best route is to consult the Academy’s support or their official newsletter archives, which often announce each month’s new releases.
 
+
+
+Pending to add:
+- Psychology of self -Dr Keith campbell 
+
+In terabox:
