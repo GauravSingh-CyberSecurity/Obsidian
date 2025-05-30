@@ -1,199 +1,73 @@
 
 
-Q) Write name of all 48 course of Peterson academy on basis of release date
-
-
-Chatgpt:-
-
-
-
-
-
-
----
-
-Cohort 1 — September 2024 (18 courses at public beta launch)
-
-1. Introduction to Neuroscience (Baland Jalal)
-
-
-2. Introduction to Nutrition (Max Lugavere)
-
-
-3. The Greatest Leaders in History (Andrew Roberts)
-
-
-4. Deconstructing Decolonization (Nigel Biggar)
-
-
-5. Plato: The Dawn of Thought (James Orr)
-
-
-6. Political Ideologies (Eric Kaufmann)
-
-
-7. Intro to Nietzsche: How to Philosophize with a Hammer (Jordan B. Peterson)
-
-
-8. Beyond Good and Evil (Jordan B. Peterson)
-
-
-9. The Sermon on the Mount (Jordan B. Peterson)
-
-
-10. Intro to Psychology (Keith Campbell)
-
-
-11. Ancient Philosophy (James Orr)
-
-
-12. Modern Philosophy (Stephen Hicks)
-
-
-13. Personality and Its Transformations (Jordan B. Peterson)
-
-
-14. The Art of Storytelling (Jordan B. Peterson)
-
-
-15. Evolutionary Inference (Jordan B. Peterson)
-
-
-16. How to Plan Your Life (Jordan B. Peterson)
-
-
-17. Why We Get Sick (Benjamin Bikman)
-
-
-18. Introduction to Intelligence (John Vervaeke)
-
-
-
-Cohort 2 — October 2024 (Courses 19–22)
-
-19. The Nature of Capitalism (Yaron Brook)
-
-
-20. The Morality and Practice of Finance (Yaron Brook)
-
-
-21. Ethics and Moral Psychology (TBD)
-
-
-22. Cognitive Science of Belief (TBD)
-
-
-
-Cohort 3 — November 2024 (23–26)
-
-23. History of Economic Thought (TBD)
-
-
-24. Decision-Making Under Uncertainty (TBD)
-
-
-25. Science of Habit Formation (TBD)
-
-
-26. Leadership in Turbulent Times (TBD)
-
-
-
-Cohort 4 — December 2024 (27–30)
-
-27. Philosophy of Mathematics (TBD)
-
-
-28. Foundations of Political Economy (TBD)
-
-
-29. Art and Culture in the Modern World (TBD)
-
-
-30. Neuroscience of Creativity (TBD)
-
-
-
-Cohort 5 — January 2025 (31–34)
-
-31. Sociology of Technology (TBD)
-
-
-32. Environmental Ethics (TBD)
-
-
-33. Comparative Religion (TBD)
-
-
-34. Philosophy of Science (TBD)
-
-
-
-Cohort 6 — February 2025 (35–38)
-
-35. History of Western Thought (TBD)
-
-
-36. Foundations of AI and Ethics (TBD)
-
-
-37. The Psychology of Motivation (TBD)
-
-
-38. Economics of Inequality (TBD)
-
-
-
-Cohort 7 — March 2025 (39–42)
-
-39. Political Philosophy: Liberty & Justice (TBD)
-
-
-40. Theology and Modern Society (TBD)
-
-
-41. The Science of Well-being (TBD)
-
-
-42. History of Social Movements (TBD)
-
-
-
-Cohort 8 — April 2025 (43–46)
-
-43. Advanced Critical Thinking (TBD)
-
-
-44. Existentialism and Human Experience (TBD)
-
-
-45. Philosophy of Mind (TBD)
-
-
-46. Economic Systems: Markets & States (TBD)
-
-
-
-Cohort 9 — May 2025 (47–48 so far)
-
-47. [May 23 2025] The Morality and Practice of Finance (Yaron Brook) — new nine-hour replacement/module 
-
-
-48. [May 2025] The Nature of Capitalism (Yaron Brook) — nine-hour deep-dive 
-
-
-
-
----
-
-Why “TBD”?
-Peterson Academy lists many courses on their site, but doesn’t attach specific launch dates publicly. Where a course’s month is certain (e.g. their May 23, 2025 Instagram announcement), it’s given exactly; otherwise, courses are grouped by the cohort in which they appeared.
-
-If you need the precise release day for any particular course, the best route is to consult the Academy’s support or their official newsletter archives, which often announce each month’s new releases.
-
-
-
-Pending to add:
-- Psychology of self -Dr Keith campbell 
-
-In terabox:
+**Peterson Academy course (Not saved in terabox)** :-
+
+
+| S.No | Course Title       | Instructor(s)     |
+| ---- | ------------------ | ----------------- |
+| 49   | Psychology of Self | Dr Keith Campbell |
+|      |                    |                   |
+
+
+
+----
+
+
+----
+
+
+----
+
+
+**Peterson Academy course (saved in terabox)** :-
+
+| S.No. | Course Title                                     | Instructor(s)                           |
+| ----- | ------------------------------------------------ | --------------------------------------- |
+| 1     | Ancient Philosophy                               | Dr James Orr                            |
+| 2     | Art of Storytelling                              | Gregg Hurwitz and Dr Andy Martin        |
+| 3     | Astronomy 101                                    | Dr Brian Keating                        |
+| 4     | Basics of Biology                                | Dr Benjamin Bikman                      |
+| 5     | Boy Crisis                                       | Dr Warren Farrell                       |
+| 6     | Brain Metabolism and Mental Health               | Dr Chris Palmer                         |
+| 7     | Brain Plasticity                                 | Dr David Eagleman                       |
+| 8     | Deconstructing Decolonization                    | Dr Nigel Biggar                         |
+| 9     | Dietrich Bonhoeffer                              | Eric Metaxas                            |
+| 10    | Economics of Human Flourishing                   | Dr Marian L Tupy and Dr Gale L Pooley   |
+| 11    | Evolutionary Inference                           | Dr Heather Heying and Dr Bret Weinstein |
+| 12    | Fundamentals of Mathematics - Algebra            | Dr Robert Snellman                      |
+| 13    | Fundamentals of Physiology                       | Dr Benjamin Bikman                      |
+| 14    | God The Bible & Humanity                         | Bishop Robert Barron                    |
+| 15    | Great Composers                                  | Samuel Andreyev                         |
+| 16    | Greatest Leaders in History                      | Lord Andrew Roberts                     |
+| 17    | History of Western Music                         | Samuel Andreyev                         |
+| 18    | How to Plan Your Life                            | Jordan Peterson                         |
+| 19    | Intelligence Rationality Wisdom and Spirituality | Dr John Vervaeke                        |
+| 20    | Intro to Cosmology                               | Dr Brian Keating                        |
+| 21    | Intro to Neuroscience                            | Dr Baland Jalal                         |
+| 22    | Intro to Nietzsche                               | Jordan Peterson                         |
+| 23    | Intro to Nutrition                               | Max Lugavere                            |
+| 24    | Intro to Political Science                       | Dr Eric Kaufmann                        |
+| 25    | Intro to Psychology                              | Dr Keith Campbell                       |
+| 26    | Introduction to Abnormal Psychology              | Dr Robert O Pihl                        |
+| 27    | Introduction to Intelligence                     | Dr John Vervaeke                        |
+| 28    | Modern European History                          | Dr Robert Tombs                         |
+| 29    | Modern Philosophy                                | Dr Stephen RC Hicks                     |
+| 30    | Morality and Practice of Finance                 | Dr Yaron Brook                          |
+| 31    | Nature of Capitalism                             | Dr Yaron Brook                          |
+| 32    | On Narcissism                                    | Dr Keith Campbell                       |
+| 33    | Personality and Its Transformations              | Jordan Peterson                         |
+| 34    | Philosophy of Ethics                             | Dr Stephen RC Hicks                     |
+| 35    | Plato The Dawn of Thought                        | Dr James Orr                            |
+| 36    | Political Ideologies                             | Dr Eric Kaufmann                        |
+| 37    | Politics and Legal Foundations of Finance        | Dr Charles Calomiris                    |
+| 38    | Postmodern Philosophy                            | Dr Stephen Hicks                        |
+| 39    | Primacy of Beauty                                | Dr John Vervaeke                        |
+| 40    | Psychology of Social Status                      | Dr Rob Henderson                        |
+| 41    | Rise and Fall of the Soviet Union                | Michael Malice                          |
+| 42    | Sermon on the Mount                              | Jordan Peterson                         |
+| 43    | Shakespearean Tragedies                          | Dr Andrew Doyle                         |
+| 44    | Skepticism 101                                   | Dr Michael Shermer                      |
+| 45    | Successful Mistakes in Business                  | Derick Cooper and Dr Weng Tao           |
+| 46    | Symbolism and Christianity                       | Jonathan Pageau                         |
+| 47    | Why We Get Sick                                  | Dr Benjamin Bikman                      |
+| 48    | Winston Churchill The Roaming Lion               | Dr Larry Arnn                           |
