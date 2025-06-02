@@ -174,13 +174,253 @@ So you can't find purpose or meaning of life, you have to create it in life.
 
 
 
+
+---
+
+
+-----
+
 # 4_what the women ethics are upto 
 
 
 
 
-THE WOMEN ARE UP TO SOMETHING
+**THE WOMEN ARE UP TO SOMETHING**
 
 By Benjamin J.B. Lipscomb (2021)
 
 Chronicles the captivating story of four intellectual giants Elizabeth Anscombe, Philippa Foot, Mary Midgley, and Iris Murdoch - who profoundly influenced 20th-century philosophy.
+
+
+
+
+**METAETHICS**
+Analytical philosophy's field of metaethics investigates the standing, origins, and applicability of moral principles, attributes, and terminology.
+
+
+
+
+**IMMANUEL KANT**
+German philosopher (1724-1804)
+
+One of the central Enlightenment thinkers. Well known for his works in epistemology, metaphysics, ethics, and aesthetics.
+
+
+
+**What have the men been up to?**
+
+Faith in God? (Religions)
+
+Duties from noumenal? (Kant)
+
+Animal pleasure and pain? (Mill)
+
+Power instinct? ('Nietzsche')
+
+Subjective commitment? (Sartre)
+
+
+
+
+
+
+**UTILITARIANISM**
+
+A tradition of ethical philosophy, championed by British thinkers Bentham and Mill, that judges actions by their ability to create happiness for the greatest number of people.
+
+
+
+
+
+"While it is true that science cannot decide questions of value, that is because they cannot be intellectually decided at all, and lie outside the realm of truth and falsehood."
+
+
+
+
+"While it is true that science cannot decide questions of value, that is because they cannot be intellectually decided at all, and lie outside the realm of truth and falsehood. Whatever knowledge is attainable, must be attained by scientific methods; and what science cannot discover, mankind cannot know."
+-Bertrand Russell
+
+
+
+
+
+
+**RUDOLF CARNAP**
+German-language philosopher (1891-1970)
+
+Carnap's work significantly influenced analytic philosophy, a dominant school of thought in the 20th century.
+
+
+
+
+
+
+"logical analysis yields the negative result that the alleged statements in this domain are entirely meaningless."
+- Rudolf Carnap
+
+
+
+
+**MAX HORKHEIMER**
+German philosopher and sociologist (1895-1973)
+
+A leader of the "Frankfurt School", a group of philosophers and social scientists.
+
+
+
+
+"Since ends are no longer determined in the light of reason, it is also impossible to say that one economic or political system, no matter how cruel and despotic, is less reasonable than another."
+-Max Horkheimer
+
+
+
+
+
+"It is now pretty generally accepted by professional philosophers that ultimate ethical principles must be arbitrary."
+-Brian Medlin
+
+
+
+
+"In the courses on moral philosophy we analyze ethical judgments and show that they are cognitively meaningless or that they are equivalent to imperative sentences or to reports on one's emotional state."
+-Ernest Moody
+
+
+
+
+**THE TROLLEY PROBLEM**
+
+A sequence of psychological and ethical thought experiments featuring stylized moral problems requiring the decision of whether to sacrifice one person in order to save several.
+
+
+
+
+
+# WHAT FACTS GIVE RISE TO ETHICS?
+
+
+
+**THE OBJECTIVIST ETHICS**
+Human good does not require human sacrifices and cannot be achieved by the sacrifice of anyone to anyone.
+
+
+
+
+**VALUES**
+Ethics and social sciences use "value" to judge what matters most, guiding our actions and understanding the weight of different choices.
+
+
+
+
+"What is morality, or ethics? It is a code of values to guide man's choices and actions-the choices and actions that determine the purpose and the course of his life. Ethics, as a science, deals with discovering and defining such a code."
+-Ayn Rand
+
+
+
+"The first question that has to be answered, as a precondition of any attempt to define, to judge or to accept any specific system of ethics, is: Why does man need a code of values?"
+-Ayn Rand
+
+
+
+"What is morality, or ethics? It is a code of values to guide man's choices and actions-the choices and actions that determine the purpose and the course of his life. Ethics, as a science, deals with discovering and defining such a code."
+-Ayn Rand
+
+
+
+"Is ethics the province of whims: of personal emotions, social edicts and mystic revelations or is it the province of reason? Is ethics a subjective luxury-or an objective necessity?"
+-Ayn Rand
+
+
+
+"The concept "value" is not a primary; it presupposes an answer to the question: of value to whom and for what? It presupposes an entity capable of acting to achieve a goal in the face of an alternative. Where no alternative exists, no goals and no values are possible."
+-Ayn Rand
+
+
+
+
+"I quote from Galt's speech: "There is only one fundamental alternative in the universe: existence or nonexistence and it pertains to a single class of entities: to living organisms."
+-Ayn Rand
+
+
+
+"It is only a living organism that faces a constant alternative: the issue of life or death. Life is a process of self-sustaining and self-generated action."
+-Ayn Rand
+
+
+
+
+"An organism's life depends on two factors: the material or fuel which it needs from the outside, from its physical background, and the action of its own body, the action of using that fuel properly."
+-Ayn Rand
+
+
+
+
+"What standard determines what is proper in this context? The standard is the organism's life, or: that which is required for the organism's survival."
+-Ayn Rand
+
+
+
+
+"If an amoeba's protoplasm stops assimilating food, or if a man's heart stops beating-the organism dies. In a fundamental sense, stillness is the antithesis of life."
+-Ayn Rand
+
+
+
+"Metaphysically, life is the only phenomenon that is an end in itself: a value gained and kept by a constant process of action. Epistemologically, the concept of "value" is genetically dependent upon and derived from the antecedent concept of 'life."
+-Ayn Rand
+
+
+
+
+"In answer to those philosophers who claim that no relation can be established between ultimate ends or values and the facts of reality, let me stress that the fact that living entities exist and function necessitates the existence of values and of an ultimate value which for any given living entity is its own life."
+-Ayn Rand
+
+
+
+
+**David Hume**
+(Scottish philosopher and historian)
+
+Best known today for his highly influential system of philosophical empiricism, skepticism, and naturalism.
+
+
+
+
+
+
+"The fact that a living entity is, determines what it ought to do. So much for the issue of the relation between 'is' and 'ought'."
+-Ayn Rand
+
+
+Aside from biological differences, the main difference between humans and other animal species is the ability of complex reasoning, use of complex language, and introspection.
+
+
+
+**PHILIPPA FOOT**
+English Philosopher (1920-2010)
+
+One of the founders of contemporary virtue ethics and is remembered for her work on moral reasoning and the famous "trolley problem" thought experiment.
+
+
+"...the evaluation of human action depends... on essential features of specifically human life."
+-Philippa Foot
+
+
+
+
+"It is necessary for plants to have water, for birds to build nests, for wolves to hunt in packs, and for lionesses to teach their cubs to kill."
+-Philippe Foot
+
+
+
+
+"Like lionesses, human parents are defective if they do not teach their young the skills that they need to survive."
+-Philippa Foot
+
+
+
+
+"By 'grammar,' Foot means the logical connections among a certain class of judgments."
+-Micah Lott
+
+
