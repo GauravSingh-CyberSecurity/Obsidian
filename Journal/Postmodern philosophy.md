@@ -172,3 +172,15 @@ So you can't find purpose or meaning of life, you have to create it in life.
  
 **==You have to will yourself into joy.==**
 
+
+
+# 4_what the women ethics are upto 
+
+
+
+
+THE WOMEN ARE UP TO SOMETHING
+
+By Benjamin J.B. Lipscomb (2021)
+
+Chronicles the captivating story of four intellectual giants Elizabeth Anscombe, Philippa Foot, Mary Midgley, and Iris Murdoch - who profoundly influenced 20th-century philosophy.
