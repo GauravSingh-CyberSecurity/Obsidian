@@ -424,3 +424,95 @@ One of the founders of contemporary virtue ethics and is remembered for her work
 -Micah Lott
 
 
+
+# VIRTUE ETHICS
+
+"Virtues play a necessary part in the life of human beings as do stings in the life of bees."
+-Philippa Foot
+
+
+
+"We start from the fact that it is the particular life form of a species of plant or animal that determines how an individual plant or animal should be."
+-Philippa Foot
+
+
+
+"And all the truths about what this or that characteristic does, what it's purpose or point is, and in suitable cases its function, must be related to this life cycle. The way an individual should be is determined by what is needed for development, self-maintenance, and reproduction."
+-Philippa Foot
+
+
+
+"Human beings are creatures with power to recognize reasons for action and act upon them... Animals go for the good thing that they see."
+-Philippa Foot
+
+
+
+
+"In spite of the diversity of human goods-the elements that can make up good human lives-it is therefore possible that the concept of a good human life plays the same part in determining goodness of human characteristics and operations that the concept of flourishing plays in the determination of goodness in plants and animals. So far the conceptual structure seems to be intact."
+-Philippa Foot
+
+
+
+" [Foot]... believes plants and animals can possess or lack a kind of intrinsic goodness, what she calls 'natural goodness', which hinges upon their flourishing and the qualities essential to such flourishing."
+-John Lemos
+
+
+
+
+
+**THE NICOMACHEAN ETHICS**
+A book by Aristotle that explores the science of the good for human life, that which is the goal or end at which all our actions aim.
+
+
+
+
+Ethics is about principles.
+
+Naturalist, Objectivist ethics integrates:
+
+1. Principles: Explicit, rational, general, abstract, based upon identifying
+
+2. Survival needs
+
+3. Identified resources
+
+4. Character dispositions to think/feel/act
+
+5. Actions intentional behaviors, habits
+
+6. Consequences: effects of actions
+
+
+
+
+
+
+
+
+# OBJECTIVITY OF SCIENCE
+
+
+**SPACE RACE**
+The 1960s space race saw the USSR launch Yuri Gagarin, the first human in space, in 1961, prompting the US to respond with John Glenn's historic Earth orbit later that year, fueling a fierce competition in space exploration.
+
+
+
+**EPISTEMOLOGY**
+The area of philosophy concerned with the nature of knowledge, its sources and assumptions, its scope, and its validity.
+
+
+
+**THE SCIENTIFIC METHOD**
+- Observation
+- Hypothesis
+- Prediction
+- Experimentation
+- Analysis
+- Conclusion & Communication
+
+
+
+# Scientific Methods
+
+
+
