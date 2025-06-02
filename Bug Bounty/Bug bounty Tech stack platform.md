@@ -1,4 +1,31 @@
 
+DESKTOP SOFTWARE
+
+| 1   | Web application    |
+| --- | ------------------ |
+| 2   | ANDROID            |
+| 3   | IOS                |
+| 4   | FIRMWARE           |
+| 5   | HARDWARE           |
+| 6   | INTERNET OF THINGS |
+| 7   | CRYPTOCURRENCY     |
+| 8   | Al and LLM's       |
+| 9   | WEB3               |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | 💰 Rank | 🎯 Target Type                      | 💵 Reward Potential         | 🔍 Top Vulnerabilities                                      | ⚙️ Key Technologies                               |
 | ------: | ----------------------------------- | --------------------------- | ----------------------------------------------------------- | ------------------------------------------------- |
 |       1 | Blockchain / Smart Contracts (Web3) | $5,000 – $100,000+          | Reentrancy, logic flaws, integer overflows                  | Solidity, EVM, Hardhat, Remix                     |
