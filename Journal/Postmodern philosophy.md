@@ -489,7 +489,7 @@ Naturalist, Objectivist ethics integrates:
 
 
 
-# OBJECTIVITY OF SCIENCE
+# 5_On the OBJECTIVITY OF SCIENCE
 
 
 **SPACE RACE**
@@ -513,6 +513,286 @@ The area of philosophy concerned with the nature of knowledge, its sources and a
 
 
 # Scientific Methods
+
+
+Epistemologists are concerned with the nature, origin, and limits of human knowledge.
+
+
+**POSITIVISM**
+Positivism in philosophy argues that only knowledge gained through verifiable observation and scientific methods is truly meaningful.
+
+
+
+**NATURAL MAGNET**
+Minerals or metals that exhibit magnetism without needing an external magnetic field.
+
+
+
+
+**SIR KARL RAIMUND POPPER**
+Austrian-British philosopher (1902-1994)
+
+Revolutionized philosophy of science by emphasizing falsification theories are never proven true, but constantly tested to be potentially shown false.
+
+
+
+**What is pseudo-science?**
+
+Astrology, Palm-reading, Psychics, Alchemy, Telekinesis, etc.
+(And maybe Marxism, Freudianism too)
+
+
+
+**SCIENCE AS FALSIFICATION**
+Essay by Karl Popper (Published in 1963)
+
+
+**MARXISM**
+A social science critique of capitalism, emphasizes class struggle and economic forces as the foundation of social order and historical change.
+
+
+
+"Is there a criterion for the scientific character or status of a theory?"
+-Karl Popper
+
+
+
+"Among the theories which interested me, Einstein's theory of relativity was no doubt by far the most important. The three others were Marx's theory of history, Freud's psycho-analysis, and Alfred Adler's so-called 'individual psychology!"
+-Karl Popper
+
+
+
+"I found that those of my friends who were admirers of Marx, Freud, and Adler, were impressed by a number of points common to these theories, and especially by their apparent explanatory power. These theories appear to be able to explain practically everything that happened within the fields to which they referred."
+-Karl Popper
+
+
+
+
+"... the world was full of verifications of the theory. Whatever happened always confirmed it."
+-Karl Popper
+
+
+
+"I may illustrate this by two very different examples of human behavior: that of a man who pushes a child into the water with the intention of drowning it; and that of a man who sacrifices his life in an attempt to save the child."
+-Karl Popper
+
+
+
+"According to Adler the first man suffered from feelings of inferiority (producing perhaps the need to prove to himself that he dared to commit some crime), and so did the second man (whose need was to prove to himself that he dared to rescue the child)."
+-Karl Popper
+
+
+
+"I could not think of any human behavior which could not be interpreted in terms of either theory... It began to dawn on me that this apparent strength was in fact their weakness."
+-Karl Popper
+
+
+
+
+**SIR ARTHUR** 
+EDDINGTON
+
+A renowned English astronomer and physicist (1882-1944)
+
+Sir Eddington famously led expeditions to observe solar eclipses, which provided crucial evidence for the theory by confirming the deflection of starlight by gravity.
+
+
+
+"Now the impressive thing about this case is the risk involved in a prediction of this kind. If observation shows that the predicted effect is definitely absent, then the theory is simply refuted. The theory is incompatible with certain possible results of observation-in fact with results which everybody before Einstein would have expected."
+-Karl Popper
+
+
+
+
+"Every genuine test of a theory is an attempt to falsify it, or to refute it."
+-Karl Popper
+
+
+
+"A theory which is not refutable by any conceivable event is non-scientific."
+-Karl Popper
+
+
+
+"Some genuinely testable theories, when found to be false, are still upheld by their admirers - for example by introducing ad hoc some auxiliary assumption, or by reinterpreting the theory ad hoc in such a way that it escapes refutation."
+-Karl Popper
+
+
+
+"One can sum up all this by saying that the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability."
+-Karl Popper
+
+
+
+**FRIEDRICH ALBERT
+MORITZ SCHLICK**
+German philosopher and physicist (1882-1936)
+
+Significantly influenced 20th-century philosophy through his foundational work in logical positivism and the Vienna Circle.
+
+
+
+"...'Does the external world exist?' is a meaningless proposition. Positivism neither asserts nor denies that there is an external world."
+-Friedrich Albert Moritz Schlick
+
+
+
+
+
+
+**THOMAS KUHN**
+American historian and philosopher (1922-1996)
+
+Argued scientific progress happens through paradigm shifts, where revolutionary theories replace dominant ones, not through steady accumulation of knowledge.
+
+
+
+
+**THE STRUCTURE OF SCIENTIFIC REVOLUTIONS**
+
+A book by Thomas Kuhn (published 1962)
+
+
+
+
+
+"What aspects of science will emerge to prominence in the course of this effort? First, at least in order of presentation, is the insuffciency of methodological directives, by themselves, to dictate a unique substantive conclusion to many sorts of scientific questions."
+-Thomas Kuhn
+
+
+
+
+
+"The particular conclusions he does arrive at are probably determined by his prior experience in other fields, by the accidents of his investigation, and by his own individual makeup."
+-Thomas Kuhn
+
+
+
+
+"The early developmental stages of most sciences have been characterized by continual competition between a number of distinct views of nature, each partially derived from, and all roughly compatible with, the dictates of scientific observation and method."
+-Thomas Kuhn
+
+
+
+"What differentiated these various schools was not one or another failure of method- they were all "scientific"-but what we shall come to call their incommensurable ways of seeing the world and of practicing science in it."
+-Thomas Kuhn
+
+
+
+"An apparently arbitrary element, compounded of personal and historical accident, is always a formative ingredient of the beliefs espoused by a given scientific community at a given time."
+-Thomas Kuhn
+
+
+
+
+"At least in the mature sciences, answers (or full substitutes for answers) to questions like these are firmly embedded in the educational initiation that prepares and licenses the student for professional practice."
+-Thomas Kuhn
+
+
+
+
+"Because that education is both rigorous and rigid, these answers come to exert a deep hold on the scientific mind."
+-Thomas Kuhn
+
+
+
+
+"When examining normal science in Sections III, IV, and V, we shall want finally to describe that research as a strenuous and devoted attempt to force nature into the conceptual boxes supplied by professional education."
+-Thomas Kuhn
+
+
+
+
+"Normal science, for example, often suppresses fundamental novelties because they are necessarily subversive of its basic commitments."
+-Thomas Kuhn
+
+
+
+
+"Sometimes a normal problem, one that ought to be solvable by known rules and procedures, resists the reiterated onslaught of the ablest members of the group within whose competence it falls."
+-Thomas Kuhn
+
+
+
+
+
+"In this essay, 'normal science' means research firmly based upon one or more past scientific achievements, achievements that some particular scientific community acknowledges for a time as supplying the foundation for its further practice."
+-Thomas Kuhn
+
+
+
+
+
+"... prepares the student for membership in the particular scientific community with which he will later practice. Because he there joins men who learned the bases of their field from the same concrete models, his subsequent practice will seldom evoke overt disagreement over fundamentals."
+-Thomas Kuhn
+
+
+
+
+"But science students accept theories on the authority of teacher and text, not because of evidence. What alternatives have they, or what competence? "
+-Thomas Kuhn
+
+... paradigm change reveals very similar characteristics in the evolution of the sciences. Like the choice between competing political institutions, that between competing paradigms proves to be a choice between incompatible modes of community life."
+-Thomas Kuhn
+
+
+
+
+"Each group uses its own paradigm to argue in that paradigm's defense."
+-Thomas Kuhn
+
+
+
+"... when paradigms change, the world itself changes with them."
+-Thomas Kuhn
+
+
+
+"The competition between paradigms is not the sort of battle that can be resolved by proofs."
+-Thomas Kuhn
+
+
+
+"The man who embraces a new paradigm at an early stage must often do so in defiance of the evidence provided by problem-solving. He must, that is, have faith that the new paradigm will succeed with the many large problems that confront it, knowing only that the older paradigm has failed with a few."
+-Thomas Kuhn
+
+
+
+
+"Why is progress a perquisite reserved almost exclusively for the activities we call science? The most usual answers to that question have been denied in the body of this essay."
+-Thomas Kuhn
+
+
+
+
+"With respect to normal science, then, part of the answer to the problem of progress lies simply in the eye of the beholder."
+-Thomas Kuhn
+
+
+
+"We may, to be more precise, have to relinquish the notion, explicit or implicit, that changes of paradigm carry scientists and those who learn from them closer and closer to the truth."
+-Thomas Kuhn
+
+
+
+**PAUL FEYERABEND**
+(Austrian philosopher)
+
+Renowned for his work in the philosophy of science, notably argued that scientific advances can only be comprehended within a historical context.
+
+
+
+
+
+# POSTMODERN PHILOSOPHY
+
+
+
+
+
+**MULTICULTURALISM**
+A field of political philosophy that investigates the connections between human freedom, well-being, and cultural variety.
+
 
 
 
