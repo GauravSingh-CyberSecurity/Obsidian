@@ -492,6 +492,10 @@ Naturalist, Objectivist ethics integrates:
 # 5_On the OBJECTIVITY OF SCIENCE
 
 
+
+**OBJECTIVITY OF SCIENCE**
+
+
 **SPACE RACE**
 The 1960s space race saw the USSR launch Yuri Gagarin, the first human in space, in 1961, prompting the US to respond with John Glenn's historic Earth orbit later that year, fueling a fierce competition in space exploration.
 
