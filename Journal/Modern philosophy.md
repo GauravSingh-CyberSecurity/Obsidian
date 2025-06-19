@@ -967,8 +967,3 @@ HE JUMBLES HEAVEN AND EARTH TOGETHER, THE THINGS MOST REMOTE AND OPPOSITE, WHO M
 
 
 
-- reshare vapt derivium (jagdish and shweta shukla)
-- vapt again on derivium, revalidate fixes and reshare
-- share it with Devang gopani.
-- asset inventory of derivium, soc and siem, gaurd duty, waf setup for derivium (AWS or splunk)
-- iso continue.
