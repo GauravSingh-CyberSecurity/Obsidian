@@ -1523,5 +1523,15 @@ The shallow fantasy of retirement as perpetual leisure reveals a lack of meaning
 (Gospel of Thomas)
 "The kingdom of the father is spread upon the earth, and men do not see it" suggests divine potential exists everywhere but goes unrecognized.
 
+---
 
 
+
+==5 min rule==: if you are procrastinating on something, tell your self I'll just do it for 5 min .
+Your mind usually want to finish a task it started, so after 5 min you will continue doing that task and if even you don't, it's not a problem because you were going to do it for 5min only in the first place 
+
+==The 5% Rule== :-
+20 minutes daily adds up to 5% of your life, 
+and mastering 20 such routines/task that are repeated in your day can transform your entire existence.
+
+Keep trying to do all repetitive and non repetitive things better everyday incrementally, don't settle thinking you have achieved perfection, mastery or excellence.
