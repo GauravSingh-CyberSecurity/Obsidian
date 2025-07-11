@@ -14,4 +14,21 @@ Suddenly Corona and lockdown hit, everything came to a sudden halt, but the onli
 
 This got my interest in Computers, internet, computer sciences .
 I started self studying from the world of computers from all angles, technical, historical, philosophical, humanities, psychological, Scientific, AI's , Sci-fi , biographies of Pioneers of the sciences of computational world, Quantum computation world , studied about people who theorized these fields, who practically implemented the like Allen turing, Einstein, Steve jobs, Newtown, tesla and many more and understood how all those different theorists and creators helped build the computer world we have today. I even studied about the word computer and where it comes from, for the record first computers were a group of women who used to manually perform calculation at Harvard for Edward pickering who was a physicist .
-Kind of ironic that these days women are becoming less and less intrested in Computers and its science
+Kind of ironic that these days women are becoming less and less intrested in Computers and its science.
+
+Anyways after my self research and studies I developed a very deep intrest in science and tech , at this point in my life I found myself to be wanting to pick one of the two: pursue a carrier in computer science or pursue a carrier in theoretical physics.
+
+My interest was more leaning towards computer science so I decided to pursue a degree in computer science, now even in computer science when I delved deeper I found many allied branches for computer science, like AI, Data science and Cybersecurity.
+
+I got intrested in Cybersecurity, probably because even in my childhood I was fascinated by the Hackers and thought the things they could do were very cool .
+And that childhood Gaurav's intrest in hacking and this adult Gaurav's intrest in computers and sciences , and that curiosity to understand how all the things work the whole universe, the whole world, the whole computer systems led me to choose Cybersecurity.
+Specifically Offensive Security or what you may sa Red teaming as well.
+
+Because I loved to learn practically how computer systems exactly work and then it becomes very simple to hack and exploit them when you know how they work, And then I found out this skill even pays good money.
+
+So after completing my bachelor's of engineering for Computer science in Cybersecurity; I started working full-time in the Cyber Security as an ethical hacker and bug bounty hunter.
+
+Along side this academic development of my self, I carried the dream of living in newyork in my heart. And slowly all the things started falling in place and I found myself able to envision a pathway to fulfill this dream too.
+
+I created a roadmap on how I can pursue my Master's degree in Newyork itself and fullfill Two ambition at once,
+First is wanting to live in New York and second is learning and developing 
