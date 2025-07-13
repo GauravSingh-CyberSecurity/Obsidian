@@ -1,4 +1,6 @@
 
+HTB CBBH cheat sheet:
+https://github.com/TheUnknownSoul/HTB-certified-bug-bounty-hunter-exam-cheetsheet
 # HTB Certified Bug Bounty Hunter (CBBH) - 7 Day Exam Plan
 
 > 🧠 Goal: Find, exploit, and report real vulnerabilities across multiple apps during the 7-day exam period.
