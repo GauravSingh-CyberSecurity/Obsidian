@@ -1,6 +1,6 @@
-- Xss strike 
+- Xss strike (fuzzer)
 
-- Dalfox
+- Dalfox (scanner)
 
 - Dom invader
 
