@@ -1,4 +1,5 @@
-How to find bugs on a hardene.mdd target using gadgets
+https://www.bugcrowd.com/blog/how-to-find-bugs-on-a-hardened-target-using-gadgets/
+
 
 Approaching a new target is always difficult because starting from scratch requires a lot of research and exploration, as well as a general sense of “where do I begin?” It’s a struggle for beginners and top hunters alike. If you’ve been in bug bounty for a while, you’re likely familiar with the feeling of being on a hardened target—a well-secured application with few flaws and is overall very intimidating. But here’s a secret: even the most secure apps often have tiny gadgets. Gadgets can be small misconfigurations or minor bugs that, by themselves, don’t create a lot of disruption for an application. In fact, you may only find an Informative or a P4 severity bug by looking at gadgets alone.
 
