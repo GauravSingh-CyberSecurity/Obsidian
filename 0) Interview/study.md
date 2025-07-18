@@ -35,6 +35,13 @@ SSTI: injecting web shell in file uploaders or user input fields to execute a cm
 
 Remote OS command injection: test user input fields in the request going on server by injecting them with OS command, web shell>OS command to verify if Command injection.
 
+Html code manipulation on client side to change functionality like read only input fields(xss), non clickable button (to submit unauth only admin is allowed to change things)
+
+Html code injection 
+
+Response manipulation: json body, html body, response code.
+
+Request headers , body, token, cookie manipulation 
 
 rce : using web shells
 
