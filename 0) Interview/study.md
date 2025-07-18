@@ -2,9 +2,9 @@
 
  
 
-Xss(reflected, stored , Blind(stored), DOM)
+- Xss(reflected, stored , Blind(stored), DOM)
 
-ssrf
+- ssrf(open redirect, fetch/call/get parameter that fetch )
 idor
 
 sqli(in-band(classic), Boolean(blind), time based, union select, errorbased, out of bounds).
@@ -42,6 +42,15 @@ Html code injection
 Response manipulation: json body, html body, response code.
 
 Request headers , body, token, cookie manipulation 
+
+
+LFI>inject web shell>RCE
+LFI: eg- if a page have switch language drop down, if user changes eng to hindi, the same web page is returned in hindi but the directory/folder is changing from where the hindi page is fetching.
+If attacker can control this path they can access sensitive folder like /etc/passwd
+
+And can inject web shell <php. [Get CMD] >
+
+
 
 rce : using web shells
 
