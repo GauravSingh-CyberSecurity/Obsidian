@@ -68,14 +68,33 @@ or
 - manipulation  of unencrypted tokens time-stomp result in invalidated token becoming valid)
 
 
+- session fixation: if session id doesn't regenerate/change when login success and doesn't expire/invalidate and if session id is suppose sent via url param.
+  The attacker uses session id and login, sends the same link of login page with the same session id to victim, victim logs in> attacker re-uses the session cookie and get access to the victims account.
+
+- XXE(XML external entity) : 
+    Xxe>LFI>
+
+
+
+- BOLA(broken object level auth): there are no auth check and attacker can do things like this: 
+   Get /api/user/123/profile
+
+   Get /api/users/456/profile
+   
+
+
 - DNS records explain:
+   
    A(address) record:- maps a domain name to its ipv4.
+
+   AAA(IPV6) record :maps a domain name to its ipv6
 
    CNAME(canonical name record) :- maps one domain name to another domain name.
    Eg: www.eg.com to eg.com 
 
-   NS(name server) record: tells which name serverhosting service (cloudflare,Godaddy)
-   
+   NS(name server) record: tells which name server/hosting service (cloudflare,Godaddy, google cloud , aws)
+
+   MX(mail exchange) record: tells  which mail server will receive email for that domain (gmail, outlook)
 
 
 
@@ -87,3 +106,13 @@ paytonic otp bypass
 
 BML idor (LC (/lc/customer) user able to access SME (/sme/customer) users path and see the customer report 
 (/sme/customer/report/20)
+
+
+
+Paytonic:
+Email recon using osint> OTP auth bypass> login>change pw and account takeover
+
+
+Athena: 
+Sqli on strong pw policy and input validation on id param. >
+But no blacklist and whitelist of SQL query input, user generated input was directly included in the SQL query that app makes to ita db. It was classic in-band.
