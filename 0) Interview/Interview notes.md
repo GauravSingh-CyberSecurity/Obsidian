@@ -10,15 +10,16 @@ Burp Pro : Active scan/Live Audit/ Crawling & spidering , Burp Bounty Bro to fin
 
 Testing : burp pro, Owasp zap, browser & it's dev tools
 
-Exploit creation: exploit.db , hackerone Hacktify , bugcrowd blogs, articles on medium.
+Exploit creation: exploit.db , payload all the things, hackerone Hacktify , bugcrowd blogs, articles on medium, zseanos bugbounty hunter methodologies.
+
 
 Xss automation: linkfinder, js-beautifier, dalfox scan, xss strike fuzz and manual testing. (Dom)
 
-Sqli : Burp pro , burp bounty pro, Sqlmap.
+Sqli automation : Burp pro , burp bounty pro, Sqlmap.
 
-Subdomain takeover: Subfinder(find subdomain)> nuclei with its template (http/takeover/)
+Subdomain takeover automation: Subfinder(find subdomain)> nuclei with its template (http/takeover/)
 
-Idor: burp crawl & audit, burp active scan, burp bug bounty pro active & smart scan>gather all idor input parameters> Ai for analysis of ids and creating guessable IDs; Burp intruder and seclists/payload all things for fuzzing/brute the idor parameter.
+Idor automation: burp crawl & audit, burp active scan, burp bug bounty pro active & smart scan>gather all idor input parameters> Ai for analysis of ids and creating guessable IDs; Burp intruder and seclists/payload all things for fuzzing/brute the idor parameter.
 
 
 1) XSS : XSS is a vuln that occurs when user-generated input is not properly Sanitised or No input validation is done in the application , Like there is no Encoding of user input, NO whitelisting and Black listing of tags, characters, scripts etc in the user input parameters.     
