@@ -72,7 +72,7 @@ or
   The attacker uses session id and login, sends the same link of login page with the same session id to victim, victim logs in> attacker re-uses the session cookie and get access to the victims account.
 
 - XXE(XML external entity) : 
-    Xxe>LFI>
+    Xxe>LFI>rce
 
 
 
@@ -99,20 +99,23 @@ or
 
 
 revise:
+
+NStar
 cryptography reverse engineer
+
 BNHS backdoor
-Athena sqli and idor
-paytonic otp bypass
+
+
 
 BML idor (LC (/lc/customer) user able to access SME (/sme/customer) users path and see the customer report 
 (/sme/customer/report/20)
 
 
 
-Paytonic:
+Paytonic: (paytonic otp bypass)
 Email recon using osint> OTP auth bypass> login>change pw and account takeover
 
 
-Athena: 
+Athena: (Athena sqli and idor)
 Sqli on strong pw policy and input validation on id param. >
 But no blacklist and whitelist of SQL query input, user generated input was directly included in the SQL query that app makes to ita db. It was classic in-band.

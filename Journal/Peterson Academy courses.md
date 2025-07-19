@@ -70,3 +70,5 @@
 | 51     | The HISTORY of FINANCIAL CRISES                  | DR. CHARLES W. CALOMIRIS                |
 | 52     | In Introduction to Abnormal Psychology - Part 2  | Dr Robert O Pihl                        |
 | 53     | Philosophy of Politics - Part 1                  | Dr Stephen Hicks                        |
+| 54     | The Fundamentals of Mathematics - Precalculus    | Dr. Robert Snellman                     |
+| 55     | The Neuroscience of Dreams                       | Dr Baland jalal                         |

@@ -14,7 +14,7 @@ Reading order:-
 5. [ ] Daybreak
 6. [ ] The Gay Science
 7. [ ] Beyond Good and Evil 
-8. [ ] Thus Spoke Zarathustra
+8. [x] Thus Spoke Zarathustra
 9. [ ] The Case of Wagner
 10. [ ] Nietzsche contra Wagner
 11. [ ] The Will to Power
