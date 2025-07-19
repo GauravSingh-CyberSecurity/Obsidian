@@ -1,21 +1,5 @@
 
 
-Drop your fav polyglot
-
-Mine is simple and does not test all contexts but is effective:
-```
-'"><img src=x>${{7*2}}
-```
-
-**Explanation**:
-
-- '" : JS injection
-- `'">` : html tag attribute
-- `<img src=x>` : brokenimage html injection
-- '" : SQLi 
-- `${{7*2}}` : CSTI and SSTI
-
-
 
 ---
 ---
