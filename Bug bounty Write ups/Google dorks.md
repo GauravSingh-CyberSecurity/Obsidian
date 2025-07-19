@@ -2,7 +2,8 @@
 Dorking commands tool:
 https://dorkking.blindf.com/
 
-Note: in below Dorking commands put values of the target site(targetsite.com), like this-
+Note: In the following Google Dorking commands, the site: field is left empty intentionally.
+👉 Replace it with your target domain like this :
 ```
 site:target.com
 ```
@@ -106,3 +107,64 @@ OR site:target.com inurl:(redir|url|redirect|return|next|src|r|out|view|to|dest|
 ```
 site:http://ideone.com | site:http://codebeautify.org | site:http://codeshare.io | site:http://codepen.io | site:http://repl.it | site:http://justpaste.it | site:http://pastebin.com | site:http://jsfiddle.net | site:http://trello.com | site:*.atlassian.net | site:bitbucket.org ""
 ```
+
+
+
+Find in pastebin:
+```
+site:pastebin.com "target.com"
+```
+
+
+Subdomains(crt.sh) :
+```
+https://crt.sh/?q=target.com
+```
+
+
+
+Find WordPress #2 :
+```
+site:target.com inurl:wp-content | inurl:wp-includes
+```
+
+
+
+Bitbucket/Atlassian:
+```
+site:atlassian.net | site:bitbucket.org "target.com"
+```
+
+
+
+Stack Overflow:
+```
+site:stackoverflow.com "target.com"
+```
+
+
+All WayBack URL's :
+```
+https://web.archive.org/cdx/search/cdx?url=*.target.com/*&output=text&fl=original&collapse=urlkey
+```
+
+
+Search in GitHub:
+```
+https://github.com/search?q=%22*.target.com%22
+```
+Or
+```
+https://github.com/search?q=%22*.target.com%22&type=repositories
+```
+
+Open Bug Bounty:
+```
+https://www.openbugbounty.org/search/?search=target.com
+```
+
+
+
+
+
+
