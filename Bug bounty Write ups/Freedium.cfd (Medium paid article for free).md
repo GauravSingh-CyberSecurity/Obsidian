@@ -4,8 +4,9 @@ Go to this website and paste the link of any medium article that has paywall and
 https://freedium.cfd/
 ```
 
+-----
 
-
+To run Freedium via local machine:
 ```
 https://github.com/Freedium-cfd/web
 ```

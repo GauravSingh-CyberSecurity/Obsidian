@@ -55,6 +55,11 @@ Login page:
 ```
 site: inurl:login | inurl:signin | intitle:Login | intitle: signin | inurl:auth
 ```
+Or
+```
+site:*.company.com admin  
+site:*.company.com login
+```
 
 
 
@@ -164,7 +169,92 @@ https://www.openbugbounty.org/search/?search=target.com
 ```
 
 
+.git Folder
+```
+inurl:"/.git "target.com -github
+```
+
+
+Find .swf(Google)
+```
+inurl:target.com ext:swf"
+```
+
+
+S3 buckets :
+```
+site:.s3.amazonaws.com "target.com"
+```
 
 
 
+Shodan search :
+```
+https://www.shodan.io/search?query=target.com
+```
 
+
+API (WSDL)
+```
+site:target.com filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:jws?wsdl | intitle:_vti_bin/sites.asmx?wsdl | inurl:_vti_bin/sites.asmx?wsdl
+```
+
+
+GIST(GitHub search)
+```
+https://gist.github.com/search?q=*.%22target.com%22
+```
+
+
+
+Apache config files :
+```
+site:target.com filetype:config "apache"
+```
+
+
+
+Install/setup files :
+```
+site:target.com inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config
+```
+
+
+
+Apache struts RCE :
+```
+site:target.com ext:action | ext:struts | ext:do
+```
+
+
+.htaccess/phpinfo() :
+```
+site:target.com inurl:"/phpinfo.php" | inurl:".htaccess"
+```
+
+
+
+==Security Headers== :
+```
+https://securityheaders.com/?q=target.com&followRedirects=on
+```
+
+
+
+Source code (publicwww.com) :
+```
+https://publicwww.com/websites/%22target.com%22/
+```
+
+
+Search Gitlab and GitHub:
+```
+site:github.com | site:gitlab.com "target.com"
+```
+
+
+
+Find .pho WayBack: (use UI)
+```
+https://web.archive.org/cdx/search?url=target.com/&matchType=domain&collapse=urlkey&output=text&fl=original&filter=urlkey:.*php&limit=100000
+```
