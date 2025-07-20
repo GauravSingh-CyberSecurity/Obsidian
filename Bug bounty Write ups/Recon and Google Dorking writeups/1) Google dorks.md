@@ -1,4 +1,8 @@
 
+Pentest tool:-
+https://pentest-tools.com/information-gathering/google-hacking
+
+
 Dorking commands tool:
 https://dorkking.blindf.com/
 
