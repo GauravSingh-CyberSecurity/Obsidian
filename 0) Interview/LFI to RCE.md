@@ -2,7 +2,10 @@
 
 It's a common and highly dangerous exploit chain: Local File Inclusion (LFI) to Remote Code Execution (RCE). While LFI on its own primarily allows an attacker to read sensitive files on a server, combining it with other vulnerabilities or misconfigurations can escalate the impact to full RCE.
 Here's a breakdown of how LFI can be leveraged to achieve RCE:
-Understanding Local File Inclusion (LFI)
+
+
+
+==Understanding Local File Inclusion (LFI)==
 An LFI vulnerability occurs when a web application includes a file based on user-supplied input without proper validation. For example, a PHP script might use something like:
 <?php
   $page = $_GET['page'];
