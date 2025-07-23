@@ -17,7 +17,10 @@
 
 - access control vuln
 
-+ auth vuln(Bypass)
++ **auth vuln**(Bypass): bruteforcing , using compromised credentials DB/rainbow table attack, common or weak pw attack, in-band, Boolean SQLi on login if no blacklist or whitelist, response code manipulation.
+
++ **Authorization/access control bypass:** manipulate id/email in change pw/email request, manipulate identifiers in jwt token, test IDOR, analyse the response body and if feature available, forge a request 'is_admin=true' .
+
 
 - bruteforce using osint/otp
 
