@@ -1,5 +1,7 @@
 Here’s a **comprehensive list of common web attack vectors** along with **clear and actionable remediations** for each one:
 
+
+
 ---
 
 ### ✅ 1. **SQL Injection (SQLi)**
