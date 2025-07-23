@@ -3,6 +3,10 @@
 
 ### 🎓 Top 25 Universities for Cyber MS (NY Metro) — Placement & Salary Added
 
+
+Priority 1: NYU Tandon, UMD
+Priority 2: northeastern, Stevens, rit
+
 |University|Location|Prodigy|MPower|Leap|Placement Rate|Avg. Salary|
 |---|---|:-:|:-:|:-:|:-:|:-:|
 |NYU Tandon|Brooklyn, NY|✅|✅|✅||$110 k (MS FRE avg)|

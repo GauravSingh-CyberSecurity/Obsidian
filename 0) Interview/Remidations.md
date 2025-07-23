@@ -8,7 +8,7 @@ Here’s a **comprehensive list of common web attack vectors** along with **clea
 
 **Remediation:**
 
-- Use **parameterized queries** or **ORMs** (e.g., SQLAlchemy, Django ORM).
+- Use **parameterized queries**( SQL query where placeholders are used instead of directly embedding user input into the query string) or **ORMs** (e.g., SQLAlchemy, Django ORM).
 - **Validate and sanitize inputs** (whitelist where possible).
 - Use **least privilege** for database accounts.
 - Enable **Web Application Firewalls (WAF)**.
@@ -19,7 +19,20 @@ Here’s a **comprehensive list of common web attack vectors** along with **clea
 
 **Remediation:**
 
-- **Escape output** in HTML, JS, URLs, and attributes (`<%= %>` instead of `<% %>` in templates).
+- **Escape output** in HTML, JS, URLs, and attributes (`<%= %>` instead of `<% %>` in templates). I.e - >
+
+When user input is placed within HTML content (like inside a div or as a text value), you need to escape characters that have special meaning in HTML to prevent them from being interpreted as code. 
+The key characters to escape
+```
+Characters to escape:
+& (ampersand) to &amp;
+< (less than) to &lt;
+> (greater than) to &gt;
+" (double quote) to &quot;
+' (single quote) to &#39; or &apos;
+```
+
+
 - Implement **Content Security Policy (CSP)**.
 - Use **frameworks** that auto-sanitize (e.g., React, Angular).
 - **Sanitize user inputs** on both client and server.
