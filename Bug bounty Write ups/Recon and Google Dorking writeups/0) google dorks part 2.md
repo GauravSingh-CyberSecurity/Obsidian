@@ -190,3 +190,82 @@ https://web.archive.org/web/*/site.com/*
 ```
 https://web.archive.org/web/*/site.com/*
 ```
+
+
+
+33) check in crt.sh
+```
+https://crt.sh/?q=%25.site.com
+```
+
+
+34) Check in censys - IP4:
+```
+https://search.censys.io/search?resource=hosts
+```
+
+
+35) check in censys - Domain:
+```
+https://search.censys.io/domain?q=site.com
+```
+
+
+36) check in census - certs:
+```
+https://search.censys.io/certificates?q=site.com
+```
+
+
+37) search in shodan:
+```
+https://www.shodan.io/search?query=site.com
+```
+
+
+Helper Websites
+
+1) DNSBin - The request.bin of DNS!
+```
+https://requestbin.net/
+```
+
+
+2) WordPress Scan #1
+```
+https://hackertarget.com/wordpress-security-scan/
+```
+
+
+3) WordPress Scan #2
+```
+https://wprecon.com/
+```
+
+
+
+4) Facebook Certificate Transparency Monitoring [Recon]
+```
+Facebook Certificate Transparency Monitoring [Recon]
+```
+
+
+
+5) IP converter
+```
+https://www.smartconversion.com/ip-address-long-number-converter
+```
+
+
+
+6) Domain history checker
+```
+https://whoisrequest.com/history/
+```
+
+
+7) source code search engine:
+```
+https://publicwww.com/
+```
+
