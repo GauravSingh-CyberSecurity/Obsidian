@@ -1,3 +1,13 @@
+✅ Subdomain enumeration
+✅ Directory brute-forcing
+✅ Session/Cookie auditing
+✅ SSL/TLS checks
+✅ Authentication and authorization flaws
+✅ Business logic bypasses (cart, voucher, order tampering)
+✅ Password reset vulnerabilities
+✅ OAuth open redirection
+✅ HTTP verb tampering & header tricks
+✅ Real-world bug bounty examples (GitLab privilege escalation, etc.)
 
 
 Here's your complete **VAPT Testing Checklist** rewritten in `.md` (Markdown) format for better readability and structured documentation:
