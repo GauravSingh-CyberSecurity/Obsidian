@@ -19,7 +19,7 @@
 
 + **auth vuln**(Bypass): bruteforcing , using compromised credentials DB/rainbow table attack, common or weak pw attack, in-band, Boolean SQLi on login if no blacklist or whitelist, response code manipulation.
 
-+ **Authorization/access control bypass:** manipulate id/email in change pw/email request, manipulate identifiers in jwt token, test IDOR, analyse the response body and if feature available, forge a request 'is_admin=true' .
++ **Authorization/access control bypass:** manipulate id/email in change pw/email request, manipulate identifiers in jwt token, test IDOR, analyse the response body and if feature available, forge a request 'is_admin=true'(mass assignment ) .
 
 
 - bruteforce using osint/otp
@@ -43,6 +43,38 @@
 - SSTI: injecting web shell in file uploaders or user input fields to execute a cmd.
 
 - Remote OS command injection: test user input fields in the request going on server by injecting them with OS command, web shell>OS command to verify if Command injection.
+
+
+- parameter pollution (GET /search?id=2&id=1&id=3 HTTP/1.1) | (http://example.com/item?id=123&id='OR 1=1--) | (http://example.com/search?q=<script>alert(1)</script>&q=  )
+
+
+
+
+- HTTP smuggling 
+(CL.TE, TE.CL, TE.TE)
+( POST /some/endpoint HTTP/1.1
+Host: vulnerable-site.com
+Content-Length: 13
+Transfer-Encoding: chunked
+
+0
+
+GET /admin HTTP/1.1
+Host: vulnerable-site.com
+Content-Length: 100 )
+
+
+
+
+- prototype pollution
+{
+  "__proto__": {
+    "isAdmin": true
+  }
+}
+
+
+
 
 - Html code manipulation on client side to change functionality like read only input fields(xss), non clickable button (to submit unauth only admin is allowed to change things)
 
