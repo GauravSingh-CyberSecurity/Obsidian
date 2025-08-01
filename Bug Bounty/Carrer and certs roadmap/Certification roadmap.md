@@ -2,9 +2,51 @@
 ==Certification sequence:==
 ==First get HTB CBBH cert== 
 ==OSWA==
-==OSCP==
-==OSWE==
+==OSCP== (Rana Khalil, TJnull's list )
+==OSWE== ( TJnull's list , Download 10-20 exam VAPT reports for OSWE created by people who completed it i.e "OSWE exam report")
 
+```
+Tj null list for OSWE | OSCP
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview&ved=2ahUKEwjF0tOBg-qOAxWq9DgGHU7lFZQQjjh6BAhZEAE&usg=AOvVaw3DqRsG_eVMArO8bCjxxLx3
+```
+
+lists and related materials for Offensive Security (OffSec) certifications.
+
+**Tj Null's Lists**
+Tj Null is well-known in the community for curating lists of vulnerable machines from platforms like Hack The Box (HTB) and OffSec's Proving Grounds. These are not official OffSec resources, but they are widely used by students to prepare for their exams. The main lists are for:
+ * OffSec Certified Professional (OSCP): This is the most famous of Tj Null's lists. It provides a curated set of machines from various platforms that are considered to be representative of the skills and difficulty level required for the OSCP exam. It's often broken down by difficulty (easy, medium, hard, etc.) and is a go-to resource for many aspiring pentesters.
+ * OffSec Experienced Penetration Tester (OSEP): This list is for those preparing for the more advanced OSEP certification, which focuses on advanced penetration testing techniques.
+ * OffSec Web Expert (OSWE): This list is specifically for the OSWE exam, which is a highly technical certification for web application security.
+ 
+Other Study Materials and Resources
+While Tj Null's lists are a great starting point, the cybersecurity community has developed a vast amount of other resources to help with OffSec certifications. These include:
+ * **Official OffSec Course Materials:** This is the primary and most important resource. The courses themselves (e.g., PEN-200 for OSCP, WEB-300 for OSWE, etc.) and the associated lab environments are the core of the preparation.
+ * **Walkthroughs and Write-ups**: Many people, including content creators like IppSec and bloggers, create detailed walkthroughs and write-ups for the machines on Tj Null's lists. These are invaluable for learning new techniques and understanding how to solve a machine.
+ * **Community Forums and Discord Channels**: Platforms like Reddit's r/oscp and various Discord channels are places where students can ask questions, discuss methodologies, and get support from other people on the same journey.
+ * **Cheat Sheets and Guides**: People often create their own personal notes, cheat sheets, and methodology guides for different phases of a penetration test (e.g., enumeration, privilege escalation). There are many publicly available examples of these resources.
+ * **HTB Academy and Proving Grounds**: These platforms provide a structured learning path with hands-on labs that are often used in conjunction with the official OffSec materials. The machines from these platforms are frequently included in Tj Null's lists.
+ *  **Read OSWE exam report of people who completed it and submitted the vapt report**
+
+It's important to note that "dumps" (i.e., memorized exam questions and answers) are generally considered unethical and are against OffSec's policies. The community strongly discourages using them, as the goal of the certifications is to test one's ability to think like a professional, not to memorize solutions. The focus is on learning the fundamental skills and methodology, which is what Tj Null's lists and other community resources are designed to help with.
+
+
+
+
+
+r/OSWE :`https://www.reddit.com/r/OSWE/comments/1dmv16a/oswe_exam/`
+
+Asleep-Whole8018
+
+1y ago
+You need to do more research, but here's the gist: In the test, you've got two machines/source code to tackle. First, find and exploit authentication bypass and remote code execution (RCE) on both. You'll also need to script it (probably in Python, but any language works) to nail both objectives without any extras. Your report should include code analysis, reviews, and the script. To pass, you need 85 points: one machine with full authentication bypass + RCE, and on the other, at least authentication bypass.
+
+
+---
+
+
+
+..
 #### **1️⃣2️⃣ Should CBBH holders target OSWA & OSWE first or OSCP?**
 
 - **If you want to specialize in ==Web Security & Bug Bounty:**== → **CBBH → OSWA → OSWE → (Optional) OSCP**
