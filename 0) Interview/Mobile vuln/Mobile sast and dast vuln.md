@@ -41,6 +41,11 @@ Certainly, Gaurav. Let’s first **rewrite your query in detail** to make it sui
 
 ---
 
+Android OS security related vuln
+Crypt3 
+AI OWASP
+osstm
+
 ## 🛡️ **2. Black-Box SSL Pinning Bypass**
 
 ### 🔸 **What is SSL Pinning?**
