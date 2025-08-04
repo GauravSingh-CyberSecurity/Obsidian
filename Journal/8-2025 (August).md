@@ -22,3 +22,11 @@ I am not the type that breaks or wears off.
 ```
 https://afamuche.com/how-to-build-self-discipline-and-up-level-your-life/
 ```
+
+
+
+The perception of reality is more real then the reality itself.
+
+
+
+If you keep quitting Tommorow you can survive anything.
