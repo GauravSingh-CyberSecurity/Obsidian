@@ -84,4 +84,9 @@ Take screenshot & save it for submission.
 
 ---
 
-Let me know if you're limited to **Perl only** — I’ll modify shell accordingly. Good luck, Gaurav — use your time wisely!
+cmd=ls+/
+
+grep -Ri "P3RL_B3AST" / 2>/dev/null
+
+
+
