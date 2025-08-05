@@ -6,18 +6,18 @@ Here you go, Gaurav — a **complete categorized list of top global startup acce
 
 These offer funding, mentorship, and access to investors.
 
-|Name|Location|Funding Offered|Notes|
-|---|---|---|---|
-|**Y Combinator**|USA|$500K|World's top accelerator|
-|**Techstars**|Global|$120K + mentorship|Industry-specific programs|
-|**500 Global**|USA / Global|$150K+|Early-stage focus, international|
-|**Antler**|Global|$100K–$150K|Starts from founder idea stage|
-|**Entrepreneur First**|Global|$100K–$200K|Helps you find a co-founder|
-|**MassChallenge**|USA / Global|Non-equity|Focus on impact startups|
-|**StartX**|USA (Stanford)|Varies|Only for Stanford founders|
-|**Alchemist Accelerator**|USA|$36K–$100K|B2B startup focused|
-|**Zeroth.ai**|Asia|~$100K|AI startups accelerator|
-|**Plug and Play**|USA / Global|Varies|Strong corporate network|
+| Name                      | Location       | Funding Offered    | Notes                            |
+| ------------------------- | -------------- | ------------------ | -------------------------------- |
+| **Y Combinator**          | USA            | $500K              | World's top accelerator          |
+| **Techstars**             | Global         | $120K + mentorship | Industry-specific programs       |
+| **500 Global**            | USA / Global   | $150K+             | Early-stage focus, international |
+| **Antler**                | Global         | $100K–$150K        | Starts from founder idea stage   |
+| **Entrepreneur First**    | Global         | $100K–$200K        | Helps you find a co-founder      |
+| **MassChallenge**         | USA / Global   | Non-equity         | Focus on impact startups         |
+| **StartX**                | USA (Stanford) | Varies             | Only for Stanford founders       |
+| **Alchemist Accelerator** | USA            | $36K–$100K         | B2B startup focused              |
+| **Zeroth.ai**             | Asia           | ~$100K             | AI startups accelerator          |
+| **Plug and Play**         | USA / Global   | Varies             | Strong corporate network         |
 
 ---
 
