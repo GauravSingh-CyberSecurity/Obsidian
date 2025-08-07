@@ -106,3 +106,55 @@ Use it with:
 ---
 
 Let me know if you'd like a full set of polyglots for different contexts (XSS, SQLi, SSTI, etc.) or a Burp Intruder wordlist.
+
+----
+----
+----
+
+
+Looking at your payload '"><img src=x onerror=alert(1)>${{7*2}}, this is a multi-vector attack string that can help identify several vulnerabilities. Here are all the vulnerability headings it can find or indicate:
+
+🔍 Vulnerabilities This Payload Can Detect:
+1. Cross-Site Scripting (XSS)
+Reflected XSS
+Stored XSS
+DOM-based XSS
+2. Server-Side Template Injection (SSTI)
+Jinja2 Template Injection
+Twig Template Injection
+Handlebars Template Injection
+Smarty Template Injection
+Velocity Template Injection
+3. Client-Side Template Injection (CSTI)
+AngularJS Template Injection
+Vue.js Template Injection
+React Template Injection
+4. Input Validation Bypass
+HTML Injection
+Attribute Injection
+Quote Escaping Vulnerabilities
+5. Content Security Policy (CSP) Bypass
+Unsafe-inline Detection
+Missing CSP Headers
+6. Web Application Firewall (WAF) Bypass
+Filter Evasion
+Blacklist Bypass
+7. Output Encoding Issues
+Improper HTML Encoding
+Missing Entity Encoding
+Context-Specific Encoding Failures
+8. Template Engine Vulnerabilities
+Expression Language Injection
+Template Context Escape
+Server-Side Code Execution
+9. JavaScript Framework Vulnerabilities
+Framework-Specific XSS
+Expression Injection
+10. Content Type Confusion
+MIME Type Sniffing
+Content-Type Header Issues
+🎯 Payload Breakdown:
+'" - Tests quote escaping and attribute injection
+><img src=x onerror=alert(1)> - Classic XSS vector
+${{7*2}} - Template injection testing (should evaluate to 14 if vulnerable)
+This payload is particularly effective because it combines multiple attack vectors in a single string, making it a great reconnaissance tool for identifying various web application vulnerabilities!
