@@ -8,16 +8,19 @@ gaurav3042003@gmail.com
 
 # Git Hub and Google collab
 
-
-
-
-
 ```
-github username:- singhggithub
+github username:- 
+singhggithub
 
-singhg1@rknec.edu | gaurav3042003@gmail.com
 
-Gaurav$2003
+GitHub email:
+gs.cyber.red@gmail.com
+(primary email) 
+
+| singhg1@rknec.edu 
+| gaurav3042003@gmail.com
+
+PW: Gaurav$2003
 
 ```
 
