@@ -154,3 +154,10 @@ Email recon using osint> OTP auth bypass> login>change pw and account takeover
 Athena: (Athena sqli and idor)
 Sqli on strong pw policy and input validation on id param. >
 But no blacklist and whitelist of SQL query input, user generated input was directly included in the SQL query that app makes to ita db. It was classic in-band.
+
+
+Race Condition
+
+LLM hacking
+
+No Sqli
