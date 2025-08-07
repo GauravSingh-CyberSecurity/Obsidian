@@ -94,8 +94,25 @@ And can inject web shell <php. [Get CMD] >
 
 
 - rce : using web shells
+- 
+---
 
-- Jwt token manipulation/cookie manipulation:
+
+- Jwt token manipulation/cookie manipulation: jwt body (algo(HS256) | payload(email id, uid) | sign(hasing) )
+
+| Algorithm                         | Vulnerability / Risk                   | Explanation                                                                                                                                                                  |
+| --------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`none`**                        | ✅ **Critical**                         | Allows token to be signed with no signature. Exploited if server accepts `alg: none` and doesn't verify signature.                                                           |
+| **`HS256` with Public Key**       | ✅ **Algorithm Confusion Attack**       | If server accepts public key as HMAC secret, attacker can forge valid tokens.                                                                                                |
+| **`RS256` downgraded to HS256**   | ✅ **Algorithm Confusion Attack**       | If server allows alg change to `HS256` and uses public RSA key as HMAC secret, attacker can sign fake tokens.                                                                |
+| **Weak HMAC (HS256/HS384/HS512)** | ⚠️ **Brute Force / Dictionary Attack** | If the HMAC secret is weak/guessable, attackers can brute-force the signature.                                                                                               |
+| **None of the above verified**    | ✅ **Signature Validation Skipped**     | Improper implementation may skip signature verification altogether.                                                                                                          |
+| **Custom / Non-standard algos**   | ⚠️ **Undefined Behavior**              | Custom or unknown algorithms can’t be trusted or audited easily.                                                                                                             |
+| **ES256 / EC algorithms**         | ⚠️ **Implementation bugs**             | Complex libraries sometimes mishandle elliptic curve validations. Example: [CVE-2022-21449](https://nvd.nist.gov/vuln/detail/CVE-2022-21449) – "Psychic Signatures" in Java. |
+
+
+---
+
 - token expiration test(not invalidate
  or  
 - changing parameter of token(email, user-id) lead to access of other users 
