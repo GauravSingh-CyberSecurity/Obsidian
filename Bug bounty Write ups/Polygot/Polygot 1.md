@@ -112,6 +112,7 @@ Let me know if you'd like a full set of polyglots for different contexts (XSS, S
 ----
 
 
+'''
 Looking at your payload '"><img src=x onerror=alert(1)>${{7*2}}, this is a multi-vector attack string that can help identify several vulnerabilities. Here are all the vulnerability headings it can find or indicate:
 
 🔍 Vulnerabilities This Payload Can Detect:
@@ -158,3 +159,4 @@ Content-Type Header Issues
 ><img src=x onerror=alert(1)> - Classic XSS vector
 ${{7*2}} - Template injection testing (should evaluate to 14 if vulnerable)
 This payload is particularly effective because it combines multiple attack vectors in a single string, making it a great reconnaissance tool for identifying various web application vulnerabilities!
+'''
