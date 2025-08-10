@@ -30,3 +30,9 @@ The perception of reality is more real then the reality itself.
 
 
 If you keep quitting Tommorow you can survive anything.
+
+
+---
+
+I wouldn't wait,
+The world is full of lonely people afraid to make the first move.

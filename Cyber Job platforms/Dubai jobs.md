@@ -1,6 +1,11 @@
 Yes, **Dubai and the UAE absolutely have AppSec (Application Security) jobs**, and the demand is growing fast due to:
 
----
+
+Dubai HR :
+recruitment@cyber50.ae
+
+
+
 
 ### 🔐 **Why AppSec roles are in demand in the UAE**
 
