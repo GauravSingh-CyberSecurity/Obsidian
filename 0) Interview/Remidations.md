@@ -154,7 +154,7 @@ Characters to escape:
 - Use **anti-CSRF tokens** in forms and headers.
 - Use **SameSite cookies** (`SameSite=Lax/Strict`).
 - Validate the **`Origin`** and **`Referer`** headers.
-- Prefer **secure methods like JWTs with double submit tokens**.
+- Prefer **secure methods like JWTs with double submit tokens**.(In cookie and in payload together )
 
 ---
 
